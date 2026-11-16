@@ -1,0 +1,15 @@
+{
+  "selected_dev_cases": [
+    "q01",
+    "q12",
+    "q_unans_dev_01"
+  ],
+  "attempted_api_requests": 1,
+  "successful_api_responses": 0,
+  "test_queries_run": 0,
+  "frozen_hashes": "passed",
+  "database_unchanged": true,
+  "key_not_in_artifacts": true,
+  "usage_reported": false,
+  "cost_usd": null
+}

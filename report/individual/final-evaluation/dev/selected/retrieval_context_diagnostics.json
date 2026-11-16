@@ -1,0 +1,324 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "To protect the unit, turn on the main power switch 6 hours before operation. [a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9]",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+      "e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5"
+    ]
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes. [1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328]",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+      "c4b37e4f468c352a2f1895d4646b8edc213f19a4bf1415a21461e5ae83f5d625"
+    ]
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "The system does not go into operation if the room temperature is low (<20°C). [7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4]",
+    "context_ids": [
+      "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+      "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+      "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7"
+    ]
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Use phosphoric acid deoxidised seamless copper for refrigerant piping. [c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858]",
+    "context_ids": [
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+      "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+    ]
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m. [c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858]",
+    "context_ids": [
+      "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6"
+    ]
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "The height of the foundation must at least be 150 mm from the floor. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]\nIn heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]",
+    "context_ids": [
+      "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+      "d734ff9ba377557ff6b3bfecd6c6427e0cbd77e24777d57fe1a394bd8ce20c2e",
+      "4901deb09b6ee563077188a5cf10cf16c912414d911e11a3ae321e73604b5957"
+    ]
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+      "a78f7975c0addf6dec77683dc194d9cabc558d2b46b94cb45766ab83323738da",
+      "370321d1690e5760f498ba772e465da3f99e7d08cd3d0fb23934f3623bd8c999"
+    ]
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+      "1af82a873e9a305ddef99fdb3f5147da43924a2e9d5a88388eb8e2a195b6c9ec",
+      "862593cf7e4831b5e5901814f1b412d502c9fee39400169c87386beecec0c6ea"
+    ]
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Parameter A: If the total indoor unit capacity connection ratio (CR) >100%, charge an additional 0.5 kg of refrigerant per outdoor unit. [476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a]",
+    "context_ids": [
+      "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+      "b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30"
+    ]
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+      "b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e",
+      "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e"
+    ]
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+      "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+      "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770"
+    ]
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353",
+      "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264",
+      "2bc3b70ebf5ee0d0bcc03c570376f59897e8278e7d67c63ddf4c5c237db58acc"
+    ]
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+      "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+      "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3"
+    ]
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed. [d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2]",
+    "context_ids": [
+      "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+      "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+      "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437"
+    ]
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "After correcting the abnormality, press BS3 to reset the malfunction code and retry operation. [f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f]\nCarry out the test operation again and confirm that the abnormality is properly corrected. [09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851]",
+    "context_ids": [
+      "f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f",
+      "09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851",
+      "171a937f6b0203b0f87c7f00bd0ab85fccf2b3badfced0d1a71fe5a95a8042af"
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "answerable": false,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 2,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "de1fa872df8267f2e13a2ec9b7c5f53d6881b02adffc922b1000d1fcae750855",
+      "35b4a35a81cee5e4f6f8af88fdffda866e17f5c7bba7a3802b0e4f5d0da0eb60",
+      "1d516c95d396fc3e2ab690ef493bb70ddcfd78e399e308bd2198dc5dc388f338"
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "answerable": false,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+      "427eced4499dce9953a3233a5c51afd172ee17f4dd1bd2d9b5bb9ee74cb0a138",
+      "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+    ]
+  }
+]

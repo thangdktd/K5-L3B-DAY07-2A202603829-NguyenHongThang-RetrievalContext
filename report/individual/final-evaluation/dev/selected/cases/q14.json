@@ -1,0 +1,437 @@
+{
+  "status": "answered",
+  "answer": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed. [d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2]",
+  "citations": [
+    "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "system test run checks omitted if Hydrobox units present",
+      "filter": {},
+      "results": [
+        {
+          "id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.3"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1120,
+            "end_char": 1765,
+            "text_sha256": "b014c8238621455b183333ffa56d80c3f3e888839febaf1fe400c87d883dd035",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.7184531260458764,
+            "bm25": 20.749838050223524
+          }
+        },
+        {
+          "id": "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.3"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1766,
+            "end_char": 2374,
+            "text_sha256": "245753d501f207d245bd4af1eeab0f51c5ced848aca34268a0e232a565a8d2c2",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 3,
+            "bm25": 4
+          },
+          "component_scores": {
+            "dense": 0.48457709046738895,
+            "bm25": 10.744460634415951
+          }
+        },
+        {
+          "id": "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 36,
+          "text": "Availability of the leak detection function feature requires input of the\nadditional refrigerant charge amount immediately after finishing the\ncharging. The input must be executed before performing the test\noperation.\nNOTICE\nIf a wrong value is input for the additional charged\nrefrigerant weight, the accuracy of the leak detection\nfunction will decrease.\nINFORMATION\n▪The weighed and already recorded amount of\nadditional refrigerant charge (not the total amount of\nrefrigerant present in the system) must be entered.\n▪The leak detection function is not available when\nHydrobox units are connected to the system.\n▪When the height difference between indoor units is",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+            "page": 36,
+            "section": [
+              "16",
+              "16.2",
+              "16.2.1"
+            ],
+            "topic": [
+              "configuration"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1298,
+            "end_char": 1964,
+            "text_sha256": "1950f78cb6dfd48e4e3f8ac32fed80c2b6f9348aa816b3bb36f505aaf1a085c0",
+            "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 5,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.4611571752335333,
+            "bm25": 12.8574505478501
+          }
+        }
+      ],
+      "context": "[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.\n\n[487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions.\n\n[f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=36]\nAvailability of the leak detection function feature requires input of the\nadditional refrigerant charge amount immediately after finishing the\ncharging. The input must be executed before performing the test\noperation.\nNOTICE\nIf a wrong value is input for the additional charged\nrefrigerant weight, the accuracy of the leak detection\nfunction will decrease.\nINFORMATION\n▪The weighed and already recorded amount of\nadditional refrigerant charge (not the total amount of\nrefrigerant present in the system) must be entered.\n▪The leak detection function is not available when\nHydrobox units are connected to the system.\n▪When the height difference between indoor units is",
+      "context_ids": [
+        "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+        "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+        "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437"
+      ],
+      "elapsed_ms": 96.24090000033902
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed.",
+          "chunk_ids": [
+            "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed",
+          "chunk_id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0277340939720ef3016afa962ab65c87d2926542cc0802de8c",
+      "request_id": "req_fb0ece969b5048f6a8c22c0375b5d141",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "During the system test run, which two checks are omitted if Hydrobox units are present?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"system test run checks omitted if Hydrobox units present\"}",
+          "call_id": "call_wlUh7j4kodAUN7uogz0ngc0L",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0277340939720ef3016afa962b22e487d2a743dd73db4a3282",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 542,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 557
+      },
+      "elapsed_ms": 936.0639000005904
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d1d694f02bc454f016afa962bc24c87d295ce2e31a730cf5f",
+      "request_id": "req_c59a8b20e8174993a156c6b69eba157b",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "During the system test run, which two checks are omitted if Hydrobox units are present?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"system test run checks omitted if Hydrobox units present\"}",
+          "call_id": "call_wlUh7j4kodAUN7uogz0ngc0L"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_wlUh7j4kodAUN7uogz0ngc0L",
+          "output": "{\"tool\": \"search\", \"queries\": [\"system test run checks omitted if Hydrobox units present\"], \"remaining_searches\": 2, \"context\": \"[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n17.3\\nAbout the system test run\\nNOTICE\\nMake sure to carry out the test run after the first\\ninstallation. Otherwise, the malfunction code \\n will be\\ndisplayed on the user interface and normal operation or\\nindividual indoor unit test run cannot be carried out.\\nThe procedure below describes the test operation of the complete\\nsystem. This operation checks and judges following items:\\n▪Check for incorrect wiring (communication check with indoor\\nunit(s)).\\n▪Check of the stop valves opening.\\n▪Judgement of piping length.\\nIn case Hydrobox units are present in the system, the pipe length\\ncheck and the refrigerant situation check will not be performed.\\n\\n[487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n▪Abnormalities on indoor units cannot be checked for each unit\\nseparately. After the test operation is finished, check the indoor\\nunits one by one by performing a normal operation using the user\\ninterface. Refer to the indoor unit installation manual for more\\ndetails (e.g., Hydrobox) concerning the individual test run.\\nINFORMATION\\n▪It may take 10 minutes to achieve a uniform refrigerant\\nstate before the compressor starts.\\n▪During the test operation, the refrigerant running sound\\nor the magnetic sound of a solenoid valve may become\\nloud and the display indication may change. These are\\nnot malfunctions.\\n\\n[f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=36]\\nAvailability of the leak detection function feature requires input of the\\nadditional refrigerant charge amount immediately after finishing the\\ncharging. The input must be executed before performing the test\\noperation.\\nNOTICE\\nIf a wrong value is input for the additional charged\\nrefrigerant weight, the accuracy of the leak detection\\nfunction will decrease.\\nINFORMATION\\n▪The weighed and already recorded amount of\\nadditional refrigerant charge (not the total amount of\\nrefrigerant present in the system) must be entered.\\n▪The leak detection function is not available when\\nHydrobox units are connected to the system.\\n▪When the height difference between indoor units is\", \"context_ids\": [\"d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2\", \"487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db\", \"f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed.\",\"chunk_ids\":[\"d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2\"]}]}",
+          "call_id": "call_VbAg0tzAYBFX5Z6csO7uKNc9",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0d1d694f02bc454f016afa962c180087d2b6461e35376f77a6",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1322,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 90,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1412
+      },
+      "elapsed_ms": 1204.2504000000918
+    }
+  ],
+  "context": "[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.\n\n[487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions.\n\n[f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=36]\nAvailability of the leak detection function feature requires input of the\nadditional refrigerant charge amount immediately after finishing the\ncharging. The input must be executed before performing the test\noperation.\nNOTICE\nIf a wrong value is input for the additional charged\nrefrigerant weight, the accuracy of the leak detection\nfunction will decrease.\nINFORMATION\n▪The weighed and already recorded amount of\nadditional refrigerant charge (not the total amount of\nrefrigerant present in the system) must be entered.\n▪The leak detection function is not available when\nHydrobox units are connected to the system.\n▪When the height difference between indoor units is",
+  "context_ids": [
+    "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+    "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+    "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437"
+  ],
+  "context_chars": 2304,
+  "search_queries": [
+    "system test run checks omitted if Hydrobox units present"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2269.4695999998657,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1864,
+    "output_tokens": 105,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q14",
+  "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 37,
+      "text": "17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+        "page": 37,
+        "section": [
+          "17",
+          "17.3"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1120,
+        "end_char": 1765,
+        "text_sha256": "b014c8238621455b183333ffa56d80c3f3e888839febaf1fe400c87d883dd035",
+        "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 36,
+      "text": "Availability of the leak detection function feature requires input of the\nadditional refrigerant charge amount immediately after finishing the\ncharging. The input must be executed before performing the test\noperation.\nNOTICE\nIf a wrong value is input for the additional charged\nrefrigerant weight, the accuracy of the leak detection\nfunction will decrease.\nINFORMATION\n▪The weighed and already recorded amount of\nadditional refrigerant charge (not the total amount of\nrefrigerant present in the system) must be entered.\n▪The leak detection function is not available when\nHydrobox units are connected to the system.\n▪When the height difference between indoor units is",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+        "page": 36,
+        "section": [
+          "16",
+          "16.2",
+          "16.2.1"
+        ],
+        "topic": [
+          "configuration"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1298,
+        "end_char": 1964,
+        "text_sha256": "1950f78cb6dfd48e4e3f8ac32fed80c2b6f9348aa816b3bb36f505aaf1a085c0",
+        "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.03125763125763126
+    },
+    {
+      "id": "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 37,
+      "text": "▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+        "page": 37,
+        "section": [
+          "17",
+          "17.3"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1766,
+        "end_char": 2374,
+        "text_sha256": "245753d501f207d245bd4af1eeab0f51c5ced848aca34268a0e232a565a8d2c2",
+        "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.03125
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:41.435822+00:00"
+}

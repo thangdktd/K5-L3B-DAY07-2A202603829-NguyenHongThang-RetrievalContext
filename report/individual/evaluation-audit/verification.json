@@ -1,0 +1,18 @@
+{
+  "stage": "A completed",
+  "openai_inference_requests": 0,
+  "retrieval_or_agent_experiments_rerun": 0,
+  "unit_tests_rerun": false,
+  "frozen_hashes": "PASS",
+  "existing_agent_trace_and_runtime_hashes_unchanged": true,
+  "source_files_unchanged_during_audit": true,
+  "current_dev_cases_unmeasured_as_uniform_config": 17,
+  "historically_completed_distinct_dev_cases": 2,
+  "missing_distinct_dev_cases": 15,
+  "next_stage_requires_user_approval": true,
+  "test_execution_authorized": false,
+  "audit_files": {
+    "audit_inventory.json": "1b7208f6432093b4a92a33bba26326d2b4c870dc3bfd220b34ffa2480ad51eee",
+    "audit-and-plan.md": "5a2c5a931b2da88824eb6e420cf03bf47c2527f3eac539d848a83ba1614354c9"
+  }
+}

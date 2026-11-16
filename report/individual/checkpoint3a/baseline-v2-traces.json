@@ -1,0 +1,2457 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 7,
+          "evidence": "To protect the unit, turn on the main power switch 6 hours before operation."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 7,
+        "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+          "page": 7,
+          "section": [
+            "6",
+            "6.2",
+            "6.2.1"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 948,
+          "end_char": 1283,
+          "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+          "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.498086646754291,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "e72cd976671194a62a2267541c867b029550294cceeb4b476284fb75510fea59",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 37,
+        "text": "17.4\nTo perform a test run\n1\nClose all front panels to prevent misjudgement (except for the\nswitch box inspection cover).\n2\nMake sure all field settings you want are set; see \"16.1 Making\nfield settings\" [4 32].\n3\nTurn ON the power to the outdoor unit and the connected\nindoor unit(s).\nNOTICE\nTurn ON the power 6 hours before operation in order to\nhave power running to the crankcase heater and to protect\nthe compressor.\n4\nMake sure the default (idle) situation is existing; see \"16.1.4 To\naccess mode 1 or 2\" [4 33]. Push BS2 for 5 seconds or more.\nThe unit will start test operation.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+          "page": 37,
+          "section": [
+            "17",
+            "17.4"
+          ],
+          "topic": [
+            "commissioning"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2375,
+          "end_char": 2961,
+          "text_sha256": "c56a0fa2831be7d075e993c097055c9f083dfc2eecc5f817a4139ed90db184b8",
+          "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.2669590734974844,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 7,
+        "text": "6.2.5\nTo operate the system (WITH cool/heat\nchangeover remote control switch)\nOverview of the changeover remote control switch\na\nb\na\nFAN ONLY/AIR CONDITIONING\nSELECTOR SWITCH\nSet the switch to \n for fan only\noperation or to \n for heating or\ncooling operation.\nb\nCOOL/HEAT CHANGEOVER SWITCH\nSet the switch to \n for cooling or to \nfor heating\nNote: In case a cool/heat changeover remote control switch is used,\nthe position of DIP switch 1 (DS1-1) on the main PCB needs to be\nswitched to the ON position.\nTo start\n1\nSelect operation mode with the cool/heat changeover switch as\nfollows:\nCooling operation\nHeating operation\nFan only operation\n \n11\n1\n \n1\n1\n1\n1",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+          "page": 7,
+          "section": [
+            "6",
+            "6.2",
+            "6.2.5"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 3700,
+          "end_char": 4356,
+          "text_sha256": "9c1e2c355d3214501d95e7bada337f1fd52d79123f0dd7eeab5f928917af2e71",
+          "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.254399728136975,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9"
+    ],
+    "context_chars": 499,
+    "elapsed_ms": 2.5892000003295834,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "After stopping the unit, what minimum delay should be observed before turning off its power?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 8,
+          "evidence": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 7,
+        "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+          "page": 7,
+          "section": [
+            "6",
+            "6.2",
+            "6.2.1"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 948,
+          "end_char": 1283,
+          "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+          "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.17163769272551427,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "c4b37e4f468c352a2f1895d4646b8edc213f19a4bf1415a21461e5ae83f5d625",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 11,
+        "text": "8.2.1\nSymptom: The system does not operate\n▪The air conditioner does not start immediately after the ON/OFF\nbutton on the user interface is pressed. If the operation lamp\nlights, the system is in normal condition. To prevent overloading of\nthe compressor motor, the air conditioner starts 5 minutes after it\nis turned ON again in case it was turned OFF just before. The\nsame starting delay occurs after the operation mode selector\nbutton was used.\n▪If \"Under Centralised Control\" is displayed on the user interface,\npressing the operation button causes the display to blink for a few\nseconds. The blinking display indicates that the user interface\ncannot be used.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0011",
+          "page": 11,
+          "section": [
+            "8",
+            "8.2",
+            "8.2.1"
+          ],
+          "topic": [
+            "user_troubleshooting"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1224,
+          "end_char": 1887,
+          "text_sha256": "60c9f43ff8a0b4cd11768952cb404de8092fa2b2208e3e73f4318ac3d256f928",
+          "page_text_sha256": "97b14cbd10aab885d4b509cf6acf5ec9a6b3bb683f496374a702c2b55a1c3ed8",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.160901557044133,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 8,
+        "text": "Do not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+          "page": 8,
+          "section": [
+            "6",
+            "6.3",
+            "6.3.2"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1574,
+          "end_char": 1662,
+          "text_sha256": "ab7f49f43b34737e300e66c8eaf22545a50db0b0fa747a7e7920f5050db7ea5c",
+          "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.15414513797403212,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      }
+    ],
+    "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.\n\n[1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 8]\nDo not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+    ],
+    "context_chars": 753,
+    "elapsed_ms": 1.8933999999717344,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 8,
+          "evidence": "The system does not go into operation if the room temperature is low (<20°C)."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 8,
+        "text": "6.3\nUsing the dry program",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+          "page": 8,
+          "section": [
+            "6",
+            "6.3"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 539,
+          "end_char": 564,
+          "text_sha256": "f1e110cf48d81126b89bef7a2a5f1738c15a3395e6329de77d9b2277d72f7547",
+          "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.5428943823981911,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 8,
+        "text": "6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+          "page": 8,
+          "section": [
+            "6",
+            "6.3",
+            "6.3.1"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 565,
+          "end_char": 910,
+          "text_sha256": "9941000de404c753767311cb176c232baaf549a59451d0b823915c0577a91ae3",
+          "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.45897237649919337,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 8,
+        "text": "6.3.3\nTo use the dry program (WITH cool/heat\nchangeover remote control switch)\nTo start\n1\nSelect cooling operation mode with the cool/heat changeover\nremote control switch.\n1\n1\n2\nPress the operation mode selector button on the user interface\nseveral times and select \n (program dry operation).\n3\nPress the ON/OFF button of the user interface.\nResult: The operation lamp lights up and the system starts\noperating.\n4\nPress the air flow direction adjust button (only for double-flow,\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\nto \"6.4 Adjusting the air flow direction\" [4 8] for details.\nTo stop\n5\nPress the ON/OFF button on the user interface once again.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+          "page": 8,
+          "section": [
+            "6",
+            "6.3",
+            "6.3.3"
+          ],
+          "topic": [
+            "operation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1663,
+          "end_char": 2335,
+          "text_sha256": "c807e939b8bf789fd92a99d5d4e768d28b8927bf39052f0ae591787e367993c5",
+          "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.2473278049192963,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 8]\n6.3\nUsing the dry program\n\n[7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 8]\n6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).",
+    "context_ids": [
+      "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+      "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4"
+    ],
+    "context_chars": 700,
+    "elapsed_ms": 2.1140999997442123,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What material does section 14.1.1 require for refrigerant piping?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 16,
+          "evidence": "The piping and other pressure-containing parts shall be suitable for refrigerant. Use phosphoric acid deoxidised seamless copper for refrigerant piping."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 16,
+        "text": "14.1\nPreparing refrigerant piping",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+          "page": 16,
+          "section": [
+            "14",
+            "14.1"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 601,
+          "end_char": 634,
+          "text_sha256": "871fd6f7f24d869ed385b3a3632d8f0cc4b75aac2778e06dd13b5a7b7bb65754",
+          "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.3010515194616064,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "60a7c58c5cc5da8d0ef2047c0c1b6528c441b84ee23c6b9c29f8f7769c63c454",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 16,
+        "text": "14\nPiping installation",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+          "page": 16,
+          "section": [
+            "14"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 578,
+          "end_char": 600,
+          "text_sha256": "df10df02b7a0c41084806ebe4ce85f6e6864e3d7b487ddaed3b1877fc5922496",
+          "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.259358748570062,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 20,
+        "text": "14.3\nChecking the refrigerant piping",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+          "page": 20,
+          "section": [
+            "14",
+            "14.3"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1775,
+          "end_char": 1811,
+          "text_sha256": "5e5d941985dba803b5fb8c8cc0f51972ba43ff041d666f8b2e87e3296c30db67",
+          "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.22610705817153087,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 16]\n14.1\nPreparing refrigerant piping\n\n[60a7c58c5cc5da8d0ef2047c0c1b6528c441b84ee23c6b9c29f8f7769c63c454 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 16]\n14\nPiping installation\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 20]\n14.3\nChecking the refrigerant piping",
+    "context_ids": [
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+      "60a7c58c5cc5da8d0ef2047c0c1b6528c441b84ee23c6b9c29f8f7769c63c454",
+      "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+    ],
+    "context_chars": 590,
+    "elapsed_ms": 3.549600000042119,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 16,
+          "evidence": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 16,
+        "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+          "page": 16,
+          "section": [
+            "14",
+            "14.1",
+            "14.1.1"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 635,
+          "end_char": 1314,
+          "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+          "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.36812347564633496,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "fe2dd78cf5fb44a8be1a0ce4c1fa56adf15276359335981b8256a3094c8a2212",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 20,
+        "text": "14.2.5\nTo connect the refrigerant piping to the\noutdoor unit\nNOTICE\n▪Be sure to use the supplied accessory pipes when\ncarrying out piping work in the field.\n▪Be sure that the field installed piping does not touch\nother pipes, the bottom panel or side panel. Especially\nfor the bottom and side connection, be sure to protect\nthe piping with suitable insulation, to prevent it from\ncoming into contact with the casing.\nConnect the stop valves to the field piping using the accessory pipes\nsupplied with the unit.\nThe connections to the branch kits are the responsibility of the\ninstaller (field piping).",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+          "page": 20,
+          "section": [
+            "14",
+            "14.2",
+            "14.2.5"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 124,
+          "end_char": 725,
+          "text_sha256": "556926c57c8acf94159a6c1c1373640f94ec9b5c1479cd11dc4014a8566fcc6d",
+          "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.20036796144533545,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "ae9582f192d75d3949e19d9024140feac3898e9c772d9f6055040743de3a9958",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 27,
+        "text": "If you need to speed up in case of a multiple outdoor\nsystem, connect the refrigerant tanks to each outdoor unit.\nNOTICE\n▪The refrigerant charging port is connected to the piping\ninside the unit. The unit's internal piping is already\nfactory charged with refrigerant, so be careful when\nconnecting the charge hose.\n▪After adding the refrigerant, do not forget to close the\nlid of the refrigerant charging port. The tightening\ntorque for the lid is 11.5 to 13.9 N•m.\n▪In order to ensure uniform refrigerant distribution, it\nmay take the compressor ±10 minutes to start up after\nthe unit has started operation. This is not a malfunction.\n6\nProceed with one of the following:",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0027",
+          "page": 27,
+          "section": [
+            "14",
+            "14.4",
+            "14.4.5"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1814,
+          "end_char": 2486,
+          "text_sha256": "61ed2e5a9143080704fbe84833e82b0768c26bd31ec8f1f4ed2f16a07610d15d",
+          "page_text_sha256": "4266fcbfa7a6ce5044bfe93d9a0734fe31a7cce2256056aea0e12a2c67087d3e",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.15806237427757636,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[fe2dd78cf5fb44a8be1a0ce4c1fa56adf15276359335981b8256a3094c8a2212 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 20]\n14.2.5\nTo connect the refrigerant piping to the\noutdoor unit\nNOTICE\n▪Be sure to use the supplied accessory pipes when\ncarrying out piping work in the field.\n▪Be sure that the field installed piping does not touch\nother pipes, the bottom panel or side panel. Especially\nfor the bottom and side connection, be sure to protect\nthe piping with suitable insulation, to prevent it from\ncoming into contact with the casing.\nConnect the stop valves to the field piping using the accessory pipes\nsupplied with the unit.\nThe connections to the branch kits are the responsibility of the\ninstaller (field piping).",
+    "context_ids": [
+      "fe2dd78cf5fb44a8be1a0ce4c1fa56adf15276359335981b8256a3094c8a2212"
+    ],
+    "context_chars": 766,
+    "elapsed_ms": 4.74339999982476,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 15,
+          "evidence": "The height of the foundation must at least be 150 mm from the floor. In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 15,
+        "text": "The height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+          "page": 15,
+          "section": [
+            "13",
+            "13.3",
+            "13.3.1"
+          ],
+          "topic": [
+            "unit_installation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1588,
+          "end_char": 2200,
+          "text_sha256": "2989d9ef72948cf57d259ab026184a5578ff9c02882cba64c6daf740748da133",
+          "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.312939138369054,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "ee3f01632ded84978b20d257af31bd24b01ce76ed87a0b7d8ce4c0cb360534aa",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 38,
+        "text": "19 Troubleshooting\nInstallation and operation manual\n38\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪Show the user what to do for the maintenance of the unit.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+          "page": 38,
+          "section": [
+            "18"
+          ],
+          "topic": [
+            "handover"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 0,
+          "end_char": 178,
+          "text_sha256": "73cb90b3281dff743ab243fe811acf8727609013afca12c6b38e691847ac01b3",
+          "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.1769531277368469,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "4901deb09b6ee563077188a5cf10cf16c912414d911e11a3ae321e73604b5957",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 15,
+        "text": "to screw in the foundation bolts until their length remains 20 mm\nabove the foundation surface.\n20 mm",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+          "page": 15,
+          "section": [
+            "13",
+            "13.3",
+            "13.3.1"
+          ],
+          "topic": [
+            "unit_installation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2201,
+          "end_char": 2302,
+          "text_sha256": "c6b47a36ef0027b9f67d7089b020c43ba3933edafd3c3431f57644dfd43543ad",
+          "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.14888101176352558,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 15]\nThe height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+    "context_ids": [
+      "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+    ],
+    "context_chars": 777,
+    "elapsed_ms": 5.228099999840197,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 18,
+          "evidence": "If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 18,
+        "text": "14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+          "page": 18,
+          "section": [
+            "14",
+            "14.1",
+            "14.1.4"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 0,
+          "end_char": 612,
+          "text_sha256": "e2ebc527e0206f1cc5407e578afebdd90165c976e997115ae4130bb995500c24",
+          "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.3738443273435251,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "3ec2de6092b03f06461c7338806a66f997e4b9cf43c585748eab84092c56e4f7",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 21,
+        "text": "14.3.4\nTo perform a leak test\nThe leak test must satisfy the specifications of EN378‑2.\nVacuum leak test\n1\nEvacuate the system from the liquid and gas piping to a gauge\npressure of –⁠100.7 kPa (–⁠1.007 bar) for more than 2 hours.\n2\nOnce reached, turn off the vacuum pump and check that the\npressure does not rise for at least 1 minute.\n3\nShould the pressure rise, the system may either contain\nmoisture (see vacuum drying below) or have leaks.\nPressure leak test\n1\nBreak the vacuum by pressurising with nitrogen gas to a\nminimum gauge pressure of 0.2  MPa (2  bar). Never set the\ngauge pressure higher than the maximum operation pressure of\nthe unit, i.e. 4.0 MPa (40 bar).",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+          "page": 21,
+          "section": [
+            "14",
+            "14.3",
+            "14.3.4"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2678,
+          "end_char": 3351,
+          "text_sha256": "c2001d541a2fb9cab5dc26c4c02982099101f6bc1448744b9a756dee9af38af6",
+          "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.29513532631772665,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "413768a01025d3de96f6b6be356169eebf59ba66bd46b8376faf82439cce7da6",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 26,
+        "text": "3\nPre-charging can be done without compressor operation, by\nconnecting the refrigerant bottle to the service port of the liquid\nstop valve (open valve B). Make sure that all outdoor unit stop\nvalves, as well as valves A, C, and D are closed.\nNOTICE\nDuring pre-charging, the refrigerant is charged through the\nliquid line only. Close valves C, D, and A and disconnect\nthe manifold from the gas line and the high pressure/low\npressure gas line.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0026",
+          "page": 26,
+          "section": [
+            "14",
+            "14.4",
+            "14.4.5"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2382,
+          "end_char": 2824,
+          "text_sha256": "991afc0945e89d96cc12374430a4aba0f360973c90df1e1e8337fcc9ef798516",
+          "page_text_sha256": "dcb3b399848545c54aca873a740431c07318679816eb9231d136a178544f02ca",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.23286881595514172,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 18]\n14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+    "context_ids": [
+      "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32"
+    ],
+    "context_chars": 777,
+    "elapsed_ms": 6.532200000037847,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Which refrigerant type does the product contain, and what GWP value is stated for it?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 9,
+          "evidence": "Refrigerant type: R410A Global warming potential (GWP) value: 2087.5"
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 9,
+        "text": "7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0009",
+          "page": 9,
+          "section": [
+            "7",
+            "7.1"
+          ],
+          "topic": [
+            "maintenance_service"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1609,
+          "end_char": 2192,
+          "text_sha256": "6a013975a4b433b3ef49d329d570ac48b88c90719dcbfa06475cfa9da3b994ce",
+          "page_text_sha256": "9ca8e24fbc2ec2a77765c880a4d5b389c90b84f550ec20ef87db65958c38b567",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.28918799779247123,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "1af82a873e9a305ddef99fdb3f5147da43924a2e9d5a88388eb8e2a195b6c9ec",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 28,
+        "text": "Applicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg] / 1000\nUse the GWP value mentioned on the refrigerant charge\nlabel.\n2\nFix the label on the inside of the outdoor unit near the gas and\nliquid stop valves.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0028",
+          "page": 28,
+          "section": [
+            "14",
+            "14.4",
+            "14.4.10"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 3480,
+          "end_char": 3910,
+          "text_sha256": "02ff4ef8f7350a8a44ee8bbcd1d9432f04b9fca6b9f76c8efd861c6f80e20b4c",
+          "page_text_sha256": "f39c1c44b3efc646599eb0030967a3021eed6bf29a16b2b74cdb9807191769af",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.21337351654527048,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "9ec67c607d66da64761e68f11329be6dd63aa1619a88d8feef494c14265a991f",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 12,
+        "text": "8.2.14\nSymptom: The outdoor unit fan does not\nspin\nDuring operation, the speed of the fan is controlled in order to\noptimise product operation.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+          "page": 12,
+          "section": [
+            "8",
+            "8.2",
+            "8.2.14"
+          ],
+          "topic": [
+            "user_troubleshooting"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1581,
+          "end_char": 1724,
+          "text_sha256": "bb857b8b0963463bd9b0c895b8ccf39d4e4605df7d52f4e3b7c1c79bd79a46b0",
+          "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": false,
+          "manual_review_reasons": []
+        },
+        "score": 0.16957469208858378,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 9]\n7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+    "context_ids": [
+      "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+    ],
+    "context_chars": 747,
+    "elapsed_ms": 4.1623000006438815,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 23,
+          "evidence": "Parameter A: If the total indoor unit capacity connection ratio (CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor unit."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 23,
+        "text": "R\nAdditional refrigerant to be charged [in kg and rounded\noff to 1 decimal place]\nX1...6\nTotal length [m] of liquid piping size at Øa\nA~C\nParameters A~C (see below)\nINFORMATION\n▪In case of a multi-outdoor-unit system, add the sum of\nthe individual outdoor unit charge factors.\n▪When using more than one BS unit, add the sum of the\nindividual BS unit charge factors.\n▪Parameter A: If the total indoor unit capacity connection ratio\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\nunit.\n▪Parameter B: Outdoor unit charge factors\nModel\nParameter B\nREMQ5+REYQ8~12\n0 kg\nREYQ14\n1.3 kg\nREYQ16\n1.4 kg\nREYQ18\n4.7 kg\nREYQ20\n4.8 kg\n▪Parameter C: Individual BS unit charge factors",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0023",
+          "page": 23,
+          "section": [
+            "14",
+            "14.4",
+            "14.4.3"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [
+            "REYQ14",
+            "REYQ16",
+            "REYQ18",
+            "REYQ20"
+          ],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 602,
+          "end_char": 1288,
+          "text_sha256": "65fb5f77a577527fc33feb2136187d8bf819ef6078792b313b04e6ede2b8f92b",
+          "page_text_sha256": "2d2cbb706faede3ba7ad1971ffff4c53b422fe72e9843e87cfe24f4ceda597e6",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification"
+          ]
+        },
+        "score": 0.29109048927751074,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "5accd4e0cb6f0c622aae59a8345bf8da7ffeec72c5f15245b4099e58d6f145a7",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 17,
+        "text": "14 Piping installation\nInstallation and operation manual\n17\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nE: Piping between refrigerant branch kit or BS unit\nand indoor unit\nPipe size for direct connection to indoor unit must be the same as\nthe connection size of the indoor unit (in case indoor unit is VRV DX\nindoor or Hydrobox).\nIndoor unit capacity\nindex\nPiping outer diameter size (mm)\nGas pipe\nLiquid pipe\n15~50\n12.7\n6.4\n63~140\n15.9\n9.5\n200\n19.1\n250\n22.2\n▪If a size-up of the piping is required, refer to the table below.\ne\nd\nb\nc\na\na\nOutdoor unit\nb\nMain pipes (increase size)\nc\nFirst refrigerant branch kit\nd\nPiping between refrigerant branch kit and indoor unit\ne\nIndoor unit",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+          "page": 17,
+          "section": [
+            "14",
+            "14.1",
+            "14.1.2"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 0,
+          "end_char": 700,
+          "text_sha256": "364246b98280181e603b7fdc6290fcf9b3ef59a4928d6c60c5f5182864de447a",
+          "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.17335075492932311,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "3b16a07143ff6bfec8daf1a028215f7940301a36ef8ba2f9a9452a5bda999ff3",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 16,
+        "text": "▪Downstream capacity for E=[capacity index of unit 1]\n▪Downstream capacity for D=[capacity index of unit 1]+[capacity\nindex of unit 2]",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+          "page": 16,
+          "section": [
+            "14",
+            "14.1",
+            "14.1.2"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2855,
+          "end_char": 2989,
+          "text_sha256": "f5bd0f2790906ae4749fdc43c1bf77d0154ada124c1346a9cb95a5623ce64769",
+          "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.17006714860900143,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[3b16a07143ff6bfec8daf1a028215f7940301a36ef8ba2f9a9452a5bda999ff3 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 16]\n▪Downstream capacity for E=[capacity index of unit 1]\n▪Downstream capacity for D=[capacity index of unit 1]+[capacity\nindex of unit 2]",
+    "context_ids": [
+      "3b16a07143ff6bfec8daf1a028215f7940301a36ef8ba2f9a9452a5bda999ff3"
+    ],
+    "context_chars": 299,
+    "elapsed_ms": 3.133000000161701,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Can automatic refrigerant charging be used when Hydrobox units are connected?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 22,
+          "evidence": "Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 22,
+        "text": "14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+          "page": 22,
+          "section": [
+            "14",
+            "14.4",
+            "14.4.2"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 3301,
+          "end_char": 3770,
+          "text_sha256": "9baae2b71347788f8ee9df63aa894e8afaa146241853407d1f7d87da5b5dfd06",
+          "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.38798522731465945,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 22,
+        "text": "14.4\nCharging refrigerant",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+          "page": 22,
+          "section": [
+            "14",
+            "14.4"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1426,
+          "end_char": 1451,
+          "text_sha256": "f4c9719955dd2ef2d237ad540ccbf7d1eeaa78b077a96fa8116954d557ebafba",
+          "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.2810305853953819,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "4e26ab9982405b2b188cabb9f961c17608345c4e84e547054cc99d618989f3df",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 17,
+        "text": "Reducers or T-joints are field supplied.\nNOTICE\nRefrigerant branch kits can only be used with R410A.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+          "page": 17,
+          "section": [
+            "14",
+            "14.1",
+            "14.1.3"
+          ],
+          "topic": [
+            "refrigerant_piping"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2934,
+          "end_char": 3034,
+          "text_sha256": "a64a467d5d51df2b92ab0fdadd9a721afd089f6e1191d06140893be571dfe1cf",
+          "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.23514967786369845,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 22]\n14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.",
+    "context_ids": [
+      "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4"
+    ],
+    "context_chars": 634,
+    "elapsed_ms": 1.5170999995461898,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 29,
+          "evidence": "REYQ10 22.0 A 25 A"
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 29,
+        "text": "▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+          "page": 29,
+          "section": [
+            "15",
+            "15.2"
+          ],
+          "topic": [
+            "electrical_installation"
+          ],
+          "equipment_model": [
+            "REYQ10",
+            "REYQ12",
+            "REYQ30",
+            "REYQ8"
+          ],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 3517,
+          "end_char": 3837,
+          "text_sha256": "dba8d627eb158e58f3c32d7ab20638b4f59e0cea03a96998258d113761eb2df2",
+          "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification"
+          ]
+        },
+        "score": 0.37881862875545713,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 29,
+        "text": "REYQ10\n22.0 A\n25 A\nREYQ12\n24.0 A\n32 A\nREYQ14\n27.0 A\n32 A\nREYQ16\n31.0 A\n40 A\nREYQ18\n35.0 A\n40 A\nREYQ20\n39.0 A\n50 A\nFor all models:\n▪Phase and frequency: 3N~ 50 Hz\n▪Voltage: 380~415 V\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\n1000 m. If the total interconnection wiring exceeds these limits, it\nmay result in communication error.\nFor non-standard combinations\nCalculate the recommended fuse capacity.\nFormula\nCalculate, by adding the minimum circuit amps of each\nused unit (according to the table above), multiply the\nresult by 1.1 and select the next higher recommended\nfuse capacity.\nExample\nCombining the REYQ30 by using the REYQ8,\nREYQ10, and REYQ12.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+          "page": 29,
+          "section": [
+            "15",
+            "15.2"
+          ],
+          "topic": [
+            "electrical_installation"
+          ],
+          "equipment_model": [
+            "REYQ10",
+            "REYQ12",
+            "REYQ14",
+            "REYQ16",
+            "REYQ18",
+            "REYQ20",
+            "REYQ30",
+            "REYQ8"
+          ],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2844,
+          "end_char": 3516,
+          "text_sha256": "6a873d96d0ce8ec76ee361822aa3058c0061f92919e20163c525d43b6e6ea4f9",
+          "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification"
+          ]
+        },
+        "score": 0.25933072856693645,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 29,
+        "text": "15.2\nSafety device requirements\nThe power supply must be protected with the required safety\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\nearth leakage protector in accordance with the applicable legislation.\nIn the power supply line, ALWAYS install a residual current device\n(RCD) with an instantaneous action. The installed RCD MUST\ncomply with the national wiring regulation.\nFor standard combinations\nSelection and sizing of the wiring should be done in accordance with\nthe applicable legislation based on the information mentioned in the\ntable below.\nSingle outdoor unit\nModel\nMinimum circuit am-\npacity\nRecommended\nfuses\nREMQ5\n16.1 A\n20 A\nREYQ8\n16.1 A\n20 A",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+          "page": 29,
+          "section": [
+            "15",
+            "15.2"
+          ],
+          "topic": [
+            "electrical_installation"
+          ],
+          "equipment_model": [
+            "REMQ5",
+            "REYQ8"
+          ],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2160,
+          "end_char": 2843,
+          "text_sha256": "4329529d5d6989bb13edd97099f44405aeebcfa22a4fe671471e0d347d74a0ea",
+          "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification"
+          ]
+        },
+        "score": 0.21425701126688412,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 29]\n▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.",
+    "context_ids": [
+      "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550"
+    ],
+    "context_chars": 485,
+    "elapsed_ms": 2.453600000080769,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 32,
+          "evidence": "Mode 1 (monitoring settings) Mode 1 can be used to monitor the current situation of the outdoor unit. Some field setting contents can be monitored as well."
+        }
+      ],
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 32,
+          "evidence": "Mode 2 is used to change the field settings of the system. Consulting the current field setting value and changing the current field setting value is possible."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 33,
+        "text": "16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0033",
+          "page": 33,
+          "section": [
+            "16",
+            "16.1",
+            "16.1.6"
+          ],
+          "topic": [
+            "configuration"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2712,
+          "end_char": 3128,
+          "text_sha256": "2eb41bc78d888a175cd75790afbef419abeead04ab49399a28f7dd91a22e909c",
+          "page_text_sha256": "16b4e8c1943cd5ef09fe2ebea6d9f7a5aa3a5eb47466df394f8d656e62d83041",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.3704519234663791,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false,
+          false
+        ]
+      },
+      {
+        "id": "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 32,
+        "text": "▪\"16.1.7 Mode 1: monitoring settings\" [4 34]\n▪\"16.1.8 Mode 2: field settings\" [4 34]",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+          "page": 32,
+          "section": [
+            "16",
+            "16.1",
+            "16.1.1"
+          ],
+          "topic": [
+            "configuration"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 3400,
+          "end_char": 3484,
+          "text_sha256": "0ec1edf2264648ee9319b6dcf66ba5379aee2dde61544d89ff945d280af12806",
+          "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.3689784983753415,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false,
+          false
+        ]
+      },
+      {
+        "id": "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 32,
+        "text": "▪\"16.1.2 Field setting components\" [4 32]\n▪\"16.1.3 To access the field setting components\" [4 32]\nPC configurator\nFor VRV IV heat recovery system it is alternatively possible to make\nseveral commissioning field settings through a personal computer\ninterface (for this, option EKPCCAB* is required). The installer can\nprepare the configuration (off-site) on PC and afterwards upload the\nconfiguration to the system.\nMode 1 and 2\nMode\nDescription\nMode 1\n(monitoring\nsettings)\nMode 1 can be used to monitor the current\nsituation of the outdoor unit. Some field setting\ncontents can be monitored as well.\nMode 2\n(field settings)",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+          "page": 32,
+          "section": [
+            "16",
+            "16.1",
+            "16.1.1"
+          ],
+          "topic": [
+            "configuration"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2108,
+          "end_char": 2732,
+          "text_sha256": "d3962247e4b14545dd5c79c319107c589fc2a642ff33951b1f12d984ff309bf0",
+          "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.35750422296663176,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          true,
+          false
+        ]
+      }
+    ],
+    "context": "[78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 33]\n16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+    "context_ids": [
+      "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+    ],
+    "context_chars": 581,
+    "elapsed_ms": 1.8515000001571025,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 31,
+          "evidence": "U-series units cannot share the same refrigerant circuit with T-series units. However, electrically, U-series units and T-series units can be connected via F1/F2."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 31,
+        "text": "15 Electrical installation\nInstallation and operation manual\n31\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nINFORMATION\nU-series units cannot share the same refrigerant circuit\nwith T-series units. However, electrically, U-series units\nand T-series units can be connected via F1/F2.\n▪The interconnecting wiring between the outdoor units in the same\npiping system must be connected to the Q1/Q2 (Out Multi)\nterminals. Connecting the wires to the F1/F2 terminals results in\nsystem malfunction.\n▪The wiring for the other systems must be connected to the F1/F2\n(Out-Out) terminals of the PCB in the outdoor unit to which the\ninterconnecting wiring for the indoor units is connected.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+          "page": 31,
+          "section": [
+            "15",
+            "15.5"
+          ],
+          "topic": [
+            "electrical_installation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 0,
+          "end_char": 698,
+          "text_sha256": "4ad790fe35da1b03268ddfdd8837134065e725d1dcc378272a4830b237c3db99",
+          "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.5435847367215978,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 30,
+        "text": "15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+          "page": 30,
+          "section": [
+            "15",
+            "15.5"
+          ],
+          "topic": [
+            "electrical_installation"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1288,
+          "end_char": 1890,
+          "text_sha256": "837919c1fa5c8e40fc2d77d7a354d0c847eb8ddefadeade8488fce1335fd3c23",
+          "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.28598577431014943,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "5ab0823a8c7c1e3471e367725d265c282397804054f427564705ffacca9b0b82",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 6,
+        "text": "4\nAbout the system\nThe indoor unit part of VRV IV heat recovery system can be used for\nheating/cooling applications. The type of indoor unit which can be\nused depends on the outdoor units series.\nWARNING\n▪Do NOT modify, disassemble, remove, reinstall or\nrepair the unit yourself as incorrect dismantling or\ninstallation may cause an electrical shock or fire.\nContact your dealer.\n▪In case of accidental refrigerant leaks, make sure there",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0006",
+          "page": 6,
+          "section": [
+            "4"
+          ],
+          "topic": [
+            "system_overview"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 227,
+          "end_char": 664,
+          "text_sha256": "1f639511285a578b3fb764cb1c324094b1a7531862136071f5fde76251ab85c7",
+          "page_text_sha256": "9ac59a3fb44b79a55f77f34f14a8d8c7fbfd8c1c382d2004d8c3111cab04c16e",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+          ]
+        },
+        "score": 0.15678783137135502,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 30]\n15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne",
+    "context_ids": [
+      "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57"
+    ],
+    "context_chars": 767,
+    "elapsed_ms": 2.1820000001753215,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 37,
+          "evidence": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 37,
+        "text": "17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+          "page": 37,
+          "section": [
+            "17",
+            "17.3"
+          ],
+          "topic": [
+            "commissioning"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1120,
+          "end_char": 1765,
+          "text_sha256": "b014c8238621455b183333ffa56d80c3f3e888839febaf1fe400c87d883dd035",
+          "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.33872219050333136,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "eef84c3ca08ec38e57e4ce91ff232536fee6930a66e00bca54a54585649ce094",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 40,
+        "text": "Reversed power supply phase\nmalfunction\nCorrect phase order.\nReversed power supply phase\nmalfunction\nCorrect phase order.\nINV1 voltage power shortage\nCheck if power supply is within range.\nINV1 power phase loss\nCheck if power supply is within range.\nINV2 voltage power shortage\nCheck if power supply is within range\nINV2 power phase loss\nCheck if power supply is within range.\nMalfunction code: system test run not\nyet executed (system operation not\npossible)\nExecute system test run.\nAn error occurred during the test run\nRe-execute the test run.\n, \nTest run aborted\nRe-execute the test run.\n, \nTest run aborted due to communication\nissues\nCheck the communication wires and re-\nexecute the test run.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+          "page": 40,
+          "section": [
+            "19",
+            "19.2"
+          ],
+          "topic": [
+            "installer_troubleshooting"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 1305,
+          "end_char": 2005,
+          "text_sha256": "cc029a22e6921b662107ebd791442a6a270f36606991da1c267463127fa9a80c",
+          "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.22176288806975833,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "0df9652c0632630aeaa8a368d4dac88585fb27db66684b4400755d94098b7232",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 36,
+        "text": "During test operation, the outdoor unit and the indoor units will start\nup. Make sure that the preparations of all indoor units are finished\n(field piping, electrical wiring, air purge, ...). See installation manual\nof the indoor units for details.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+          "page": 36,
+          "section": [
+            "17",
+            "17.1"
+          ],
+          "topic": [
+            "commissioning"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2956,
+          "end_char": 3204,
+          "text_sha256": "ce573d376b502a1d8348c3cc22e7320ecde64885f2edb3981860a6cc18df32fc",
+          "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": false,
+          "manual_review_reasons": []
+        },
+        "score": 0.2128414246786331,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[0df9652c0632630aeaa8a368d4dac88585fb27db66684b4400755d94098b7232 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 36]\nDuring test operation, the outdoor unit and the indoor units will start\nup. Make sure that the preparations of all indoor units are finished\n(field piping, electrical wiring, air purge, ...). See installation manual\nof the indoor units for details.",
+    "context_ids": [
+      "0df9652c0632630aeaa8a368d4dac88585fb27db66684b4400755d94098b7232"
+    ],
+    "context_chars": 413,
+    "elapsed_ms": 1.6790999998193001,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "After an abnormality has been corrected, which button resets the malfunction code, and what should be done next?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 38,
+          "evidence": "After correcting the abnormality, press BS3 to reset the malfunction code and retry operation."
+        }
+      ]
+    ],
+    "results": [
+      {
+        "id": "f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 38,
+        "text": "19.1\nSolving problems based on error\ncodes\nIn case of a displayed malfunction code, perform correcting actions\nas explained in the malfunction code table.\nAfter correcting the abnormality, press BS3 to reset the malfunction\ncode and retry operation.\nThe malfunction code which is displayed on the outdoor unit will\nindicate a main malfunction code and a sub code. The sub code\nindicates more detailed information about the malfunction code. The\nmalfunction code will be displayed intermittent.\nExample:\nCode\nExample\nMain code\nSub code\nWith an interval of 1 second, the display will switch between main\ncode and sub code.\nINFORMATION\nSee the service manual for:",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+          "page": 38,
+          "section": [
+            "19",
+            "19.1"
+          ],
+          "topic": [
+            "installer_troubleshooting"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 198,
+          "end_char": 858,
+          "text_sha256": "144140cedc83a1e324e0ace95575b0ec879011d9bcc0567e1c48b5182c81ece8",
+          "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.30134108356029604,
+        "strategy": "tfidf",
+        "hit": true,
+        "group_hits": [
+          true
+        ]
+      },
+      {
+        "id": "09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 37,
+        "text": "17.5\nCorrecting after abnormal\ncompletion of the test run\nThe test operation is only completed if there is no malfunction code\ndisplayed on the user interface or outdoor unit 7‑segment display. In\ncase of a displayed malfunction code, perform correcting actions as\nexplained in the malfunction code table. Carry out the test operation\nagain and confirm that the abnormality is properly corrected.\nINFORMATION\nRefer to the installation manual of the indoor unit for\ndetailed malfunction codes related to indoor units.",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+          "page": 37,
+          "section": [
+            "17",
+            "17.5"
+          ],
+          "topic": [
+            "commissioning"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 4106,
+          "end_char": 4622,
+          "text_sha256": "dfb3e4802c991b752c5a319c0b607237cd621a58343e8ef071d14ed5cce85c92",
+          "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.256289703496028,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      },
+      {
+        "id": "171a937f6b0203b0f87c7f00bd0ab85fccf2b3badfced0d1a71fe5a95a8042af",
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+        "page": 10,
+        "text": "8.1\nError codes: Overview\nIn case a malfunction code appears on the indoor unit user interface\ndisplay, contact your installer and inform the malfunction code, the\nunit type, and serial number (you can find this information on the\nnameplate of the unit).\nFor your reference, a list with malfunction codes is provided. You\ncan, depending on the level of the malfunction code, reset the code\nby pushing the ON/OFF button. If not, ask your installer for advice.\nMain code\nContents\nExternal protection device was activated\nEEPROM failure (indoor)\nDrain system malfunction (indoor)\nFan motor malfunction (indoor)\nSwing flap motor malfunction (indoor)\nExpansion valve malfunction (indoor)",
+        "metadata": {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0010",
+          "page": 10,
+          "section": [
+            "8",
+            "8.1"
+          ],
+          "topic": [
+            "user_troubleshooting"
+          ],
+          "equipment_model": [],
+          "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+          "start_char": 2793,
+          "end_char": 3475,
+          "text_sha256": "6679a03e670f03a239a078585e4f2e37a9f566bff39c1ee56dcb47410c37ad77",
+          "page_text_sha256": "fa927b86e71109b96fde40a48797064e1f9b8e9e4b1b059dd8944610c8b683a5",
+          "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+          "strategy": "B",
+          "chunking": {
+            "max_size": 700,
+            "overlap": 0,
+            "version": 1
+          },
+          "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+          "gold_evidence_manual_review_required": true,
+          "manual_review_reasons": [
+            "table_cells_units_headers_and_model_scope_require_visual_verification",
+            "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+          ]
+        },
+        "score": 0.21408731358298677,
+        "strategy": "tfidf",
+        "hit": false,
+        "group_hits": [
+          false
+        ]
+      }
+    ],
+    "context": "[09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851 | data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf | page 37]\n17.5\nCorrecting after abnormal\ncompletion of the test run\nThe test operation is only completed if there is no malfunction code\ndisplayed on the user interface or outdoor unit 7‑segment display. In\ncase of a displayed malfunction code, perform correcting actions as\nexplained in the malfunction code table. Carry out the test operation\nagain and confirm that the abnormality is properly corrected.\nINFORMATION\nRefer to the installation manual of the indoor unit for\ndetailed malfunction codes related to indoor units.",
+    "context_ids": [
+      "09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851"
+    ],
+    "context_chars": 681,
+    "elapsed_ms": 1.9822999993266421,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]

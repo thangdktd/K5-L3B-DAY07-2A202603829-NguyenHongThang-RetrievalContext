@@ -1,0 +1,442 @@
+{
+  "status": "answered",
+  "answer": "Use phosphoric acid deoxidised seamless copper for refrigerant piping. [c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858]",
+  "citations": [
+    "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 14.1.1 refrigerant piping material",
+      "filter": {},
+      "results": [
+        {
+          "id": "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1\nPreparing refrigerant piping",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 601,
+            "end_char": 634,
+            "text_sha256": "871fd6f7f24d869ed385b3a3632d8f0cc4b75aac2778e06dd13b5a7b7bb65754",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.8475722256216794,
+            "bm25": 8.644075268721462
+          }
+        },
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.032018442622950824,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.7334817687316493,
+            "bm25": 10.294158792078058
+          }
+        },
+        {
+          "id": "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 20,
+          "text": "14.3\nChecking the refrigerant piping",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+            "page": 20,
+            "section": [
+              "14",
+              "14.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1775,
+            "end_char": 1811,
+            "text_sha256": "5e5d941985dba803b5fb8c8cc0f51972ba43ff041d666f8b2e87e3296c30db67",
+            "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03128054740957967,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 6
+          },
+          "component_scores": {
+            "dense": 0.7648384851409865,
+            "bm25": 6.875631530012633
+          }
+        }
+      ],
+      "context": "[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1\nPreparing refrigerant piping\n\n[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping",
+      "context_ids": [
+        "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+        "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+        "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+      ],
+      "elapsed_ms": 76.70499999949243
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "Use phosphoric acid deoxidised seamless copper for refrigerant piping.",
+          "chunk_ids": [
+            "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Use phosphoric acid deoxidised seamless copper for refrigerant piping",
+          "chunk_id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0a7262811f28b3e2016afa960a41f887d2a46fbf3a20e3f2da",
+      "request_id": "req_43b87c57d15a47faa969d09e35a2158f",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What material does section 14.1.1 require for refrigerant piping?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 14.1.1 refrigerant piping material\"}",
+          "call_id": "call_H6sSdgep0nFJ4VrBPgBjfq9f",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0a7262811f28b3e2016afa960ad71087d288b4029f246853c1",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 540,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 16,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 556
+      },
+      "elapsed_ms": 1314.6247999993648
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0f5da91dadafb690016afa960badf087d28c6c78ab18a7e013",
+      "request_id": "req_b457ff21e308486bbc9e32141a76fd0e",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What material does section 14.1.1 require for refrigerant piping?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 14.1.1 refrigerant piping material\"}",
+          "call_id": "call_H6sSdgep0nFJ4VrBPgBjfq9f"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_H6sSdgep0nFJ4VrBPgBjfq9f",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 14.1.1 refrigerant piping material\"], \"remaining_searches\": 2, \"context\": \"[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\\n14.1\\nPreparing refrigerant piping\\n\\n[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\\n14.1.1\\nRefrigerant piping requirements\\nNOTICE\\nRefrigerant R410A requires strict cautions for keeping the\\nsystem clean and dry. Foreign materials (including mineral\\noils or moisture) should be prevented from getting mixed\\ninto the system.\\nNOTICE\\nThe piping and other pressure-containing parts shall be\\nsuitable for refrigerant. Use phosphoric acid deoxidised\\nseamless copper for refrigerant piping.\\n▪Only use phosphoric acid deoxidised seamless copper.\\n▪Foreign materials inside pipes (including oils for fabrication) must\\nbe ≤30 mg/10 m.\\n▪Temper grade: use piping with temper grade in function of the\\npipe diameter as listed in table below.\\nPipe Ø\\nTemper grade of piping material\\n\\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\\n14.3\\nChecking the refrigerant piping\", \"context_ids\": [\"ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6\", \"c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858\", \"0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Use phosphoric acid deoxidised seamless copper for refrigerant piping.\",\"chunk_ids\":[\"c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858\"]}]}",
+          "call_id": "call_XhdMDVMSpBdrICKrovAvyg2O",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0f5da91dadafb690016afa960c176087d28acb122cdc82c201",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1107,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 80,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1187
+      },
+      "elapsed_ms": 1698.8079999991896
+    }
+  ],
+  "context": "[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1\nPreparing refrigerant piping\n\n[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping",
+  "context_ids": [
+    "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+    "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+    "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+  ],
+  "context_chars": 1133,
+  "search_queries": [
+    "section 14.1.1 refrigerant piping material"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3112.838400000328,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1647,
+    "output_tokens": 96,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q04",
+  "question": "What material does section 14.1.1 require for refrigerant piping?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 16,
+      "text": "14.1\nPreparing refrigerant piping",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+        "page": 16,
+        "section": [
+          "14",
+          "14.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 601,
+        "end_char": 634,
+        "text_sha256": "871fd6f7f24d869ed385b3a3632d8f0cc4b75aac2778e06dd13b5a7b7bb65754",
+        "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.032266458495966696
+    },
+    {
+      "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 16,
+      "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+        "page": 16,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 635,
+        "end_char": 1314,
+        "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+        "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.032018442622950824
+    },
+    {
+      "id": "fe2dd78cf5fb44a8be1a0ce4c1fa56adf15276359335981b8256a3094c8a2212",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 20,
+      "text": "14.2.5\nTo connect the refrigerant piping to the\noutdoor unit\nNOTICE\n▪Be sure to use the supplied accessory pipes when\ncarrying out piping work in the field.\n▪Be sure that the field installed piping does not touch\nother pipes, the bottom panel or side panel. Especially\nfor the bottom and side connection, be sure to protect\nthe piping with suitable insulation, to prevent it from\ncoming into contact with the casing.\nConnect the stop valves to the field piping using the accessory pipes\nsupplied with the unit.\nThe connections to the branch kits are the responsibility of the\ninstaller (field piping).",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+        "page": 20,
+        "section": [
+          "14",
+          "14.2",
+          "14.2.5"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 124,
+        "end_char": 725,
+        "text_sha256": "556926c57c8acf94159a6c1c1373640f94ec9b5c1479cd11dc4014a8566fcc6d",
+        "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.030536130536130537
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:09.751662+00:00"
+}

@@ -1,0 +1,464 @@
+{
+  "status": "answered",
+  "answer": "Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter. [8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0]\nA phase advancing capacitor will reduce performance and may cause accidents. [8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0]",
+  "citations": [
+    "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "phase advancing capacitor user safety instructions section 3",
+      "filter": {},
+      "results": [
+        {
+          "id": "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 4,
+          "text": "cables do NOT come in contact with sharp edges or\npiping, particularly on the high-pressure side.\n▪Do NOT install a phase advancing capacitor, because\nthis unit is equipped with an inverter. A phase\nadvancing capacitor will reduce performance and may\ncause accidents.\nWARNING\n▪All wiring MUST be performed by an authorised\nelectrician and MUST comply with the national wiring\nregulation.\n▪Make electrical connections to the fixed wiring.\n▪All components procured on-site and all electrical\nconstruction \nMUST \ncomply \nwith \nthe \napplicable\nlegislation.\nWARNING\nALWAYS use multicore cable for power supply cables.\nWARNING",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0004",
+            "page": 4,
+            "section": [
+              "2"
+            ],
+            "topic": [
+              "installer_safety"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1279,
+            "end_char": 1899,
+            "text_sha256": "3370d316ea9f509e3cf79c610aec42a4b6d63b51bc0ec1eb11e40cad137e30c3",
+            "page_text_sha256": "0a91935446dd205e3f72fdd188647b14f81ee9bd07d40a116788e5e9d591bb52",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.5216169331530449,
+            "bm25": 18.968671034582062
+          }
+        },
+        {
+          "id": "a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 4,
+          "text": "3\nUser safety instructions\nAlways observe the following safety instructions and regulations.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0004",
+            "page": 4,
+            "section": [
+              "3"
+            ],
+            "topic": [
+              "user_safety"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3049,
+            "end_char": 3141,
+            "text_sha256": "3646edbf65f4fd75ecb39c230c42ccd59ef974a4de0a07878851973b16222fc2",
+            "page_text_sha256": "0a91935446dd205e3f72fdd188647b14f81ee9bd07d40a116788e5e9d591bb52",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.4710659980773926,
+            "bm25": 18.821252169584046
+          }
+        },
+        {
+          "id": "efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 5,
+          "text": "3 User safety instructions\nInstallation and operation manual\n5\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nWARNING\nTo prevent electrical shocks or fire:\n▪Do NOT rinse the unit.\n▪Do NOT operate the unit with wet hands.\n▪Do NOT place any objects containing water on the unit.\nCAUTION\n▪Do NOT place any objects or equipment on top of the\nunit.\n▪Do NOT sit, climb or stand on the unit.\n▪Units are marked with the following symbol:",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0005",
+            "page": 5,
+            "section": [
+              "3",
+              "3.1"
+            ],
+            "topic": [
+              "user_safety"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 446,
+            "text_sha256": "11aaded8d1c2bd403ca21ec276ce607dac1bd88c61c80ac40e03f96c92a8eb3d",
+            "page_text_sha256": "c4cfff66dcafe6a174785cb40c80253cd2afcd3edc3241603cd44b182aa197d5",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 3,
+            "bm25": 4
+          },
+          "component_scores": {
+            "dense": 0.45724236965179443,
+            "bm25": 10.00988634387006
+          }
+        }
+      ],
+      "context": "[8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\ncables do NOT come in contact with sharp edges or\npiping, particularly on the high-pressure side.\n▪Do NOT install a phase advancing capacitor, because\nthis unit is equipped with an inverter. A phase\nadvancing capacitor will reduce performance and may\ncause accidents.\nWARNING\n▪All wiring MUST be performed by an authorised\nelectrician and MUST comply with the national wiring\nregulation.\n▪Make electrical connections to the fixed wiring.\n▪All components procured on-site and all electrical\nconstruction \nMUST \ncomply \nwith \nthe \napplicable\nlegislation.\nWARNING\nALWAYS use multicore cable for power supply cables.\nWARNING\n\n[a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\n3\nUser safety instructions\nAlways observe the following safety instructions and regulations.\n\n[efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=5]\n3 User safety instructions\nInstallation and operation manual\n5\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nWARNING\nTo prevent electrical shocks or fire:\n▪Do NOT rinse the unit.\n▪Do NOT operate the unit with wet hands.\n▪Do NOT place any objects containing water on the unit.\nCAUTION\n▪Do NOT place any objects or equipment on top of the\nunit.\n▪Do NOT sit, climb or stand on the unit.\n▪Units are marked with the following symbol:",
+      "context_ids": [
+        "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+        "a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37",
+        "efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17"
+      ],
+      "elapsed_ms": 74.94989999941026
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter.",
+          "chunk_ids": [
+            "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0"
+          ]
+        },
+        {
+          "text": "A phase advancing capacitor will reduce performance and may cause accidents.",
+          "chunk_ids": [
+            "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter",
+          "chunk_id": "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "A phase advancing capacitor will reduce performance and may cause accidents",
+          "chunk_id": "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0995ebc14f2f6ac6016afa9752795887d2b0805ce5d2a4e385",
+      "request_id": "req_0a090853c56e4748a1b070d2b5dcb843",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to user safety instructions in section 3, why must a phase advancing capacitor NOT be installed on this unit?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"phase advancing capacitor user safety instructions section 3\"}",
+          "call_id": "call_fV5ASkvoSsE55LSVkxzgHLGw",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0995ebc14f2f6ac6016afa9752ef6887d2bb4578d8a7376954",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 547,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 14,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 561
+      },
+      "elapsed_ms": 3146.961399999782
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e257b1188329c78016afa9754396c87d2bfdb08ab27351de6",
+      "request_id": "req_98e4821bc1934760bc9cdfbd004913b9",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to user safety instructions in section 3, why must a phase advancing capacitor NOT be installed on this unit?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"phase advancing capacitor user safety instructions section 3\"}",
+          "call_id": "call_fV5ASkvoSsE55LSVkxzgHLGw"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_fV5ASkvoSsE55LSVkxzgHLGw",
+          "output": "{\"tool\": \"search\", \"queries\": [\"phase advancing capacitor user safety instructions section 3\"], \"remaining_searches\": 2, \"context\": \"[8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\\ncables do NOT come in contact with sharp edges or\\npiping, particularly on the high-pressure side.\\n▪Do NOT install a phase advancing capacitor, because\\nthis unit is equipped with an inverter. A phase\\nadvancing capacitor will reduce performance and may\\ncause accidents.\\nWARNING\\n▪All wiring MUST be performed by an authorised\\nelectrician and MUST comply with the national wiring\\nregulation.\\n▪Make electrical connections to the fixed wiring.\\n▪All components procured on-site and all electrical\\nconstruction \\nMUST \\ncomply \\nwith \\nthe \\napplicable\\nlegislation.\\nWARNING\\nALWAYS use multicore cable for power supply cables.\\nWARNING\\n\\n[a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\\n3\\nUser safety instructions\\nAlways observe the following safety instructions and regulations.\\n\\n[efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=5]\\n3 User safety instructions\\nInstallation and operation manual\\n5\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nWARNING\\nTo prevent electrical shocks or fire:\\n▪Do NOT rinse the unit.\\n▪Do NOT operate the unit with wet hands.\\n▪Do NOT place any objects containing water on the unit.\\nCAUTION\\n▪Do NOT place any objects or equipment on top of the\\nunit.\\n▪Do NOT sit, climb or stand on the unit.\\n▪Units are marked with the following symbol:\", \"context_ids\": [\"8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0\", \"a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37\", \"efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter.\",\"chunk_ids\":[\"8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0\"]},{\"text\":\"A phase advancing capacitor will reduce performance and may cause accidents.\",\"chunk_ids\":[\"8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0\"]}]}",
+          "call_id": "call_p924e7vdd27LIY2vBpWZB7BT",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0e257b1188329c78016afa9754d5d487d2bdd251de192ac752",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1215,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 135,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1350
+      },
+      "elapsed_ms": 1814.1183000007004
+    }
+  ],
+  "context": "[8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\ncables do NOT come in contact with sharp edges or\npiping, particularly on the high-pressure side.\n▪Do NOT install a phase advancing capacitor, because\nthis unit is equipped with an inverter. A phase\nadvancing capacitor will reduce performance and may\ncause accidents.\nWARNING\n▪All wiring MUST be performed by an authorised\nelectrician and MUST comply with the national wiring\nregulation.\n▪Make electrical connections to the fixed wiring.\n▪All components procured on-site and all electrical\nconstruction \nMUST \ncomply \nwith \nthe \napplicable\nlegislation.\nWARNING\nALWAYS use multicore cable for power supply cables.\nWARNING\n\n[a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=4]\n3\nUser safety instructions\nAlways observe the following safety instructions and regulations.\n\n[efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=5]\n3 User safety instructions\nInstallation and operation manual\n5\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nWARNING\nTo prevent electrical shocks or fire:\n▪Do NOT rinse the unit.\n▪Do NOT operate the unit with wet hands.\n▪Do NOT place any objects containing water on the unit.\nCAUTION\n▪Do NOT place any objects or equipment on top of the\nunit.\n▪Do NOT sit, climb or stand on the unit.\n▪Units are marked with the following symbol:",
+  "context_ids": [
+    "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+    "a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37",
+    "efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17"
+  ],
+  "context_chars": 1540,
+  "search_queries": [
+    "phase advancing capacitor user safety instructions section 3"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 5059.505900000659,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1762,
+    "output_tokens": 149,
+    "cached_input_tokens": 0
+  },
+  "query_id": "t01",
+  "question": "According to user safety instructions in section 3, why must a phase advancing capacitor NOT be installed on this unit?",
+  "split": "test",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 4,
+      "text": "cables do NOT come in contact with sharp edges or\npiping, particularly on the high-pressure side.\n▪Do NOT install a phase advancing capacitor, because\nthis unit is equipped with an inverter. A phase\nadvancing capacitor will reduce performance and may\ncause accidents.\nWARNING\n▪All wiring MUST be performed by an authorised\nelectrician and MUST comply with the national wiring\nregulation.\n▪Make electrical connections to the fixed wiring.\n▪All components procured on-site and all electrical\nconstruction \nMUST \ncomply \nwith \nthe \napplicable\nlegislation.\nWARNING\nALWAYS use multicore cable for power supply cables.\nWARNING",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0004",
+        "page": 4,
+        "section": [
+          "2"
+        ],
+        "topic": [
+          "installer_safety"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1279,
+        "end_char": 1899,
+        "text_sha256": "3370d316ea9f509e3cf79c610aec42a4b6d63b51bc0ec1eb11e40cad137e30c3",
+        "page_text_sha256": "0a91935446dd205e3f72fdd188647b14f81ee9bd07d40a116788e5e9d591bb52",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 1,
+        "bm25": 1
+      },
+      "component_scores": {
+        "dense": 0.5824850948181589,
+        "bm25": 30.424206937102092
+      }
+    },
+    {
+      "id": "efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 5,
+      "text": "3 User safety instructions\nInstallation and operation manual\n5\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nWARNING\nTo prevent electrical shocks or fire:\n▪Do NOT rinse the unit.\n▪Do NOT operate the unit with wet hands.\n▪Do NOT place any objects containing water on the unit.\nCAUTION\n▪Do NOT place any objects or equipment on top of the\nunit.\n▪Do NOT sit, climb or stand on the unit.\n▪Units are marked with the following symbol:",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0005",
+        "page": 5,
+        "section": [
+          "3",
+          "3.1"
+        ],
+        "topic": [
+          "user_safety"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 446,
+        "text_sha256": "11aaded8d1c2bd403ca21ec276ce607dac1bd88c61c80ac40e03f96c92a8eb3d",
+        "page_text_sha256": "c4cfff66dcafe6a174785cb40c80253cd2afcd3edc3241603cd44b182aa197d5",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.03128054740957967,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 2,
+        "bm25": 6
+      },
+      "component_scores": {
+        "dense": 0.41218308137756177,
+        "bm25": 15.317507839966076
+      }
+    },
+    {
+      "id": "db5d5b5420aeee3c793b5aec72d4fbdff21f00e9692e21e36e81de1704465aa2",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 36,
+      "text": "17.2\nChecklist before commissioning\n1\nAfter the installation of the unit, check the items listed below.\n2\nClose the unit.\n3\nPower up the unit.\nYou have read the complete installation and operation\ninstructions described in the installer and user reference\nguide.\nInstallation\nCheck that the unit is properly installed, to avoid abnormal\nnoises and vibrations when starting up the unit.\nField wiring\nCheck that the field wiring has been carried out according\nto the instructions described in the chapter \"15 Electrical\ninstallation\"  [4  28], according to the wiring diagrams and\naccording to the applicable national wiring regulation.\nPower supply voltage",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+        "page": 36,
+        "section": [
+          "17",
+          "17.2"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3205,
+        "end_char": 3860,
+        "text_sha256": "094a318c6bea7e18eba1b807e8a02ef81cf6550274f38fec9d2f8b20a629f674",
+        "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.02886002886002886,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 17,
+        "bm25": 3
+      },
+      "component_scores": {
+        "dense": 0.3045274187261082,
+        "bm25": 18.56672677904099
+      }
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:40:38.415169+00:00"
+}

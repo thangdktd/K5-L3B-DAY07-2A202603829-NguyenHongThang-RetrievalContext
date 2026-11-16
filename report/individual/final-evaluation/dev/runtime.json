@@ -1,0 +1,60 @@
+{
+  "split": "dev",
+  "started_at": "2026-11-16T05:34:53.705785+00:00",
+  "status": "completed_pending_review",
+  "identity": {
+    "schema": "agent-suite-v1",
+    "common": {
+      "model": "gpt-4.1-mini",
+      "expected_model": "gpt-4.1-mini-2025-04-14",
+      "max_searches": 3,
+      "top_k": 3,
+      "max_output_tokens": 600,
+      "timeout_seconds": 60,
+      "sdk_max_retries": 0,
+      "transient_retries_per_request": 1,
+      "temperature": 0,
+      "candidate_k_per_branch": 20,
+      "rrf_k": 60,
+      "metadata_filter": {},
+      "run_id": "6bb5bbaae6bdc33389366d82272c71e10e29f07ed97a354d820799b60d0705d3"
+    },
+    "profiles": {
+      "baseline": {
+        "retriever": "tfidf",
+        "budget_chars": 800
+      },
+      "selected": {
+        "retriever": "hybrid_rrf",
+        "budget_chars": 2400
+      }
+    },
+    "code_sha256": {
+      "src/run_agent_suite.py": "2edeaca9220621531fa5580d5d24d68733d1e9a23d00c419e31ad6bcb903ad29",
+      "src/openai_agent.py": "0f8fc87b084e8af3f33fb0d83497280eeb12963b3dc2748f3b2eaff64c7bf79c",
+      "src/grounding.py": "191d156b339dddd5798d57cf462e5a036e5bd8ca2a2e396d81872a0cfb84e4de",
+      "src/retrievers.py": "1a1b82fc56f17f8473207b4d0fec7120f34a54ab14bed92eb391369255a03e56",
+      "src/run_agent_dev.py": "2355b1e6cf0e98a886e4f13ce3068fe62263325efcde591012fc7e9f7ad81aa5",
+      "src/evaluate_agent_suite.py": "9e5cce558a95a37582140e70283e06467d304dd4c24cf0bb77673bc52050232a",
+      "starter/baseline.py": "2c29da8c8036cf8e7e08e2e326037a3e70141274c28b80d3e96131e31defd23d",
+      "starter/agent_metrics.py": "21a0ea97619ae081e322cc0681b0b47f52ced6766e56d614d41333b5fd934df5",
+      "src/requirements.txt": "46c9399aa4eafcfce7cde3d675a807507c44fc16306575ee329a11b80f83986b"
+    },
+    "benchmark_manifest_sha256": "6db1bd0ede4ee75cc54ae62fc9ae2b83b90907ceebd38b01b64b4630b75c1767"
+  },
+  "model_fingerprint": "7a729edee62a3c201eda95b4160f1429c1616adfb827e03539a8c035b60266de",
+  "database_before_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "profiles": {
+    "selected": {
+      "completed_cases": 17
+    },
+    "baseline": {
+      "completed_cases": 17
+    }
+  },
+  "transient_retry_policy": "at most one retry per transient failed API call; each attempt logged; no whole-case/test reruns",
+  "elapsed_seconds_including_setup": 144.22960389999935,
+  "finished_at": "2026-11-16T05:36:57.780747+00:00",
+  "database_after_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "database_unchanged": true
+}

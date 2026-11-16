@@ -1,0 +1,56 @@
+{
+  "locked_at": "2026-11-16T05:39:40.159638+00:00",
+  "identity": {
+    "schema": "agent-suite-v1",
+    "common": {
+      "model": "gpt-4.1-mini",
+      "expected_model": "gpt-4.1-mini-2025-04-14",
+      "max_searches": 3,
+      "top_k": 3,
+      "max_output_tokens": 600,
+      "timeout_seconds": 60,
+      "sdk_max_retries": 0,
+      "transient_retries_per_request": 1,
+      "temperature": 0,
+      "candidate_k_per_branch": 20,
+      "rrf_k": 60,
+      "metadata_filter": {},
+      "run_id": "6bb5bbaae6bdc33389366d82272c71e10e29f07ed97a354d820799b60d0705d3"
+    },
+    "profiles": {
+      "baseline": {
+        "retriever": "tfidf",
+        "budget_chars": 800
+      },
+      "selected": {
+        "retriever": "hybrid_rrf",
+        "budget_chars": 2400
+      }
+    },
+    "code_sha256": {
+      "src/run_agent_suite.py": "2edeaca9220621531fa5580d5d24d68733d1e9a23d00c419e31ad6bcb903ad29",
+      "src/openai_agent.py": "0f8fc87b084e8af3f33fb0d83497280eeb12963b3dc2748f3b2eaff64c7bf79c",
+      "src/grounding.py": "191d156b339dddd5798d57cf462e5a036e5bd8ca2a2e396d81872a0cfb84e4de",
+      "src/retrievers.py": "1a1b82fc56f17f8473207b4d0fec7120f34a54ab14bed92eb391369255a03e56",
+      "src/run_agent_dev.py": "2355b1e6cf0e98a886e4f13ce3068fe62263325efcde591012fc7e9f7ad81aa5",
+      "src/evaluate_agent_suite.py": "9e5cce558a95a37582140e70283e06467d304dd4c24cf0bb77673bc52050232a",
+      "starter/baseline.py": "2c29da8c8036cf8e7e08e2e326037a3e70141274c28b80d3e96131e31defd23d",
+      "starter/agent_metrics.py": "21a0ea97619ae081e322cc0681b0b47f52ced6766e56d614d41333b5fd934df5",
+      "src/requirements.txt": "46c9399aa4eafcfce7cde3d675a807507c44fc16306575ee329a11b80f83986b"
+    },
+    "benchmark_manifest_sha256": "6db1bd0ede4ee75cc54ae62fc9ae2b83b90907ceebd38b01b64b4630b75c1767"
+  },
+  "selected": "selected",
+  "baseline": "baseline",
+  "selection_basis": "Hybrid2400 original-query retrieval/context DEV coverage versus TF-IDF800; grounded/citation and false-abstention DEV review considered; no validator/prompt tuning. Partial answer quality is reported honestly.",
+  "dev_artifact_sha256": {
+    "dev/summary.json": "77bd639a3a1bc049496518783818cf7c246da060dffe5db6eaf7a4b66790bfe1",
+    "dev/baseline/traces.json": "e5a8f9ac091389eded8fb529451acf5ddb14aab279be7c303a5e4cec59607dae",
+    "dev/baseline/reviews.json": "e2f3460a3a80330ddc419200bf293c7fa3c04896dc408dc41a37c23e4c15172c",
+    "dev/baseline/metrics.json": "07d0c516de0a834eac0011612f7ac9f68a720c080f0836a195ce0ab2dbe21dee",
+    "dev/selected/traces.json": "04664f44043f5b42d8c30df6e0582133e32544ecb127a36db59e54010ce9dde9",
+    "dev/selected/reviews.json": "e3fa3f814d644491852ef88668c33731eb0a71e7a0ca239bf699f07ef5387238",
+    "dev/selected/metrics.json": "e8a777aa88de54e4bd482c30dc3fb4073133d11469008765a6aebbee33d00988"
+  },
+  "test_protocol": "Both profiles each of 7 TEST cases once; checkpoint/resume missing cases only; no tuning after test_started; at most one transient call retry logged"
+}

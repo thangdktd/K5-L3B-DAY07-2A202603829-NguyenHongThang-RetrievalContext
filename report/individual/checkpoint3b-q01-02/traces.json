@@ -1,0 +1,306 @@
+[
+  {
+    "status": "answered",
+    "answer": "To protect the unit, turn on the main power switch 6 hours before operation. [a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9]",
+    "citations": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9"
+    ],
+    "abstention": false,
+    "reason": null,
+    "error": null,
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "section 6.2.1 main power switch operation time",
+        "filter": {},
+        "results": [
+          {
+            "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+            "page": 7,
+            "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+            "metadata": {
+              "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+              "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+              "page": 7,
+              "section": [
+                "6",
+                "6.2",
+                "6.2.1"
+              ],
+              "topic": [
+                "operation"
+              ],
+              "equipment_model": [],
+              "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+              "start_char": 948,
+              "end_char": 1283,
+              "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+              "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+              "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+              "strategy": "B",
+              "chunking": {
+                "max_size": 700,
+                "overlap": 0,
+                "version": 1
+              },
+              "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+              "gold_evidence_manual_review_required": true,
+              "manual_review_reasons": [
+                "table_cells_units_headers_and_model_scope_require_visual_verification",
+                "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+                "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+              ]
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf",
+            "component_ranks": {
+              "dense": 1,
+              "bm25": 1
+            },
+            "component_scores": {
+              "dense": 0.5905019533035811,
+              "bm25": 16.415102161109676
+            }
+          },
+          {
+            "id": "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+            "page": 7,
+            "text": "6.2.5\nTo operate the system (WITH cool/heat\nchangeover remote control switch)\nOverview of the changeover remote control switch\na\nb\na\nFAN ONLY/AIR CONDITIONING\nSELECTOR SWITCH\nSet the switch to \n for fan only\noperation or to \n for heating or\ncooling operation.\nb\nCOOL/HEAT CHANGEOVER SWITCH\nSet the switch to \n for cooling or to \nfor heating\nNote: In case a cool/heat changeover remote control switch is used,\nthe position of DIP switch 1 (DS1-1) on the main PCB needs to be\nswitched to the ON position.\nTo start\n1\nSelect operation mode with the cool/heat changeover switch as\nfollows:\nCooling operation\nHeating operation\nFan only operation\n \n11\n1\n \n1\n1\n1\n1",
+            "metadata": {
+              "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+              "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+              "page": 7,
+              "section": [
+                "6",
+                "6.2",
+                "6.2.5"
+              ],
+              "topic": [
+                "operation"
+              ],
+              "equipment_model": [],
+              "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+              "start_char": 3700,
+              "end_char": 4356,
+              "text_sha256": "9c1e2c355d3214501d95e7bada337f1fd52d79123f0dd7eeab5f928917af2e71",
+              "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+              "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+              "strategy": "B",
+              "chunking": {
+                "max_size": 700,
+                "overlap": 0,
+                "version": 1
+              },
+              "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+              "gold_evidence_manual_review_required": true,
+              "manual_review_reasons": [
+                "table_cells_units_headers_and_model_scope_require_visual_verification",
+                "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+                "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+              ]
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf",
+            "component_ranks": {
+              "dense": 3,
+              "bm25": 2
+            },
+            "component_scores": {
+              "dense": 0.36372642625193663,
+              "bm25": 12.382269266334278
+            }
+          },
+          {
+            "id": "e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5",
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+            "page": 7,
+            "text": "6.2.4\nTo operate the system (WITHOUT cool/\nheat changeover remote control switch)\n1\nPress the operation mode selector button on the user interface\nseveral times and select the operation mode of your choice.\nCooling operation\nHeating operation\nFan only operation\n2\nPress the ON/OFF button on the user interface.\nResult: The operation lamp lights up and the system starts\noperating.",
+            "metadata": {
+              "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+              "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+              "page": 7,
+              "section": [
+                "6",
+                "6.2",
+                "6.2.4"
+              ],
+              "topic": [
+                "operation"
+              ],
+              "equipment_model": [],
+              "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+              "start_char": 3319,
+              "end_char": 3699,
+              "text_sha256": "c776553f3e20d6ec1979adb7b1d103fc846e965195f384a503cb24130c39d223",
+              "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+              "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+              "strategy": "B",
+              "chunking": {
+                "max_size": 700,
+                "overlap": 0,
+                "version": 1
+              },
+              "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+              "gold_evidence_manual_review_required": true,
+              "manual_review_reasons": [
+                "table_cells_units_headers_and_model_scope_require_visual_verification",
+                "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+                "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+              ]
+            },
+            "score": 0.028991596638655463,
+            "strategy": "hybrid_rrf",
+            "component_ranks": {
+              "dense": 10,
+              "bm25": 8
+            },
+            "component_scores": {
+              "dense": 0.3100518810687207,
+              "bm25": 8.63661997904649
+            }
+          }
+        ],
+        "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.\n\n[69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.5\nTo operate the system (WITH cool/heat\nchangeover remote control switch)\nOverview of the changeover remote control switch\na\nb\na\nFAN ONLY/AIR CONDITIONING\nSELECTOR SWITCH\nSet the switch to \n for fan only\noperation or to \n for heating or\ncooling operation.\nb\nCOOL/HEAT CHANGEOVER SWITCH\nSet the switch to \n for cooling or to \nfor heating\nNote: In case a cool/heat changeover remote control switch is used,\nthe position of DIP switch 1 (DS1-1) on the main PCB needs to be\nswitched to the ON position.\nTo start\n1\nSelect operation mode with the cool/heat changeover switch as\nfollows:\nCooling operation\nHeating operation\nFan only operation\n \n11\n1\n \n1\n1\n1\n1\n\n[e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.4\nTo operate the system (WITHOUT cool/\nheat changeover remote control switch)\n1\nPress the operation mode selector button on the user interface\nseveral times and select the operation mode of your choice.\nCooling operation\nHeating operation\nFan only operation\n2\nPress the ON/OFF button on the user interface.\nResult: The operation lamp lights up and the system starts\noperating.",
+        "context_ids": [
+          "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+          "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+          "e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5"
+        ],
+        "elapsed_ms": 99.77690000050643
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "event": "model_call",
+        "requested_model": "gpt-4.1-mini",
+        "actual_model": "gpt-4.1-mini-2025-04-14",
+        "response_id": "resp_09f34eca12afd18c016afa8c666fcc87d2846a03cdafa8f60a",
+        "request_id": "req_2d0ce868093a4661b2fc0346ff14ffb3",
+        "status": "completed",
+        "input": [
+          {
+            "role": "user",
+            "content": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?"
+          }
+        ],
+        "tool_choice": {
+          "type": "function",
+          "name": "search"
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"section 6.2.1 main power switch operation time\"}",
+            "call_id": "call_aPfFwicL4BAxAf2fkCMmbymG",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_09f34eca12afd18c016afa8c6792a887d2bda61f020140a97b",
+            "status": "completed"
+          }
+        ],
+        "usage": {
+          "input_tokens": 654,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 17,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 671
+        },
+        "elapsed_ms": 5553.301799998735
+      },
+      {
+        "event": "model_call",
+        "requested_model": "gpt-4.1-mini",
+        "actual_model": "gpt-4.1-mini-2025-04-14",
+        "response_id": "resp_094b08e960b14517016afa8c68d7d087d295b7e3a89e942a18",
+        "request_id": "req_2f770c46be08492583fe31d9d5666878",
+        "status": "completed",
+        "input": [
+          {
+            "role": "user",
+            "content": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?"
+          },
+          {
+            "type": "function_call",
+            "name": "search",
+            "arguments": "{\"query\":\"section 6.2.1 main power switch operation time\"}",
+            "call_id": "call_aPfFwicL4BAxAf2fkCMmbymG"
+          },
+          {
+            "type": "function_call_output",
+            "call_id": "call_aPfFwicL4BAxAf2fkCMmbymG",
+            "output": "{\"tool\": \"search\", \"queries\": [\"section 6.2.1 main power switch operation time\"], \"remaining_searches\": 1, \"context\": \"[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6.2.1\\nAbout operating the system\\n▪Operation procedure varies according to the combination of\\noutdoor unit and user interface.\\n▪To protect the unit, turn on the main power switch 6 hours before\\noperation.\\n▪If the main power supply is turned off during operation, operation\\nwill restart automatically after the power turns back on again.\\n\\n[69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6.2.5\\nTo operate the system (WITH cool/heat\\nchangeover remote control switch)\\nOverview of the changeover remote control switch\\na\\nb\\na\\nFAN ONLY/AIR CONDITIONING\\nSELECTOR SWITCH\\nSet the switch to \\n for fan only\\noperation or to \\n for heating or\\ncooling operation.\\nb\\nCOOL/HEAT CHANGEOVER SWITCH\\nSet the switch to \\n for cooling or to \\nfor heating\\nNote: In case a cool/heat changeover remote control switch is used,\\nthe position of DIP switch 1 (DS1-1) on the main PCB needs to be\\nswitched to the ON position.\\nTo start\\n1\\nSelect operation mode with the cool/heat changeover switch as\\nfollows:\\nCooling operation\\nHeating operation\\nFan only operation\\n \\n11\\n1\\n \\n1\\n1\\n1\\n1\\n\\n[e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6.2.4\\nTo operate the system (WITHOUT cool/\\nheat changeover remote control switch)\\n1\\nPress the operation mode selector button on the user interface\\nseveral times and select the operation mode of your choice.\\nCooling operation\\nHeating operation\\nFan only operation\\n2\\nPress the ON/OFF button on the user interface.\\nResult: The operation lamp lights up and the system starts\\noperating.\", \"context_ids\": [\"a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9\", \"69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97\", \"e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5\"]}"
+          }
+        ],
+        "tool_choice": "required",
+        "output": [
+          {
+            "arguments": "{\"status\":\"answered\",\"answer\":\"To protect the unit, turn on the main power switch 6 hours before operation. [a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9]\",\"citations\":[\"a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9\"]}",
+            "call_id": "call_CZerzhWAYrZUT6VWaZdsnyUf",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_094b08e960b14517016afa8c698f6c87d2a39dc1f9e2243c94",
+            "status": "completed"
+          }
+        ],
+        "usage": {
+          "input_tokens": 1399,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 121,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1520
+        },
+        "elapsed_ms": 1726.7671999998129
+      }
+    ],
+    "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.\n\n[69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.5\nTo operate the system (WITH cool/heat\nchangeover remote control switch)\nOverview of the changeover remote control switch\na\nb\na\nFAN ONLY/AIR CONDITIONING\nSELECTOR SWITCH\nSet the switch to \n for fan only\noperation or to \n for heating or\ncooling operation.\nb\nCOOL/HEAT CHANGEOVER SWITCH\nSet the switch to \n for cooling or to \nfor heating\nNote: In case a cool/heat changeover remote control switch is used,\nthe position of DIP switch 1 (DS1-1) on the main PCB needs to be\nswitched to the ON position.\nTo start\n1\nSelect operation mode with the cool/heat changeover switch as\nfollows:\nCooling operation\nHeating operation\nFan only operation\n \n11\n1\n \n1\n1\n1\n1\n\n[e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.4\nTo operate the system (WITHOUT cool/\nheat changeover remote control switch)\n1\nPress the operation mode selector button on the user interface\nseveral times and select the operation mode of your choice.\nCooling operation\nHeating operation\nFan only operation\n2\nPress the ON/OFF button on the user interface.\nResult: The operation lamp lights up and the system starts\noperating.",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+      "e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5"
+    ],
+    "context_chars": 1753,
+    "search_queries": [
+      "section 6.2.1 main power switch operation time"
+    ],
+    "model": "gpt-4.1-mini",
+    "budget_chars": 2400,
+    "max_searches": 2,
+    "top_k": 3,
+    "elapsed_ms": 7383.173500000339,
+    "usage_missing_calls": 0,
+    "usage": {
+      "input_tokens": 2053,
+      "output_tokens": 138,
+      "cached_input_tokens": 0
+    },
+    "query_id": "q01",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "split": "dev"
+  }
+]

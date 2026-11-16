@@ -1,0 +1,98 @@
+[
+  {
+    "query_id": "q_unans_test_01",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": "not_applicable",
+    "reason": "Correct explicit model abstention after3 searches. The corpus discusses oil leakage/refrigerant handling but does not supply approved compressor oil type/viscosity grade. Final output makes no unsupported technical assertion; absence assessment also uses pre-frozen full-corpus audit, not top-k absence alone.",
+    "abstention_correct": true,
+    "context_ids": [
+      "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": "not_applicable",
+    "reason": "Correct explicit model abstention after3 searches. PCB/inverter troubleshooting text does not specify manufacturer IGBT part number or maximum switching frequency. Final output makes no unsupported technical assertion; absence assessment also uses pre-frozen full-corpus audit, not top-k absence alone.",
+    "abstention_correct": true,
+    "context_ids": [
+      "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  },
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page4 explicitly forbids phase-advancing capacitor because of inverter, reduced performance and accidents. Both final claims are correct, inline IDs synchronize and source supports all reasons.",
+    "answer_grade": 2,
+    "context_ids": [
+      "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page13 contains exact abnormal-vibration/noise warning when transportation stay remains attached. Proposed claim is supported. Final output is abstention because the unchanged validator cannot isolate the sentence from NOTICE/layout; grade0, not promoted by manual support review. Baseline cites section11.5 on the same physical page with the identical warning; registration matches source/page/quote, and the symptom wording is equivalent, but the section anchor differs. This is recorded as a source-scope limitation, not hidden. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page21 gives all three soap-water risks: cracking, salt/moisture freezing, ammonia corrosion. All three accepted selected claims preserve causal/conditional detail and cite the same correct context chunk. Baseline has full evidence and semantically supported proposals, but omits the preceding NEVER-use-soap prohibition from claim1, which the deterministic sentence guard treats as unsupported. Final abstention grade0. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+      "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 0,
+    "reason": "Page30 section15.5 gives2-core cable and0.75 to1.25mm2 plus double insulation. Selected proposal has the correct values/source, but validator rejects a source sentence containing extra numeric/table data. Final abstention remains grade0. Baseline final context contains general wiring/field-setting headings/instructions, not the requested values/height conditions; context0. Model abstains, but this remains false abstention on a corpus-answerable case. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+      "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 0,
+    "reason": "Page35 requires highest outdoor position and lowest indoor-to-outdoor height difference>50m for setting[2-49]=1. Selected proposal contains both conditions and correct source ID; format gate rejects the legitimate setting brackets inside claim text before grounding. Final abstention grade0. No post-TEST fix. Baseline final context contains general wiring/field-setting headings/instructions, not the requested values/height conditions; context0. Model abstains, but this remains false abstention on a corpus-answerable case. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+      "ecc9151779e70d8f66ba5c21c550065805af72bb23b3b2ace738827e6ab85cfd"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  }
+]

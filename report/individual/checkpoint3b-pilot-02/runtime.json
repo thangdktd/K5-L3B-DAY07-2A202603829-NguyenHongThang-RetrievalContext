@@ -1,0 +1,56 @@
+{
+  "status": "stopped_on_error",
+  "requested_model": "gpt-4.1-mini",
+  "split": "dev",
+  "pilot": true,
+  "selected_case_ids": [
+    "q01",
+    "q12",
+    "q_unans_dev_01"
+  ],
+  "test_queries_run": 0,
+  "config": {
+    "max_searches": 3,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "dedup": "chunk_id",
+    "packing": "newest search first, full chunks; source_id/page/id header",
+    "rrf_k": 60,
+    "candidate_k_per_branch": 20,
+    "temperature": 0,
+    "max_output_tokens": 600,
+    "provider_timeout_seconds": 45,
+    "provider_retries": 0
+  },
+  "benchmark_manifest_sha256": "6db1bd0ede4ee75cc54ae62fc9ae2b83b90907ceebd38b01b64b4630b75c1767",
+  "model_fingerprint": "7a729edee62a3c201eda95b4160f1429c1616adfb827e03539a8c035b60266de",
+  "database_read_only": true,
+  "implementation_sha256": {
+    "src/openai_agent.py": "ea1ff470336fdc5ee10534332ef9ab7c2beead8b350fa56ea7bb12dcb5fe0d37",
+    "src/run_agent_dev.py": "d9249887c3382726fbc8c0c4c45b6f37511c53ef6f5977371810f8364ce0edd6"
+  },
+  "review_status": "pending direct review of answers against cited context; ID matching alone is not grounding",
+  "cost_usd": null,
+  "cost_note": "Compute from actual model usage and verified pricing; not an invoice",
+  "database_unchanged": true,
+  "database_before_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "database_after_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "completed_cases": 1,
+  "not_run_case_ids": [
+    "q12",
+    "q_unans_dev_01"
+  ],
+  "elapsed_seconds": 42.601558500000465,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0
+  },
+  "search_count_distribution": {
+    "0": 1
+  },
+  "actual_models": [],
+  "api_requests": 1,
+  "successful_api_responses": 0,
+  "usage_missing_calls": 0
+}

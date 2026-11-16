@@ -1,0 +1,410 @@
+{
+  "method": "full-corpus term inventory plus review of related chunks; keyword absence is not proof of semantic absence",
+  "corpus_chunks_scanned": 292,
+  "cases": [
+    {
+      "case_id": "q_unans_dev_01",
+      "split": "dev",
+      "terms": {
+        "R32": [],
+        "retrofit": [],
+        "R410A": [
+          "1df97f917409589394e587dca16079d4d12cbc2e866f07dc7d131e2cd9b40f8f",
+          "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+          "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "f8b2550881624bdd4cd697657df69efd95afe4bf7a01408b7f65981390fa0321",
+          "4e26ab9982405b2b188cabb9f961c17608345c4e84e547054cc99d618989f3df",
+          "240e5ce7feeec0d080d1d7f0e0ccb81a4aa087cf39325f7b28de81aca3437419",
+          "5733e0ca74bb133b8fcc7c807bc309ea93803fbfb22538ab8cf2b0f605a86643",
+          "8baa037933b959a0da2535510fcabf0545278511bdc9bc22bceda241e82ea4c7",
+          "4bc1d3053e2fff65a1d61a1c491209678a7670630b8e29d6239a637b7458173f",
+          "301d9960c192dd8978e1f21579adff9ca7d797debc47ec007a218bc33bd1ff51",
+          "35b4a35a81cee5e4f6f8af88fdffda866e17f5c7bba7a3802b0e4f5d0da0eb60",
+          "0bac13625fb3d9b453d4fc0d7d71fa85951d8c75fc20f126c9d024969c6361e5",
+          "45571a4bbd9aba556907ca2a6a1c46d2f4dc38daae6926e8d2471af20d0749ae",
+          "5057b6d4de4f3e2258d29ac5a2380a33934338751ce384b68d795d3320ae87e0"
+        ]
+      },
+      "related_chunks": [
+        {
+          "id": "1df97f917409589394e587dca16079d4d12cbc2e866f07dc7d131e2cd9b40f8f",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 4,
+          "text": "3 User safety instructions\nInstallation and operation manual\n4\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nCAUTION\nDo NOT vent gases into the atmosphere.\nWARNING\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\nIf these instructions are NOT followed correctly it may\nresult in property damage or personal injury, which may be\nserious depending on the circumstances.\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\nWARNING\n▪ONLY use R410A as refrigerant. Other substances\nmay cause explosions and accidents.\n▪R410A contains fluorinated greenhouse gases. Its"
+        },
+        {
+          "id": "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 9,
+          "text": "7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does"
+        },
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material"
+        },
+        {
+          "id": "f8b2550881624bdd4cd697657df69efd95afe4bf7a01408b7f65981390fa0321",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 17,
+          "text": "Size up\nHP class\nLiquid piping outer diameter size (mm)\n5~8\n9.5 → 12.7\n10\n12+14\n12.7 → 15.9\n16\n18~22\n15.9 → 19.1\n24\n26~34\n19.1 → 22.2\n36~54\n▪The pipe thickness of the refrigerant piping shall comply with the\napplicable legislation. The minimal pipe thickness for R410A\npiping must be in accordance with the table below.\nPipe Ø (mm)\nMinimal thickness t (mm)\n6.4/9.5/12.7\n0.80\n15.9\n0.99\n19.1/22.2\n0.80\n28.6\n0.99\n34.9\n1.21\n41.3\n1.43\n▪In case the required pipe sizes (inch sizes) are not available, it is\nalso allowed to use other diameters (mm sizes), taken the\nfollowing into account:\n▪Select the pipe size nearest to the required size.\n▪Use the suitable adapters for the changeover from inch to mm"
+        },
+        {
+          "id": "4e26ab9982405b2b188cabb9f961c17608345c4e84e547054cc99d618989f3df",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 17,
+          "text": "Reducers or T-joints are field supplied.\nNOTICE\nRefrigerant branch kits can only be used with R410A."
+        },
+        {
+          "id": "240e5ce7feeec0d080d1d7f0e0ccb81a4aa087cf39325f7b28de81aca3437419",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 19,
+          "text": "14 Piping installation\nInstallation and operation manual\n19\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\np<\np>\nR410A\nN2\nb\nc\ne\na\nf\ng\nh\nd\nA\nC\nD\nB\na\nPressure reducing valve\nb\nNitrogen\nc\nWeighing scales\nd\nRefrigerant R410A tank (siphon system)\ne\nVacuum pump\nf\nLiquid line stop valve\ng\nGas line stop valve\nh\nHigh pressure/low pressure gas line stop valve\nA\nValve A\nB\nValve B\nC\nValve C\nD\nValve D\n3\nRecover gas and oil from the pinched piping by using a\nrecovery unit.\nCAUTION\nDo NOT vent gases into the atmosphere.\n4\nWhen all gas and oil is recovered from the pinched piping,\ndisconnect the charge hose and close the service ports."
+        },
+        {
+          "id": "5733e0ca74bb133b8fcc7c807bc309ea93803fbfb22538ab8cf2b0f605a86643",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 21,
+          "text": "14.3.3\nChecking refrigerant piping: Setup\np<\np>\nR410A\nN2\nC\nD\nb\nc\ne\na\ngh\nf\nd\nA\nB\na\nPressure reducing valve\nb\nNitrogen\nc\nWeighing scales\nd\nRefrigerant R410A tank (siphon system)\ne\nVacuum pump\nf\nLiquid line stop valve\ng\nGas line stop valve\nh\nHigh pressure/low pressure gas line stop valve\nA\nValve A\nB\nValve B\nC\nValve C\nD\nValve D\nValve\nStatus\nValve A\nOpen\nValve B\nOpen\nValve\nStatus\nValve C\nOpen\nValve D\nOpen\nLiquid line stop valve\nClose\nGas line stop valve\nClose\nHigh pressure/low pressure gas line stop valve\nClose\nNOTICE\nThe connections to the indoor units and all indoor units\nshould also be leak and vacuum tested. Keep any possible\n(field supplied) field piping valves open as well."
+        },
+        {
+          "id": "8baa037933b959a0da2535510fcabf0545278511bdc9bc22bceda241e82ea4c7",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 22,
+          "text": "14.4.1\nPrecautions when charging refrigerant\nWARNING\n▪ONLY use R410A as refrigerant. Other substances\nmay cause explosions and accidents.\n▪R410A contains fluorinated greenhouse gases. Its\nglobal warming potential (GWP) value is 2087.5. Do\nNOT vent these gases into the atmosphere.\n▪When charging refrigerant, ALWAYS use protective\ngloves and safety glasses.\nNOTICE\nIf the power of some units is turned off, the charging\nprocedure cannot be finished properly.\nNOTICE\nIn case of a multiple outdoor system, turn on the power of\nall outdoor units.\nNOTICE\nTurn ON the power 6 hours before operation in order to\nhave power running to the crankcase heater and to protect\nthe compressor.\nNOTICE"
+        },
+        {
+          "id": "4bc1d3053e2fff65a1d61a1c491209678a7670630b8e29d6239a637b7458173f",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 24,
+          "text": "Continued on next page >>\np<\np>\nR410A\nN2\nC\nD\nA\nB"
+        },
+        {
+          "id": "301d9960c192dd8978e1f21579adff9ca7d797debc47ec007a218bc33bd1ff51",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 25,
+          "text": "• Close valve A\n• Push BS3 to stop manual charging\n• Charging is finished\n• Fill in the amount on the additional refrigerant charge label\n• Input the additional refrigerant amount via setting [2-14]\n• Go to test run\nStep 5\n• Connect valve A to the refrigerant charge port (d)\n• Open all outdoor unit stop valves\nR>Q\nAutomatic charge\nManual charge\nContinued on next page >>\n<< Continuation of previous page\np<\np>\nR410A\nd\nA"
+        },
+        {
+          "id": "35b4a35a81cee5e4f6f8af88fdffda866e17f5c7bba7a3802b0e4f5d0da0eb60",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 27,
+          "text": "14 Piping installation\nInstallation and operation manual\n27\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\np<\np>\nR410A\nN2\nC\nD\nb\nc\ne\na\ngh\nf\nd\nA\nB\na\nPressure reducing valve\nb\nNitrogen\nc\nWeighing scales\nd\nRefrigerant R410A tank (siphon system)\ne\nVacuum pump\nf\nLiquid line stop valve\ng\nGas line stop valve\nh\nHigh pressure/low pressure gas line stop valve\nA\nValve A\nB\nValve B\nC\nValve C\nD\nValve D\n4\nDo one of the following:\nIf\nThen\n4a\nThe calculated additional\nrefrigerant amount is reached\nby above pre-charging\nprocedure\nClose valve B and disconnect\nthe manifold from the liquid\nline.\n4b\nThe total amount of\nrefrigerant could not be\ncharged by pre-charging"
+        },
+        {
+          "id": "0bac13625fb3d9b453d4fc0d7d71fa85951d8c75fc20f126c9d024969c6361e5",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 27,
+          "text": "5\nAfter pre-charging, connect valve A to the refrigerant charge\nport and charge the remaining additional refrigerant through this\nport. Open all outdoor unit stop valves. At this point, valve A\nmust remain closed!\np<\np>\nR410A\na\nc\nd\nb\nA\na\nWeighing scales\nb\nRefrigerant R410A tank (siphon system)\nc\nVacuum pump\nd\nRefrigerant charge port\nA\nValve A\nINFORMATION\nFor a multi outdoor unit system, it is not required to\nconnect all charge ports to a refrigerant tank.\nThe refrigerant will be charged with ±22 kg in 1 hour time\nat an outdoor temperature of 30°C DB or with ±6 kg at an\noutdoor temperature of 0°C DB."
+        },
+        {
+          "id": "45571a4bbd9aba556907ca2a6a1c46d2f4dc38daae6926e8d2471af20d0749ae",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 40,
+          "text": "Faulty wiring to Q1/Q2 or indoor -\noutdoor\nCheck (Q1/Q2) wiring.\nIndoor unit communication error\nCheck user interface connection.\n, \nMalfunction code: faulty wiring to Q1/Q2 Check Q1/Q2wiring.\nToo many indoor units are connected to\nF1/F2 line\nCheck indoor unit amount and total\ncapacity connected.\nSystem mismatch. Wrong type of indoor\nunits combined (R410A, R407C,\nHydrobox, etc)\nIndoor unit malfunction\nCheck if other indoor units have\nmalfunction and confirm indoor unit mix\nis allowed."
+        },
+        {
+          "id": "5057b6d4de4f3e2258d29ac5a2380a33934338751ce384b68d795d3320ae87e0",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 41,
+          "text": "20 Technical data\nInstallation and operation manual\n41\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nMain code\nSub code\nCause\nSolution\nMaster\nSlave 1\nSlave 2\nConnection malfunction over indoor\nunits or type mismatch (R410A, R407C,\nHydrobox, etc)\nCheck if other indoor units have\nmalfunction and confirm indoor unit mix\nis allowed.\nConnection malfunction over indoor\nunits or type mismatch (R410A, R407C,\nHydrobox, etc)\nCheck if other indoor units have\nmalfunction and confirm indoor unit mix\nis allowed.\nWrong unit combination (multi system)\nCheck if unit types are compatible.\nWrong outdoor unit connected\nDisconnect the outdoor unit.\nNo BS unit connected\nConnect a BS unit."
+        }
+      ],
+      "review_conclusion": "The Daikin VRV IV+ (REYQ8~20+REMQ5U7Y1B) manual strictly mandates R410A only (page 4 warns against using any other substance) and does not provide any retrofit procedure or calculation formulas for R32 refrigerant.",
+      "review_scope": "Related extracted chunks reviewed; no complete answer identified. No external manuals inspected; extraction may omit visual information."
+    },
+    {
+      "case_id": "q_unans_dev_02",
+      "split": "dev",
+      "terms": {
+        "sound pressure": [],
+        "sound power": [],
+        "dBA": [],
+        "decibel": [],
+        "noise": [
+          "f271a7752e0487dd01a137af24b81e791eafcf113312e2771ae2127022ae2d85",
+          "136cab77ad81296acbdb5ce806fd67bbf2b2b5797e16e7fb88cd783bd0c017cc",
+          "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "1f73de7e9b27d91ae62928751079da26fe58afd0a270d74eaf301e039a0b9c91",
+          "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "507c44bac02e4d6209e36e78856c32db4db9285b234178dd2936488f81c163a0",
+          "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+          "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+          "d734ff9ba377557ff6b3bfecd6c6427e0cbd77e24777d57fe1a394bd8ce20c2e",
+          "f31cadca7dc20cea85b4aa265afd006028335ad1d5777869b21f94cebee25059",
+          "2a3755b21c69d5bcaeade0cc6f07fd18daec09696a5a17bff25eae50844265da"
+        ],
+        "sound": [
+          "136cab77ad81296acbdb5ce806fd67bbf2b2b5797e16e7fb88cd783bd0c017cc",
+          "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db"
+        ]
+      },
+      "related_chunks": [
+        {
+          "id": "f271a7752e0487dd01a137af24b81e791eafcf113312e2771ae2127022ae2d85",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 11,
+          "text": "8.2.8\nSymptom: The user interface reads \"U4\"\nor \"U5\" and stops, but then restarts after a\nfew minutes\nThis is because the user interface is intercepting noise from electric\nappliances other than the air conditioner. The noise prevents\ncommunication between the units, causing them to stop. Operation\nautomatically restarts when the noise ceases. A power reset may\nhelp to remove this error."
+        },
+        {
+          "id": "136cab77ad81296acbdb5ce806fd67bbf2b2b5797e16e7fb88cd783bd0c017cc",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 11,
+          "text": "8.2.9\nSymptom: Noise of air conditioners\n(Indoor unit)\n▪A \"zeen\" sound is heard immediately after the power supply is\nturned on. The electronic expansion valve inside an indoor unit\nstarts working and makes the noise. Its volume will reduce in\nabout one minute."
+        },
+        {
+          "id": "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "9 Relocation\nInstallation and operation manual\n12\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪A continuous low \"shah\" sound is heard when the system is in\ncooling operation or at a stop. When the drain pump (optional\naccessories) is in operation, this noise is heard.\n▪A \"pishi-pishi\" squeaking sound is heard when the system stops\nafter heating operation. Expansion and contraction of plastic parts\ncaused by temperature change make this noise.\n▪A low \"sah\", \"choro-choro\" sound is heard while the indoor unit is"
+        },
+        {
+          "id": "1f73de7e9b27d91ae62928751079da26fe58afd0a270d74eaf301e039a0b9c91",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "stopped. When another indoor unit is in operation, this noise is\nheard. In order to prevent oil and refrigerant from remaining in the\nsystem, a small amount of refrigerant is kept flowing."
+        },
+        {
+          "id": "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change."
+        },
+        {
+          "id": "507c44bac02e4d6209e36e78856c32db4db9285b234178dd2936488f81c163a0",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "8.2.11\nSymptom: Noise of air conditioners\n(Outdoor unit)\nWhen the tone of operating noise changes. This noise is caused by\nthe change of frequency."
+        },
+        {
+          "id": "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 13,
+          "text": "11.4\nTo remove the transportation stay\n(only for 14+16 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n1\n3\n2\n1\n3 \n3 \n2\n(x2)\n(×2)\n1\n2\n1\n2\na\nb\na\n(12.3 N·m)"
+        },
+        {
+          "id": "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 13,
+          "text": "11.5\nTo remove the transportation stay\n(only for 18+20 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n4\nSlightly loosen the bolt (c).\n5\nRemove the bolt (d) of the transportation stay (e).\n6\nRemove the transportation stay (e) as shown in the figure\nbelow.\n7\nTighten the bolt (c) again.\n(12.3 N·m)\n(12.3 N·m)\n1\n4\n2\n5\n3\n6\n7\na\nb\nd e\nc"
+        },
+        {
+          "id": "d734ff9ba377557ff6b3bfecd6c6427e0cbd77e24777d57fe1a394bd8ce20c2e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 15,
+          "text": "13.3.1\nTo provide the installation structure\nMake sure the unit is installed level on a sufficiently strong base to\nprevent vibration and noise.\nNOTICE\n▪When the installation height of the unit needs to be\nincreased, do NOT use stands to only support the\ncorners.\n▪Stands under the unit must be at least 100 mm wide.\nNOTICE\n▪When the installation height of the unit needs to be\nincreased, do NOT use stands to only support the\ncorners.\n▪Stands under the unit must be at least 3.94\" (100 mm)\nwide.\nNOTICE"
+        },
+        {
+          "id": "f31cadca7dc20cea85b4aa265afd006028335ad1d5777869b21f94cebee25059",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 32,
+          "text": "16.1.1\nAbout making field settings\nTo continue the configuration of the VRV IV heat recovery system, it\nis required to give some input to the PCB of the unit. This chapter\nwill describe how manual input is possible by operating the push\nbuttons on the PCB and reading the feedback from the 7‑segment\ndisplays.\nMaking settings is done via the master outdoor unit.\nNext to making field settings it is also possible to confirm the current\noperation parameters of the unit.\nPush buttons\nPerforming special actions (automatic refrigerant charge, test run,\netc.) and making field settings (demand operation, low noise, etc.)\nhappens by way of operating the push buttons.\nSee also:"
+        },
+        {
+          "id": "2a3755b21c69d5bcaeade0cc6f07fd18daec09696a5a17bff25eae50844265da",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 34,
+          "text": "16.1.7\nMode 1: monitoring settings\n[1‑0]\nShows whether the unit you check is a master, slave 1 or slave 2\nunit.\nThe master unit should be used to input field settings in\nmode 2.\n[1‑0]\nDescription\nNo indication\nUndefined situation.\n0\nOutdoor unit is master unit.\n1\nOutdoor unit is slave 1 unit.\n2\nOutdoor unit is slave 2 unit.\n[1‑1]\nShows the status of low noise operation.\n[1‑1]\nDescription\n0\nUnit is currently not operating under low noise\nrestrictions.\n1\nUnit is currently operating under low noise\nrestrictions.\n[1‑2]\nShows the status of power consumption limitation operation.\n[1‑2]\nDescription\n0\nUnit is currently not operating under power\nconsumption limitations."
+        },
+        {
+          "id": "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 37,
+          "text": "▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions."
+        }
+      ],
+      "review_conclusion": "The manual describes qualitative acoustic symptoms (such as clicking sounds, gas flowing sounds, and tone changes in Section 8), but does not publish quantitative rated sound pressure levels (dBA) or sound power spectrum curves for any unit model.",
+      "review_scope": "Related extracted chunks reviewed; no complete answer identified. No external manuals inspected; extraction may omit visual information."
+    },
+    {
+      "case_id": "q_unans_test_01",
+      "split": "test",
+      "terms": {
+        "oil": [
+          "1df97f917409589394e587dca16079d4d12cbc2e866f07dc7d131e2cd9b40f8f",
+          "2626260abb142a4d0e6e7ee4cd1fbed8d41ced289d0e8046340dacf14abe23a1",
+          "1f73de7e9b27d91ae62928751079da26fe58afd0a270d74eaf301e039a0b9c91",
+          "47be61b2766fa7fe8963e52457913496fb04fc77e39ef60691014a882c59b224",
+          "3fde69a5214a907ec0f332a398f3d68b95f366ccdd3e0bd29c7fa1d0c3df655c",
+          "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+          "eb7f60d544c40e106ee63234e4540cce8de3012e1dfb630bdc6cfb3c67d7f2c4",
+          "240e5ce7feeec0d080d1d7f0e0ccb81a4aa087cf39325f7b28de81aca3437419",
+          "b6751ce90060b0b1141bd52643982d9904fc1a37b8f462312ee56bf4755f2688",
+          "b2bed53b7289487b3bd0781cd31ba92e2fc6e33edd8a1826df4583592f52414a",
+          "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+        ],
+        "viscosity": [],
+        "Daphne": [],
+        "FVC68": [],
+        "lubricant": []
+      },
+      "related_chunks": [
+        {
+          "id": "1df97f917409589394e587dca16079d4d12cbc2e866f07dc7d131e2cd9b40f8f",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 4,
+          "text": "3 User safety instructions\nInstallation and operation manual\n4\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nCAUTION\nDo NOT vent gases into the atmosphere.\nWARNING\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\nIf these instructions are NOT followed correctly it may\nresult in property damage or personal injury, which may be\nserious depending on the circumstances.\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\nWARNING\n▪ONLY use R410A as refrigerant. Other substances\nmay cause explosions and accidents.\n▪R410A contains fluorinated greenhouse gases. Its"
+        },
+        {
+          "id": "2626260abb142a4d0e6e7ee4cd1fbed8d41ced289d0e8046340dacf14abe23a1",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 5,
+          "text": "This means that electrical and electronic products may NOT be\nmixed with unsorted household waste. Do NOT try to dismantle\nthe system yourself: dismantling the system, treatment of the\nrefrigerant, of oil and of other parts MUST be done by an\nauthorised installer and MUST comply with applicable legislation.\nUnits MUST be treated at a specialised treatment facility for reuse,\nrecycling and recovery. By ensuring this product is disposed of\ncorrectly, you will help to prevent potential negative consequences\nfor the environment and human health. For more information,\ncontact your installer or local authority.\n▪Batteries are marked with the following symbol:"
+        },
+        {
+          "id": "1f73de7e9b27d91ae62928751079da26fe58afd0a270d74eaf301e039a0b9c91",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "stopped. When another indoor unit is in operation, this noise is\nheard. In order to prevent oil and refrigerant from remaining in the\nsystem, a small amount of refrigerant is kept flowing."
+        },
+        {
+          "id": "47be61b2766fa7fe8963e52457913496fb04fc77e39ef60691014a882c59b224",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 12,
+          "text": "10\nDisposal\nThis unit uses hydrofluorocarbon. Contact your dealer when\ndiscarding this unit. It is required by law to collect, transport and\ndiscard the refrigerant in accordance with the \"hydrofluorocarbon\ncollection and destruction\" regulations.\nNOTICE\nDo NOT try to dismantle the system yourself: dismantling\nof the system, treatment of the refrigerant, oil and other\nparts MUST comply with applicable legislation. Units\nMUST be treated at a specialised treatment facility for\nreuse, recycling and recovery.\nFor the installer"
+        },
+        {
+          "id": "3fde69a5214a907ec0f332a398f3d68b95f366ccdd3e0bd29c7fa1d0c3df655c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 17,
+          "text": "14.1.4\nMultiple outdoor units: Possible layouts\n▪The piping between the outdoor units must be routed level or\nslightly upward to avoid the risk of oil retention into the piping.\nPattern 1\na\nb\nb\na\nPattern 2\nb\na\na\nb\na\nb\nb\na\na\nTo indoor unit\nb\nPiping between outdoor units\nNOT allowed (oil remains in piping)\nAllowed\n▪To avoid the risk of oil retention to the outmost outdoor unit,\nalways connect the stop valve and the piping between outdoor\nunits as shown in the correct (\n) possibilities of the figure below."
+        },
+        {
+          "id": "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 18,
+          "text": "14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE"
+        },
+        {
+          "id": "eb7f60d544c40e106ee63234e4540cce8de3012e1dfb630bdc6cfb3c67d7f2c4",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 18,
+          "text": "14.2.3\nTo remove the pinched pipes\nWARNING\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\nFailure to observe the instructions in procedure below\nproperly may result in property damage or personal injury,\nwhich may be serious depending on the circumstances.\nUse the following procedure to remove the pinched piping:\n1\nMake sure that the stop valves are fully closed.\n2\nConnect the vacuuming/recovery unit through a manifold to the\nservice port of all stop valves."
+        },
+        {
+          "id": "240e5ce7feeec0d080d1d7f0e0ccb81a4aa087cf39325f7b28de81aca3437419",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 19,
+          "text": "14 Piping installation\nInstallation and operation manual\n19\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\np<\np>\nR410A\nN2\nb\nc\ne\na\nf\ng\nh\nd\nA\nC\nD\nB\na\nPressure reducing valve\nb\nNitrogen\nc\nWeighing scales\nd\nRefrigerant R410A tank (siphon system)\ne\nVacuum pump\nf\nLiquid line stop valve\ng\nGas line stop valve\nh\nHigh pressure/low pressure gas line stop valve\nA\nValve A\nB\nValve B\nC\nValve C\nD\nValve D\n3\nRecover gas and oil from the pinched piping by using a\nrecovery unit.\nCAUTION\nDo NOT vent gases into the atmosphere.\n4\nWhen all gas and oil is recovered from the pinched piping,\ndisconnect the charge hose and close the service ports."
+        },
+        {
+          "id": "b6751ce90060b0b1141bd52643982d9904fc1a37b8f462312ee56bf4755f2688",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 19,
+          "text": "5\nCut off the lower part of the liquid-, gas-, and high pressure/low\npressure gas stop valve pipes along the black line. Use an\nappropriate tool (e.g. a pipe cutter).\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\n6\nWait until all oil has dripped out before continuing with the\nconnection of the field piping in case the recovery was not\ncomplete."
+        },
+        {
+          "id": "b2bed53b7289487b3bd0781cd31ba92e2fc6e33edd8a1826df4583592f52414a",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 21,
+          "text": "14.3.2\nChecking refrigerant piping: General\nguidelines\nConnect the vacuum pump through a manifold to the service port of\nall stop valves to increase efficiency (refer to \"14.3.3  Checking\nrefrigerant piping: Setup\" [4 21]).\nNOTICE\nUse a 2-stage vacuum pump with a non-return valve or a\nsolenoid valve that can evacuate to a gauge pressure of\n–⁠100.7 kPa (−⁠1.007 bar).\nNOTICE\nMake sure the pump oil does not flow oppositely into the\nsystem while the pump is not working.\nNOTICE\nDo NOT purge the air with refrigerants. Use a vacuum\npump to evacuate the installation."
+        },
+        {
+          "id": "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 37,
+          "text": "18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet"
+        }
+      ],
+      "review_conclusion": "While the manual mentions oil recovery operation and warns of oil blowing from stop valves, no approved compressor oil type or viscosity grade was identified in this corpus; this makes no claim about other manuals.",
+      "review_scope": "Related extracted chunks reviewed; no complete answer identified. No external manuals inspected; extraction may omit visual information."
+    },
+    {
+      "case_id": "q_unans_test_02",
+      "split": "test",
+      "terms": {
+        "IGBT": [],
+        "switching frequency": [],
+        "A1P": [
+          "c6bc85a3461d2b7fbcd303b678b1e0f16b899869e4a45fdea34d3a85010cfa55",
+          "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+          "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3",
+          "0a8b7b7fa7926b3b07d65ce76adb969a28ba348cf50161d2e4caed279a6f7753",
+          "4f56f13c9bcc40c9b1a4084ac0827022abeeae6952dec49be48d9428e9f30bfb",
+          "2c3b8ea56633b74af237599f3eabc970c8d03656ca88e2192cf2852760d0e45e"
+        ],
+        "inverter": [
+          "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+          "c1129391228ba70a9518957e2ec45eb04f233711f03677275a3f541e3426fcbf",
+          "d368f943732afb6840586d3cc4f155ea24b921e2543013c5cf7446f5e174b86e",
+          "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b",
+          "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71"
+        ],
+        "semiconductor": []
+      },
+      "related_chunks": [
+        {
+          "id": "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 4,
+          "text": "cables do NOT come in contact with sharp edges or\npiping, particularly on the high-pressure side.\n▪Do NOT install a phase advancing capacitor, because\nthis unit is equipped with an inverter. A phase\nadvancing capacitor will reduce performance and may\ncause accidents.\nWARNING\n▪All wiring MUST be performed by an authorised\nelectrician and MUST comply with the national wiring\nregulation.\n▪Make electrical connections to the fixed wiring.\n▪All components procured on-site and all electrical\nconstruction \nMUST \ncomply \nwith \nthe \napplicable\nlegislation.\nWARNING\nALWAYS use multicore cable for power supply cables.\nWARNING"
+        },
+        {
+          "id": "c1129391228ba70a9518957e2ec45eb04f233711f03677275a3f541e3426fcbf",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 11,
+          "text": "8 Troubleshooting\nInstallation and operation manual\n11\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nMain code\nContents\nInverter PCB faulty\nCompressor over current detected\nCompressor lock (startup)\nTransmission outdoor unit - inverter: INV transmission\ntrouble\nINV unbalanced power supply voltage\nAutocharge operation related\nFin thermistor malfunction\nAutocharge operation related\nAutocharge operation related\nAutocharge operation related\nCapacity setting malfunction (outdoor)\nAbnormal low pressure drop, faulty expansion valve\nReversed power supply phase malfunction\nINV voltage power shortage\nSystem test run not yet executed\nFaulty wiring indoor/outdoor"
+        },
+        {
+          "id": "d368f943732afb6840586d3cc4f155ea24b921e2543013c5cf7446f5e174b86e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 13,
+          "text": "12.1\nAbout the outdoor unit\nThis installation manual concerns the VRV IV, full inverter driven,\nheat recovery system.\nModel line up:"
+        },
+        {
+          "id": "c6bc85a3461d2b7fbcd303b678b1e0f16b899869e4a45fdea34d3a85010cfa55",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 22,
+          "text": "If operation is performed within 12 minutes after the indoor\nand outdoor unit(s) are powered on, the compressor will\nnot operate before the communication is established in a\ncorrect way between outdoor unit(s) and indoor unit(s).\nNOTICE\nBefore starting charging procedures, check if the\n7‑segment display indication of the outdoor unit A1P PCB\nis as normal (see \"16.1.4 To access mode 1 or 2\" [4 33]).\nIf a malfunction code is present, see \"19.1  Solving\nproblems based on error codes\" [4 38].\nNOTICE\nMake sure all connected indoor units are recognised (see\n[1‑10] and [1‑39] in \"16.1.7  Mode 1: monitoring\nsettings\" [4 34]).\nNOTICE"
+        },
+        {
+          "id": "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 30,
+          "text": "15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne"
+        },
+        {
+          "id": "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 30,
+          "text": "a\nUnit A (master outdoor unit)\nb\nUnit B (slave outdoor unit)\nc\nUnit C (slave outdoor unit)\nd\nOutdoor unit PCB (A1P)\ne\nMaster/slave interconnection (Q1/Q2)\nf\nOutdoor/indoor interconnection (F1/F2)\ng\nOutdoor unit/other system interconnection (F1/F2)\nh\nBS unit\ni\nIndoor unit\nj\nCooling-only VRV indoor unit / Heating-only Hydrobox unit"
+        },
+        {
+          "id": "0a8b7b7fa7926b3b07d65ce76adb969a28ba348cf50161d2e4caed279a6f7753",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 31,
+          "text": "▪The base unit is the outdoor unit to which the interconnecting\nwiring for the indoor units is connected.\nTightening torque for the interconnection wiring terminal screws:\nScrew size\nTightening torque [N•m]\nM3.5 (A1P)\n0.8~0.96"
+        },
+        {
+          "id": "4f56f13c9bcc40c9b1a4084ac0827022abeeae6952dec49be48d9428e9f30bfb",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 35,
+          "text": "16.1.9\nTo connect the PC configurator to the\noutdoor unit\nX27A\na\nb\nc\n2\n3\n4\n5\nH J S T\nX27A\nA1P\na\nPC\nb\nCable (EKPCCAB*)\nc\nOutdoor unit main PCB"
+        },
+        {
+          "id": "2c3b8ea56633b74af237599f3eabc970c8d03656ca88e2192cf2852760d0e45e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 38,
+          "text": "19.2\nError codes: Overview\nIn case other error codes appear, contact your dealer.\nMain code\nSub code\nCause\nSolution\nMaster\nSlave 1\nSlave 2\nEarth leakage detector activated\nRestart the unit. If the problem reoccurs,\ncontact your dealer.\nEarth leakage detector malfunction:\nopen circuit) - A1P (X101A)\nCheck connection on PCB or actuator.\nHigh pressure switch was activated\n(S1PH, S2PH) – main PCB (X2A, X3A)\nCheck stop valve situation or\nabnormalities in (field) piping or airflow\nover air cooled coil.\n▪Refrigerant overcharge\n▪Stop valve closed\n▪Check refrigerant amount+recharge\nunit.\n▪Open stop valves\nStop valve closed (liquid)\nOpen liquid stop valve.\n▪Refrigerant overcharge\n▪Stop valve closed"
+        },
+        {
+          "id": "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 38,
+          "text": "Electronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator."
+        },
+        {
+          "id": "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 40,
+          "text": "Transmission outdoor unit - inverter:\nINV1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nINV2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission main PCB – sub PCB –\nmain PCB (X20A), sub PCB (X2A, X3A)\nCheck connection.\nINV1 unbalanced power supply voltage\nCheck if power supply is within range.\nINV2 unbalanced power supply voltage\nCheck if power supply is within range."
+        }
+      ],
+      "review_conclusion": "While the manual references PCB A1P for field settings and external pushbuttons (BS1-BS3) in Section 16, no IGBT part number or switching frequency specification was identified in this corpus; this makes no claim about proprietary documents.",
+      "review_scope": "Related extracted chunks reviewed; no complete answer identified. No external manuals inspected; extraction may omit visual information."
+    }
+  ]
+}

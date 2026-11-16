@@ -1,0 +1,432 @@
+{
+  "status": "answered",
+  "answer": "The height of the foundation must at least be 150 mm from the floor. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]\nIn heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]",
+  "citations": [
+    "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 13.3.1 foundation height minimum floor heavy snowfall adjustment",
+      "filter": {},
+      "results": [
+        {
+          "id": "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 15,
+          "text": "The height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+            "page": 15,
+            "section": [
+              "13",
+              "13.3",
+              "13.3.1"
+            ],
+            "topic": [
+              "unit_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1588,
+            "end_char": 2200,
+            "text_sha256": "2989d9ef72948cf57d259ab026184a5578ff9c02882cba64c6daf740748da133",
+            "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.3281441960525505,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "96c8e6821497c771e0c4ee77dc8baf4af59565732fd6183e99326feb5dfb9dea",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 14,
+          "text": "13\nUnit installation",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0014",
+            "page": 14,
+            "section": [
+              "13"
+            ],
+            "topic": [
+              "unit_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1507,
+            "end_char": 1527,
+            "text_sha256": "b3dde1fbd0c86052e3715186801edc8d5dbf886d70268e93accc94a894717957",
+            "page_text_sha256": "1e530e354a4861280bd22f2a86a48b72a91d9651602f4dd2fdb8eb360855969f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.19374203160248338,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "4901deb09b6ee563077188a5cf10cf16c912414d911e11a3ae321e73604b5957",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 15,
+          "text": "to screw in the foundation bolts until their length remains 20 mm\nabove the foundation surface.\n20 mm",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+            "page": 15,
+            "section": [
+              "13",
+              "13.3",
+              "13.3.1"
+            ],
+            "topic": [
+              "unit_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2201,
+            "end_char": 2302,
+            "text_sha256": "c6b47a36ef0027b9f67d7089b020c43ba3933edafd3c3431f57644dfd43543ad",
+            "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.17205609234978303,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=15]\nThe height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+      "context_ids": [
+        "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+      ],
+      "elapsed_ms": 2.7394999997341074
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "The height of the foundation must at least be 150 mm from the floor.",
+          "chunk_ids": [
+            "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+          ]
+        },
+        {
+          "text": "In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition.",
+          "chunk_ids": [
+            "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "The height of the foundation must at least be 150 mm from the floor",
+          "chunk_id": "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition",
+          "chunk_id": "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ebe703318d59584016afa964cd7b087d2997a1de0d2302196",
+      "request_id": "req_a02983193c1f4250b72cb85c53b19ea6",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 13.3.1 foundation height minimum floor heavy snowfall adjustment\"}",
+          "call_id": "call_MCYqzGVolS3OgNxcQV6fkNge",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0ebe703318d59584016afa964d68b887d295e2074aaea96734",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 553,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 572
+      },
+      "elapsed_ms": 1236.6870999994717
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_09ce2662ec3000ff016afa964e2ddc87d2acee1166162c73d6",
+      "request_id": "req_0482cf8221984b5fb4d7e3c6058cf841",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 13.3.1 foundation height minimum floor heavy snowfall adjustment\"}",
+          "call_id": "call_MCYqzGVolS3OgNxcQV6fkNge"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_MCYqzGVolS3OgNxcQV6fkNge",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 13.3.1 foundation height minimum floor heavy snowfall adjustment\"], \"remaining_searches\": 2, \"context\": \"[bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=15]\\nThe height of the foundation must at least be 150 mm from\\nthe floor. In heavy snowfall areas, this height should be\\nincreased up to the average expected snow level,\\ndepending on the installation place and condition.\\n≥100 mm\\n≥100 mm\\n*\\nNOT allowed\\nAllowed (* = preferred installation)\\n▪The preferred installation is on a solid longitudinal foundation\\n(steel beam frame or concrete). The foundation must be larger\\nthan the grey marked area.\\n729\\n≤613\\n≥929\\n≥AB\\nAA\\na\\n(mm)\\nMinimum foundation\\na\\nAnchor point (4×)\\nHP\\nAA\\nAB\\n5~12\\n766\\n992\\n14~20\\n1076\\n1302\\n▪Fasten the unit in place using four foundation bolts M12. It is best\", \"context_ids\": [\"bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The height of the foundation must at least be 150 mm from the floor.\",\"chunk_ids\":[\"bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3\"]},{\"text\":\"In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition.\",\"chunk_ids\":[\"bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3\"]}]}",
+          "call_id": "call_stWYCWyZZpykMymM1M0Da68t",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_09ce2662ec3000ff016afa964e82b087d2a55b927a3f35f14e",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 888,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 140,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1028
+      },
+      "elapsed_ms": 1651.9711000000825
+    }
+  ],
+  "context": "[bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=15]\nThe height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+  "context_ids": [
+    "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+  ],
+  "context_chars": 739,
+  "search_queries": [
+    "section 13.3.1 foundation height minimum floor heavy snowfall adjustment"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2903.615199998967,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1441,
+    "output_tokens": 159,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q06",
+  "question": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 15,
+      "text": "The height of the foundation must at least be 150 mm from\nthe floor. In heavy snowfall areas, this height should be\nincreased up to the average expected snow level,\ndepending on the installation place and condition.\n≥100 mm\n≥100 mm\n*\nNOT allowed\nAllowed (* = preferred installation)\n▪The preferred installation is on a solid longitudinal foundation\n(steel beam frame or concrete). The foundation must be larger\nthan the grey marked area.\n729\n≤613\n≥929\n≥AB\nAA\na\n(mm)\nMinimum foundation\na\nAnchor point (4×)\nHP\nAA\nAB\n5~12\n766\n992\n14~20\n1076\n1302\n▪Fasten the unit in place using four foundation bolts M12. It is best",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+        "page": 15,
+        "section": [
+          "13",
+          "13.3",
+          "13.3.1"
+        ],
+        "topic": [
+          "unit_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1588,
+        "end_char": 2200,
+        "text_sha256": "2989d9ef72948cf57d259ab026184a5578ff9c02882cba64c6daf740748da133",
+        "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.312939138369054
+    },
+    {
+      "id": "ee3f01632ded84978b20d257af31bd24b01ce76ed87a0b7d8ce4c0cb360534aa",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 38,
+      "text": "19 Troubleshooting\nInstallation and operation manual\n38\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪Show the user what to do for the maintenance of the unit.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+        "page": 38,
+        "section": [
+          "18"
+        ],
+        "topic": [
+          "handover"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 178,
+        "text_sha256": "73cb90b3281dff743ab243fe811acf8727609013afca12c6b38e691847ac01b3",
+        "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.1769531277368469
+    },
+    {
+      "id": "4901deb09b6ee563077188a5cf10cf16c912414d911e11a3ae321e73604b5957",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 15,
+      "text": "to screw in the foundation bolts until their length remains 20 mm\nabove the foundation surface.\n20 mm",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0015",
+        "page": 15,
+        "section": [
+          "13",
+          "13.3",
+          "13.3.1"
+        ],
+        "topic": [
+          "unit_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2201,
+        "end_char": 2302,
+        "text_sha256": "c6b47a36ef0027b9f67d7089b020c43ba3933edafd3c3431f57644dfd43543ad",
+        "page_text_sha256": "784f8d3314038a6abc1ba50427b8788882a014f5f5ffc1ad7ad61c3b82df6a1b",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.14888101176352558
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:16.202085+00:00"
+}

@@ -1,0 +1,769 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "model_abstention",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 15.5 cable specification requirements indoor-outdoor interconnection wiring",
+      "filter": {},
+      "results": [
+        {
+          "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.3"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3838,
+            "end_char": 3992,
+            "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.3219097310728871,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.4"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 588,
+            "end_char": 1287,
+            "text_sha256": "0cc2e8307ef159341cf2753232c1838618f38310510f0da3fb3d1026865093ce",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.2525521569857073,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 31,
+          "text": "15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+            "page": 31,
+            "section": [
+              "15",
+              "15.6"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 926,
+            "end_char": 1274,
+            "text_sha256": "7e5b0e6edcfd01cafbb654200ffcba8b0ad27fcd651811dfc34fffc36287216a",
+            "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.24139693215687158,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+      "context_ids": [
+        "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+        "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+      ],
+      "elapsed_ms": 4.9849999995785765
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 15.5 cable core and wire size indoor-outdoor interconnection wiring",
+      "filter": {},
+      "results": [
+        {
+          "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.3"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3838,
+            "end_char": 3992,
+            "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.2746269640631165,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "5accd4e0cb6f0c622aae59a8345bf8da7ffeec72c5f15245b4099e58d6f145a7",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "14 Piping installation\nInstallation and operation manual\n17\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nE: Piping between refrigerant branch kit or BS unit\nand indoor unit\nPipe size for direct connection to indoor unit must be the same as\nthe connection size of the indoor unit (in case indoor unit is VRV DX\nindoor or Hydrobox).\nIndoor unit capacity\nindex\nPiping outer diameter size (mm)\nGas pipe\nLiquid pipe\n15~50\n12.7\n6.4\n63~140\n15.9\n9.5\n200\n19.1\n250\n22.2\n▪If a size-up of the piping is required, refer to the table below.\ne\nd\nb\nc\na\na\nOutdoor unit\nb\nMain pipes (increase size)\nc\nFirst refrigerant branch kit\nd\nPiping between refrigerant branch kit and indoor unit\ne\nIndoor unit",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 700,
+            "text_sha256": "364246b98280181e603b7fdc6290fcf9b3ef59a4928d6c60c5f5182864de447a",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.22778521677179184,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.4"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 588,
+            "end_char": 1287,
+            "text_sha256": "0cc2e8307ef159341cf2753232c1838618f38310510f0da3fb3d1026865093ce",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.21147859283417583,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+      "context_ids": [
+        "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+        "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+      ],
+      "elapsed_ms": 6.149799999548122
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 15.5 cable specification requirements cable core wire size indoor-outdoor interconnection wiring",
+      "filter": {},
+      "results": [
+        {
+          "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.3"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3838,
+            "end_char": 3992,
+            "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.22478044724651017,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 31,
+          "text": "15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+            "page": 31,
+            "section": [
+              "15",
+              "15.6"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 926,
+            "end_char": 1274,
+            "text_sha256": "7e5b0e6edcfd01cafbb654200ffcba8b0ad27fcd651811dfc34fffc36287216a",
+            "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.1990561357120455,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "5accd4e0cb6f0c622aae59a8345bf8da7ffeec72c5f15245b4099e58d6f145a7",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "14 Piping installation\nInstallation and operation manual\n17\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nE: Piping between refrigerant branch kit or BS unit\nand indoor unit\nPipe size for direct connection to indoor unit must be the same as\nthe connection size of the indoor unit (in case indoor unit is VRV DX\nindoor or Hydrobox).\nIndoor unit capacity\nindex\nPiping outer diameter size (mm)\nGas pipe\nLiquid pipe\n15~50\n12.7\n6.4\n63~140\n15.9\n9.5\n200\n19.1\n250\n22.2\n▪If a size-up of the piping is required, refer to the table below.\ne\nd\nb\nc\na\na\nOutdoor unit\nb\nMain pipes (increase size)\nc\nFirst refrigerant branch kit\nd\nPiping between refrigerant branch kit and indoor unit\ne\nIndoor unit",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 700,
+            "text_sha256": "364246b98280181e603b7fdc6290fcf9b3ef59a4928d6c60c5f5182864de447a",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.1850670475286256,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+      "context_ids": [
+        "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+        "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+      ],
+      "elapsed_ms": 5.9184000001550885
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0360f94e84e9481c016afa9777ecd087d2b559aebc1a83794e",
+      "request_id": "req_8718b1bbf49b4c6c864de03ddaeef3a7",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_4irAyogNcV2WE9VX5dh6OZrO",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0360f94e84e9481c016afa977868a487d2b20b7f91bffe104b",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 554,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 573
+      },
+      "elapsed_ms": 1000.6276999993133
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0dfdebd34d8cf757016afa9778f30087d287b886371e6113aa",
+      "request_id": "req_a4796a0eee8646bc931ec825acbaf1ea",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_4irAyogNcV2WE9VX5dh6OZrO"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_4irAyogNcV2WE9VX5dh6OZrO",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"], \"remaining_searches\": 2, \"context\": \"[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n15.3\\nField wiring: Overview\\nField wiring consists of:\\n▪power supply (including earth),\\n▪Interconnection wiring between communication box and outdoor\\nunit,\\n\\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\\n15.6\\nTo finish the interconnection\\nwiring\\nAfter installing the interconnection wiring, wrap it along with the\\nonsite refrigerant pipes using finishing tape, as shown in the\\nillustration below.\\nb\\na\\nf\\nc\\nd\\nf\\ne\\nf\\na\\nLiquid pipe\\nb\\nGas pipe\\nc\\nFinishing tape\\nd\\nHigh pressure/low pressure gas pipe (if applicable)\\ne\\nInterconnection cable (F1/F2)\\nf\\nInsulator\", \"context_ids\": [\"ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049\", \"44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 15.5 cable core and wire size indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_4h35mDvxXY6Hg33y4zZchten",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0dfdebd34d8cf757016afa97796df487d29697e2cdc8c7f402",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 965,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 994
+      },
+      "elapsed_ms": 1081.8952000008721
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01250fbc8ce8572e016afa977b0f7c87d2aaee0f24b0253595",
+      "request_id": "req_ea9ff207f17742a5a353fb30297a90a6",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 15.5 cable core and wire size indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_4h35mDvxXY6Hg33y4zZchten"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_4h35mDvxXY6Hg33y4zZchten",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\", \"section 15.5 cable core and wire size indoor-outdoor interconnection wiring\"], \"remaining_searches\": 1, \"context\": \"[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n15.3\\nField wiring: Overview\\nField wiring consists of:\\n▪power supply (including earth),\\n▪Interconnection wiring between communication box and outdoor\\nunit,\\n\\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\\n15.6\\nTo finish the interconnection\\nwiring\\nAfter installing the interconnection wiring, wrap it along with the\\nonsite refrigerant pipes using finishing tape, as shown in the\\nillustration below.\\nb\\na\\nf\\nc\\nd\\nf\\ne\\nf\\na\\nLiquid pipe\\nb\\nGas pipe\\nc\\nFinishing tape\\nd\\nHigh pressure/low pressure gas pipe (if applicable)\\ne\\nInterconnection cable (F1/F2)\\nf\\nInsulator\", \"context_ids\": [\"ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049\", \"44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements cable core wire size indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_D2cGSsRVLB5kawdeC2SRKhzq",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_01250fbc8ce8572e016afa977b99f087d2979ee50014bf2449",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 985,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1016
+      },
+      "elapsed_ms": 2156.2061999993603
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0a9679cece0e7f79016afa977c45e887d2aed226cec61f1286",
+      "request_id": "req_acf8eb1e5815474d81329d483606642a",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements cable core wire size indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_D2cGSsRVLB5kawdeC2SRKhzq"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_D2cGSsRVLB5kawdeC2SRKhzq",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\", \"section 15.5 cable core and wire size indoor-outdoor interconnection wiring\", \"section 15.5 cable specification requirements cable core wire size indoor-outdoor interconnection wiring\"], \"remaining_searches\": 0, \"context\": \"[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n15.3\\nField wiring: Overview\\nField wiring consists of:\\n▪power supply (including earth),\\n▪Interconnection wiring between communication box and outdoor\\nunit,\\n\\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\\n15.6\\nTo finish the interconnection\\nwiring\\nAfter installing the interconnection wiring, wrap it along with the\\nonsite refrigerant pipes using finishing tape, as shown in the\\nillustration below.\\nb\\na\\nf\\nc\\nd\\nf\\ne\\nf\\na\\nLiquid pipe\\nb\\nGas pipe\\nc\\nFinishing tape\\nd\\nHigh pressure/low pressure gas pipe (if applicable)\\ne\\nInterconnection cable (F1/F2)\\nf\\nInsulator\", \"context_ids\": [\"ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049\", \"44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"abstain\",\"claims\":[]}",
+          "call_id": "call_GsCG7wJodmeeIDYLq4e5za2n",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0a9679cece0e7f79016afa977cb57487d2a7aed86c5092cc67",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 986,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 997
+      },
+      "elapsed_ms": 975.0299999996059
+    }
+  ],
+  "context": "[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+  "context_ids": [
+    "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+    "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+  ],
+  "context_chars": 758,
+  "search_queries": [
+    "section 15.5 cable specification requirements indoor-outdoor interconnection wiring",
+    "section 15.5 cable core and wire size indoor-outdoor interconnection wiring",
+    "section 15.5 cable specification requirements cable core wire size indoor-outdoor interconnection wiring"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 5232.021400001031,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3490,
+    "output_tokens": 90,
+    "cached_input_tokens": 0
+  },
+  "query_id": "t04",
+  "question": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?",
+  "split": "test",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 29,
+      "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+        "page": 29,
+        "section": [
+          "15",
+          "15.3"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3838,
+        "end_char": 3992,
+        "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+        "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.20746825661742485,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "db5d5b5420aeee3c793b5aec72d4fbdff21f00e9692e21e36e81de1704465aa2",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 36,
+      "text": "17.2\nChecklist before commissioning\n1\nAfter the installation of the unit, check the items listed below.\n2\nClose the unit.\n3\nPower up the unit.\nYou have read the complete installation and operation\ninstructions described in the installer and user reference\nguide.\nInstallation\nCheck that the unit is properly installed, to avoid abnormal\nnoises and vibrations when starting up the unit.\nField wiring\nCheck that the field wiring has been carried out according\nto the instructions described in the chapter \"15 Electrical\ninstallation\"  [4  28], according to the wiring diagrams and\naccording to the applicable national wiring regulation.\nPower supply voltage",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+        "page": 36,
+        "section": [
+          "17",
+          "17.2"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3205,
+        "end_char": 3860,
+        "text_sha256": "094a318c6bea7e18eba1b807e8a02ef81cf6550274f38fec9d2f8b20a629f674",
+        "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.19616933073361137,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 31,
+      "text": "15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+        "page": 31,
+        "section": [
+          "15",
+          "15.6"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 926,
+        "end_char": 1274,
+        "text_sha256": "7e5b0e6edcfd01cafbb654200ffcba8b0ad27fcd651811dfc34fffc36287216a",
+        "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.1891613391007796,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:41:17.596611+00:00"
+}

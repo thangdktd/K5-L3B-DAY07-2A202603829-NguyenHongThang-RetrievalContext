@@ -1,0 +1,508 @@
+{
+  "status": "passed",
+  "split": "dev",
+  "answerable_questions": 15,
+  "unanswerable_excluded_from_retrieval_metrics": 2,
+  "test_queries_run": 0,
+  "agent_calls": 0,
+  "generated_query_embeddings": 15,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_fingerprint": "7a729edee62a3c201eda95b4160f1429c1616adfb827e03539a8c035b60266de",
+  "dimensions": 384,
+  "run_id": "6bb5bbaae6bdc33389366d82272c71e10e29f07ed97a354d820799b60d0705d3",
+  "stored_strategy": "B",
+  "database_read_only": true,
+  "database_unchanged": true,
+  "database_before_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "database_after_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "frozen_manifest_sha256": "6db1bd0ede4ee75cc54ae62fc9ae2b83b90907ceebd38b01b64b4630b75c1767",
+  "query_embedding_seconds": 0.8833976999994775,
+  "initialization_seconds": 27.991144800000257,
+  "latency_scope": "warm query embedding cache; search + context packing; excludes evidence scoring, initial model load and query encoding",
+  "context_unit": "characters including headers and separators; full rank-ordered chunks, skip if not fit",
+  "tokens": "not measured; no LLM called",
+  "external_service_cost_usd": 0,
+  "parameters": {
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokens": "baseline NFC casefold word tokens; query terms deduplicated"
+    },
+    "dense": {
+      "distance": "exact cosine",
+      "filter": {},
+      "tie_break": "chunk_id"
+    },
+    "hybrid_rrf": {
+      "candidate_k_per_method": 20,
+      "rrf_k": 60,
+      "formula": "sum(1/(60+rank)), ranks 1-based"
+    },
+    "top_k": 3,
+    "context_budgets": [
+      800,
+      2400
+    ]
+  },
+  "selection_criteria": "DEV Evidence Hit@3, then Context Evidence Rate, then Hit@1, then latency; provisional retrieval choice only; no final Agent configuration selected",
+  "hypotheses": [
+    "BM25 saturation/length normalization may improve lexical ranking over TF-IDF.",
+    "RRF may combine lexical and semantic evidence without incompatible score scales.",
+    "2400-character budget may retain evidence omitted by 800-character budget without changing ranking."
+  ],
+  "configurations": {
+    "tfidf-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 10,
+          "N": 14,
+          "rate": 0.7142857142857143
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 3.445599999395199,
+      "avg_context_chars": 631.2666666666667
+    },
+    "dense-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 42.32200000024022,
+      "avg_context_chars": 612.4666666666667
+    },
+    "bm25-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_hit": {
+        "n": 6,
+        "N": 15,
+        "rate": 0.4
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 6,
+          "N": 14,
+          "rate": 0.42857142857142855
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 5.45719999990979,
+      "avg_context_chars": 536.1333333333333
+    },
+    "hybrid_rrf-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 11,
+          "N": 14,
+          "rate": 0.7857142857142857
+        },
+        "hit3": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 44.52049999963492,
+      "avg_context_chars": 569.1333333333333
+    },
+    "tfidf-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 10,
+          "N": 14,
+          "rate": 0.7142857142857143
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 2.394500000264088,
+      "avg_context_chars": 1750.6666666666667
+    },
+    "dense-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 38.06629999962752,
+      "avg_context_chars": 1803.2666666666667
+    },
+    "bm25-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_hit": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        }
+      },
+      "median_ms": 3.406400000130816,
+      "avg_context_chars": 1880.4666666666667
+    },
+    "hybrid_rrf-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 11,
+          "N": 14,
+          "rate": 0.7857142857142857
+        },
+        "hit3": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        }
+      },
+      "median_ms": 57.31720000039786,
+      "avg_context_chars": 1929.9333333333334
+    }
+  },
+  "elapsed_seconds": 31.48218040000029,
+  "implementation_sha256": {
+    "src/retrievers.py": "1a1b82fc56f17f8473207b4d0fec7120f34a54ab14bed92eb391369255a03e56",
+    "src/evaluate_retrieval.py": "7a186cd92c04d0bdf58cee4777f0add1b606301423a713622da46ce9cda5931d"
+  }
+}

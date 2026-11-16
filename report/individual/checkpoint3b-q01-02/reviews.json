@@ -1,0 +1,13 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Answer quotes the source instruction to turn on the main power switch 6 hours before operation. The adjacent inline citation matches the citations array, is in CURRENT context, and points to physical page7 section6.2.1 with the complete supporting sentence. No unsupported factual claim observed.",
+    "reviewer": "assistant direct source/answer comparison; not independent human review",
+    "context_evidence_complete": true,
+    "inline_array_sync": true
+  }
+]

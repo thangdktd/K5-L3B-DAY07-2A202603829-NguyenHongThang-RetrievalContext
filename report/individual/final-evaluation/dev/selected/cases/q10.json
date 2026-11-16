@@ -1,0 +1,440 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "automatic refrigerant charging Hydrobox units",
+      "filter": {},
+      "results": [
+        {
+          "id": "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 22,
+          "text": "14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+            "page": 22,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3301,
+            "end_char": 3770,
+            "text_sha256": "9baae2b71347788f8ee9df63aa894e8afaa146241853407d1f7d87da5b5dfd06",
+            "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.6755331754684448,
+            "bm25": 14.505539203932964
+          }
+        },
+        {
+          "id": "b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 22,
+          "text": "To speed up the refrigerant charging process, it is in case of larger\nsystems recommended to first pre-charge a portion of refrigerant\nthrough the liquid line before proceeding with the actual automatic or\nmanual charging. This step is included in below procedure (see\n\"14.4.5  To charge refrigerant\"  [4  26]). It can be skipped, but\ncharging will take longer then.\nA flow chart is available which gives an overview of the possibilities\nand actions to be taken (see \"14.4.4  To charge refrigerant: Flow\nchart\" [4 24]).",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+            "page": 22,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3771,
+            "end_char": 4290,
+            "text_sha256": "ec6048d162174e05f243c0b9f76243c2ad92eae2ff3a4adf5fb295ca6e6afd94",
+            "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03055037313432836,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 7
+          },
+          "component_scores": {
+            "dense": 0.5485175251960754,
+            "bm25": 7.773145325644766
+          }
+        },
+        {
+          "id": "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 22,
+          "text": "Close the front panel before any refrigerant charge\noperation is executed. Without the front panel attached the\nunit cannot judge correctly whether it is operating properly\nor not.\nNOTICE\nIn case of maintenance and the system (outdoor unit+field\npiping+indoor units) does not contain any refrigerant any\nmore (e.g., after refrigerant reclaim operation), the unit has\nto be charged with its original amount of refrigerant (refer\nto the nameplate on the unit) by pre-charging before the\nautomatic charging function can be started.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+            "page": 22,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2772,
+            "end_char": 3300,
+            "text_sha256": "4f2aec515d12e9444b67100acf3de3a056181c586b47bb0b42c4f78b17dd1ade",
+            "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03036576949620428,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 9,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.5032658130903787,
+            "bm25": 9.01366845989833
+          }
+        }
+      ],
+      "context": "[c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\n14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.\n\n[b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\nTo speed up the refrigerant charging process, it is in case of larger\nsystems recommended to first pre-charge a portion of refrigerant\nthrough the liquid line before proceeding with the actual automatic or\nmanual charging. This step is included in below procedure (see\n\"14.4.5  To charge refrigerant\"  [4  26]). It can be skipped, but\ncharging will take longer then.\nA flow chart is available which gives an overview of the possibilities\nand actions to be taken (see \"14.4.4  To charge refrigerant: Flow\nchart\" [4 24]).\n\n[c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\nClose the front panel before any refrigerant charge\noperation is executed. Without the front panel attached the\nunit cannot judge correctly whether it is operating properly\nor not.\nNOTICE\nIn case of maintenance and the system (outdoor unit+field\npiping+indoor units) does not contain any refrigerant any\nmore (e.g., after refrigerant reclaim operation), the unit has\nto be charged with its original amount of refrigerant (refer\nto the nameplate on the unit) by pre-charging before the\nautomatic charging function can be started.",
+      "context_ids": [
+        "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+        "b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e",
+        "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e"
+      ],
+      "elapsed_ms": 122.37230000027921
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system.",
+          "chunk_ids": [
+            "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system",
+          "chunk_id": "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+          "passed": false,
+          "reason": "unverified_paraphrase_or_added_information",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06e0b3ec5893888b016afa961d0bf487d2bbf6ee00eb3c38af",
+      "request_id": "req_5d08d470ad2a43ad998b51937c6a6c86",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Can automatic refrigerant charging be used when Hydrobox units are connected?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"automatic refrigerant charging Hydrobox units\"}",
+          "call_id": "call_J1kS49WbI4xSQFvW45CVRv89",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_06e0b3ec5893888b016afa961e828087d29ab3d2831c486f5c",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 538,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 12,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 550
+      },
+      "elapsed_ms": 2170.39560000012
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0efcfbb653eab6e2016afa961f518487d2aec8c86ec9a4e4e1",
+      "request_id": "req_bf2ad7427422441f9d3f0a1344549911",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Can automatic refrigerant charging be used when Hydrobox units are connected?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"automatic refrigerant charging Hydrobox units\"}",
+          "call_id": "call_J1kS49WbI4xSQFvW45CVRv89"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_J1kS49WbI4xSQFvW45CVRv89",
+          "output": "{\"tool\": \"search\", \"queries\": [\"automatic refrigerant charging Hydrobox units\"], \"remaining_searches\": 2, \"context\": \"[c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\\n14.4.2\\nAbout charging refrigerant\\nOnce vacuum drying is finished, additional refrigerant charging can\\nstart.\\nThere are two methods to charge additional refrigerant.\\nMethod\\nSee\\nAutomatic charge\\n\\\"14.4.6 Step 6a: To automatically\\ncharge refrigerant\\\" [4 27]\\nManual charge\\n\\\"14.4.7 Step 6b: To manually charge\\nrefrigerant\\\" [4 28]\\nINFORMATION\\nAdding refrigerant using the automatic refrigerant charging\\nfunction is not possible when Hydrobox units are\\nconnected to the system.\\n\\n[b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\\nTo speed up the refrigerant charging process, it is in case of larger\\nsystems recommended to first pre-charge a portion of refrigerant\\nthrough the liquid line before proceeding with the actual automatic or\\nmanual charging. This step is included in below procedure (see\\n\\\"14.4.5  To charge refrigerant\\\"  [4  26]). It can be skipped, but\\ncharging will take longer then.\\nA flow chart is available which gives an overview of the possibilities\\nand actions to be taken (see \\\"14.4.4  To charge refrigerant: Flow\\nchart\\\" [4 24]).\\n\\n[c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\\nClose the front panel before any refrigerant charge\\noperation is executed. Without the front panel attached the\\nunit cannot judge correctly whether it is operating properly\\nor not.\\nNOTICE\\nIn case of maintenance and the system (outdoor unit+field\\npiping+indoor units) does not contain any refrigerant any\\nmore (e.g., after refrigerant reclaim operation), the unit has\\nto be charged with its original amount of refrigerant (refer\\nto the nameplate on the unit) by pre-charging before the\\nautomatic charging function can be started.\", \"context_ids\": [\"c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4\", \"b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e\", \"c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system.\",\"chunk_ids\":[\"c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4\"]}]}",
+          "call_id": "call_xZxTsJ6gIVRghK3Jl9wwbMt4",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0efcfbb653eab6e2016afa961fbca487d2948e812082cc48b8",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1283,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 86,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1369
+      },
+      "elapsed_ms": 1319.87460000164
+    }
+  ],
+  "context": "[c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\n14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.\n\n[b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\nTo speed up the refrigerant charging process, it is in case of larger\nsystems recommended to first pre-charge a portion of refrigerant\nthrough the liquid line before proceeding with the actual automatic or\nmanual charging. This step is included in below procedure (see\n\"14.4.5  To charge refrigerant\"  [4  26]). It can be skipped, but\ncharging will take longer then.\nA flow chart is available which gives an overview of the possibilities\nand actions to be taken (see \"14.4.4  To charge refrigerant: Flow\nchart\" [4 24]).\n\n[c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\nClose the front panel before any refrigerant charge\noperation is executed. Without the front panel attached the\nunit cannot judge correctly whether it is operating properly\nor not.\nNOTICE\nIn case of maintenance and the system (outdoor unit+field\npiping+indoor units) does not contain any refrigerant any\nmore (e.g., after refrigerant reclaim operation), the unit has\nto be charged with its original amount of refrigerant (refer\nto the nameplate on the unit) by pre-charging before the\nautomatic charging function can be started.",
+  "context_ids": [
+    "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+    "b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e",
+    "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e"
+  ],
+  "context_chars": 1901,
+  "search_queries": [
+    "automatic refrigerant charging Hydrobox units"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3626.8165999990742,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1821,
+    "output_tokens": 98,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q10",
+  "question": "Can automatic refrigerant charging be used when Hydrobox units are connected?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 22,
+      "text": "14.4.2\nAbout charging refrigerant\nOnce vacuum drying is finished, additional refrigerant charging can\nstart.\nThere are two methods to charge additional refrigerant.\nMethod\nSee\nAutomatic charge\n\"14.4.6 Step 6a: To automatically\ncharge refrigerant\" [4 27]\nManual charge\n\"14.4.7 Step 6b: To manually charge\nrefrigerant\" [4 28]\nINFORMATION\nAdding refrigerant using the automatic refrigerant charging\nfunction is not possible when Hydrobox units are\nconnected to the system.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+        "page": 22,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.2"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3301,
+        "end_char": 3770,
+        "text_sha256": "9baae2b71347788f8ee9df63aa894e8afaa146241853407d1f7d87da5b5dfd06",
+        "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 36,
+      "text": "Availability of the leak detection function feature requires input of the\nadditional refrigerant charge amount immediately after finishing the\ncharging. The input must be executed before performing the test\noperation.\nNOTICE\nIf a wrong value is input for the additional charged\nrefrigerant weight, the accuracy of the leak detection\nfunction will decrease.\nINFORMATION\n▪The weighed and already recorded amount of\nadditional refrigerant charge (not the total amount of\nrefrigerant present in the system) must be entered.\n▪The leak detection function is not available when\nHydrobox units are connected to the system.\n▪When the height difference between indoor units is",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+        "page": 36,
+        "section": [
+          "16",
+          "16.2",
+          "16.2.1"
+        ],
+        "topic": [
+          "configuration"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1298,
+        "end_char": 1964,
+        "text_sha256": "1950f78cb6dfd48e4e3f8ac32fed80c2b6f9348aa816b3bb36f505aaf1a085c0",
+        "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.031054405392392875
+    },
+    {
+      "id": "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 22,
+      "text": "Close the front panel before any refrigerant charge\noperation is executed. Without the front panel attached the\nunit cannot judge correctly whether it is operating properly\nor not.\nNOTICE\nIn case of maintenance and the system (outdoor unit+field\npiping+indoor units) does not contain any refrigerant any\nmore (e.g., after refrigerant reclaim operation), the unit has\nto be charged with its original amount of refrigerant (refer\nto the nameplate on the unit) by pre-charging before the\nautomatic charging function can be started.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+        "page": 22,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2772,
+        "end_char": 3300,
+        "text_sha256": "4f2aec515d12e9444b67100acf3de3a056181c586b47bb0b42c4f78b17dd1ade",
+        "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.030303030303030304
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:29.100888+00:00"
+}

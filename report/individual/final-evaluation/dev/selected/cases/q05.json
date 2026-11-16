@@ -1,0 +1,444 @@
+{
+  "status": "answered",
+  "answer": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m. [c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858]",
+  "citations": [
+    "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "maximum amount of foreign material inside refrigerant piping including fabrication oils",
+      "filter": {},
+      "results": [
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.6620449427922195,
+            "bm25": 34.4335615447692
+          }
+        },
+        {
+          "id": "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "290≤x<640\nKHRQ23M64T\n≥640\nKHRQ23M75T\n▪Concerning refnet headers, choose from the following table in\naccordance with the total capacity of all the indoor units connected\nbelow the refnet header.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M29H\n200≤x<290\n290≤x<640\nKHRQ23M64H(a)\n≥640\nKHRQ23M75H\n(a) If the pipe size above the refnet header is Ø34.9 mm or more,\nKHRQ22M75H is required.\nINFORMATION\nMaximum 8 branches can be connected to a header.\n▪How to choose an outdoor multi connection piping kit. Choose\nfrom the following table in accordance with the number of outdoor\nunits.\nNumber of outdoor units\nBranch kit name\n2\nBHFQ23P907\n3\nBHFQ23P1357\nINFORMATION",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2259,
+            "end_char": 2933,
+            "text_sha256": "d0c3f55231a7b946581911083a19dd3351a03eae5bf61bfaa895ba3cea76d03d",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.02761904761904762,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 15,
+            "bm25": 10
+          },
+          "component_scores": {
+            "dense": 0.4162896523648294,
+            "bm25": 6.625407998518345
+          }
+        },
+        {
+          "id": "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1\nPreparing refrigerant piping",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 601,
+            "end_char": 634,
+            "text_sha256": "871fd6f7f24d869ed385b3a3632d8f0cc4b75aac2778e06dd13b5a7b7bb65754",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2
+          },
+          "component_scores": {
+            "dense": 0.5696795752549048
+          }
+        }
+      ],
+      "context": "[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material\n\n[67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\n290≤x<640\nKHRQ23M64T\n≥640\nKHRQ23M75T\n▪Concerning refnet headers, choose from the following table in\naccordance with the total capacity of all the indoor units connected\nbelow the refnet header.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M29H\n200≤x<290\n290≤x<640\nKHRQ23M64H(a)\n≥640\nKHRQ23M75H\n(a) If the pipe size above the refnet header is Ø34.9 mm or more,\nKHRQ22M75H is required.\nINFORMATION\nMaximum 8 branches can be connected to a header.\n▪How to choose an outdoor multi connection piping kit. Choose\nfrom the following table in accordance with the number of outdoor\nunits.\nNumber of outdoor units\nBranch kit name\n2\nBHFQ23P907\n3\nBHFQ23P1357\nINFORMATION\n\n[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1\nPreparing refrigerant piping",
+      "context_ids": [
+        "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+        "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+        "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6"
+      ],
+      "elapsed_ms": 107.71369999929448
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m.",
+          "chunk_ids": [
+            "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m",
+          "chunk_id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            5,
+            6
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_033c8f69f2d3779c016afa960d59e087d2b375f0d6f8c0e809",
+      "request_id": "req_647642d38d694cfaa997950cbc2333b6",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"maximum amount of foreign material inside refrigerant piping including fabrication oils\"}",
+          "call_id": "call_Vus9tF99YKsFLbGc2CoiLiv7",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_033c8f69f2d3779c016afa960dbe0087d28ffe620fccd0b9f9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 547,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 17,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 564
+      },
+      "elapsed_ms": 1104.8931000004814
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e15b682243b6a2e016afa960e8dfc87d29fa15bd671c63170",
+      "request_id": "req_d33fe78232fe4ed694844f568c71ec4c",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"maximum amount of foreign material inside refrigerant piping including fabrication oils\"}",
+          "call_id": "call_Vus9tF99YKsFLbGc2CoiLiv7"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_Vus9tF99YKsFLbGc2CoiLiv7",
+          "output": "{\"tool\": \"search\", \"queries\": [\"maximum amount of foreign material inside refrigerant piping including fabrication oils\"], \"remaining_searches\": 2, \"context\": \"[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\\n14.1.1\\nRefrigerant piping requirements\\nNOTICE\\nRefrigerant R410A requires strict cautions for keeping the\\nsystem clean and dry. Foreign materials (including mineral\\noils or moisture) should be prevented from getting mixed\\ninto the system.\\nNOTICE\\nThe piping and other pressure-containing parts shall be\\nsuitable for refrigerant. Use phosphoric acid deoxidised\\nseamless copper for refrigerant piping.\\n▪Only use phosphoric acid deoxidised seamless copper.\\n▪Foreign materials inside pipes (including oils for fabrication) must\\nbe ≤30 mg/10 m.\\n▪Temper grade: use piping with temper grade in function of the\\npipe diameter as listed in table below.\\nPipe Ø\\nTemper grade of piping material\\n\\n[67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\\n290≤x<640\\nKHRQ23M64T\\n≥640\\nKHRQ23M75T\\n▪Concerning refnet headers, choose from the following table in\\naccordance with the total capacity of all the indoor units connected\\nbelow the refnet header.\\nIndoor unit capacity index\\nRefrigerant branch kit\\n<200\\nKHRQ23M29H\\n200≤x<290\\n290≤x<640\\nKHRQ23M64H(a)\\n≥640\\nKHRQ23M75H\\n(a) If the pipe size above the refnet header is Ø34.9 mm or more,\\nKHRQ22M75H is required.\\nINFORMATION\\nMaximum 8 branches can be connected to a header.\\n▪How to choose an outdoor multi connection piping kit. Choose\\nfrom the following table in accordance with the number of outdoor\\nunits.\\nNumber of outdoor units\\nBranch kit name\\n2\\nBHFQ23P907\\n3\\nBHFQ23P1357\\nINFORMATION\\n\\n[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\\n14.1\\nPreparing refrigerant piping\", \"context_ids\": [\"c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858\", \"67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db\", \"ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m.\",\"chunk_ids\":[\"c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858\"]}]}",
+          "call_id": "call_9CXKhYOBF8NSCEWIceeBFkd8",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0e15b682243b6a2e016afa960f0b7487d29016b6edc2c01cea",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1330,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 85,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1415
+      },
+      "elapsed_ms": 1599.6579000002384
+    }
+  ],
+  "context": "[c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material\n\n[67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\n290≤x<640\nKHRQ23M64T\n≥640\nKHRQ23M75T\n▪Concerning refnet headers, choose from the following table in\naccordance with the total capacity of all the indoor units connected\nbelow the refnet header.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M29H\n200≤x<290\n290≤x<640\nKHRQ23M64H(a)\n≥640\nKHRQ23M75H\n(a) If the pipe size above the refnet header is Ø34.9 mm or more,\nKHRQ22M75H is required.\nINFORMATION\nMaximum 8 branches can be connected to a header.\n▪How to choose an outdoor multi connection piping kit. Choose\nfrom the following table in accordance with the number of outdoor\nunits.\nNumber of outdoor units\nBranch kit name\n2\nBHFQ23P907\n3\nBHFQ23P1357\nINFORMATION\n\n[ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=16]\n14.1\nPreparing refrigerant piping",
+  "context_ids": [
+    "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+    "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+    "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6"
+  ],
+  "context_chars": 1771,
+  "search_queries": [
+    "maximum amount of foreign material inside refrigerant piping including fabrication oils"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2832.653700001174,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1877,
+    "output_tokens": 102,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q05",
+  "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 16,
+      "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+        "page": 16,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 635,
+        "end_char": 1314,
+        "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+        "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 17,
+      "text": "pipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+        "page": 17,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.2"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1398,
+        "end_char": 1559,
+        "text_sha256": "871a3b0b360a7fc5c2b0be63ab3bf9f2f2cea173779d22301229d4765897d0ed",
+        "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.030158730158730156
+    },
+    {
+      "id": "5accd4e0cb6f0c622aae59a8345bf8da7ffeec72c5f15245b4099e58d6f145a7",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 17,
+      "text": "14 Piping installation\nInstallation and operation manual\n17\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nE: Piping between refrigerant branch kit or BS unit\nand indoor unit\nPipe size for direct connection to indoor unit must be the same as\nthe connection size of the indoor unit (in case indoor unit is VRV DX\nindoor or Hydrobox).\nIndoor unit capacity\nindex\nPiping outer diameter size (mm)\nGas pipe\nLiquid pipe\n15~50\n12.7\n6.4\n63~140\n15.9\n9.5\n200\n19.1\n250\n22.2\n▪If a size-up of the piping is required, refer to the table below.\ne\nd\nb\nc\na\na\nOutdoor unit\nb\nMain pipes (increase size)\nc\nFirst refrigerant branch kit\nd\nPiping between refrigerant branch kit and indoor unit\ne\nIndoor unit",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+        "page": 17,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.2"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 700,
+        "text_sha256": "364246b98280181e603b7fdc6290fcf9b3ef59a4928d6c60c5f5182864de447a",
+        "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.02967032967032967
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:12.623339+00:00"
+}

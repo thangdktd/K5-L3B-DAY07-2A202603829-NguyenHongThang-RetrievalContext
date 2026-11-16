@@ -1,0 +1,772 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "model_abstention",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P",
+      "filter": {},
+      "results": [
+        {
+          "id": "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 40,
+          "text": "Transmission outdoor unit - inverter:\nINV1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nINV2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission main PCB – sub PCB –\nmain PCB (X20A), sub PCB (X2A, X3A)\nCheck connection.\nINV1 unbalanced power supply voltage\nCheck if power supply is within range.\nINV2 unbalanced power supply voltage\nCheck if power supply is within range.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+            "page": 40,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 617,
+            "end_char": 1304,
+            "text_sha256": "9656182caa9e654b13e721a71b462879795316ff868197c269077b6e838abc74",
+            "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.23646387932564922,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1a234fe817f0c98d38d197ca5daab9cafe02eb10edf56ad54d5dcdd197ec683e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 39,
+          "text": "Compressor casing temperature sensor\nmalfunction (R15T): short circuit - main\nPCB (X19A)\nCheck connection on PCB or actuator.\nSuction compressor temperature sensor\n(R12T) – sub PCB (X15A)\nCheck connection on PCB or actuator.\nSuction temperature sensor (R10T) –\nmain PCB (X29A)\nCheck connection on PCB or actuator.\nHeat exchanger deicer temperature\nsensor (R11T) – sub PCB (X15A)\nCheck connection on PCB or actuator\nUpper heat exchanger – gas -\ntemperature sensor (R8T) – main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLower heat exchanger – gas -\ntemperature sensor (R9T) main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLiquid main - temperature sensor (R3T)\n– main PCB (X30A)",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0039",
+            "page": 39,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1305,
+            "end_char": 1992,
+            "text_sha256": "48e14248375e97f0ff2b41366e71b3e887b44df1dd5b4c3bcd1bf563d4e6da48",
+            "page_text_sha256": "8635e131913163645d5ddf023408e751fe666d48cc036f8322cae032630d92fd",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2333029133618027,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 38,
+          "text": "Electronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+            "page": 38,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2339,
+            "end_char": 2683,
+            "text_sha256": "d185a0439b6467a88ca45a19fbca25fe8f0435bb47e2ba31001a306b6615bd8d",
+            "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2015416060006321,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\nElectronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+      "context_ids": [
+        "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+      ],
+      "elapsed_ms": 6.276599999182508
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P",
+      "filter": {},
+      "results": [
+        {
+          "id": "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 40,
+          "text": "Transmission outdoor unit - inverter:\nINV1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nINV2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission main PCB – sub PCB –\nmain PCB (X20A), sub PCB (X2A, X3A)\nCheck connection.\nINV1 unbalanced power supply voltage\nCheck if power supply is within range.\nINV2 unbalanced power supply voltage\nCheck if power supply is within range.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+            "page": 40,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 617,
+            "end_char": 1304,
+            "text_sha256": "9656182caa9e654b13e721a71b462879795316ff868197c269077b6e838abc74",
+            "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.19356059042216206,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 38,
+          "text": "Electronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+            "page": 38,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2339,
+            "end_char": 2683,
+            "text_sha256": "d185a0439b6467a88ca45a19fbca25fe8f0435bb47e2ba31001a306b6615bd8d",
+            "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.17117294741065922,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1a234fe817f0c98d38d197ca5daab9cafe02eb10edf56ad54d5dcdd197ec683e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 39,
+          "text": "Compressor casing temperature sensor\nmalfunction (R15T): short circuit - main\nPCB (X19A)\nCheck connection on PCB or actuator.\nSuction compressor temperature sensor\n(R12T) – sub PCB (X15A)\nCheck connection on PCB or actuator.\nSuction temperature sensor (R10T) –\nmain PCB (X29A)\nCheck connection on PCB or actuator.\nHeat exchanger deicer temperature\nsensor (R11T) – sub PCB (X15A)\nCheck connection on PCB or actuator\nUpper heat exchanger – gas -\ntemperature sensor (R8T) – main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLower heat exchanger – gas -\ntemperature sensor (R9T) main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLiquid main - temperature sensor (R3T)\n– main PCB (X30A)",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0039",
+            "page": 39,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1305,
+            "end_char": 1992,
+            "text_sha256": "48e14248375e97f0ff2b41366e71b3e887b44df1dd5b4c3bcd1bf563d4e6da48",
+            "page_text_sha256": "8635e131913163645d5ddf023408e751fe666d48cc036f8322cae032630d92fd",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.16591366359577914,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\nElectronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+      "context_ids": [
+        "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+      ],
+      "elapsed_ms": 2.1438000003399793
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "manufacturer part number maximum switching frequency main IGBT power module inverter compressor PCB A1P",
+      "filter": {},
+      "results": [
+        {
+          "id": "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 40,
+          "text": "Transmission outdoor unit - inverter:\nINV1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nINV2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission main PCB – sub PCB –\nmain PCB (X20A), sub PCB (X2A, X3A)\nCheck connection.\nINV1 unbalanced power supply voltage\nCheck if power supply is within range.\nINV2 unbalanced power supply voltage\nCheck if power supply is within range.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+            "page": 40,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 617,
+            "end_char": 1304,
+            "text_sha256": "9656182caa9e654b13e721a71b462879795316ff868197c269077b6e838abc74",
+            "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.24153232442699835,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1a234fe817f0c98d38d197ca5daab9cafe02eb10edf56ad54d5dcdd197ec683e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 39,
+          "text": "Compressor casing temperature sensor\nmalfunction (R15T): short circuit - main\nPCB (X19A)\nCheck connection on PCB or actuator.\nSuction compressor temperature sensor\n(R12T) – sub PCB (X15A)\nCheck connection on PCB or actuator.\nSuction temperature sensor (R10T) –\nmain PCB (X29A)\nCheck connection on PCB or actuator.\nHeat exchanger deicer temperature\nsensor (R11T) – sub PCB (X15A)\nCheck connection on PCB or actuator\nUpper heat exchanger – gas -\ntemperature sensor (R8T) – main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLower heat exchanger – gas -\ntemperature sensor (R9T) main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLiquid main - temperature sensor (R3T)\n– main PCB (X30A)",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0039",
+            "page": 39,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1305,
+            "end_char": 1992,
+            "text_sha256": "48e14248375e97f0ff2b41366e71b3e887b44df1dd5b4c3bcd1bf563d4e6da48",
+            "page_text_sha256": "8635e131913163645d5ddf023408e751fe666d48cc036f8322cae032630d92fd",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2168636001178599,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 38,
+          "text": "Electronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+            "page": 38,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2339,
+            "end_char": 2683,
+            "text_sha256": "d185a0439b6467a88ca45a19fbca25fe8f0435bb47e2ba31001a306b6615bd8d",
+            "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.1846417551715709,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\nElectronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+      "context_ids": [
+        "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+      ],
+      "elapsed_ms": 3.4071999998559477
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06498349e0967a2d016afa978575f487d2b9bd0ed3068b333c",
+      "request_id": "req_a7c3b166121643d0b412e37e3dd6e173",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P\"}",
+          "call_id": "call_Vnj9NsDvS12noh8N2KzQkY46",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_06498349e0967a2d016afa9785bc1487d2b2add566986ca740",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 552,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 577
+      },
+      "elapsed_ms": 807.8832999999577
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0297ed141c460064016afa97864b3087d280e4d0dea7dde51a",
+      "request_id": "req_7b86f1811ff14c39901a7cab8147be4b",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P\"}",
+          "call_id": "call_Vnj9NsDvS12noh8N2KzQkY46"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_Vnj9NsDvS12noh8N2KzQkY46",
+          "output": "{\"tool\": \"search\", \"queries\": [\"manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P\"], \"remaining_searches\": 2, \"context\": \"[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\\nElectronic expansion valve malfunction\\n(receiver gas) (Y4E) – main PCB (X25A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(inverter cooling) (Y5E) – sub PCB\\n(X8A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(auto charge) (Y6E) - sub PCB (X10A)\\nCheck connection on PCB or actuator.\", \"context_ids\": [\"6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P\"}",
+          "call_id": "call_HnoKYusVzP7VO43lBypml1P8",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0297ed141c460064016afa9786c96087d2b95bfe61db8ce145",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 826,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 855
+      },
+      "elapsed_ms": 962.8928000001906
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0552c1ae5f32a35e016afa9787645487d2a075a85d58969ebf",
+      "request_id": "req_fa968b1a50074230a6e14446e940e81b",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P\"}",
+          "call_id": "call_HnoKYusVzP7VO43lBypml1P8"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_HnoKYusVzP7VO43lBypml1P8",
+          "output": "{\"tool\": \"search\", \"queries\": [\"manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P\", \"IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P\"], \"remaining_searches\": 1, \"context\": \"[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\\nElectronic expansion valve malfunction\\n(receiver gas) (Y4E) – main PCB (X25A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(inverter cooling) (Y5E) – sub PCB\\n(X8A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(auto charge) (Y6E) - sub PCB (X10A)\\nCheck connection on PCB or actuator.\", \"context_ids\": [\"6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"manufacturer part number maximum switching frequency main IGBT power module inverter compressor PCB A1P\"}",
+          "call_id": "call_1ytrlJe8DMoh3o74FjFOcaLm",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0552c1ae5f32a35e016afa9787e52c87d29b9b0c9b888e6ac6",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 840,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 30,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 870
+      },
+      "elapsed_ms": 1080.970900000466
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0edc76b5aa2727e8016afa9788587487d2850cc8544ed34bf0",
+      "request_id": "req_e7b4ffa864664294b09a18f4e68de1fe",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"manufacturer part number maximum switching frequency main IGBT power module inverter compressor PCB A1P\"}",
+          "call_id": "call_1ytrlJe8DMoh3o74FjFOcaLm"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_1ytrlJe8DMoh3o74FjFOcaLm",
+          "output": "{\"tool\": \"search\", \"queries\": [\"manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P\", \"IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P\", \"manufacturer part number maximum switching frequency main IGBT power module inverter compressor PCB A1P\"], \"remaining_searches\": 0, \"context\": \"[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\\nElectronic expansion valve malfunction\\n(receiver gas) (Y4E) – main PCB (X25A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(inverter cooling) (Y5E) – sub PCB\\n(X8A)\\nCheck connection on PCB or actuator.\\nElectronic expansion valve malfunction\\n(auto charge) (Y6E) - sub PCB (X10A)\\nCheck connection on PCB or actuator.\", \"context_ids\": [\"6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"abstain\",\"claims\":[]}",
+          "call_id": "call_LFRBKmyCQ707Af6LAuNdfFku",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0edc76b5aa2727e8016afa9788aab887d283320a7f51a37734",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 839,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 850
+      },
+      "elapsed_ms": 768.6520000006567
+    }
+  ],
+  "context": "[6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=38]\nElectronic expansion valve malfunction\n(receiver gas) (Y4E) – main PCB (X25A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(inverter cooling) (Y5E) – sub PCB\n(X8A)\nCheck connection on PCB or actuator.\nElectronic expansion valve malfunction\n(auto charge) (Y6E) - sub PCB (X10A)\nCheck connection on PCB or actuator.",
+  "context_ids": [
+    "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+  ],
+  "context_chars": 471,
+  "search_queries": [
+    "manufacturer part number and maximum switching frequency of main IGBT power module on inverter compressor PCB A1P",
+    "IGBT power module manufacturer part number maximum switching frequency inverter compressor PCB A1P",
+    "manufacturer part number maximum switching frequency main IGBT power module inverter compressor PCB A1P"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3633.03199999973,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3057,
+    "output_tokens": 95,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q_unans_test_02",
+  "question": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?",
+  "split": "test",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 40,
+      "text": "Transmission outdoor unit - inverter:\nINV1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN1 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nFAN2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission outdoor unit - inverter:\nINV2 transmission trouble - main PCB\n(X20A, X28A, X40A)\nCheck connection.\nTransmission main PCB – sub PCB –\nmain PCB (X20A), sub PCB (X2A, X3A)\nCheck connection.\nINV1 unbalanced power supply voltage\nCheck if power supply is within range.\nINV2 unbalanced power supply voltage\nCheck if power supply is within range.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+        "page": 40,
+        "section": [
+          "19",
+          "19.2"
+        ],
+        "topic": [
+          "installer_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 617,
+        "end_char": 1304,
+        "text_sha256": "9656182caa9e654b13e721a71b462879795316ff868197c269077b6e838abc74",
+        "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.2115132003462419,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "1a234fe817f0c98d38d197ca5daab9cafe02eb10edf56ad54d5dcdd197ec683e",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 39,
+      "text": "Compressor casing temperature sensor\nmalfunction (R15T): short circuit - main\nPCB (X19A)\nCheck connection on PCB or actuator.\nSuction compressor temperature sensor\n(R12T) – sub PCB (X15A)\nCheck connection on PCB or actuator.\nSuction temperature sensor (R10T) –\nmain PCB (X29A)\nCheck connection on PCB or actuator.\nHeat exchanger deicer temperature\nsensor (R11T) – sub PCB (X15A)\nCheck connection on PCB or actuator\nUpper heat exchanger – gas -\ntemperature sensor (R8T) – main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLower heat exchanger – gas -\ntemperature sensor (R9T) main PCB\n(X29A)\nCheck connection on PCB or actuator.\nLiquid main - temperature sensor (R3T)\n– main PCB (X30A)",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0039",
+        "page": 39,
+        "section": [
+          "19",
+          "19.2"
+        ],
+        "topic": [
+          "installer_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1305,
+        "end_char": 1992,
+        "text_sha256": "48e14248375e97f0ff2b41366e71b3e887b44df1dd5b4c3bcd1bf563d4e6da48",
+        "page_text_sha256": "8635e131913163645d5ddf023408e751fe666d48cc036f8322cae032630d92fd",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.20515638551236703,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 7,
+      "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+        "page": 7,
+        "section": [
+          "6",
+          "6.2",
+          "6.2.1"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 948,
+        "end_char": 1283,
+        "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+        "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.20151274449128595,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:41:29.535628+00:00"
+}

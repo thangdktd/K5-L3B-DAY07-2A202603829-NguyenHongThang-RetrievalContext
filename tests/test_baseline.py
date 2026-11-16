@@ -68,9 +68,17 @@ class BaselineTests(unittest.TestCase):
             subprocess.run([sys.executable, str(ROOT/'starter/baseline.py'), '--chunks', str(root/'chunks.json'),
                             '--questions', str(root/'q.json'), '--split', 'dev', '--output', str(root/'out')],
                            check=True, capture_output=True, text=True)
-            summary = json.loads((root/'out/summary.json').read_text())
+            summary = json.loads((root/'out/summary.json').read_text(encoding='utf-8'))
             self.assertEqual((summary['split'], summary['n'], summary['hit1']), ('dev', 1, 1))
-            self.assertEqual(len(json.loads((root/'out/traces.json').read_text())), 1)
+            self.assertEqual(len(json.loads((root/'out/traces.json').read_text(encoding='utf-8'))), 1)
+
+    def test_hit_normalizes_newlines_and_whitespace(self):
+        c_wrapped = chunk('c', 'Hoàn tiền\nmất bảy\n\nngày.')
+        gold_spaced = [{'source_id': 'doc', 'page': 1, 'evidence': 'Hoàn tiền mất bảy ngày.'}]
+        self.assertTrue(hit(c_wrapped, gold_spaced))
+        c_spaced = chunk('d', 'Hoàn tiền mất bảy ngày.')
+        gold_wrapped = [{'source_id': 'doc', 'page': 1, 'evidence': 'Hoàn tiền\n  mất   bảy ngày.'}]
+        self.assertTrue(hit(c_spaced, gold_wrapped))
 
 
 if __name__ == '__main__': unittest.main()

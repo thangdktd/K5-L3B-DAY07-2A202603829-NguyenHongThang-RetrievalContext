@@ -1,0 +1,800 @@
+{
+  "status": "answered",
+  "answer": "14.4 Charging refrigerant [fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b]",
+  "citations": [
+    "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system",
+      "filter": {},
+      "results": [
+        {
+          "id": "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 111,
+            "text_sha256": "7d75dde9d6789a78d67f79ad4711a0b1c34dacaa87cf55eb52c368140a789617",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2806061562889761,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 24,
+          "text": "14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0024",
+            "page": 24,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 123,
+            "text_sha256": "07deb75e4e13ee6ab6141344084ae29f386598622ded406b4ecab561c46981e5",
+            "page_text_sha256": "d68ff809d02b4547be435f2778973cf3ce6c224b1e5095e8cd02b4c0be949ef3",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.2588282906316741,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "c752a72e65eb48b2fddbeb9e564f28daa2f953ef217e0407b258511c578b9cc4",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 20,
+          "text": "14 Piping installation\nInstallation and operation manual\n20\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+            "page": 20,
+            "section": [
+              "14",
+              "14.2",
+              "14.2.5"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 123,
+            "text_sha256": "8231cbd18e4eb356a2b5e32d04429c7ff0e495602bc79b5f327566ae820107f2",
+            "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.25850120856367703,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\n14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n\n[c752a72e65eb48b2fddbeb9e564f28daa2f953ef217e0407b258511c578b9cc4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14 Piping installation\nInstallation and operation manual\n20\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+      "context_ids": [
+        "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+        "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c",
+        "c752a72e65eb48b2fddbeb9e564f28daa2f953ef217e0407b258511c578b9cc4"
+      ],
+      "elapsed_ms": 6.049599998732447
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit",
+      "filter": {},
+      "results": [
+        {
+          "id": "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 22,
+          "text": "14.4\nCharging refrigerant",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+            "page": 22,
+            "section": [
+              "14",
+              "14.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1426,
+            "end_char": 1451,
+            "text_sha256": "f4c9719955dd2ef2d237ad540ccbf7d1eeaa78b077a96fa8116954d557ebafba",
+            "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.28634641238553044,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 111,
+            "text_sha256": "7d75dde9d6789a78d67f79ad4711a0b1c34dacaa87cf55eb52c368140a789617",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.26699745787068296,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 24,
+          "text": "14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0024",
+            "page": 24,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 123,
+            "text_sha256": "07deb75e4e13ee6ab6141344084ae29f386598622ded406b4ecab561c46981e5",
+            "page_text_sha256": "d68ff809d02b4547be435f2778973cf3ce6c224b1e5095e8cd02b4c0be949ef3",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.24627576435815432,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\n14.4\nCharging refrigerant\n\n[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\n14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+      "context_ids": [
+        "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+        "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+        "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c"
+      ],
+      "elapsed_ms": 1.8594000011944445
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "charging refrigerant procedure R32 VRV IV+ heat recovery system",
+      "filter": {},
+      "results": [
+        {
+          "id": "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 22,
+          "text": "14.4\nCharging refrigerant",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+            "page": 22,
+            "section": [
+              "14",
+              "14.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1426,
+            "end_char": 1451,
+            "text_sha256": "f4c9719955dd2ef2d237ad540ccbf7d1eeaa78b077a96fa8116954d557ebafba",
+            "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.35813446461323706,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 111,
+            "text_sha256": "7d75dde9d6789a78d67f79ad4711a0b1c34dacaa87cf55eb52c368140a789617",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.3339346591808191,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 24,
+          "text": "14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0024",
+            "page": 24,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 123,
+            "text_sha256": "07deb75e4e13ee6ab6141344084ae29f386598622ded406b4ecab561c46981e5",
+            "page_text_sha256": "d68ff809d02b4547be435f2778973cf3ce6c224b1e5095e8cd02b4c0be949ef3",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.30801796425817635,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\n14.4\nCharging refrigerant\n\n[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\n14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+      "context_ids": [
+        "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+        "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+        "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c"
+      ],
+      "elapsed_ms": 7.791400001224247
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "14.4 Charging refrigerant",
+          "chunk_ids": [
+            "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "14.4 Charging refrigerant",
+          "chunk_id": "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0290df52933793f5016afa967132d087d2abc38b53827a4e53",
+      "request_id": "req_e722f1b7cb754f6ea9bb9c789fa75c9d",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system\"}",
+          "call_id": "call_BQuuJSwEEPZ7H03fedBuh7kS",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0290df52933793f5016afa9671962c87d2a58011ca0d076afe",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 550,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 23,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 573
+      },
+      "elapsed_ms": 975.655000000188
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_092518c6302ea726016afa9672304c87d2b0dde6b15f239517",
+      "request_id": "req_30a81a60d536416fa99e1f51af3338cc",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system\"}",
+          "call_id": "call_BQuuJSwEEPZ7H03fedBuh7kS"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_BQuuJSwEEPZ7H03fedBuh7kS",
+          "output": "{\"tool\": \"search\", \"queries\": [\"procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system\"], \"remaining_searches\": 2, \"context\": \"[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6 Operation\\nInstallation and operation manual\\n7\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\n\\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\\n14 Piping installation\\nInstallation and operation manual\\n24\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\n\\n[c752a72e65eb48b2fddbeb9e564f28daa2f953ef217e0407b258511c578b9cc4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\\n14 Piping installation\\nInstallation and operation manual\\n20\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\", \"context_ids\": [\"26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66\", \"8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c\", \"c752a72e65eb48b2fddbeb9e564f28daa2f953ef217e0407b258511c578b9cc4\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit\"}",
+          "call_id": "call_tKfL2QCfQVYa5llO2ZV9K4Jx",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_092518c6302ea726016afa9672a34087d28e29a1422109cfb2",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1086,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 28,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1114
+      },
+      "elapsed_ms": 1005.01770000119
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_08b85f9a7d63b27b016afa9673229087d2a1b70c1ffe2f8383",
+      "request_id": "req_4c51fd34dd594308a6c33c0727314ef4",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit\"}",
+          "call_id": "call_tKfL2QCfQVYa5llO2ZV9K4Jx"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_tKfL2QCfQVYa5llO2ZV9K4Jx",
+          "output": "{\"tool\": \"search\", \"queries\": [\"procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system\", \"R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit\"], \"remaining_searches\": 1, \"context\": \"[fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\\n14.4\\nCharging refrigerant\\n\\n[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6 Operation\\nInstallation and operation manual\\n7\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\n\\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\\n14 Piping installation\\nInstallation and operation manual\\n24\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\", \"context_ids\": [\"fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b\", \"26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66\", \"8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"charging refrigerant procedure R32 VRV IV+ heat recovery system\"}",
+          "call_id": "call_r0oz5uNd8hqDEOBKL9etYDmC",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_08b85f9a7d63b27b016afa9673939887d282ec2f3343007752",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1066,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1092
+      },
+      "elapsed_ms": 966.8051000007836
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_03b6ef8afab5fff0016afa967418a087d2b18ee6434d4af6d2",
+      "request_id": "req_dcbdaca363cb4f918dfe33d07519ae3e",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"charging refrigerant procedure R32 VRV IV+ heat recovery system\"}",
+          "call_id": "call_r0oz5uNd8hqDEOBKL9etYDmC"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_r0oz5uNd8hqDEOBKL9etYDmC",
+          "output": "{\"tool\": \"search\", \"queries\": [\"procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system\", \"R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit\", \"charging refrigerant procedure R32 VRV IV+ heat recovery system\"], \"remaining_searches\": 0, \"context\": \"[fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\\n14.4\\nCharging refrigerant\\n\\n[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6 Operation\\nInstallation and operation manual\\n7\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\n\\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\\n14 Piping installation\\nInstallation and operation manual\\n24\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\", \"context_ids\": [\"fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b\", \"26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66\", \"8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"14.4 Charging refrigerant\",\"chunk_ids\":[\"fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b\"]}]}",
+          "call_id": "call_ZyD1HrpR8ocoEwK0pu9S7sRV",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_03b6ef8afab5fff0016afa967485dc87d2967210ca175ce1a1",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1058,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 63,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1121
+      },
+      "elapsed_ms": 1181.518600000345
+    }
+  ],
+  "context": "[fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=22]\n14.4\nCharging refrigerant\n\n[26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n\n[8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=24]\n14 Piping installation\nInstallation and operation manual\n24\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+  "context_ids": [
+    "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+    "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+    "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c"
+  ],
+  "context_chars": 643,
+  "search_queries": [
+    "procedure for adding R32 refrigerant when retrofitting VRV IV+ heat recovery system",
+    "R32 refrigerant charging calculation formula VRV IV+ heat recovery system retrofit",
+    "charging refrigerant procedure R32 VRV IV+ heat recovery system"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 4146.482599999217,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3760,
+    "output_tokens": 140,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q_unans_dev_01",
+  "question": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "ee3f01632ded84978b20d257af31bd24b01ce76ed87a0b7d8ce4c0cb360534aa",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 38,
+      "text": "19 Troubleshooting\nInstallation and operation manual\n38\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪Show the user what to do for the maintenance of the unit.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+        "page": 38,
+        "section": [
+          "18"
+        ],
+        "topic": [
+          "handover"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 178,
+        "text_sha256": "73cb90b3281dff743ab243fe811acf8727609013afca12c6b38e691847ac01b3",
+        "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.31924777298095924,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 7,
+      "text": "6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+        "page": 7,
+        "section": [
+          "6"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 111,
+        "text_sha256": "7d75dde9d6789a78d67f79ad4711a0b1c34dacaa87cf55eb52c368140a789617",
+        "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.21515139313736947,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "683fd0989db2d4714b8c82a509365bee678b9ed5fdaf81aceffc593577e47e4f",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 9,
+      "text": "7 Maintenance and service\nInstallation and operation manual\n9\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0009",
+        "page": 9,
+        "section": [
+          "6",
+          "6.5"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 125,
+        "text_sha256": "76c1d18a9f322cbecafbc23d21bebbb938a55e35dfb44ff54bca638ecc09b373",
+        "page_text_sha256": "9ca8e24fbc2ec2a77765c880a4d5b389c90b84f550ec20ef87db65958c38b567",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.20533717341635999,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:36:53.731039+00:00"
+}

@@ -1,0 +1,419 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "refrigerant type and GWP value",
+      "filter": {},
+      "results": [
+        {
+          "id": "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 9,
+          "text": "7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0009",
+            "page": 9,
+            "section": [
+              "7",
+              "7.1"
+            ],
+            "topic": [
+              "maintenance_service"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1609,
+            "end_char": 2192,
+            "text_sha256": "6a013975a4b433b3ef49d329d570ac48b88c90719dcbfa06475cfa9da3b994ce",
+            "page_text_sha256": "9ca8e24fbc2ec2a77765c880a4d5b389c90b84f550ec20ef87db65958c38b567",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.36769411866525525,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1af82a873e9a305ddef99fdb3f5147da43924a2e9d5a88388eb8e2a195b6c9ec",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 28,
+          "text": "Applicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg] / 1000\nUse the GWP value mentioned on the refrigerant charge\nlabel.\n2\nFix the label on the inside of the outdoor unit near the gas and\nliquid stop valves.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0028",
+            "page": 28,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.10"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3480,
+            "end_char": 3910,
+            "text_sha256": "02ff4ef8f7350a8a44ee8bbcd1d9432f04b9fca6b9f76c8efd861c6f80e20b4c",
+            "page_text_sha256": "f39c1c44b3efc646599eb0030967a3021eed6bf29a16b2b74cdb9807191769af",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.3420084659991186,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "862593cf7e4831b5e5901814f1b412d502c9fee39400169c87386beecec0c6ea",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 28,
+          "text": "14.4.10 To fix the fluorinated greenhouse gases\nlabel\n1\nFill in the label as follows:\nb\nContains fluorinated greenhouse gases\n2\n1\n1\n1\n2\n2\nkg\ntCO2eq\nGWP × kg\n1000\n=\n=\n+\nkg\n=\nkg\n=\nGWP: XXX\nRXXX\na\nf\nc\nd\ne\na\nIf a multilingual fluorinated greenhouse gases label is\ndelivered with the unit (see accessories), peel off the\napplicable language and stick it on top of a.\nb\nFactory refrigerant charge: see unit name plate\nc\nAdditional refrigerant amount charged\nd\nTotal refrigerant charge\ne\nQuantity of fluorinated greenhouse gases of the total\nrefrigerant charge expressed as tonnes CO2 equivalent.\nf\nGWP = Global Warming Potential\nNOTICE",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0028",
+            "page": 28,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.10"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2850,
+            "end_char": 3479,
+            "text_sha256": "e32418f17189eb3a6924af92c54ba08668c2bb8eb12ac74d0f937c814b442050",
+            "page_text_sha256": "f39c1c44b3efc646599eb0030967a3021eed6bf29a16b2b74cdb9807191769af",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2035492699272437,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=9]\n7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+      "context_ids": [
+        "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+      ],
+      "elapsed_ms": 4.939299999023206
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "Refrigerant type: R410A",
+          "chunk_ids": [
+            "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+          ]
+        },
+        {
+          "text": "Global warming potential (GWP) value: 2087.5",
+          "chunk_ids": [
+            "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Refrigerant type: R410A",
+          "chunk_id": "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_00c1c861acb9fe92016afa96527b9c87d2b2bc298a95182208",
+      "request_id": "req_268258d1095048af8d4522ba540c7d52",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Which refrigerant type does the product contain, and what GWP value is stated for it?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"refrigerant type and GWP value\"}",
+          "call_id": "call_uk9Ds7bw3ZWutV2rrZMIg2Qo",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_00c1c861acb9fe92016afa9652c3c487d2b72c191dbe751e11",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 543,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 13,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 556
+      },
+      "elapsed_ms": 771.2898000008863
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_03809d090cb1c63a016afa965347f087d2b81687548190b1e4",
+      "request_id": "req_41788c9b7bc4471e90338d626182c9b8",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Which refrigerant type does the product contain, and what GWP value is stated for it?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"refrigerant type and GWP value\"}",
+          "call_id": "call_uk9Ds7bw3ZWutV2rrZMIg2Qo"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_uk9Ds7bw3ZWutV2rrZMIg2Qo",
+          "output": "{\"tool\": \"search\", \"queries\": [\"refrigerant type and GWP value\"], \"remaining_searches\": 2, \"context\": \"[a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=9]\\n7.1\\nAbout the refrigerant\\nThis product contains fluorinated greenhouse gases. Do NOT vent\\ngases into the atmosphere.\\nRefrigerant type: R410A\\nGlobal warming potential (GWP) value: 2087.5\\nNOTICE\\nApplicable legislation on fluorinated greenhouse gases\\nrequires that the refrigerant charge of the unit is indicated\\nboth in weight and CO2 equivalent.\\nFormula to calculate the quantity in CO2 equivalent\\ntonnes: GWP value of the refrigerant × total refrigerant\\ncharge [in kg]/1000\\nContact your installer for more information.\\nWARNING\\n▪The refrigerant in the system is safe and normally does\", \"context_ids\": [\"a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Refrigerant type: R410A\",\"chunk_ids\":[\"a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28\"]},{\"text\":\"Global warming potential (GWP) value: 2087.5\",\"chunk_ids\":[\"a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28\"]}]}",
+          "call_id": "call_6UYGOJQ6R7OpuhK6NhQXm02z",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_03809d090cb1c63a016afa9654169c87d2b464984fd25be37b",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 836,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 126,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 962
+      },
+      "elapsed_ms": 1879.2092000003322
+    }
+  ],
+  "context": "[a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=9]\n7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+  "context_ids": [
+    "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+  ],
+  "context_chars": 709,
+  "search_queries": [
+    "refrigerant type and GWP value"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2678.698699999586,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1379,
+    "output_tokens": 139,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q08",
+  "question": "Which refrigerant type does the product contain, and what GWP value is stated for it?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 9,
+      "text": "7.1\nAbout the refrigerant\nThis product contains fluorinated greenhouse gases. Do NOT vent\ngases into the atmosphere.\nRefrigerant type: R410A\nGlobal warming potential (GWP) value: 2087.5\nNOTICE\nApplicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg]/1000\nContact your installer for more information.\nWARNING\n▪The refrigerant in the system is safe and normally does",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0009",
+        "page": 9,
+        "section": [
+          "7",
+          "7.1"
+        ],
+        "topic": [
+          "maintenance_service"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1609,
+        "end_char": 2192,
+        "text_sha256": "6a013975a4b433b3ef49d329d570ac48b88c90719dcbfa06475cfa9da3b994ce",
+        "page_text_sha256": "9ca8e24fbc2ec2a77765c880a4d5b389c90b84f550ec20ef87db65958c38b567",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.28918799779247123
+    },
+    {
+      "id": "1af82a873e9a305ddef99fdb3f5147da43924a2e9d5a88388eb8e2a195b6c9ec",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 28,
+      "text": "Applicable legislation on fluorinated greenhouse gases\nrequires that the refrigerant charge of the unit is indicated\nboth in weight and CO2 equivalent.\nFormula to calculate the quantity in CO2 equivalent\ntonnes: GWP value of the refrigerant × total refrigerant\ncharge [in kg] / 1000\nUse the GWP value mentioned on the refrigerant charge\nlabel.\n2\nFix the label on the inside of the outdoor unit near the gas and\nliquid stop valves.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0028",
+        "page": 28,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.10"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3480,
+        "end_char": 3910,
+        "text_sha256": "02ff4ef8f7350a8a44ee8bbcd1d9432f04b9fca6b9f76c8efd861c6f80e20b4c",
+        "page_text_sha256": "f39c1c44b3efc646599eb0030967a3021eed6bf29a16b2b74cdb9807191769af",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.21337351654527048
+    },
+    {
+      "id": "9ec67c607d66da64761e68f11329be6dd63aa1619a88d8feef494c14265a991f",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 12,
+      "text": "8.2.14\nSymptom: The outdoor unit fan does not\nspin\nDuring operation, the speed of the fan is controlled in order to\noptimise product operation.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+        "page": 12,
+        "section": [
+          "8",
+          "8.2",
+          "8.2.14"
+        ],
+        "topic": [
+          "user_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1581,
+        "end_char": 1724,
+        "text_sha256": "bb857b8b0963463bd9b0c895b8ccf39d4e4605df7d52f4e3b7c1c79bd79a46b0",
+        "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.16957469208858378
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:21.600232+00:00"
+}

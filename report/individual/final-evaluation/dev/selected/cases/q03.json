@@ -1,0 +1,451 @@
+{
+  "status": "answered",
+  "answer": "The system does not go into operation if the room temperature is low (<20°C). [7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4]",
+  "citations": [
+    "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 6.3.1 dry program start room temperature below 20 degrees Celsius",
+      "filter": {},
+      "results": [
+        {
+          "id": "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 8,
+          "text": "6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+            "page": 8,
+            "section": [
+              "6",
+              "6.3",
+              "6.3.1"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 565,
+            "end_char": 910,
+            "text_sha256": "9941000de404c753767311cb176c232baaf549a59451d0b823915c0577a91ae3",
+            "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.6544764236949812,
+            "bm25": 26.09589126710012
+          }
+        },
+        {
+          "id": "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 8,
+          "text": "6.3\nUsing the dry program",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+            "page": 8,
+            "section": [
+              "6",
+              "6.3"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 539,
+            "end_char": 564,
+            "text_sha256": "f1e110cf48d81126b89bef7a2a5f1738c15a3395e6329de77d9b2277d72f7547",
+            "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.6237222738183225,
+            "bm25": 18.311090989719382
+          }
+        },
+        {
+          "id": "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 8,
+          "text": "6.3.3\nTo use the dry program (WITH cool/heat\nchangeover remote control switch)\nTo start\n1\nSelect cooling operation mode with the cool/heat changeover\nremote control switch.\n1\n1\n2\nPress the operation mode selector button on the user interface\nseveral times and select \n (program dry operation).\n3\nPress the ON/OFF button of the user interface.\nResult: The operation lamp lights up and the system starts\noperating.\n4\nPress the air flow direction adjust button (only for double-flow,\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\nto \"6.4 Adjusting the air flow direction\" [4 8] for details.\nTo stop\n5\nPress the ON/OFF button on the user interface once again.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+            "page": 8,
+            "section": [
+              "6",
+              "6.3",
+              "6.3.3"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1663,
+            "end_char": 2335,
+            "text_sha256": "c807e939b8bf789fd92a99d5d4e768d28b8927bf39052f0ae591787e367993c5",
+            "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 6,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.46265877672013,
+            "bm25": 17.08821179997505
+          }
+        }
+      ],
+      "context": "[7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).\n\n[379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3\nUsing the dry program\n\n[29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3.3\nTo use the dry program (WITH cool/heat\nchangeover remote control switch)\nTo start\n1\nSelect cooling operation mode with the cool/heat changeover\nremote control switch.\n1\n1\n2\nPress the operation mode selector button on the user interface\nseveral times and select \n (program dry operation).\n3\nPress the ON/OFF button of the user interface.\nResult: The operation lamp lights up and the system starts\noperating.\n4\nPress the air flow direction adjust button (only for double-flow,\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\nto \"6.4 Adjusting the air flow direction\" [4 8] for details.\nTo stop\n5\nPress the ON/OFF button on the user interface once again.",
+      "context_ids": [
+        "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+        "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+        "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7"
+      ],
+      "elapsed_ms": 138.66719999896304
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "The system does not go into operation if the room temperature is low (<20°C).",
+          "chunk_ids": [
+            "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "The system does not go into operation if the room temperature is low (<20°C)",
+          "chunk_id": "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_083f2cedeacd567a016afa9607b47087d2affd1b37e32a9b85",
+      "request_id": "req_7ff4ba06159643eb9fa4719d261073f6",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 6.3.1 dry program start room temperature below 20 degrees Celsius\"}",
+          "call_id": "call_MKNGhp6S4bq82S0tSXhOon3i",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_083f2cedeacd567a016afa96082b0087d2b613e60a00cd60ba",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 549,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 571
+      },
+      "elapsed_ms": 999.7277000002214
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0bad13855dcc3a47016afa9608e36887d2a2a20cde01ee956b",
+      "request_id": "req_1afcbdb57ce84cbbb0404927a4713ec0",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 6.3.1 dry program start room temperature below 20 degrees Celsius\"}",
+          "call_id": "call_MKNGhp6S4bq82S0tSXhOon3i"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_MKNGhp6S4bq82S0tSXhOon3i",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 6.3.1 dry program start room temperature below 20 degrees Celsius\"], \"remaining_searches\": 2, \"context\": \"[7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\\n6.3.1\\nAbout the dry program\\n▪The function of this program is to decrease the humidity in your\\nroom with minimal temperature decrease (minimal room cooling).\\n▪The micro computer automatically determines temperature and\\nfan speed (cannot be set by the user interface).\\n▪The system does not go into operation if the room temperature is\\nlow (<20°C).\\n\\n[379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\\n6.3\\nUsing the dry program\\n\\n[29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\\n6.3.3\\nTo use the dry program (WITH cool/heat\\nchangeover remote control switch)\\nTo start\\n1\\nSelect cooling operation mode with the cool/heat changeover\\nremote control switch.\\n1\\n1\\n2\\nPress the operation mode selector button on the user interface\\nseveral times and select \\n (program dry operation).\\n3\\nPress the ON/OFF button of the user interface.\\nResult: The operation lamp lights up and the system starts\\noperating.\\n4\\nPress the air flow direction adjust button (only for double-flow,\\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\\nto \\\"6.4 Adjusting the air flow direction\\\" [4 8] for details.\\nTo stop\\n5\\nPress the ON/OFF button on the user interface once again.\", \"context_ids\": [\"7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4\", \"379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed\", \"29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The system does not go into operation if the room temperature is low (<20°C).\",\"chunk_ids\":[\"7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4\"]}]}",
+          "call_id": "call_1pgjpt7vOyzLA8BlJAJw73HF",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0bad13855dcc3a47016afa960961d887d293e3daad7bb73113",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1205,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 78,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1283
+      },
+      "elapsed_ms": 1332.0781999991596
+    }
+  ],
+  "context": "[7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).\n\n[379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3\nUsing the dry program\n\n[29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\n6.3.3\nTo use the dry program (WITH cool/heat\nchangeover remote control switch)\nTo start\n1\nSelect cooling operation mode with the cool/heat changeover\nremote control switch.\n1\n1\n2\nPress the operation mode selector button on the user interface\nseveral times and select \n (program dry operation).\n3\nPress the ON/OFF button of the user interface.\nResult: The operation lamp lights up and the system starts\noperating.\n4\nPress the air flow direction adjust button (only for double-flow,\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\nto \"6.4 Adjusting the air flow direction\" [4 8] for details.\nTo stop\n5\nPress the ON/OFF button on the user interface once again.",
+  "context_ids": [
+    "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+    "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+    "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7"
+  ],
+  "context_chars": 1424,
+  "search_queries": [
+    "section 6.3.1 dry program start room temperature below 20 degrees Celsius"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2478.809399999591,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1754,
+    "output_tokens": 100,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q03",
+  "question": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 8,
+      "text": "6.3.1\nAbout the dry program\n▪The function of this program is to decrease the humidity in your\nroom with minimal temperature decrease (minimal room cooling).\n▪The micro computer automatically determines temperature and\nfan speed (cannot be set by the user interface).\n▪The system does not go into operation if the room temperature is\nlow (<20°C).",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+        "page": 8,
+        "section": [
+          "6",
+          "6.3",
+          "6.3.1"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 565,
+        "end_char": 910,
+        "text_sha256": "9941000de404c753767311cb176c232baaf549a59451d0b823915c0577a91ae3",
+        "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 8,
+      "text": "6.3\nUsing the dry program",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+        "page": 8,
+        "section": [
+          "6",
+          "6.3"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 539,
+        "end_char": 564,
+        "text_sha256": "f1e110cf48d81126b89bef7a2a5f1738c15a3395e6329de77d9b2277d72f7547",
+        "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.03225806451612903
+    },
+    {
+      "id": "057cb9458c1b9702ec3732dd3487d88845e4bfbef055bc97840840a03955f9c7",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 8,
+      "text": "6.3.2\nTo use the dry program (WITHOUT cool/\nheat changeover remote control switch)\nTo start\n1\nPress the operation mode selector button on the user interface\nseveral times and select \n (program dry operation).\n2\nPress the ON/OFF button of the user interface.\nResult: The operation lamp lights up and the system starts\noperating.\n3\nPress the air flow direction adjust button (only for double-flow,\nmulti-flow, corner, ceiling-suspended and wall-mounted). Refer\nto \"6.4 Adjusting the air flow direction\" [4 8] for details.\nTo stop\n4\nPress the ON/OFF button on the user interface once again.\nResult: The operation lamp goes out and the system stops\noperating.\nNOTICE",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+        "page": 8,
+        "section": [
+          "6",
+          "6.3",
+          "6.3.2"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 911,
+        "end_char": 1573,
+        "text_sha256": "4ec767cd36a8713313876dc511ab2486591337fd2e1cd9112fffa561b3d548c9",
+        "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.03149801587301587
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:06.605987+00:00"
+}

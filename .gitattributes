@@ -1,0 +1,8 @@
+# Preserve newly added frozen data and evaluation bytes
+/src/*.py -text
+/src/requirements.txt -text
+/data/chunks.json -text
+/data/questions.json -text
+/data/agent_cases.json -text
+/data/benchmark_manifest.json -text
+/report/individual/final-evaluation/** -text

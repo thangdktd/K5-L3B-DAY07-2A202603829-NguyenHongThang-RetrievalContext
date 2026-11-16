@@ -1,0 +1,327 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "truc_tiep",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 7,
+        "evidence": "To protect the unit, turn on the main power switch 6 hours before operation."
+      }
+    ],
+    "expected_answer": "6 hours before operation.",
+    "filter": {
+      "section": "6.2.1"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "dien_dat_lai",
+    "question": "After stopping the unit, what minimum delay should be observed before turning off its power?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 8,
+        "evidence": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes."
+      }
+    ],
+    "expected_answer": "Wait at least 5 minutes."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "dieu_kien",
+    "question": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 8,
+        "evidence": "The system does not go into operation if the room temperature is low (<20°C)."
+      }
+    ],
+    "expected_answer": "No. The system does not go into operation when the room temperature is below 20 degrees Celsius.",
+    "filter": {
+      "section": "6.3.1"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "truc_tiep",
+    "question": "What material does section 14.1.1 require for refrigerant piping?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 16,
+        "evidence": "The piping and other pressure-containing parts shall be suitable for refrigerant. Use phosphoric acid deoxidised seamless copper for refrigerant piping."
+      }
+    ],
+    "expected_answer": "Phosphoric acid deoxidised seamless copper."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "truc_tiep",
+    "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 16,
+        "evidence": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m."
+      }
+    ],
+    "expected_answer": "No more than 30 mg per 10 m of pipe."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "dieu_kien",
+    "question": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 15,
+        "evidence": "The height of the foundation must at least be 150 mm from the floor. In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition."
+      }
+    ],
+    "expected_answer": "At least 150 mm from the floor; in heavy snowfall areas increase it up to the average expected snow level, depending on the installation place and condition.",
+    "filter": {
+      "section": "13.3.1"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "dieu_kien",
+    "question": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 18,
+        "evidence": "If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit."
+      }
+    ],
+    "expected_answer": "A rise of at least 200 mm in both lines, within a length of 2 m from the kit."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "truc_tiep",
+    "question": "Which refrigerant type does the product contain, and what GWP value is stated for it?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 9,
+        "evidence": "Refrigerant type: R410A Global warming potential (GWP) value: 2087.5"
+      }
+    ],
+    "expected_answer": "R410A, with a stated GWP of 2087.5."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "dieu_kien",
+    "question": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 23,
+        "evidence": "Parameter A: If the total indoor unit capacity connection ratio (CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor unit."
+      }
+    ],
+    "expected_answer": "An additional 0.5 kg per outdoor unit.",
+    "filter": {
+      "section": "14.4.3"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "ngoai_le",
+    "question": "Can automatic refrigerant charging be used when Hydrobox units are connected?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 22,
+        "evidence": "Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system."
+      }
+    ],
+    "expected_answer": "No. The automatic refrigerant charging function cannot be used when Hydrobox units are connected."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "phan_biet_model",
+    "question": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 29,
+        "evidence": "REYQ10 22.0 A 25 A"
+      }
+    ],
+    "expected_answer": "Minimum circuit ampacity: 22.0 A; recommended fuse: 25 A.",
+    "filter": {
+      "section": "15.2",
+      "equipment_model": "REYQ10"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "dien_dat_lai",
+    "question": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?",
+    "expected_answer": "Mode 1 monitors the current outdoor-unit situation and some field-setting contents. Mode 2 lets the user consult and change system field-setting values.",
+    "gold_groups": [
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 32,
+          "evidence": "Mode 1 (monitoring settings) Mode 1 can be used to monitor the current situation of the outdoor unit. Some field setting contents can be monitored as well."
+        }
+      ],
+      [
+        {
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "page": 32,
+          "evidence": "Mode 2 is used to change the field settings of the system. Consulting the current field setting value and changing the current field setting value is possible."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "ngoai_le",
+    "question": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 31,
+        "evidence": "U-series units cannot share the same refrigerant circuit with T-series units. However, electrically, U-series units and T-series units can be connected via F1/F2."
+      }
+    ],
+    "expected_answer": "They cannot share a refrigerant circuit, but they can be connected electrically via F1/F2."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "type": "ngoai_le",
+    "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 37,
+        "evidence": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed."
+      }
+    ],
+    "expected_answer": "The pipe length check and the refrigerant situation check."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "type": "dien_dat_lai",
+    "question": "After an abnormality has been corrected, which button resets the malfunction code, and what should be done next?",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 38,
+        "evidence": "After correcting the abnormality, press BS3 to reset the malfunction code and retry operation."
+      }
+    ],
+    "expected_answer": "Press BS3 to reset the malfunction code, then retry operation."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "category": "operation_limits",
+    "type": "truc_tiep",
+    "question": "According to user safety instructions in section 3, why must a phase advancing capacitor NOT be installed on this unit?",
+    "expected_answer": "Because the unit is equipped with an inverter, and a phase advancing capacitor will reduce performance and may cause accidents.",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 4,
+        "evidence": "Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter. A phase advancing capacitor will reduce performance and may cause accidents."
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "category": "installation_piping",
+    "type": "truc_tiep",
+    "question": "According to section 11.4, what problem may occur if the outdoor unit is operated with the transportation stay attached?",
+    "expected_answer": "Abnormal vibration or noise may be generated.",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 13,
+        "evidence": "If the unit is operated with the transportation stay attached, abnormal vibration or noise may be generated."
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "category": "refrigerant",
+    "type": "dieu_kien",
+    "question": "In section 14.3.4, why must soap water NEVER be used when testing for refrigerant piping leaks?",
+    "expected_answer": "Soap water may cause cracking of components (such as flare nuts or stop valve caps), may contain salt that absorbs moisture and freezes, and contains ammonia which may lead to corrosion of flared joints.",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 21,
+        "evidence": "NEVER use soap water: ▪Soap water may cause cracking of components, such as flare nuts or stop valve caps. ▪Soap water may contain salt, which absorbs moisture that will freeze when the piping gets cold. ▪Soap water contains ammonia which may lead to corrosion of flared joints"
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "category": "electrical_control",
+    "type": "truc_tiep",
+    "question": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?",
+    "expected_answer": "2 core cable with a wire size of 0.75 to 1.25 mm².",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 30,
+        "evidence": "2 core cable 0.75 to1.25 mm²"
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "category": "commissioning_troubleshooting",
+    "type": "dieu_kien",
+    "question": "Under Mode 2 field settings in section 16.1.8, under what installation condition must setting [2-49] be changed to 1?",
+    "expected_answer": "When the outdoor unit is installed in the highest position and the height difference between the lowest indoor unit and the outdoor unit exceeds 50 m.",
+    "gold": [
+      {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page": 35,
+        "evidence": "In case the outdoor unit is installed in the highest position (indoor units are installed on a lower position than outdoor units) and the height difference between the lowest indoor unit and the outdoor unit exceeds 50 m, the setting [2‑49] has to be changed to 1."
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Final system output is abstention on an answerable question. Proposed model answer correctly states 6 hours and cites a supporting context chunk in its citations array, but omits the mandatory inline [chunk-id]; validator rejects it. No unsupported factual claim observed in proposed answer.",
+    "reviewer": "assistant direct comparison with actual source text, not independent human review",
+    "proposed_answer_factually_supported": true,
+    "proposed_citation_array_membership_valid": true,
+    "proposed_answer_inline_citation_valid": false,
+    "context_evidence_complete": true
+  }
+]

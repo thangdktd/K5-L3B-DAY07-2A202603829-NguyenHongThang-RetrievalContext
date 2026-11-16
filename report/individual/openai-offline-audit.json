@@ -1,0 +1,56 @@
+{
+  "method": "Actual SDK serialization captured with httpx2.MockTransport, no sockets or API requests",
+  "payloads": [
+    {
+      "payload_bytes": 2371,
+      "fields": [
+        "input",
+        "instructions",
+        "max_output_tokens",
+        "model",
+        "parallel_tool_calls",
+        "store",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "input_items": 1,
+      "corpus_or_benchmark_fields_present": false,
+      "instructions_chars": 1279,
+      "tools_count": 2
+    },
+    {
+      "payload_bytes": 5234,
+      "fields": [
+        "input",
+        "instructions",
+        "max_output_tokens",
+        "model",
+        "parallel_tool_calls",
+        "store",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "input_items": 3,
+      "corpus_or_benchmark_fields_present": false,
+      "instructions_chars": 1279,
+      "tools_count": 2
+    }
+  ],
+  "initial_context_chars": 0,
+  "synthetic_followup_context_chars": 2400,
+  "history_policy": "One latest function call and output; no previous response chain or accumulated tool text",
+  "old_timeout_ms": 42487.3561000004,
+  "configured_timeout_seconds": 45,
+  "effective_timeout": "Timeout(timeout=45.0)",
+  "retry_count": 0,
+  "endpoint": "https://api.openai.com/v1/responses",
+  "proxy_environment_present": false,
+  "key_present": true,
+  "blocking_location": "client.responses.create, before any retrieval; old trace cannot distinguish TCP/TLS/read",
+  "offline_transport_calls": 2,
+  "real_api_requests": 0,
+  "windows_ProxyEnable_enabled_or_present": false,
+  "windows_AutoConfigURL_enabled_or_present": false
+}

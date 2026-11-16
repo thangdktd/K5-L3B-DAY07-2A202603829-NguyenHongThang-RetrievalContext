@@ -1,0 +1,95 @@
+{
+  "status": "error",
+  "key_present": true,
+  "sdk_version": "3.51.0",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "requested_model": "gpt-4.1-mini",
+  "input": "Reply OK",
+  "max_output_tokens": 10,
+  "timeout_seconds": 20,
+  "max_retries": 0,
+  "follow_redirects": false,
+  "trust_env": true,
+  "request_attempts": 1,
+  "network_events": [
+    {
+      "event": "connection.connect_tcp.started",
+      "elapsed_ms": 583.784
+    },
+    {
+      "event": "connection.connect_tcp.complete",
+      "elapsed_ms": 4308.943
+    },
+    {
+      "event": "connection.start_tls.started",
+      "elapsed_ms": 4309.144
+    },
+    {
+      "event": "connection.start_tls.complete",
+      "elapsed_ms": 4866.219
+    },
+    {
+      "event": "http11.send_request_headers.started",
+      "elapsed_ms": 4866.332
+    },
+    {
+      "event": "http11.send_request_headers.complete",
+      "elapsed_ms": 4866.791
+    },
+    {
+      "event": "http11.send_request_body.started",
+      "elapsed_ms": 4866.808
+    },
+    {
+      "event": "http11.send_request_body.complete",
+      "elapsed_ms": 4867.047
+    },
+    {
+      "event": "http11.receive_response_headers.started",
+      "elapsed_ms": 4867.062
+    },
+    {
+      "event": "http11.receive_response_headers.complete",
+      "elapsed_ms": 7398.329
+    },
+    {
+      "event": "http11.receive_response_body.started",
+      "elapsed_ms": 7401.987
+    },
+    {
+      "event": "http11.receive_response_body.complete",
+      "elapsed_ms": 7402.429
+    },
+    {
+      "event": "http11.response_closed.started",
+      "elapsed_ms": 7402.583
+    },
+    {
+      "event": "http11.response_closed.complete",
+      "elapsed_ms": 7402.655
+    }
+  ],
+  "proxy_environment_present": {
+    "HTTP_PROXY": false,
+    "HTTPS_PROXY": false,
+    "ALL_PROXY": false,
+    "NO_PROXY": false
+  },
+  "usage": null,
+  "actual_model": null,
+  "cost_usd": null,
+  "payload_bytes": 80,
+  "payload_fields": [
+    "input",
+    "max_output_tokens",
+    "model",
+    "store"
+  ],
+  "http_status": 400,
+  "exception_types": [
+    "BadRequestError",
+    "HTTPStatusError"
+  ],
+  "request_id": "req_d3123d771ffa40e08fd6936b279e3a97",
+  "latency_ms": 7102.333
+}

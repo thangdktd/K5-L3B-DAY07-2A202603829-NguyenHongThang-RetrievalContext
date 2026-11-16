@@ -1,0 +1,413 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "piping length exceeds 2 m rise required suction high-pressure low-pressure gas lines",
+      "filter": {},
+      "results": [
+        {
+          "id": "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 18,
+          "text": "14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+            "page": 18,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 612,
+            "text_sha256": "e2ebc527e0206f1cc5407e578afebdd90165c976e997115ae4130bb995500c24",
+            "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.37285889585785087,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "3ec2de6092b03f06461c7338806a66f997e4b9cf43c585748eab84092c56e4f7",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 21,
+          "text": "14.3.4\nTo perform a leak test\nThe leak test must satisfy the specifications of EN378‑2.\nVacuum leak test\n1\nEvacuate the system from the liquid and gas piping to a gauge\npressure of –⁠100.7 kPa (–⁠1.007 bar) for more than 2 hours.\n2\nOnce reached, turn off the vacuum pump and check that the\npressure does not rise for at least 1 minute.\n3\nShould the pressure rise, the system may either contain\nmoisture (see vacuum drying below) or have leaks.\nPressure leak test\n1\nBreak the vacuum by pressurising with nitrogen gas to a\nminimum gauge pressure of 0.2  MPa (2  bar). Never set the\ngauge pressure higher than the maximum operation pressure of\nthe unit, i.e. 4.0 MPa (40 bar).",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+            "page": 21,
+            "section": [
+              "14",
+              "14.3",
+              "14.3.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2678,
+            "end_char": 3351,
+            "text_sha256": "c2001d541a2fb9cab5dc26c4c02982099101f6bc1448744b9a756dee9af38af6",
+            "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.3019829451755757,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "b6751ce90060b0b1141bd52643982d9904fc1a37b8f462312ee56bf4755f2688",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 19,
+          "text": "5\nCut off the lower part of the liquid-, gas-, and high pressure/low\npressure gas stop valve pipes along the black line. Use an\nappropriate tool (e.g. a pipe cutter).\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\n6\nWait until all oil has dripped out before continuing with the\nconnection of the field piping in case the recovery was not\ncomplete.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0019",
+            "page": 19,
+            "section": [
+              "14",
+              "14.2",
+              "14.2.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 645,
+            "end_char": 1077,
+            "text_sha256": "5cb8bda1557cf41b055233a8830bfb8df83a0c50e04a4f71154105868d37f692",
+            "page_text_sha256": "dcf1c53781c5c784cdf7b425cd15a7096a4994b0407fee1e45614778b01541a0",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.21057736379133643,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+      "context_ids": [
+        "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32"
+      ],
+      "elapsed_ms": 3.23979999848234
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit.",
+          "chunk_ids": [
+            "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit",
+          "chunk_id": "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0fc423f3cea4f4a4016afa964fcbf087d297128875963af059",
+      "request_id": "req_b60b6e58f38641b0a2f7bfdbdb0986e0",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"piping length exceeds 2 m rise required suction high-pressure low-pressure gas lines\"}",
+          "call_id": "call_Hinn6SIq9y4666Qv6XCxyToM",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0fc423f3cea4f4a4016afa965032b887d2826f22a267fa1b94",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 562,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 583
+      },
+      "elapsed_ms": 1288.403999998991
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0fe8a0ff748604c5016afa9651191887d2ac4ab5607ab2b423",
+      "request_id": "req_b8f47a8261274df4aac694bc38daae96",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"piping length exceeds 2 m rise required suction high-pressure low-pressure gas lines\"}",
+          "call_id": "call_Hinn6SIq9y4666Qv6XCxyToM"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_Hinn6SIq9y4666Qv6XCxyToM",
+          "output": "{\"tool\": \"search\", \"queries\": [\"piping length exceeds 2 m rise required suction high-pressure low-pressure gas lines\"], \"remaining_searches\": 2, \"context\": \"[d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\\n14 Piping installation\\nInstallation and operation manual\\n18\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\na\\nb\\nb\\nb\\na\\nb\\nb\\nb\\na\\nb\\na\\nb\\na\\nb\\na\\na\\na\\n≥200 mm\\na\\nTo indoor unit\\nb\\nOil collects to the outmost outdoor unit when the system\\nstops\\nNOT allowed (oil remains in piping)\\nAllowed\\n▪If the piping length between the outdoor units exceeds 2 m, create\\na rise of 200  mm or more in the suction gas line and the high\\npressure/low pressure gas line within a length of 2 m from the kit.\\nIf\\nThen\\n≤2 m\\na\\nb\\n≤2 m\\n>2 m\\na\\n≤2 m\\n≤2 m\\n≥200 mm\\n≥200 mm\\nb\\n>2 m\\n>2 m\\na\\nTo indoor unit\\nb\\nPiping between outdoor units\\nNOTICE\", \"context_ids\": [\"d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit.\",\"chunk_ids\":[\"d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32\"]}]}",
+          "call_id": "call_qrsFdqlBs4WrovmFMIFAyF5p",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0fe8a0ff748604c5016afa965176bc87d2b48c2cec48de3038",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 979,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 110,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1089
+      },
+      "elapsed_ms": 1357.4059000002308
+    }
+  ],
+  "context": "[d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+  "context_ids": [
+    "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32"
+  ],
+  "context_chars": 739,
+  "search_queries": [
+    "piping length exceeds 2 m rise required suction high-pressure low-pressure gas lines"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2654.4799000002968,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1541,
+    "output_tokens": 131,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q07",
+  "question": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 18,
+      "text": "14 Piping installation\nInstallation and operation manual\n18\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\na\nb\nb\nb\na\nb\nb\nb\na\nb\na\nb\na\nb\na\na\na\n≥200 mm\na\nTo indoor unit\nb\nOil collects to the outmost outdoor unit when the system\nstops\nNOT allowed (oil remains in piping)\nAllowed\n▪If the piping length between the outdoor units exceeds 2 m, create\na rise of 200  mm or more in the suction gas line and the high\npressure/low pressure gas line within a length of 2 m from the kit.\nIf\nThen\n≤2 m\na\nb\n≤2 m\n>2 m\na\n≤2 m\n≤2 m\n≥200 mm\n≥200 mm\nb\n>2 m\n>2 m\na\nTo indoor unit\nb\nPiping between outdoor units\nNOTICE",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+        "page": 18,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 612,
+        "text_sha256": "e2ebc527e0206f1cc5407e578afebdd90165c976e997115ae4130bb995500c24",
+        "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.3738443273435251
+    },
+    {
+      "id": "3ec2de6092b03f06461c7338806a66f997e4b9cf43c585748eab84092c56e4f7",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 21,
+      "text": "14.3.4\nTo perform a leak test\nThe leak test must satisfy the specifications of EN378‑2.\nVacuum leak test\n1\nEvacuate the system from the liquid and gas piping to a gauge\npressure of –⁠100.7 kPa (–⁠1.007 bar) for more than 2 hours.\n2\nOnce reached, turn off the vacuum pump and check that the\npressure does not rise for at least 1 minute.\n3\nShould the pressure rise, the system may either contain\nmoisture (see vacuum drying below) or have leaks.\nPressure leak test\n1\nBreak the vacuum by pressurising with nitrogen gas to a\nminimum gauge pressure of 0.2  MPa (2  bar). Never set the\ngauge pressure higher than the maximum operation pressure of\nthe unit, i.e. 4.0 MPa (40 bar).",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+        "page": 21,
+        "section": [
+          "14",
+          "14.3",
+          "14.3.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2678,
+        "end_char": 3351,
+        "text_sha256": "c2001d541a2fb9cab5dc26c4c02982099101f6bc1448744b9a756dee9af38af6",
+        "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.29513532631772665
+    },
+    {
+      "id": "413768a01025d3de96f6b6be356169eebf59ba66bd46b8376faf82439cce7da6",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 26,
+      "text": "3\nPre-charging can be done without compressor operation, by\nconnecting the refrigerant bottle to the service port of the liquid\nstop valve (open valve B). Make sure that all outdoor unit stop\nvalves, as well as valves A, C, and D are closed.\nNOTICE\nDuring pre-charging, the refrigerant is charged through the\nliquid line only. Close valves C, D, and A and disconnect\nthe manifold from the gas line and the high pressure/low\npressure gas line.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0026",
+        "page": 26,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.5"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2382,
+        "end_char": 2824,
+        "text_sha256": "991afc0945e89d96cc12374430a4aba0f360973c90df1e1e8337fcc9ef798516",
+        "page_text_sha256": "dcb3b399848545c54aca873a740431c07318679816eb9231d136a178544f02ca",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.23286881595514172
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:18.892469+00:00"
+}

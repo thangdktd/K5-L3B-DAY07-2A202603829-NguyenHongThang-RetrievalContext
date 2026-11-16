@@ -1,0 +1,275 @@
+[
+  {
+    "query_id": "q01",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page7 section6.2.1 explicitly states main power on 6 hours before operation; final answer preserves value and condition.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "69aade94080befa83c57cb18a4d83be96b1b534bd61128d60c72197a408c8c97",
+      "e34ab310a5bcf1a4a3989f60cf471b81c5296223816d8a6c8d52a16da25843a5"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q02",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page8 explicitly says do not power off immediately; wait at least5 minutes. Value and minimum condition preserved.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+      "c4b37e4f468c352a2f1895d4646b8edc213f19a4bf1415a21461e5ae83f5d625"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q03",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page8 section6.3.1 dry program does not operate at room temperature below20C; answer retains negation and threshold.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4",
+      "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+      "29a5d1fd382dfcd102fe0a532053618c864a2d48dfad0b96278a55fbf56c26a7"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q04",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page16 section14.1.1 specifies phosphoric acid deoxidised seamless copper, not merely generic copper.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+      "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q05",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page16 specifies foreign materials including fabrication oils <=30mg per10m; units, limit and condition required.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q06",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page15 requires foundation >=150mm and increase for heavy snowfall to expected snow level; both final claims are supported by the cited chunk.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3",
+      "d734ff9ba377557ff6b3bfecd6c6427e0cbd77e24777d57fe1a394bd8ce20c2e",
+      "4901deb09b6ee563077188a5cf10cf16c912414d911e11a3ae321e73604b5957"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q07",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page18 contains the full >2m condition and >=200mm rise in both lines within2m of kit. Proposal is substantively supported; final abstention remains grade0. Numeric mismatch is due to source layout/extra numbers, not a new measured wrong value. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32",
+      "a78f7975c0addf6dec77683dc194d9cabc558d2b46b94cb45766ab83323738da",
+      "370321d1690e5760f498ba772e465da3f99e7d08cd3d0fb23934f3623bd8c999"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q08",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page9 states R410A and GWP2087.5. Proposal matches both fields but validator rejects extraction spanning unsentenced table/header text. Final abstention remains grade0. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28",
+      "1af82a873e9a305ddef99fdb3f5147da43924a2e9d5a88388eb8e2a195b6c9ec",
+      "862593cf7e4831b5e5901814f1b412d502c9fee39400169c87386beecec0c6ea"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q09",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page23 parameterA states CR>100% adds0.5kg per outdoor unit; accepted selected answer includes condition and amount.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+      "b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q10",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page22 states automatic charging not possible with Hydrobox connected. Proposal is faithful but source heading/list layout causes unverified paraphrase check to reject. Do not convert final abstention into answered. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+      "b117ef0a557209c38eb6b328608f963cb0e0bff962044716a825a0533eaa2a6e",
+      "c5667980406093f3f578c942a237d6d75a9e766035994abe7c61e555f0dcd52e"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q11",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page29 REYQ10 single-unit row is22.0A and25A. Example REYQ30 fuse80A is a different scope and must not be used as the REYQ10 fuse. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+      "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+      "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q12",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page32 requires both groups: Mode1 monitors current situation/some settings; Mode2 consults/changes settings. Selected proposal has both correct sources and clauses; numeric/header guard rejects it. Final abstention grade0. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353",
+      "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264",
+      "2bc3b70ebf5ee0d0bcc03c570376f59897e8278e7d67c63ddf4c5c237db58acc"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q13",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Page31 explicitly prohibits sharing U/T refrigerant circuits but allows electrical F1/F2. Selected proposal is supported by context, but deterministic guard rejects it; final answer is still abstention. Final output grade0 per official rubric; proposal review is diagnostic only.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "context_ids": [
+      "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+      "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+      "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q14",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true
+    ],
+    "reason": "Page37 explicitly omits pipe-length and refrigerant-situation checks when Hydrobox is present; accepted answer preserves both checks and condition.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+      "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+      "f15ff64356808491dc7e019ed09d879eddd9a723892f929c159e48881bd67437"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q15",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Page38 says pressBS3 to reset and retry. Selected additionally cites page37 to repeat test/confirm corrected abnormality; these are compatible supported next steps.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "context_ids": [
+      "f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f",
+      "09d77249df8c8bbaa03da4b9344ed302cbcde7f00dec79a1d5d6b582e5ffa851",
+      "171a937f6b0203b0f87c7f00bd0ab85fccf2b3badfced0d1a71fe5a95a8042af"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Correct final system abstention: no R32 retrofit procedure/formula exists in inspected corpus. The model proposed R410A charging limits/formula/procedure under an R32 request; validator blocked it. Distinguish this safeguard rejection from model-requested abstention; proposed procedure was not established for R32.",
+    "context_grade": "not_applicable",
+    "abstention_correct": true,
+    "context_ids": [
+      "de1fa872df8267f2e13a2ec9b7c5f53d6881b02adffc922b1000d1fcae750855",
+      "35b4a35a81cee5e4f6f8af88fdffda866e17f5c7bba7a3802b0e4f5d0da0eb60",
+      "1d516c95d396fc3e2ab690ef493bb70ddcfd78e399e308bd2198dc5dc388f338"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "reviewer": "assistant direct source-text review; no external LLM judge",
+    "citation_support": [],
+    "reason": "Correct model abstention after3 searches: corpus has qualitative noise descriptions, not the requested rated dBA value for REYQ14. Final refusal contains no fabricated number.",
+    "context_grade": "not_applicable",
+    "abstention_correct": true,
+    "context_ids": [
+      "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+      "427eced4499dce9953a3233a5c51afd172ee17f4dd1bd2d9b5bb9ee74cb0a138",
+      "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  }
+]

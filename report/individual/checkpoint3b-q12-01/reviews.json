@@ -1,0 +1,24 @@
+[
+  {
+    "query_id": "q12",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Final output is false abstention on an answerable question. Both required evidence groups are present in CURRENT context. Proposed answer describes both modes correctly but has no inline [chunk-id], and its citations array omits the Mode 1 evidence chunk. Citation-format/alignment failure; not missing retrieval, context budget, or proof of overly strict paraphrase matching.",
+    "reviewer": "assistant direct review of response and actual source text, not independent human grading",
+    "context_evidence_complete": true,
+    "context_group_chunk_ids": [
+      [
+        "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264"
+      ],
+      [
+        "2bc3b70ebf5ee0d0bcc03c570376f59897e8278e7d67c63ddf4c5c237db58acc"
+      ]
+    ],
+    "proposed_citation_group_coverage": [
+      false,
+      true
+    ],
+    "failure_category": "citation",
+    "proposed_core_answer_factually_supported_by_full_context": true
+  }
+]

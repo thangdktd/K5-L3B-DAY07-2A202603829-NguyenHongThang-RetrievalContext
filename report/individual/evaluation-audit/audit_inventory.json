@@ -1,0 +1,822 @@
+{
+  "stage": "A offline audit only",
+  "openai_api_requests_this_stage": 0,
+  "experiments_rerun": 0,
+  "frozen_benchmark_verified": true,
+  "retrieval_traces_verified": 120,
+  "retrieval_metrics": {
+    "tfidf-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 10,
+          "N": 14,
+          "rate": 0.7142857142857143
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 3.445599999395199,
+      "avg_context_chars": 631.2666666666667
+    },
+    "dense-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 42.32200000024022,
+      "avg_context_chars": 612.4666666666667
+    },
+    "bm25-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_hit": {
+        "n": 6,
+        "N": 15,
+        "rate": 0.4
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 6,
+          "N": 14,
+          "rate": 0.42857142857142855
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 5.45719999990979,
+      "avg_context_chars": 536.1333333333333
+    },
+    "hybrid_rrf-b800": {
+      "N": 15,
+      "hit1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 11,
+          "N": 14,
+          "rate": 0.7857142857142857
+        },
+        "hit3": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 7,
+          "N": 14,
+          "rate": 0.5
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 44.52049999963492,
+      "avg_context_chars": 569.1333333333333
+    },
+    "tfidf-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 10,
+          "N": 14,
+          "rate": 0.7142857142857143
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 2.394500000264088,
+      "avg_context_chars": 1750.6666666666667
+    },
+    "dense-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "context_hit": {
+        "n": 13,
+        "N": 15,
+        "rate": 0.8666666666666667
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "context_hit": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        }
+      },
+      "median_ms": 38.06629999962752,
+      "avg_context_chars": 1803.2666666666667
+    },
+    "bm25-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "context_hit": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 12,
+          "N": 14,
+          "rate": 0.8571428571428571
+        },
+        "hit3": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        },
+        "context_hit": {
+          "n": 13,
+          "N": 14,
+          "rate": 0.9285714285714286
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        }
+      },
+      "median_ms": 3.406400000130816,
+      "avg_context_chars": 1880.4666666666667
+    },
+    "hybrid_rrf-b2400": {
+      "N": 15,
+      "hit1": {
+        "n": 11,
+        "N": 15,
+        "rate": 0.7333333333333333
+      },
+      "hit3": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "context_hit": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "single_group": {
+        "N": 14,
+        "hit1": {
+          "n": 11,
+          "N": 14,
+          "rate": 0.7857142857142857
+        },
+        "hit3": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 14,
+          "N": 14,
+          "rate": 1.0
+        }
+      },
+      "multi_group": {
+        "N": 1,
+        "hit1": {
+          "n": 0,
+          "N": 1,
+          "rate": 0.0
+        },
+        "hit3": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        },
+        "context_hit": {
+          "n": 1,
+          "N": 1,
+          "rate": 1.0
+        }
+      },
+      "median_ms": 57.31720000039786,
+      "avg_context_chars": 1929.9333333333334
+    }
+  },
+  "agent_runs": [
+    {
+      "source_run": "report/individual/checkpoint3b-pilot",
+      "query_id": "q01",
+      "final_status": "error",
+      "failure_class": "provider_error",
+      "reason": "provider_error",
+      "provider_error": {
+        "type": "AuthenticationError",
+        "status_code": 401,
+        "request_id": "req_5d001d80fcc0444db54de016c1d35df3"
+      },
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [],
+      "configuration": {
+        "max_searches": 3,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 600,
+        "provider_timeout_seconds": 45,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "ea1ff470336fdc5ee10534332ef9ab7c2beead8b350fa56ea7bb12dcb5fe0d37",
+        "src/run_agent_dev.py": "d9249887c3382726fbc8c0c4c45b6f37511c53ef6f5977371810f8364ce0edd6"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 1,
+      "successful_provider_calls": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_input_tokens": 0
+      },
+      "usage_known": false,
+      "latency_ms": 7986.628999999084,
+      "cost_estimate_usd": null,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "160d4123eea43adb1c3d2605f13f997f0fd35478a43db576888442fbe71bb900",
+      "runtime_sha256": "e2f54604051b0263acd60f7ba7bd2a01aaaee46d4b63633e62c4bc7de3a62ae4",
+      "review_path": null
+    },
+    {
+      "source_run": "report/individual/checkpoint3b-pilot-02",
+      "query_id": "q01",
+      "final_status": "error",
+      "failure_class": "provider_error",
+      "reason": "provider_error",
+      "provider_error": {
+        "type": "APITimeoutError",
+        "status_code": null,
+        "request_id": null
+      },
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [],
+      "configuration": {
+        "max_searches": 3,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 600,
+        "provider_timeout_seconds": 45,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "ea1ff470336fdc5ee10534332ef9ab7c2beead8b350fa56ea7bb12dcb5fe0d37",
+        "src/run_agent_dev.py": "d9249887c3382726fbc8c0c4c45b6f37511c53ef6f5977371810f8364ce0edd6"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 1,
+      "successful_provider_calls": 0,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_input_tokens": 0
+      },
+      "usage_known": false,
+      "latency_ms": 42487.396599999556,
+      "cost_estimate_usd": null,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "cf87cdc91a9a3198fc0f601b6dd9e2be45391362123452872fb8c83bb10ab43d",
+      "runtime_sha256": "b71850c59485c33a195c2d2807847394ec76714be30bfa6a54fdbb43238cf73d",
+      "review_path": null
+    },
+    {
+      "source_run": "report/individual/checkpoint3b-q01-01",
+      "query_id": "q01",
+      "final_status": "abstain",
+      "failure_class": "validator_rejection",
+      "reason": "invalid_or_missing_citations",
+      "provider_error": null,
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "configuration": {
+        "max_searches": 2,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 250,
+        "provider_timeout_seconds": 60.0,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "491072fa028b92f63a06f6e48d4e92aa7479da8d016dc28ce57f8ce290a39f99",
+        "src/run_agent_dev.py": "2b0ae1d364a9ae3ae74247232d0297c5ea95b8c9e8f76a68075aaa0cb4d96bd3"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 2,
+      "successful_provider_calls": 2,
+      "usage": {
+        "input_tokens": 1531,
+        "output_tokens": 107,
+        "cached_input_tokens": 0
+      },
+      "usage_known": true,
+      "latency_ms": 3333.918399999675,
+      "cost_estimate_usd": 0.0007836000000000001,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "740bb9e3b8fd21a3516fb790c38b808c338d751cdc075bc29ddd2941e3dffa52",
+      "runtime_sha256": "5914131e6f4fb8c614337044a29937b74fdc2db2af6519287b43116a7de2c775",
+      "review_path": "report/individual/checkpoint3b-q01-01/reviews.json"
+    },
+    {
+      "source_run": "report/individual/checkpoint3b-q01-02",
+      "query_id": "q01",
+      "final_status": "answered",
+      "failure_class": "answered",
+      "reason": null,
+      "provider_error": null,
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "configuration": {
+        "max_searches": 2,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 250,
+        "provider_timeout_seconds": 60.0,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "e55c0023b198b6182eee6d1c1b0af16604c77b631b8bc21aabaa3446e710a958",
+        "src/run_agent_dev.py": "2b0ae1d364a9ae3ae74247232d0297c5ea95b8c9e8f76a68075aaa0cb4d96bd3"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 2,
+      "successful_provider_calls": 2,
+      "usage": {
+        "input_tokens": 2053,
+        "output_tokens": 138,
+        "cached_input_tokens": 0
+      },
+      "usage_known": true,
+      "latency_ms": 7383.173500000339,
+      "cost_estimate_usd": 0.001042,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "af3978f65752d0b80697c9df24c8bc2dbfdfb7cafc1c5489870d45c355f34222",
+      "runtime_sha256": "e13bfebfd5246aac2a634bbc1ebb84cb0f7dd6f665e9169235ba3bbd7e04aee9",
+      "review_path": "report/individual/checkpoint3b-q01-02/reviews.json"
+    },
+    {
+      "source_run": "report/individual/checkpoint3b-q12-01",
+      "query_id": "q12",
+      "final_status": "abstain",
+      "failure_class": "validator_rejection",
+      "reason": "invalid_or_missing_citations",
+      "provider_error": null,
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "configuration": {
+        "max_searches": 3,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 250,
+        "provider_timeout_seconds": 60.0,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "e55c0023b198b6182eee6d1c1b0af16604c77b631b8bc21aabaa3446e710a958",
+        "src/run_agent_dev.py": "2867455d2a1dc6d683d2b7c3374c2845856e8253707a7803b6a3f6c9be2aabb9"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 2,
+      "successful_provider_calls": 2,
+      "usage": {
+        "input_tokens": 2126,
+        "output_tokens": 200,
+        "cached_input_tokens": 0
+      },
+      "usage_known": true,
+      "latency_ms": 4177.775599999222,
+      "cost_estimate_usd": 0.0011704,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "6a4e16db69721657decf0fd14d24875526a44d12aa74f62a3835f48ba5848e9d",
+      "runtime_sha256": "d81763fa89f77c3851de8987cccb2c37d8aec0b115678689a27f3e2a269b2fa0",
+      "review_path": "report/individual/checkpoint3b-q12-01/reviews.json"
+    },
+    {
+      "source_run": "report/individual/checkpoint3b-q12-02",
+      "query_id": "q12",
+      "final_status": "abstain",
+      "failure_class": "validator_rejection",
+      "reason": "unsupported_cited_claim",
+      "provider_error": null,
+      "requested_model": "gpt-4.1-mini",
+      "actual_models": [
+        "gpt-4.1-mini-2025-04-14"
+      ],
+      "configuration": {
+        "max_searches": 3,
+        "top_k": 3,
+        "budget_chars": 2400,
+        "dedup": "chunk_id",
+        "packing": "newest search first, full chunks; source_id/page/id header",
+        "rrf_k": 60,
+        "candidate_k_per_branch": 20,
+        "temperature": 0,
+        "max_output_tokens": 250,
+        "provider_timeout_seconds": 60.0,
+        "provider_retries": 0
+      },
+      "recorded_code_hashes": {
+        "src/openai_agent.py": "ec131f3cd036df41d1108a73243cb0bb6cab24914fb38088dd1b9a187e1808e9",
+        "src/run_agent_dev.py": "2867455d2a1dc6d683d2b7c3374c2845856e8253707a7803b6a3f6c9be2aabb9"
+      },
+      "matches_current_recorded_files": false,
+      "api_request_attempts": 2,
+      "successful_provider_calls": 2,
+      "usage": {
+        "input_tokens": 1958,
+        "output_tokens": 174,
+        "cached_input_tokens": 0
+      },
+      "usage_known": true,
+      "latency_ms": 6100.506700000551,
+      "cost_estimate_usd": 0.0010616000000000002,
+      "preserve_as_historical": true,
+      "reuse_for_future_uniform_configuration": false,
+      "trace_sha256": "1addd06198a0de8f1fa9c7ef8149bc308c89314c3034fc55e444e28c0e0a6ed4",
+      "runtime_sha256": "da085e1a3665397b3c4d84b4aab22a028589d6d64a0bd97a9534abd4491685c6",
+      "review_path": "report/individual/checkpoint3b-q12-02/reviews.json"
+    }
+  ],
+  "distinct_dev_cases_with_completed_provider_calls": [
+    "q01",
+    "q12"
+  ],
+  "dev_cases_without_completed_agent_trace": [
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q13",
+    "q14",
+    "q15",
+    "q_unans_dev_01",
+    "q_unans_dev_02"
+  ],
+  "counts": {
+    "dev_cases": 17,
+    "covered_historically": 2,
+    "missing": 15,
+    "missing_answerable": 13,
+    "missing_unanswerable": 2
+  },
+  "historical_observed_agent_usage": {
+    "request_attempts": 10,
+    "successful_responses": 8,
+    "input_tokens_known": 7668,
+    "output_tokens_known": 619,
+    "known_token_charge_estimate_usd": 0.004057600000000001,
+    "failed_request_usage_unknown": 2,
+    "note": "Agent runs only; diagnostic requests excluded; failed usage not assumed zero"
+  },
+  "current_source_hashes": {
+    "src/openai_agent.py": "0f8fc87b084e8af3f33fb0d83497280eeb12963b3dc2748f3b2eaff64c7bf79c",
+    "src/grounding.py": "191d156b339dddd5798d57cf462e5a036e5bd8ca2a2e396d81872a0cfb84e4de",
+    "src/retrievers.py": "1a1b82fc56f17f8473207b4d0fec7120f34a54ab14bed92eb391369255a03e56",
+    "src/run_agent_dev.py": "2355b1e6cf0e98a886e4f13ce3068fe62263325efcde591012fc7e9f7ad81aa5",
+    "src/evaluate_agent_dev.py": "ee9260439602d4490df1379b8c75713026a8ab763f7e0f5f7928075686c99c26",
+    "starter/baseline.py": "2c29da8c8036cf8e7e08e2e326037a3e70141274c28b80d3e96131e31defd23d",
+    "starter/agent_metrics.py": "21a0ea97619ae081e322cc0681b0b47f52ced6766e56d614d41333b5fd934df5",
+    "src/requirements.txt": "46c9399aa4eafcfce7cde3d675a807507c44fc16306575ee329a11b80f83986b",
+    "src/README.md": "005983253e32ed0c5effd662b43bbbcc230e6b78d676b709162fdb5b8da74efd"
+  },
+  "prior_unit_tests": {
+    "passed": 77,
+    "total": 77,
+    "source": "prior grounding repair report and session result",
+    "rerun_in_audit": false
+  },
+  "future_dev_budget": {
+    "scope": "15 missing cases only; old q01/q12 stay historical versioned records",
+    "max_searches": 3,
+    "max_requests_per_case": 4,
+    "max_new_api_requests": 60,
+    "max_output_tokens_per_request": 250,
+    "max_output_tokens_total": 15000,
+    "observed_two_request_case_cost_usd": [
+      0.001042,
+      0.0010616,
+      0.0011704
+    ],
+    "typical_estimate_15_cases_usd": [
+      0.016,
+      0.04
+    ],
+    "planning_input_tokens_per_request": 4000,
+    "planning_total_input_tokens": 240000,
+    "planning_cost_at_max_requests_usd": 0.12,
+    "proposed_reserve_usd": 0.15,
+    "not_hard_billing_cap": true,
+    "price_usd_per_million_tokens": {
+      "input": 0.4,
+      "cached_input": 0.1,
+      "output": 1.6
+    },
+    "price_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_checked_date": "2026-11-16",
+    "note": "Input allowance is a planning assumption, not measured maximum; current runner has no cost gate or uniform resume mode. Requires separate approval and offline runner preparation."
+  },
+  "test_status": "NOT RUN; separate approval required; no TEST annotations inspected for tuning during this audit",
+  "personal_report_target": "report/individual/2A202603829_NguyenHongThang.md",
+  "personal_report_created": false,
+  "final_configuration_selected": false,
+  "validator_development": "STOPPED per user request"
+}

@@ -1,0 +1,39 @@
+{
+  "cases": 1,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 1,
+    "N": 1
+  },
+  "grounded_answer": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "N": 1,
+    "mean": 0.0
+  },
+  "citation_validity": {
+    "n": 0,
+    "N": 0
+  },
+  "answer_citation_coverage": {
+    "n": 0,
+    "N": 0
+  },
+  "abstention": {
+    "n": 0,
+    "N": 0
+  },
+  "false_abstention": {
+    "n": 1,
+    "N": 1
+  },
+  "scope": "q12 only, not full DEV",
+  "failure_category": "validator_too_strict_for_supported_paraphrase",
+  "context_evidence": {
+    "n": 1,
+    "N": 1
+  },
+  "structured_claim_count": 2,
+  "model_selected_correct_sources": 2
+}

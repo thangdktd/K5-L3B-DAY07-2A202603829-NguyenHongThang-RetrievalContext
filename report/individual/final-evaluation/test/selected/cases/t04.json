@@ -1,0 +1,474 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 15.5 cable specification requirements indoor-outdoor interconnection wiring",
+      "filter": {},
+      "results": [
+        {
+          "id": "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.5"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1288,
+            "end_char": 1890,
+            "text_sha256": "837919c1fa5c8e40fc2d77d7a354d0c847eb8ddefadeade8488fce1335fd3c23",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.7142662022789185,
+            "bm25": 16.11928746808755
+          }
+        },
+        {
+          "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.3"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3838,
+            "end_char": 3992,
+            "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 4
+          },
+          "component_scores": {
+            "dense": 0.5814950292857006,
+            "bm25": 14.704193837248
+          }
+        },
+        {
+          "id": "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.4"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 588,
+            "end_char": 1287,
+            "text_sha256": "0cc2e8307ef159341cf2753232c1838618f38310510f0da3fb3d1026865093ce",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.548305462452287,
+            "bm25": 15.162619273075384
+          }
+        }
+      ],
+      "context": "[c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\n15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne\n\n[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\n15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+      "context_ids": [
+        "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+        "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+        "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101"
+      ],
+      "elapsed_ms": 113.66660000021511
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "Only use harmonised wiring providing double insulation and suitable for the applicable voltage",
+          "chunk_ids": [
+            "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57"
+          ]
+        },
+        {
+          "text": "2 core cable",
+          "chunk_ids": [
+            "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57"
+          ]
+        },
+        {
+          "text": "Wire size 0.75 to 1.25 mm²",
+          "chunk_ids": [
+            "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Only use harmonised wiring providing double insulation and suitable for the applicable voltage",
+          "chunk_id": "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0c1fad60ef03f8fa016afa975cbd9487d2a61333632139c9d2",
+      "request_id": "req_ddad38ffee6a44b5bff1ea0dcf13c8fd",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_5rUUV8TQ36KNDIc87s0QFgH0",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0c1fad60ef03f8fa016afa975d1b5087d295e9c49385a37793",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 554,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 573
+      },
+      "elapsed_ms": 1009.8250000010012
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_03e8473f4df372db016afa975dd74c87d2a8df582d59f4c64d",
+      "request_id": "req_b44eadd9018640659f350a910abe0ea9",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"}",
+          "call_id": "call_5rUUV8TQ36KNDIc87s0QFgH0"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_5rUUV8TQ36KNDIc87s0QFgH0",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 15.5 cable specification requirements indoor-outdoor interconnection wiring\"], \"remaining_searches\": 2, \"context\": \"[c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\\n15.5\\nTo connect the interconnection\\nwiring\\nThe wiring from the indoor units must be connected to the F1/F2\\n(In‑Out) terminals on the PCB in the outdoor unit.\\nIndoor-outdoor connection requirements\\nVoltage\\n220~240 V\\nFrequency\\n50 Hz\\nWire size\\nOnly use harmonised wiring providing double\\ninsulation and suitable for the applicable\\nvoltage\\n2 core cable\\n0.75 to1.25 mm²\\nF1 F2\\nF1\\nF2\\nQ1 Q2\\nF1\\nF1\\nF2\\nF2 Q1Q2\\ng\\ne\\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\\nA1P\\nQ1 Q2\\nA1P\\nQ1 Q2\\nA1P\\na\\nb\\nc\\nd\\nf\\nF1 F2F1 F2\\nF1 F2F1 F2\\nTO IN/D\\nUNIT\\nTO OUT/D\\nUNIT\\nTO IN/D\\nUNIT\\nTO OUT/D\\nUNIT\\nF1 F2\\nF1 F2\\nF1 F2\\nF1 F2\\nF1 F2\\nF1 F2\\nj\\ni\\ni\\nh\\nh\\ne\\n\\n[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n15.3\\nField wiring: Overview\\nField wiring consists of:\\n▪power supply (including earth),\\n▪Interconnection wiring between communication box and outdoor\\nunit,\\n\\n[93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\\n15.4\\nTo route and fix the\\ninterconnection wiring\\nInterconnection wiring can be routed through the front side only. Fix\\nit to the upper mounting hole.\\nb\\na\\nA\\nb\\na\\nc\\nc\\nc\\nd\\nc\\nd\\nc\\n5~12 HP\\n14~20 HP\\nA\\nA\\na\\nInterconnection wiring (possibility 1)(a)\\nb\\nInterconnection wiring (possibility 2)(a)\\nc\\nTie wrap. Fix to factory-mounted low voltage wiring.\\nd\\nTie wrap.\\n(a)\\nKnockout hole has to be removed. Close the hole to\\navoid small animals or dirt from entering.\\nX1A\\nc\\nd\\na\\nb\\na\\nb\\n5~12 HP\\n14~20 HP\\nFix to the indicated plastic brackets using field supplied clamping\\nmaterial.\\na\\nWiring between the units (indoor-outdoor) (F1/F2 left)\\nb\\nInternal interconnection wiring (Q1/Q2)\\nc\\nPlastic bracket\\nd\\nField supplied clamps\", \"context_ids\": [\"c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57\", \"ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049\", \"93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Only use harmonised wiring providing double insulation and suitable for the applicable voltage\",\"chunk_ids\":[\"c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57\"]},{\"text\":\"2 core cable\",\"chunk_ids\":[\"c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57\"]},{\"text\":\"Wire size 0.75 to 1.25 mm²\",\"chunk_ids\":[\"c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57\"]}]}",
+          "call_id": "call_ufCXuWG00Zp9bWTlvxM5tfQ7",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_03e8473f4df372db016afa975e597887d2884c5f379162686d",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1447,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 168,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1615
+      },
+      "elapsed_ms": 1811.668299998928
+    }
+  ],
+  "context": "[c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\n15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne\n\n[ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,\n\n[93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\n15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+  "context_ids": [
+    "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+    "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+    "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101"
+  ],
+  "context_chars": 1840,
+  "search_queries": [
+    "section 15.5 cable specification requirements indoor-outdoor interconnection wiring"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2953.8799000001745,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 2001,
+    "output_tokens": 187,
+    "cached_input_tokens": 0
+  },
+  "query_id": "t04",
+  "question": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?",
+  "split": "test",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 30,
+      "text": "15.5\nTo connect the interconnection\nwiring\nThe wiring from the indoor units must be connected to the F1/F2\n(In‑Out) terminals on the PCB in the outdoor unit.\nIndoor-outdoor connection requirements\nVoltage\n220~240 V\nFrequency\n50 Hz\nWire size\nOnly use harmonised wiring providing double\ninsulation and suitable for the applicable\nvoltage\n2 core cable\n0.75 to1.25 mm²\nF1 F2\nF1\nF2\nQ1 Q2\nF1\nF1\nF2\nF2 Q1Q2\ng\ne\nTO IN/D UNIT TO OUT/D UNIT TO MULTI UNIT\nA1P\nQ1 Q2\nA1P\nQ1 Q2\nA1P\na\nb\nc\nd\nf\nF1 F2F1 F2\nF1 F2F1 F2\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nTO IN/D\nUNIT\nTO OUT/D\nUNIT\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nF1 F2\nj\ni\ni\nh\nh\ne",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+        "page": 30,
+        "section": [
+          "15",
+          "15.5"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1288,
+        "end_char": 1890,
+        "text_sha256": "837919c1fa5c8e40fc2d77d7a354d0c847eb8ddefadeade8488fce1335fd3c23",
+        "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 1,
+        "bm25": 1
+      },
+      "component_scores": {
+        "dense": 0.6727911233901978,
+        "bm25": 27.056571207025932
+      }
+    },
+    {
+      "id": "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 29,
+      "text": "15.3\nField wiring: Overview\nField wiring consists of:\n▪power supply (including earth),\n▪Interconnection wiring between communication box and outdoor\nunit,",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+        "page": 29,
+        "section": [
+          "15",
+          "15.3"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3838,
+        "end_char": 3992,
+        "text_sha256": "3d359de64a7ab6993335ce079141f384287e36aa31f86123bc31f20db6d9a71d",
+        "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.03128054740957967,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 2,
+        "bm25": 6
+      },
+      "component_scores": {
+        "dense": 0.5367136873773533,
+        "bm25": 15.281989474683488
+      }
+    },
+    {
+      "id": "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 30,
+      "text": "15.4\nTo route and fix the\ninterconnection wiring\nInterconnection wiring can be routed through the front side only. Fix\nit to the upper mounting hole.\nb\na\nA\nb\na\nc\nc\nc\nd\nc\nd\nc\n5~12 HP\n14~20 HP\nA\nA\na\nInterconnection wiring (possibility 1)(a)\nb\nInterconnection wiring (possibility 2)(a)\nc\nTie wrap. Fix to factory-mounted low voltage wiring.\nd\nTie wrap.\n(a)\nKnockout hole has to be removed. Close the hole to\navoid small animals or dirt from entering.\nX1A\nc\nd\na\nb\na\nb\n5~12 HP\n14~20 HP\nFix to the indicated plastic brackets using field supplied clamping\nmaterial.\na\nWiring between the units (indoor-outdoor) (F1/F2 left)\nb\nInternal interconnection wiring (Q1/Q2)\nc\nPlastic bracket\nd\nField supplied clamps",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+        "page": 30,
+        "section": [
+          "15",
+          "15.4"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 588,
+        "end_char": 1287,
+        "text_sha256": "0cc2e8307ef159341cf2753232c1838618f38310510f0da3fb3d1026865093ce",
+        "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03125763125763126,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 5,
+        "bm25": 3
+      },
+      "component_scores": {
+        "dense": 0.4689623154446736,
+        "bm25": 16.547204045554075
+      }
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:40:48.037672+00:00"
+}

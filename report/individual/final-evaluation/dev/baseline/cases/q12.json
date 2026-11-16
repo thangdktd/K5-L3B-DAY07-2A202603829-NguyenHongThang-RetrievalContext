@@ -1,0 +1,425 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "mode 1 and mode 2 outdoor-unit field settings purposes",
+      "filter": {},
+      "results": [
+        {
+          "id": "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 32,
+          "text": "▪\"16.1.7 Mode 1: monitoring settings\" [4 34]\n▪\"16.1.8 Mode 2: field settings\" [4 34]",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+            "page": 32,
+            "section": [
+              "16",
+              "16.1",
+              "16.1.1"
+            ],
+            "topic": [
+              "configuration"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3400,
+            "end_char": 3484,
+            "text_sha256": "0ec1edf2264648ee9319b6dcf66ba5379aee2dde61544d89ff945d280af12806",
+            "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.5043717806767942,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 32,
+          "text": "▪\"16.1.2 Field setting components\" [4 32]\n▪\"16.1.3 To access the field setting components\" [4 32]\nPC configurator\nFor VRV IV heat recovery system it is alternatively possible to make\nseveral commissioning field settings through a personal computer\ninterface (for this, option EKPCCAB* is required). The installer can\nprepare the configuration (off-site) on PC and afterwards upload the\nconfiguration to the system.\nMode 1 and 2\nMode\nDescription\nMode 1\n(monitoring\nsettings)\nMode 1 can be used to monitor the current\nsituation of the outdoor unit. Some field setting\ncontents can be monitored as well.\nMode 2\n(field settings)",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+            "page": 32,
+            "section": [
+              "16",
+              "16.1",
+              "16.1.1"
+            ],
+            "topic": [
+              "configuration"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2108,
+            "end_char": 2732,
+            "text_sha256": "d3962247e4b14545dd5c79c319107c589fc2a642ff33951b1f12d984ff309bf0",
+            "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.4747909733805717,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 33,
+          "text": "16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0033",
+            "page": 33,
+            "section": [
+              "16",
+              "16.1",
+              "16.1.6"
+            ],
+            "topic": [
+              "configuration"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2712,
+            "end_char": 3128,
+            "text_sha256": "2eb41bc78d888a175cd75790afbef419abeead04ab49399a28f7dd91a22e909c",
+            "page_text_sha256": "16b4e8c1943cd5ef09fe2ebea6d9f7a5aa3a5eb47466df394f8d656e62d83041",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.44126290060878387,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=32]\n▪\"16.1.7 Mode 1: monitoring settings\" [4 34]\n▪\"16.1.8 Mode 2: field settings\" [4 34]\n\n[78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=33]\n16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+      "context_ids": [
+        "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+        "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+      ],
+      "elapsed_ms": 2.3688999990554294
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "Mode 1 is for monitoring settings.",
+          "chunk_ids": [
+            "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2"
+          ]
+        },
+        {
+          "text": "Mode 2 is used to set field settings of the outdoor unit and system.",
+          "chunk_ids": [
+            "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Mode 1 is for monitoring settings",
+          "chunk_id": "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b77e720536e7224016afa9662118887d2a8283bc1dc408a02",
+      "request_id": "req_d2e0ddf2aca54c39b9d70002785d2cc9",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"mode 1 and mode 2 outdoor-unit field settings purposes\"}",
+          "call_id": "call_C0jQ5zT6qyPVZaocdx9dIc8R",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0b77e720536e7224016afa9662a82087d2803f2ed25611dcb9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 544,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 17,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 561
+      },
+      "elapsed_ms": 1102.8044999984559
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ecaf066715c0f93016afa96633c3087d2810c855fef655385",
+      "request_id": "req_d0f37000f34644a3aba20cdde87cbef6",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"mode 1 and mode 2 outdoor-unit field settings purposes\"}",
+          "call_id": "call_C0jQ5zT6qyPVZaocdx9dIc8R"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_C0jQ5zT6qyPVZaocdx9dIc8R",
+          "output": "{\"tool\": \"search\", \"queries\": [\"mode 1 and mode 2 outdoor-unit field settings purposes\"], \"remaining_searches\": 2, \"context\": \"[1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=32]\\n▪\\\"16.1.7 Mode 1: monitoring settings\\\" [4 34]\\n▪\\\"16.1.8 Mode 2: field settings\\\" [4 34]\\n\\n[78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=33]\\n16.1.6\\nTo use mode 2\\nThe master unit should be used to input field settings in\\nmode 2.\\nMode 2 is used to set field settings of the outdoor unit and system.\\nWhat\\nHow\\nChanging and accessing\\nthe setting in mode 2\\n▪Push BS1 for more than five seconds\\nto select mode 2.\\n▪Push BS2 to select the required\\nsetting.\\n▪Push BS3 one time to access the\\nselected setting's value.\\nTo quit and return to the\\ninitial status\\nPush BS1.\", \"context_ids\": [\"1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2\", \"78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Mode 1 is for monitoring settings.\",\"chunk_ids\":[\"1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2\"]},{\"text\":\"Mode 2 is used to set field settings of the outdoor unit and system.\",\"chunk_ids\":[\"78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353\"]}]}",
+          "call_id": "call_Btzt1F3l6pvAJd322Tq3VBGT",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0ecaf066715c0f93016afa9663fed487d2906c62c2fb2e7776",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 994,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 135,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1129
+      },
+      "elapsed_ms": 2221.684899999673
+    }
+  ],
+  "context": "[1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=32]\n▪\"16.1.7 Mode 1: monitoring settings\" [4 34]\n▪\"16.1.8 Mode 2: field settings\" [4 34]\n\n[78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=33]\n16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+  "context_ids": [
+    "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+    "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+  ],
+  "context_chars": 756,
+  "search_queries": [
+    "mode 1 and mode 2 outdoor-unit field settings purposes"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3328.238099998998,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1538,
+    "output_tokens": 152,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q12",
+  "question": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 33,
+      "text": "16.1.6\nTo use mode 2\nThe master unit should be used to input field settings in\nmode 2.\nMode 2 is used to set field settings of the outdoor unit and system.\nWhat\nHow\nChanging and accessing\nthe setting in mode 2\n▪Push BS1 for more than five seconds\nto select mode 2.\n▪Push BS2 to select the required\nsetting.\n▪Push BS3 one time to access the\nselected setting's value.\nTo quit and return to the\ninitial status\nPush BS1.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0033",
+        "page": 33,
+        "section": [
+          "16",
+          "16.1",
+          "16.1.6"
+        ],
+        "topic": [
+          "configuration"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2712,
+        "end_char": 3128,
+        "text_sha256": "2eb41bc78d888a175cd75790afbef419abeead04ab49399a28f7dd91a22e909c",
+        "page_text_sha256": "16b4e8c1943cd5ef09fe2ebea6d9f7a5aa3a5eb47466df394f8d656e62d83041",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.3704519234663791
+    },
+    {
+      "id": "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 32,
+      "text": "▪\"16.1.7 Mode 1: monitoring settings\" [4 34]\n▪\"16.1.8 Mode 2: field settings\" [4 34]",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+        "page": 32,
+        "section": [
+          "16",
+          "16.1",
+          "16.1.1"
+        ],
+        "topic": [
+          "configuration"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3400,
+        "end_char": 3484,
+        "text_sha256": "0ec1edf2264648ee9319b6dcf66ba5379aee2dde61544d89ff945d280af12806",
+        "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.3689784983753415
+    },
+    {
+      "id": "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 32,
+      "text": "▪\"16.1.2 Field setting components\" [4 32]\n▪\"16.1.3 To access the field setting components\" [4 32]\nPC configurator\nFor VRV IV heat recovery system it is alternatively possible to make\nseveral commissioning field settings through a personal computer\ninterface (for this, option EKPCCAB* is required). The installer can\nprepare the configuration (off-site) on PC and afterwards upload the\nconfiguration to the system.\nMode 1 and 2\nMode\nDescription\nMode 1\n(monitoring\nsettings)\nMode 1 can be used to monitor the current\nsituation of the outdoor unit. Some field setting\ncontents can be monitored as well.\nMode 2\n(field settings)",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0032",
+        "page": 32,
+        "section": [
+          "16",
+          "16.1",
+          "16.1.1"
+        ],
+        "topic": [
+          "configuration"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2108,
+        "end_char": 2732,
+        "text_sha256": "d3962247e4b14545dd5c79c319107c589fc2a642ff33951b1f12d984ff309bf0",
+        "page_text_sha256": "75216e191d5df5369753db5281eacc47b05361172125d92042893c6fafa5544d",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.35750422296663176
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:37.839216+00:00"
+}

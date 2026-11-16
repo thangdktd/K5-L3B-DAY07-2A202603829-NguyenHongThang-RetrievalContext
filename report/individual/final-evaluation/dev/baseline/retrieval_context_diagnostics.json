@@ -1,0 +1,303 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "To protect the unit, turn on the main power switch 6 hours before operation. [a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9]",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "7492618c4ca9b94780e4f712eb0bd89bfdd8f619026c95ea72d085e3c371ca79"
+    ]
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes. [1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328]",
+    "context_ids": [
+      "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+    ]
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "The system does not go into operation if the room temperature is low (<20°C). [7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4]",
+    "context_ids": [
+      "379f6e3b9ff03a94af0b72457729375a8ab63f9f7474b53da4d91ff5ae4f35ed",
+      "7c2a98654141651a3235d1a225326caf6edf7e167784c8a106bb665cbbba79f4"
+    ]
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 2,
+    "original_query_hit1": false,
+    "original_query_hit3": false,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": false,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "ac8a5b1de56a32d75dd24097c9c9e94c998582281d411727e47b77a08b03d8a6",
+      "60a7c58c5cc5da8d0ef2047c0c1b6528c441b84ee23c6b9c29f8f7769c63c454",
+      "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1"
+    ]
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+      "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+      "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd"
+    ]
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "The height of the foundation must at least be 150 mm from the floor. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]\nIn heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition. [bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3]",
+    "context_ids": [
+      "bbbabda66cb9b430771af365e7395052761571b97141debaf2f29e2de86a07f3"
+    ]
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "d4b64399f813e87fc98af7faedcc76fa53cf6ff93113b1bea0adf8c9e2881a32"
+    ]
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "a107d28064e1ab1789b125b6d805571af724893a5b05d7f91e08904655186b28"
+    ]
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+      "3b16a07143ff6bfec8daf1a028215f7940301a36ef8ba2f9a9452a5bda999ff3"
+    ]
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "c784530da4a72aa02e21375ce6fce9dc503e83d5e3ede147488b149e7d45a8b4",
+      "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b"
+    ]
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 2,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550"
+    ]
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": false,
+    "original_query_hit3": false,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": false,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+      "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+    ]
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 3,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "5ab0823a8c7c1e3471e367725d265c282397804054f427564705ffacca9b0b82"
+    ]
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed. [d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2]",
+    "context_ids": [
+      "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+    ]
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "After correcting the abnormality, press BS3 to reset the malfunction code and retry operation. [f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f]",
+    "context_ids": [
+      "f3629b4bb053b9813fef8368f3b626fc8afa2f1520c622bb61c75ee26f7d6f7f"
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "answerable": false,
+    "status": "answered",
+    "reason": null,
+    "searches": 3,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "14.4 Charging refrigerant [fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b]",
+    "context_ids": [
+      "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b",
+      "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+      "8f2bfb9992b43db8f0002460975f4dac179d693ed95d27abe7b5cfe29ee3fa2c"
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "answerable": false,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+    ]
+  }
+]

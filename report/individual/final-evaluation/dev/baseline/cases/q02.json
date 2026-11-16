@@ -1,0 +1,425 @@
+{
+  "status": "answered",
+  "answer": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes. [1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328]",
+  "citations": [
+    "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "minimum delay before turning off power after stopping the unit",
+      "filter": {},
+      "results": [
+        {
+          "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6",
+              "6.2",
+              "6.2.1"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 948,
+            "end_char": 1283,
+            "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2043927346892435,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "c4b37e4f468c352a2f1895d4646b8edc213f19a4bf1415a21461e5ae83f5d625",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 11,
+          "text": "8.2.1\nSymptom: The system does not operate\n▪The air conditioner does not start immediately after the ON/OFF\nbutton on the user interface is pressed. If the operation lamp\nlights, the system is in normal condition. To prevent overloading of\nthe compressor motor, the air conditioner starts 5 minutes after it\nis turned ON again in case it was turned OFF just before. The\nsame starting delay occurs after the operation mode selector\nbutton was used.\n▪If \"Under Centralised Control\" is displayed on the user interface,\npressing the operation button causes the display to blink for a few\nseconds. The blinking display indicates that the user interface\ncannot be used.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0011",
+            "page": 11,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.1"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1224,
+            "end_char": 1887,
+            "text_sha256": "60c9f43ff8a0b4cd11768952cb404de8092fa2b2208e3e73f4318ac3d256f928",
+            "page_text_sha256": "97b14cbd10aab885d4b509cf6acf5ec9a6b3bb683f496374a702c2b55a1c3ed8",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.18459347496349715,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 8,
+          "text": "Do not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+            "page": 8,
+            "section": [
+              "6",
+              "6.3",
+              "6.3.2"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1574,
+            "end_char": 1662,
+            "text_sha256": "ab7f49f43b34737e300e66c8eaf22545a50db0b0fa747a7e7920f5050db7ea5c",
+            "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.1835619308862903,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.\n\n[1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\nDo not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+      "context_ids": [
+        "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+        "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+      ],
+      "elapsed_ms": 3.0389000003196998
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes.",
+          "chunk_ids": [
+            "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes",
+          "chunk_id": "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_000de9491e81a578016afa96414c8487d2a63e41bb93925a11",
+      "request_id": "req_52c0b43853054db199df729ae4d66e9f",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "After stopping the unit, what minimum delay should be observed before turning off its power?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"minimum delay before turning off power after stopping the unit\"}",
+          "call_id": "call_LC6kQIFPxqwvnvaBiLnbhnl1",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_000de9491e81a578016afa9641bcac87d29f0cffe64422fc5c",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 541,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 556
+      },
+      "elapsed_ms": 917.0649000006961
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06ed005ca47ddb44016afa9642401087d2abd57d9a90bbffdc",
+      "request_id": "req_28bd25a5d48a4f28965e5fb0c7994e36",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "After stopping the unit, what minimum delay should be observed before turning off its power?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"minimum delay before turning off power after stopping the unit\"}",
+          "call_id": "call_LC6kQIFPxqwvnvaBiLnbhnl1"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_LC6kQIFPxqwvnvaBiLnbhnl1",
+          "output": "{\"tool\": \"search\", \"queries\": [\"minimum delay before turning off power after stopping the unit\"], \"remaining_searches\": 2, \"context\": \"[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\\n6.2.1\\nAbout operating the system\\n▪Operation procedure varies according to the combination of\\noutdoor unit and user interface.\\n▪To protect the unit, turn on the main power switch 6 hours before\\noperation.\\n▪If the main power supply is turned off during operation, operation\\nwill restart automatically after the power turns back on again.\\n\\n[1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\\nDo not turn off power immediately after the unit stops, but\\nwait for at least 5 minutes.\", \"context_ids\": [\"a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9\", \"1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Do not turn off power immediately after the unit stops, but wait for at least 5 minutes.\",\"chunk_ids\":[\"1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328\"]}]}",
+          "call_id": "call_9sR2xChc3YO8VALBFWdiLKBo",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_06ed005ca47ddb44016afa96428f6887d29f6da1e41160a5ff",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 910,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 81,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 991
+      },
+      "elapsed_ms": 1234.4037999991997
+    }
+  ],
+  "context": "[a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=7]\n6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.\n\n[1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=8]\nDo not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+  "context_ids": [
+    "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+    "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328"
+  ],
+  "context_chars": 677,
+  "search_queries": [
+    "minimum delay before turning off power after stopping the unit"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2159.344899999269,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1451,
+    "output_tokens": 96,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q02",
+  "question": "After stopping the unit, what minimum delay should be observed before turning off its power?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "a4e899ca4faad32f3d3dc55bf7a23197ee7921a46b0e3364ab208f9ec39e97c9",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 7,
+      "text": "6.2.1\nAbout operating the system\n▪Operation procedure varies according to the combination of\noutdoor unit and user interface.\n▪To protect the unit, turn on the main power switch 6 hours before\noperation.\n▪If the main power supply is turned off during operation, operation\nwill restart automatically after the power turns back on again.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+        "page": 7,
+        "section": [
+          "6",
+          "6.2",
+          "6.2.1"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 948,
+        "end_char": 1283,
+        "text_sha256": "4b324fd3a39f57a938bcccab218a45f4302e5a45a2fe75899f522d0abbbb4209",
+        "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.17163769272551427
+    },
+    {
+      "id": "c4b37e4f468c352a2f1895d4646b8edc213f19a4bf1415a21461e5ae83f5d625",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 11,
+      "text": "8.2.1\nSymptom: The system does not operate\n▪The air conditioner does not start immediately after the ON/OFF\nbutton on the user interface is pressed. If the operation lamp\nlights, the system is in normal condition. To prevent overloading of\nthe compressor motor, the air conditioner starts 5 minutes after it\nis turned ON again in case it was turned OFF just before. The\nsame starting delay occurs after the operation mode selector\nbutton was used.\n▪If \"Under Centralised Control\" is displayed on the user interface,\npressing the operation button causes the display to blink for a few\nseconds. The blinking display indicates that the user interface\ncannot be used.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0011",
+        "page": 11,
+        "section": [
+          "8",
+          "8.2",
+          "8.2.1"
+        ],
+        "topic": [
+          "user_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1224,
+        "end_char": 1887,
+        "text_sha256": "60c9f43ff8a0b4cd11768952cb404de8092fa2b2208e3e73f4318ac3d256f928",
+        "page_text_sha256": "97b14cbd10aab885d4b509cf6acf5ec9a6b3bb683f496374a702c2b55a1c3ed8",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.160901557044133
+    },
+    {
+      "id": "1d5526bd00cb15c4eb1d4fe54df1542476447b97296ffb3d216a5a902cd58328",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 8,
+      "text": "Do not turn off power immediately after the unit stops, but\nwait for at least 5 minutes.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0008",
+        "page": 8,
+        "section": [
+          "6",
+          "6.3",
+          "6.3.2"
+        ],
+        "topic": [
+          "operation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1574,
+        "end_char": 1662,
+        "text_sha256": "ab7f49f43b34737e300e66c8eaf22545a50db0b0fa747a7e7920f5050db7ea5c",
+        "page_text_sha256": "cba38d4c17e5376076ee7f1076f0bf10bd5fb6abf77b4d91ac959189c8463a4a",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.15414513797403212
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:03.904574+00:00"
+}

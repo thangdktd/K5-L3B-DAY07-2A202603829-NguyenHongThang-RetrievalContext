@@ -1,0 +1,344 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "truc_tiep",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "expected_answer": "6 hours before operation.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 7,
+    "evidence_quote": "To protect the unit, turn on the main power switch 6 hours before operation.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "6.2.1"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "dien_dat_lai",
+    "question": "After stopping the unit, what minimum delay should be observed before turning off its power?",
+    "expected_answer": "Wait at least 5 minutes.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 8,
+    "evidence_quote": "Do not turn off power immediately after the unit stops, but wait for at least 5 minutes.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "category": "operation_limits",
+    "type": "dieu_kien",
+    "question": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?",
+    "expected_answer": "No. The system does not go into operation when the room temperature is below 20 degrees Celsius.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 8,
+    "evidence_quote": "The system does not go into operation if the room temperature is low (<20°C).",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "6.3.1"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "truc_tiep",
+    "question": "What material does section 14.1.1 require for refrigerant piping?",
+    "expected_answer": "Phosphoric acid deoxidised seamless copper.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 16,
+    "evidence_quote": "The piping and other pressure-containing parts shall be suitable for refrigerant. Use phosphoric acid deoxidised seamless copper for refrigerant piping.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "truc_tiep",
+    "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+    "expected_answer": "No more than 30 mg per 10 m of pipe.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 16,
+    "evidence_quote": "Foreign materials inside pipes (including oils for fabrication) must be ≤30 mg/10 m.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "dieu_kien",
+    "question": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?",
+    "expected_answer": "At least 150 mm from the floor; in heavy snowfall areas increase it up to the average expected snow level, depending on the installation place and condition.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 15,
+    "evidence_quote": "The height of the foundation must at least be 150 mm from the floor. In heavy snowfall areas, this height should be increased up to the average expected snow level, depending on the installation place and condition.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "13.3.1"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "category": "installation_piping",
+    "type": "dieu_kien",
+    "question": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?",
+    "expected_answer": "A rise of at least 200 mm in both lines, within a length of 2 m from the kit.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 18,
+    "evidence_quote": "If the piping length between the outdoor units exceeds 2 m, create a rise of 200 mm or more in the suction gas line and the high pressure/low pressure gas line within a length of 2 m from the kit.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "truc_tiep",
+    "question": "Which refrigerant type does the product contain, and what GWP value is stated for it?",
+    "expected_answer": "R410A, with a stated GWP of 2087.5.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 9,
+    "evidence_quote": "Refrigerant type: R410A Global warming potential (GWP) value: 2087.5",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "dieu_kien",
+    "question": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?",
+    "expected_answer": "An additional 0.5 kg per outdoor unit.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 23,
+    "evidence_quote": "Parameter A: If the total indoor unit capacity connection ratio (CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor unit.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "14.4.3"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "category": "refrigerant",
+    "type": "ngoai_le",
+    "question": "Can automatic refrigerant charging be used when Hydrobox units are connected?",
+    "expected_answer": "No. The automatic refrigerant charging function cannot be used when Hydrobox units are connected.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 22,
+    "evidence_quote": "Adding refrigerant using the automatic refrigerant charging function is not possible when Hydrobox units are connected to the system.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "phan_biet_model",
+    "question": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?",
+    "expected_answer": "Minimum circuit ampacity: 22.0 A; recommended fuse: 25 A.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 29,
+    "evidence_quote": "Single outdoor unit Model Minimum circuit am- pacity Recommended fuses REMQ5 16.1 A 20 A REYQ8 16.1 A 20 A REYQ10 22.0 A 25 A",
+    "evidence_review": {
+      "status": "visually_verified_table",
+      "basis": "Rendered PDF page 29: section 15.2, standard combinations, single outdoor unit table; REYQ10 row, minimum circuit ampacity column 22.0 A, recommended fuses column 25 A. Full column header and preceding rows retained in quote because discontiguous fragments must not be presented as a contiguous quote.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "15.2",
+      "equipment_model": "REYQ10"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "dien_dat_lai",
+    "question": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?",
+    "expected_answer": "Mode 1 monitors the current outdoor-unit situation and some field-setting contents. Mode 2 lets the user consult and change system field-setting values.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 32,
+    "evidence_quote": "Mode 1 (monitoring settings) Mode 1 can be used to monitor the current situation of the outdoor unit. Some field setting contents can be monitored as well. Mode 2 (field settings) Mode 2 is used to change the field settings of the system. Consulting the current field setting value and changing the current field setting value is possible.",
+    "evidence_review": {
+      "status": "visually_verified_table",
+      "basis": "Rendered PDF page 32: Mode 1 and 2 table; verified mode labels and their corresponding Description cells. No display glyphs used.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "category": "electrical_control",
+    "type": "ngoai_le",
+    "question": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?",
+    "expected_answer": "They cannot share a refrigerant circuit, but they can be connected electrically via F1/F2.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 31,
+    "evidence_quote": "U-series units cannot share the same refrigerant circuit with T-series units. However, electrically, U-series units and T-series units can be connected via F1/F2.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "type": "ngoai_le",
+    "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+    "expected_answer": "The pipe length check and the refrigerant situation check.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 37,
+    "evidence_quote": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "type": "dien_dat_lai",
+    "question": "After an abnormality has been corrected, which button resets the malfunction code, and what should be done next?",
+    "expected_answer": "Press BS3 to reset the malfunction code, then retry operation.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 38,
+    "evidence_quote": "After correcting the abnormality, press BS3 to reset the malfunction code and retry operation.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "category": "operation_limits",
+    "type": "dieu_kien",
+    "question": "What does section 6.2.1 say happens when power returns after the main power supply was switched off during operation?",
+    "expected_answer": "Operation restarts automatically when power returns.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 7,
+    "evidence_quote": "If the main power supply is turned off during operation, operation will restart automatically after the power turns back on again.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "6.2.1"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "category": "installation_piping",
+    "type": "dieu_kien",
+    "question": "When fully opening a stop valve of diameter 19.1 to 25.4 mm, what hexagonal-wrench torque range is specified?",
+    "expected_answer": "27 to 33 N•m, specifically for opening stop valves in that diameter range.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 19,
+    "evidence_quote": "To fully open the Ø19.1~Ø25.4 mm stop valve, turn the hexagonal wrench until a torque between 27 and 33 N•m is achieved.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "category": "refrigerant",
+    "type": "dieu_kien",
+    "question": "If manual refrigerant charging has not finished after 30 minutes, what does the manual instruct the installer to do?",
+    "expected_answer": "The manual charging operation stops automatically within 30 minutes; perform the additional refrigerant charging operation again if it has not finished.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 28,
+    "evidence_quote": "The manual refrigerant charge operation will automatically stop within 30 minutes. If charging is not completed after 30 minutes, perform the additional refrigerant charging operation again.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "category": "electrical_control",
+    "type": "truc_tiep",
+    "question": "What type of residual current device does the manual require in the power supply line, and which wiring regulation must it comply with?",
+    "expected_answer": "An RCD with instantaneous action, complying with the national wiring regulation.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 29,
+    "evidence_quote": "In the power supply line, ALWAYS install a residual current device (RCD) with an instantaneous action. The installed RCD MUST comply with the national wiring regulation.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "category": "commissioning_troubleshooting",
+    "type": "truc_tiep",
+    "question": "In section 17.1, what ambient-temperature interval permits a test run?",
+    "expected_answer": "Between -20 and 35 degrees Celsius.",
+    "gold_source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+    "gold_page": 36,
+    "evidence_quote": "Test run is possible for ambient temperatures between –⁠20°C and 35°C.",
+    "evidence_review": {
+      "status": "reviewed_against_source_text",
+      "basis": "Surrounding extracted paragraph inspected; question/answer checked for conditions and units.",
+      "diagram_or_led_dependency": false
+    },
+    "filter": {
+      "section": "17.1"
+    }
+  }
+]

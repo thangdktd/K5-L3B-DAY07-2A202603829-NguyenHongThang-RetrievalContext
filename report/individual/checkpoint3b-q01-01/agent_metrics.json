@@ -1,0 +1,47 @@
+{
+  "cases": 1,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 1,
+    "N": 1
+  },
+  "grounded_answer": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "N": 1,
+    "mean": 0.0
+  },
+  "citation_validity": {
+    "n": 0,
+    "N": 0
+  },
+  "answer_citation_coverage": {
+    "n": 0,
+    "N": 0
+  },
+  "abstention": {
+    "n": 0,
+    "N": 0
+  },
+  "false_abstention": {
+    "n": 1,
+    "N": 1
+  },
+  "scope": "q01 only, not full DEV",
+  "reviewer": "assistant direct comparison with actual source text, not independent human review",
+  "context_evidence": {
+    "n": 1,
+    "N": 1
+  },
+  "api_requests": 2,
+  "retrieval_searches": 1,
+  "function_calls": 2,
+  "usage": {
+    "input_tokens": 1531,
+    "output_tokens": 107,
+    "cached_input_tokens": 0
+  },
+  "elapsed_ms": 3333.918399999675,
+  "cost_estimate_usd": 0.0007836000000000001
+}

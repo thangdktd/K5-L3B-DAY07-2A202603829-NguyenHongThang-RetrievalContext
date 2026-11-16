@@ -1,0 +1,92 @@
+{
+  "cases": 17,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "grounded_answer": {
+    "0": 9,
+    "1": 0,
+    "2": 6,
+    "N": 15,
+    "mean": 0.8
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 7
+  },
+  "answer_citation_coverage": {
+    "n": 7,
+    "N": 7
+  },
+  "abstention": {
+    "n": 1,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 9,
+    "N": 15
+  },
+  "split": "dev",
+  "configuration": "baseline",
+  "ranking": {
+    "original_query_hit1": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666
+    },
+    "original_query_hit3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8666666666666667
+    },
+    "agent_first_query_hit1": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.6666666666666666
+    },
+    "agent_first_query_hit3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8666666666666667
+    },
+    "context_evidence_complete": {
+      "n": 9,
+      "N": 15,
+      "rate": 0.6
+    }
+  },
+  "error_breakdown": {},
+  "abstention_reasons": {
+    "unsupported_cited_claim": 7,
+    "model_abstention": 3
+  },
+  "search_distribution": {
+    "1": 10,
+    "2": 2,
+    "3": 5
+  },
+  "manual_context_grades": {
+    "2": 9,
+    "0": 4,
+    "1": 2
+  },
+  "median_agent_ms": 3143.8797999999224,
+  "reviewer": "assistant direct source/final-output review; not an independent human or LLM judge",
+  "provider_errors_note": "starter aggregate names all error statuses provider_errors; use error_breakdown for correct classification",
+  "api": {
+    "attempts": 46,
+    "successful_responses": 46,
+    "failed_attempts": 0,
+    "input_tokens_known": 36260,
+    "output_tokens_known": 2072,
+    "cached_input_tokens_known": 0,
+    "estimated_known_token_cost_usd": 0.0178192,
+    "failed_or_missing_usage_cost_unknown": false,
+    "provider_latency_ms_sum": 57536.78559999935,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_checked": "2026-11-16",
+    "invoice": false
+  }
+}

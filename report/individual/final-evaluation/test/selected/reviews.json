@@ -1,0 +1,111 @@
+[
+  {
+    "query_id": "q_unans_test_01",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": "not_applicable",
+    "reason": "Correct explicit model abstention after3 searches. The corpus discusses oil leakage/refrigerant handling but does not supply approved compressor oil type/viscosity grade. Final output makes no unsupported technical assertion; absence assessment also uses pre-frozen full-corpus audit, not top-k absence alone.",
+    "abstention_correct": true,
+    "context_ids": [
+      "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+      "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "1df97f917409589394e587dca16079d4d12cbc2e866f07dc7d131e2cd9b40f8f"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": "not_applicable",
+    "reason": "Correct explicit model abstention after3 searches. PCB/inverter troubleshooting text does not specify manufacturer IGBT part number or maximum switching frequency. Final output makes no unsupported technical assertion; absence assessment also uses pre-frozen full-corpus audit, not top-k absence alone.",
+    "abstention_correct": true,
+    "context_ids": [
+      "1a234fe817f0c98d38d197ca5daab9cafe02eb10edf56ad54d5dcdd197ec683e",
+      "4e11e96f82f15921f1a598ebbdf95d858053e602ceab28487869d925cb6fec71"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "model_abstention"
+  },
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page4 explicitly forbids phase-advancing capacitor because of inverter, reduced performance and accidents. Both final claims are correct, inline IDs synchronize and source supports all reasons.",
+    "answer_grade": 2,
+    "context_ids": [
+      "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0",
+      "a00cbe68c4b661c84d83b0a610b6687a666b8191d4636d66377333f67e5e5b37",
+      "efacc14cca1dabf179cc6defe201a0a66f7e0ab89cb12341a118a28e3027bb17"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page13 contains exact abnormal-vibration/noise warning when transportation stay remains attached. Proposed claim is supported. Final output is abstention because the unchanged validator cannot isolate the sentence from NOTICE/layout; grade0, not promoted by manual support review. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+      "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+      "0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page21 gives all three soap-water risks: cracking, salt/moisture freezing, ammonia corrosion. All three accepted selected claims preserve causal/conditional detail and cite the same correct context chunk.",
+    "answer_grade": 2,
+    "context_ids": [
+      "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+      "937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3",
+      "2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5"
+    ],
+    "final_status": "answered",
+    "validator_or_model_reason": null
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page30 section15.5 gives2-core cable and0.75 to1.25mm2 plus double insulation. Selected proposal has the correct values/source, but validator rejects a source sentence containing extra numeric/table data. Final abstention remains grade0. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "c0347501c69cdc788734e871332c3041957b74ba85150835d8d10a726a500f57",
+      "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+      "93b6f778220faef6a67b2bf7e18a0225bd2707219977406a16054b485759c101"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "unsupported_cited_claim"
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [],
+    "reviewer": "assistant direct final-output/context review, no LLM judge",
+    "context_grade": 2,
+    "reason": "Page35 requires highest outdoor position and lowest indoor-to-outdoor height difference>50m for setting[2-49]=1. Selected proposal contains both conditions and correct source ID; format gate rejects the legitimate setting brackets inside claim text before grounding. Final abstention grade0. No post-TEST fix. Semantic proposal diagnostics do not override actual final status or official grade0.",
+    "answer_grade": 0,
+    "context_ids": [
+      "bee51ec9cfc0c388c6b2dcdf607ec60d768115ae9680541edaa1b9b935f9ab5f",
+      "3b0e1d131091b6f67c217b22c9a83d372bd0552e6b2bd95913f6a76a654ac00b",
+      "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+      "78cd9bb11f53b670e7a38f381017c9e6e3fd9b9a0b48260b3c18ea3cd03e8353"
+    ],
+    "final_status": "abstain",
+    "validator_or_model_reason": "invalid_or_missing_citations"
+  }
+]

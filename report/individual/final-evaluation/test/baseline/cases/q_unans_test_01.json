@@ -1,0 +1,775 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "model_abstention",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor",
+      "filter": {},
+      "results": [
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.21482723191687308,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.2"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 594,
+            "text_sha256": "aefe4ca00527c8e00b43b1a6d2e106cd27d54c6dfc69a70894f9c84190ae8f7c",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.17397628067332543,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "26d0d6181be319de1a2657c2068792a7fb8e1706d57ad2e56126394c41304b66",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "6 Operation\nInstallation and operation manual\n7\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 111,
+            "text_sha256": "7d75dde9d6789a78d67f79ad4711a0b1c34dacaa87cf55eb52c368140a789617",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.15035922080893768,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+      "context_ids": [
+        "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+      ],
+      "elapsed_ms": 5.909100000280887
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor",
+      "filter": {},
+      "results": [
+        {
+          "id": "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.2"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 594,
+            "text_sha256": "aefe4ca00527c8e00b43b1a6d2e106cd27d54c6dfc69a70894f9c84190ae8f7c",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2221276145599237,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "3fde69a5214a907ec0f332a398f3d68b95f366ccdd3e0bd29c7fa1d0c3df655c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "14.1.4\nMultiple outdoor units: Possible layouts\n▪The piping between the outdoor units must be routed level or\nslightly upward to avoid the risk of oil retention into the piping.\nPattern 1\na\nb\nb\na\nPattern 2\nb\na\na\nb\na\nb\nb\na\na\nTo indoor unit\nb\nPiping between outdoor units\nNOT allowed (oil remains in piping)\nAllowed\n▪To avoid the risk of oil retention to the outmost outdoor unit,\nalways connect the stop valve and the piping between outdoor\nunits as shown in the correct (\n) possibilities of the figure below.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3035,
+            "end_char": 3543,
+            "text_sha256": "af38f3733837bae37af5038848106c85a2bfcaf9e62581616dca429752b80589",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.17373934209204445,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "b6751ce90060b0b1141bd52643982d9904fc1a37b8f462312ee56bf4755f2688",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 19,
+          "text": "5\nCut off the lower part of the liquid-, gas-, and high pressure/low\npressure gas stop valve pipes along the black line. Use an\nappropriate tool (e.g. a pipe cutter).\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\n6\nWait until all oil has dripped out before continuing with the\nconnection of the field piping in case the recovery was not\ncomplete.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0019",
+            "page": 19,
+            "section": [
+              "14",
+              "14.2",
+              "14.2.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 645,
+            "end_char": 1077,
+            "text_sha256": "5cb8bda1557cf41b055233a8830bfb8df83a0c50e04a4f71154105868d37f692",
+            "page_text_sha256": "dcf1c53781c5c784cdf7b425cd15a7096a4994b0407fee1e45614778b01541a0",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.15349523583017557,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+      "context_ids": [
+        "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+      ],
+      "elapsed_ms": 3.335299999889685
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor",
+      "filter": {},
+      "results": [
+        {
+          "id": "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.2"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 594,
+            "text_sha256": "aefe4ca00527c8e00b43b1a6d2e106cd27d54c6dfc69a70894f9c84190ae8f7c",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2221276145599237,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "3fde69a5214a907ec0f332a398f3d68b95f366ccdd3e0bd29c7fa1d0c3df655c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "14.1.4\nMultiple outdoor units: Possible layouts\n▪The piping between the outdoor units must be routed level or\nslightly upward to avoid the risk of oil retention into the piping.\nPattern 1\na\nb\nb\na\nPattern 2\nb\na\na\nb\na\nb\nb\na\na\nTo indoor unit\nb\nPiping between outdoor units\nNOT allowed (oil remains in piping)\nAllowed\n▪To avoid the risk of oil retention to the outmost outdoor unit,\nalways connect the stop valve and the piping between outdoor\nunits as shown in the correct (\n) possibilities of the figure below.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3035,
+            "end_char": 3543,
+            "text_sha256": "af38f3733837bae37af5038848106c85a2bfcaf9e62581616dca429752b80589",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.17373934209204445,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "b6751ce90060b0b1141bd52643982d9904fc1a37b8f462312ee56bf4755f2688",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 19,
+          "text": "5\nCut off the lower part of the liquid-, gas-, and high pressure/low\npressure gas stop valve pipes along the black line. Use an\nappropriate tool (e.g. a pipe cutter).\nWARNING\nNEVER remove the pinched piping by brazing.\nAny gas or oil remaining inside the stop valve may blow off\nthe pinched piping.\n6\nWait until all oil has dripped out before continuing with the\nconnection of the field piping in case the recovery was not\ncomplete.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0019",
+            "page": 19,
+            "section": [
+              "14",
+              "14.2",
+              "14.2.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 645,
+            "end_char": 1077,
+            "text_sha256": "5cb8bda1557cf41b055233a8830bfb8df83a0c50e04a4f71154105868d37f692",
+            "page_text_sha256": "dcf1c53781c5c784cdf7b425cd15a7096a4994b0407fee1e45614778b01541a0",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.15349523583017557,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+      "context_ids": [
+        "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+      ],
+      "elapsed_ms": 3.943300000173622
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05f95d0d5746a5f7016afa9781f10487d29d6240fb5d0b5fbf",
+      "request_id": "req_77380b7850e549f8b9550074221157fe",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor\"}",
+          "call_id": "call_dylyvmcNOEt5erDgOMX1fAMG",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_05f95d0d5746a5f7016afa9782383c87d2b5929a17bd0be78a",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 557,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 576
+      },
+      "elapsed_ms": 850.7964000000356
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01dafff2cf176c58016afa9782c4d087d2a5c3ec7f35afda39",
+      "request_id": "req_eaf7c58c530a4a88b5822d9670c156c0",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor\"}",
+          "call_id": "call_dylyvmcNOEt5erDgOMX1fAMG"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_dylyvmcNOEt5erDgOMX1fAMG",
+          "output": "{\"tool\": \"search\", \"queries\": [\"approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor\"], \"remaining_searches\": 2, \"context\": \"[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n18 Hand-over to the user\\nInstallation and operation manual\\n37\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nRefrigerant leak\\nCheck the inside of the unit on refrigerant leakage. If there\\nis a refrigerant leak, try to repair the leak. If the repair is\\nunsuccessful, call your local dealer. Do not touch any\\nrefrigerant which has leaked out from refrigerant piping\\nconnections. This may result in frostbite.\\nOil leak\\nCheck the compressor for oil leakage. If there is an oil\\nleak, try to repair the leak. If the repairing is unsuccessful,\\ncall your local dealer.\\nAir inlet/outlet\", \"context_ids\": [\"dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"}",
+          "call_id": "call_PEj8Poo1527Ii6adzWC509T5",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_01dafff2cf176c58016afa9783137887d28fe7c7d9e45c8673",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 889,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 922
+      },
+      "elapsed_ms": 899.2901999990863
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_081c4903566a92b7016afa9783b5c487d2af9d900ced15c8a2",
+      "request_id": "req_5a8d02ad07e544469b17586beda0cc08",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"}",
+          "call_id": "call_PEj8Poo1527Ii6adzWC509T5"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_PEj8Poo1527Ii6adzWC509T5",
+          "output": "{\"tool\": \"search\", \"queries\": [\"approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor\", \"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"], \"remaining_searches\": 1, \"context\": \"[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n18 Hand-over to the user\\nInstallation and operation manual\\n37\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nRefrigerant leak\\nCheck the inside of the unit on refrigerant leakage. If there\\nis a refrigerant leak, try to repair the leak. If the repair is\\nunsuccessful, call your local dealer. Do not touch any\\nrefrigerant which has leaked out from refrigerant piping\\nconnections. This may result in frostbite.\\nOil leak\\nCheck the compressor for oil leakage. If there is an oil\\nleak, try to repair the leak. If the repairing is unsuccessful,\\ncall your local dealer.\\nAir inlet/outlet\", \"context_ids\": [\"dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"}",
+          "call_id": "call_O33R3pGd3GgJ7xCVXl6FOv2b",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_081c4903566a92b7016afa978411cc87d2ba0de54acc759be9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 917,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 950
+      },
+      "elapsed_ms": 1010.3488999993715
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0e892ea6bf628bdb016afa9784a81487d29ed9da3d5f7dc977",
+      "request_id": "req_1c88f9da6fb44fcf9fd6143ec05c6f86",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"}",
+          "call_id": "call_O33R3pGd3GgJ7xCVXl6FOv2b"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_O33R3pGd3GgJ7xCVXl6FOv2b",
+          "output": "{\"tool\": \"search\", \"queries\": [\"approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor\", \"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\", \"synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor\"], \"remaining_searches\": 0, \"context\": \"[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n18 Hand-over to the user\\nInstallation and operation manual\\n37\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nRefrigerant leak\\nCheck the inside of the unit on refrigerant leakage. If there\\nis a refrigerant leak, try to repair the leak. If the repair is\\nunsuccessful, call your local dealer. Do not touch any\\nrefrigerant which has leaked out from refrigerant piping\\nconnections. This may result in frostbite.\\nOil leak\\nCheck the compressor for oil leakage. If there is an oil\\nleak, try to repair the leak. If the repairing is unsuccessful,\\ncall your local dealer.\\nAir inlet/outlet\", \"context_ids\": [\"dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"abstain\",\"claims\":[]}",
+          "call_id": "call_6iizKekIjyT9Kjw02YWjuniQ",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0e892ea6bf628bdb016afa9784fe7487d280906c99e2b9e9a9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 918,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 929
+      },
+      "elapsed_ms": 784.621500000867
+    }
+  ],
+  "context": "[dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+  "context_ids": [
+    "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+  ],
+  "context_chars": 721,
+  "search_queries": [
+    "approved synthetic refrigeration oil type and viscosity grade for VRV IV+ compressor",
+    "synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor",
+    "synthetic refrigeration oil type viscosity grade Daphne Hermetic Oil FVC68D VRV IV+ compressor"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3559.5964999993157,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3281,
+    "output_tokens": 96,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q_unans_test_01",
+  "question": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?",
+  "split": "test",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 37,
+      "text": "18 Hand-over to the user\nInstallation and operation manual\n37\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nRefrigerant leak\nCheck the inside of the unit on refrigerant leakage. If there\nis a refrigerant leak, try to repair the leak. If the repair is\nunsuccessful, call your local dealer. Do not touch any\nrefrigerant which has leaked out from refrigerant piping\nconnections. This may result in frostbite.\nOil leak\nCheck the compressor for oil leakage. If there is an oil\nleak, try to repair the leak. If the repairing is unsuccessful,\ncall your local dealer.\nAir inlet/outlet",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+        "page": 37,
+        "section": [
+          "17",
+          "17.2"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 594,
+        "text_sha256": "aefe4ca00527c8e00b43b1a6d2e106cd27d54c6dfc69a70894f9c84190ae8f7c",
+        "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.20707764157671113,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "ee3f01632ded84978b20d257af31bd24b01ce76ed87a0b7d8ce4c0cb360534aa",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 38,
+      "text": "19 Troubleshooting\nInstallation and operation manual\n38\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪Show the user what to do for the maintenance of the unit.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0038",
+        "page": 38,
+        "section": [
+          "18"
+        ],
+        "topic": [
+          "handover"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 178,
+        "text_sha256": "73cb90b3281dff743ab243fe811acf8727609013afca12c6b38e691847ac01b3",
+        "page_text_sha256": "ac9df2a18ab6077c3db8cfc2a759ffb32866bd5152d8f0aebf992350e9f575b7",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.18396234392103006,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "3fde69a5214a907ec0f332a398f3d68b95f366ccdd3e0bd29c7fa1d0c3df655c",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 17,
+      "text": "14.1.4\nMultiple outdoor units: Possible layouts\n▪The piping between the outdoor units must be routed level or\nslightly upward to avoid the risk of oil retention into the piping.\nPattern 1\na\nb\nb\na\nPattern 2\nb\na\na\nb\na\nb\nb\na\na\nTo indoor unit\nb\nPiping between outdoor units\nNOT allowed (oil remains in piping)\nAllowed\n▪To avoid the risk of oil retention to the outmost outdoor unit,\nalways connect the stop valve and the piping between outdoor\nunits as shown in the correct (\n) possibilities of the figure below.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+        "page": 17,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3035,
+        "end_char": 3543,
+        "text_sha256": "af38f3733837bae37af5038848106c85a2bfcaf9e62581616dca429752b80589",
+        "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.17548724331875815,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:41:25.860819+00:00"
+}

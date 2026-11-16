@@ -1,0 +1,765 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "model_abstention",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation",
+      "filter": {},
+      "results": [
+        {
+          "id": "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.10"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 724,
+            "end_char": 1146,
+            "text_sha256": "ffaf6146fb3af3bbd6199ff354f49f3fbeabd01f85c6226d198342ee7f898f36",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.23927723184108765,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "e72c857a8920027963395c0fab90627a340f78ba8368944ed97ac92d5abad75c",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 6,
+          "text": "4.1\nSystem layout\nYour VRV IV heat recovery series outdoor unit can be one of\nfollowing models:\nModel\nDescription\nREYQ8~20\nHeat recovery model for single or multi-use\nREMQ5\nHeat recovery model for multi-use only\nDepending on the type of outdoor unit which is chosen, some\nfunctionality will or will not exist. It will be indicated throughout this\noperation manual when certain features have exclusive model rights\nor not.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0006",
+            "page": 6,
+            "section": [
+              "4",
+              "4.1"
+            ],
+            "topic": [
+              "system_overview"
+            ],
+            "equipment_model": [
+              "REMQ5",
+              "REYQ8~20"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1308,
+            "end_char": 1729,
+            "text_sha256": "b35e9876707c81b2faa01c9f68116821d7ef452ea98332b284502223a8df92d3",
+            "page_text_sha256": "9ac59a3fb44b79a55f77f34f14a8d8c7fbfd8c1c382d2004d8c3111cab04c16e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.18473704843315913,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "9 Relocation\nInstallation and operation manual\n12\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪A continuous low \"shah\" sound is heard when the system is in\ncooling operation or at a stop. When the drain pump (optional\naccessories) is in operation, this noise is heard.\n▪A \"pishi-pishi\" squeaking sound is heard when the system stops\nafter heating operation. Expansion and contraction of plastic parts\ncaused by temperature change make this noise.\n▪A low \"sah\", \"choro-choro\" sound is heard while the indoor unit is",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.9"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 534,
+            "text_sha256": "cb4cacb02ed5b40fe570ba9b370a25612c50bd4be277f3b04e921e483bf48eab",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.18219025533984437,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+      "context_ids": [
+        "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+      ],
+      "elapsed_ms": 7.491400001526927
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "sound pressure level dBA outdoor unit REYQ14U7Y1B cooling",
+      "filter": {},
+      "results": [
+        {
+          "id": "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.10"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 724,
+            "end_char": 1146,
+            "text_sha256": "ffaf6146fb3af3bbd6199ff354f49f3fbeabd01f85c6226d198342ee7f898f36",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.30891174802140514,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "9 Relocation\nInstallation and operation manual\n12\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪A continuous low \"shah\" sound is heard when the system is in\ncooling operation or at a stop. When the drain pump (optional\naccessories) is in operation, this noise is heard.\n▪A \"pishi-pishi\" squeaking sound is heard when the system stops\nafter heating operation. Expansion and contraction of plastic parts\ncaused by temperature change make this noise.\n▪A low \"sah\", \"choro-choro\" sound is heard while the indoor unit is",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.9"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 534,
+            "text_sha256": "cb4cacb02ed5b40fe570ba9b370a25612c50bd4be277f3b04e921e483bf48eab",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.22465385230541868,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "a\nUnit A (master outdoor unit)\nb\nUnit B (slave outdoor unit)\nc\nUnit C (slave outdoor unit)\nd\nOutdoor unit PCB (A1P)\ne\nMaster/slave interconnection (Q1/Q2)\nf\nOutdoor/indoor interconnection (F1/F2)\ng\nOutdoor unit/other system interconnection (F1/F2)\nh\nBS unit\ni\nIndoor unit\nj\nCooling-only VRV indoor unit / Heating-only Hydrobox unit",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.5"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1891,
+            "end_char": 2222,
+            "text_sha256": "cb7f28af0113cfb24c171c44113093342bc2738b82d759f876a8a3763cc9124a",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.18713717778661682,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+      "context_ids": [
+        "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+      ],
+      "elapsed_ms": 2.8170999994472368
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "rated sound pressure level dBA outdoor unit REYQ14U7Y1B standard cooling operation",
+      "filter": {},
+      "results": [
+        {
+          "id": "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.10"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 724,
+            "end_char": 1146,
+            "text_sha256": "ffaf6146fb3af3bbd6199ff354f49f3fbeabd01f85c6226d198342ee7f898f36",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.2528386190089936,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "9 Relocation\nInstallation and operation manual\n12\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪A continuous low \"shah\" sound is heard when the system is in\ncooling operation or at a stop. When the drain pump (optional\naccessories) is in operation, this noise is heard.\n▪A \"pishi-pishi\" squeaking sound is heard when the system stops\nafter heating operation. Expansion and contraction of plastic parts\ncaused by temperature change make this noise.\n▪A low \"sah\", \"choro-choro\" sound is heard while the indoor unit is",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "8",
+              "8.2",
+              "8.2.9"
+            ],
+            "topic": [
+              "user_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 534,
+            "text_sha256": "cb4cacb02ed5b40fe570ba9b370a25612c50bd4be277f3b04e921e483bf48eab",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.19251615459850926,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "427eced4499dce9953a3233a5c51afd172ee17f4dd1bd2d9b5bb9ee74cb0a138",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 7,
+          "text": "In heating operation, freezing of the outdoor unit's air cooled coil\nincreases over time, restricting the energy transfer to the outdoor\nunit's coil. Heating capability decreases and the system needs to go\ninto defrost operation to be able to remove frost from the outdoor\nunit’s coil. During defrost operation the heating capacity on the\nindoor unit side will temporarily drop until defrosting is completed.\nAfter defrosting, the unit will regain its full heating capacity.\nIn case of\nThen\nREYQ10~54 multi-\nmodels\nThe indoor unit will continue heating\noperation at a reduced level during defrost\noperation. It will guarantee a decent comfort\nlevel indoor.\nREYQ8~20 single\nmodels",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0007",
+            "page": 7,
+            "section": [
+              "6",
+              "6.2",
+              "6.2.3"
+            ],
+            "topic": [
+              "operation"
+            ],
+            "equipment_model": [
+              "REYQ10~54",
+              "REYQ8~20"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2149,
+            "end_char": 2828,
+            "text_sha256": "98e5c5e58ee069350caf564a778f4501f80af49d83d428ee70503b241478d276",
+            "page_text_sha256": "8f629278223d343520b7c8900f11177ad0679e403cc35637c7257d952b55c359",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.14720591359760143,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+      "context_ids": [
+        "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+      ],
+      "elapsed_ms": 2.2146000010252465
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_076840d50029f24c016afa967551ac87d2be2d0f541a7e6da0",
+      "request_id": "req_972099bf3fb84d8fb0200254dc0c7c34",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation\"}",
+          "call_id": "call_SKo5CWL4JWBI8vZ9apx6nVQN",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_076840d50029f24c016afa9675b53887d2a7a3c06039511819",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 557,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 583
+      },
+      "elapsed_ms": 890.5599000008806
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0a5db0ce1c3576ef016afa9676556087d28cf551abe7cff8c3",
+      "request_id": "req_3042bf1947014103a59b2dbfc2108ce4",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation\"}",
+          "call_id": "call_SKo5CWL4JWBI8vZ9apx6nVQN"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_SKo5CWL4JWBI8vZ9apx6nVQN",
+          "output": "{\"tool\": \"search\", \"queries\": [\"rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation\"], \"remaining_searches\": 2, \"context\": \"[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\\n8.2.10\\nSymptom: Noise of air conditioners\\n(Indoor unit, outdoor unit)\\n▪A continuous low hissing sound is heard when the system is in\\ncooling or defrost operation. This is the sound of refrigerant gas\\nflowing through both indoor and outdoor units.\\n▪A hissing sound which is heard at the start or immediately after\\nstopping operation or defrost operation. This is the noise of\\nrefrigerant caused by flow stop or flow change.\", \"context_ids\": [\"0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"sound pressure level dBA outdoor unit REYQ14U7Y1B cooling\"}",
+          "call_id": "call_KNCdGYMBQtIZOpAyTyr4gMuF",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0a5db0ce1c3576ef016afa9676d6e887d28108dba596b2fa27",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 834,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 30,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 864
+      },
+      "elapsed_ms": 1136.9403999997303
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_082450471760a733016afa9677646887d29819ea6662f21e97",
+      "request_id": "req_8cb871589c0f4df8aba03ab099e27267",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"sound pressure level dBA outdoor unit REYQ14U7Y1B cooling\"}",
+          "call_id": "call_KNCdGYMBQtIZOpAyTyr4gMuF"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_KNCdGYMBQtIZOpAyTyr4gMuF",
+          "output": "{\"tool\": \"search\", \"queries\": [\"rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation\", \"sound pressure level dBA outdoor unit REYQ14U7Y1B cooling\"], \"remaining_searches\": 1, \"context\": \"[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\\n8.2.10\\nSymptom: Noise of air conditioners\\n(Indoor unit, outdoor unit)\\n▪A continuous low hissing sound is heard when the system is in\\ncooling or defrost operation. This is the sound of refrigerant gas\\nflowing through both indoor and outdoor units.\\n▪A hissing sound which is heard at the start or immediately after\\nstopping operation or defrost operation. This is the noise of\\nrefrigerant caused by flow stop or flow change.\", \"context_ids\": [\"0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"rated sound pressure level dBA outdoor unit REYQ14U7Y1B standard cooling operation\"}",
+          "call_id": "call_jVVx9FpjSptXKPvWRf9Z8jOW",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_082450471760a733016afa9677b61887d2ad3b9038ea0face9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 849,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 882
+      },
+      "elapsed_ms": 908.5285999990447
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_04846613d494b60b016afa96785b9887d2b37f800634bd36e6",
+      "request_id": "req_e2ae9ba8142044ee90882bcb529f490f",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"rated sound pressure level dBA outdoor unit REYQ14U7Y1B standard cooling operation\"}",
+          "call_id": "call_jVVx9FpjSptXKPvWRf9Z8jOW"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_jVVx9FpjSptXKPvWRf9Z8jOW",
+          "output": "{\"tool\": \"search\", \"queries\": [\"rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation\", \"sound pressure level dBA outdoor unit REYQ14U7Y1B cooling\", \"rated sound pressure level dBA outdoor unit REYQ14U7Y1B standard cooling operation\"], \"remaining_searches\": 0, \"context\": \"[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\\n8.2.10\\nSymptom: Noise of air conditioners\\n(Indoor unit, outdoor unit)\\n▪A continuous low hissing sound is heard when the system is in\\ncooling or defrost operation. This is the sound of refrigerant gas\\nflowing through both indoor and outdoor units.\\n▪A hissing sound which is heard at the start or immediately after\\nstopping operation or defrost operation. This is the noise of\\nrefrigerant caused by flow stop or flow change.\", \"context_ids\": [\"0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"abstain\",\"claims\":[]}",
+          "call_id": "call_PioTnR4wFcMbArjGv1rTJSwC",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_04846613d494b60b016afa9678bcf887d28c969afde09a9268",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 853,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 864
+      },
+      "elapsed_ms": 967.7095000006375
+    }
+  ],
+  "context": "[0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+  "context_ids": [
+    "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626"
+  ],
+  "context_chars": 549,
+  "search_queries": [
+    "rated sound pressure level dBA outdoor unit model REYQ14U7Y1B standard cooling operation",
+    "sound pressure level dBA outdoor unit REYQ14U7Y1B cooling",
+    "rated sound pressure level dBA outdoor unit REYQ14U7Y1B standard cooling operation"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3917.1239999996033,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3093,
+    "output_tokens": 100,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q_unans_dev_02",
+  "question": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "0210449ea6f29219e0e275240480045a42f677ef726d64e402766945a3a15626",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 12,
+      "text": "8.2.10\nSymptom: Noise of air conditioners\n(Indoor unit, outdoor unit)\n▪A continuous low hissing sound is heard when the system is in\ncooling or defrost operation. This is the sound of refrigerant gas\nflowing through both indoor and outdoor units.\n▪A hissing sound which is heard at the start or immediately after\nstopping operation or defrost operation. This is the noise of\nrefrigerant caused by flow stop or flow change.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+        "page": 12,
+        "section": [
+          "8",
+          "8.2",
+          "8.2.10"
+        ],
+        "topic": [
+          "user_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 724,
+        "end_char": 1146,
+        "text_sha256": "ffaf6146fb3af3bbd6199ff354f49f3fbeabd01f85c6226d198342ee7f898f36",
+        "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.25073928462312317,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "9934b0c4a15efb33f3a24860384ee2ee95546c30d7c9858bfd3e915048e77e89",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 12,
+      "text": "9 Relocation\nInstallation and operation manual\n12\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\n▪A continuous low \"shah\" sound is heard when the system is in\ncooling operation or at a stop. When the drain pump (optional\naccessories) is in operation, this noise is heard.\n▪A \"pishi-pishi\" squeaking sound is heard when the system stops\nafter heating operation. Expansion and contraction of plastic parts\ncaused by temperature change make this noise.\n▪A low \"sah\", \"choro-choro\" sound is heard while the indoor unit is",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+        "page": 12,
+        "section": [
+          "8",
+          "8.2",
+          "8.2.9"
+        ],
+        "topic": [
+          "user_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 534,
+        "text_sha256": "cb4cacb02ed5b40fe570ba9b370a25612c50bd4be277f3b04e921e483bf48eab",
+        "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.20571664801387293,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "e72c857a8920027963395c0fab90627a340f78ba8368944ed97ac92d5abad75c",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 6,
+      "text": "4.1\nSystem layout\nYour VRV IV heat recovery series outdoor unit can be one of\nfollowing models:\nModel\nDescription\nREYQ8~20\nHeat recovery model for single or multi-use\nREMQ5\nHeat recovery model for multi-use only\nDepending on the type of outdoor unit which is chosen, some\nfunctionality will or will not exist. It will be indicated throughout this\noperation manual when certain features have exclusive model rights\nor not.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0006",
+        "page": 6,
+        "section": [
+          "4",
+          "4.1"
+        ],
+        "topic": [
+          "system_overview"
+        ],
+        "equipment_model": [
+          "REMQ5",
+          "REYQ8~20"
+        ],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1308,
+        "end_char": 1729,
+        "text_sha256": "b35e9876707c81b2faa01c9f68116821d7ef452ea98332b284502223a8df92d3",
+        "page_text_sha256": "9ac59a3fb44b79a55f77f34f14a8d8c7fbfd8c1c382d2004d8c3111cab04c16e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.18508234125807954,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:36:57.699545+00:00"
+}

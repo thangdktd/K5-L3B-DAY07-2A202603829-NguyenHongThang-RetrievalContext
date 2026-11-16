@@ -1,0 +1,53 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "reason": "PENDING direct review of final output and supporting context",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "reason": "PENDING direct review of final output and supporting context",
+    "abstention_correct": null
+  }
+]

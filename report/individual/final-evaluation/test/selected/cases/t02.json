@@ -1,0 +1,465 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "section 11.4 transportation stay problem outdoor unit",
+      "filter": {},
+      "results": [
+        {
+          "id": "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 13,
+          "text": "11.4\nTo remove the transportation stay\n(only for 14+16 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n1\n3\n2\n1\n3 \n3 \n2\n(x2)\n(×2)\n1\n2\n1\n2\na\nb\na\n(12.3 N·m)",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+            "page": 13,
+            "section": [
+              "11",
+              "11.4"
+            ],
+            "topic": [
+              "unpacking_accessories"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3608,
+            "end_char": 4097,
+            "text_sha256": "d1a1ab330f996e1fc43f687d16aeb84ab6ae234f07d260d19340907561cd9f92",
+            "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+            ]
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.4804366850332431,
+            "bm25": 19.209635385021993
+          }
+        },
+        {
+          "id": "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 13,
+          "text": "11.5\nTo remove the transportation stay\n(only for 18+20 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n4\nSlightly loosen the bolt (c).\n5\nRemove the bolt (d) of the transportation stay (e).\n6\nRemove the transportation stay (e) as shown in the figure\nbelow.\n7\nTighten the bolt (c) again.\n(12.3 N·m)\n(12.3 N·m)\n1\n4\n2\n5\n3\n6\n7\na\nb\nd e\nc",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+            "page": 13,
+            "section": [
+              "11",
+              "11.5"
+            ],
+            "topic": [
+              "unpacking_accessories"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 4098,
+            "end_char": 4765,
+            "text_sha256": "36feef51efe547bae8115c3aaeb7a28c108bfd322d7f21ebf3138d18138f177b",
+            "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+            ]
+          },
+          "score": 0.032018442622950824,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.46047717568414437,
+            "bm25": 20.328926726292956
+          }
+        },
+        {
+          "id": "0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 12,
+          "text": "11.2\nTo remove the accessories from\nthe outdoor unit\nMake sure that all accessories are available in the unit.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0012",
+            "page": 12,
+            "section": [
+              "11",
+              "11.2"
+            ],
+            "topic": [
+              "unpacking_accessories"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3951,
+            "end_char": 4061,
+            "text_sha256": "e0051f07d4d9aa7ad3f330e030153ba775fbc978a4eff59f552de11b568113ef",
+            "page_text_sha256": "cfe69b988b133b8a38131c9d14d1ed636ec6c0e9f5ad222b74505babe55f5c5f",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": false,
+            "manual_review_reasons": []
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 5,
+            "bm25": 5
+          },
+          "component_scores": {
+            "dense": 0.43650989045232225,
+            "bm25": 5.211036339922374
+          }
+        }
+      ],
+      "context": "[b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\n11.4\nTo remove the transportation stay\n(only for 14+16 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n1\n3\n2\n1\n3 \n3 \n2\n(x2)\n(×2)\n1\n2\n1\n2\na\nb\na\n(12.3 N·m)\n\n[d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\n11.5\nTo remove the transportation stay\n(only for 18+20 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n4\nSlightly loosen the bolt (c).\n5\nRemove the bolt (d) of the transportation stay (e).\n6\nRemove the transportation stay (e) as shown in the figure\nbelow.\n7\nTighten the bolt (c) again.\n(12.3 N·m)\n(12.3 N·m)\n1\n4\n2\n5\n3\n6\n7\na\nb\nd e\nc\n\n[0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n11.2\nTo remove the accessories from\nthe outdoor unit\nMake sure that all accessories are available in the unit.",
+      "context_ids": [
+        "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+        "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+        "0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865"
+      ],
+      "elapsed_ms": 108.75259999920672
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "If the unit is operated with the transportation stay attached, abnormal vibration or noise may be generated.",
+          "chunk_ids": [
+            "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "If the unit is operated with the transportation stay attached, abnormal vibration or noise may be generated",
+          "chunk_id": "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+          "passed": false,
+          "reason": "unverified_paraphrase_or_added_information",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_04c77916acfa977c016afa975630c487d2884be9bd7f8132eb",
+      "request_id": "req_199b652df6ec412fb5f32fbfe50cb6b8",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 11.4, what problem may occur if the outdoor unit is operated with the transportation stay attached?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"section 11.4 transportation stay problem outdoor unit\"}",
+          "call_id": "call_jUxKCU1q2tBOIH7n49V9eSer",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_04c77916acfa977c016afa9756becc87d29788eab198ad03c1",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 548,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 563
+      },
+      "elapsed_ms": 1103.8045000004786
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0406b88c0cfb25db016afa97575d9487d29ba4e8d804b68f8f",
+      "request_id": "req_c6434b69daa840348cf5b416ec0d74b8",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "According to section 11.4, what problem may occur if the outdoor unit is operated with the transportation stay attached?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"section 11.4 transportation stay problem outdoor unit\"}",
+          "call_id": "call_jUxKCU1q2tBOIH7n49V9eSer"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_jUxKCU1q2tBOIH7n49V9eSer",
+          "output": "{\"tool\": \"search\", \"queries\": [\"section 11.4 transportation stay problem outdoor unit\"], \"remaining_searches\": 2, \"context\": \"[b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\\n11.4\\nTo remove the transportation stay\\n(only for 14+16 HP)\\nThe transportation stays for protecting the unit during transport must\\nbe removed. Proceed as shown in the figure and procedure below.\\nNOTICE\\nIf the unit is operated with the transportation stay attached,\\nabnormal vibration or noise may be generated.\\n1\\nSlightly loosen the bolt (a).\\n2\\nRemove the transportation stay (b) as shown in the figure\\nbelow.\\n3\\nTighten the bolt (a) again.\\n1\\n3\\n2\\n1\\n3 \\n3 \\n2\\n(x2)\\n(×2)\\n1\\n2\\n1\\n2\\na\\nb\\na\\n(12.3 N·m)\\n\\n[d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\\n11.5\\nTo remove the transportation stay\\n(only for 18+20 HP)\\nThe transportation stays for protecting the unit during transport must\\nbe removed. Proceed as shown in the figure and procedure below.\\nNOTICE\\nIf the unit is operated with the transportation stay attached,\\nabnormal vibration or noise may be generated.\\n1\\nSlightly loosen the bolt (a).\\n2\\nRemove the transportation stay (b) as shown in the figure\\nbelow.\\n3\\nTighten the bolt (a) again.\\n4\\nSlightly loosen the bolt (c).\\n5\\nRemove the bolt (d) of the transportation stay (e).\\n6\\nRemove the transportation stay (e) as shown in the figure\\nbelow.\\n7\\nTighten the bolt (c) again.\\n(12.3 N·m)\\n(12.3 N·m)\\n1\\n4\\n2\\n5\\n3\\n6\\n7\\na\\nb\\nd e\\nc\\n\\n[0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\\n11.2\\nTo remove the accessories from\\nthe outdoor unit\\nMake sure that all accessories are available in the unit.\", \"context_ids\": [\"b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee\", \"d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e\", \"0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"If the unit is operated with the transportation stay attached, abnormal vibration or noise may be generated.\",\"chunk_ids\":[\"b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee\"]}]}",
+          "call_id": "call_x4H0yTIkzfJeh1AvV2mlHaDK",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0406b88c0cfb25db016afa9758295087d28fa1760b03a73cfa",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1323,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 79,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1402
+      },
+      "elapsed_ms": 1680.4341000006389
+    }
+  ],
+  "context": "[b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\n11.4\nTo remove the transportation stay\n(only for 14+16 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n1\n3\n2\n1\n3 \n3 \n2\n(x2)\n(×2)\n1\n2\n1\n2\na\nb\na\n(12.3 N·m)\n\n[d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=13]\n11.5\nTo remove the transportation stay\n(only for 18+20 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n4\nSlightly loosen the bolt (c).\n5\nRemove the bolt (d) of the transportation stay (e).\n6\nRemove the transportation stay (e) as shown in the figure\nbelow.\n7\nTighten the bolt (c) again.\n(12.3 N·m)\n(12.3 N·m)\n1\n4\n2\n5\n3\n6\n7\na\nb\nd e\nc\n\n[0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=12]\n11.2\nTo remove the accessories from\nthe outdoor unit\nMake sure that all accessories are available in the unit.",
+  "context_ids": [
+    "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+    "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+    "0a4d25d49ca78706e7ac2f7edfb7e0f6ab651a63cddff3c8f436c876f7da1865"
+  ],
+  "context_chars": 1651,
+  "search_queries": [
+    "section 11.4 transportation stay problem outdoor unit"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2909.6159000000625,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1871,
+    "output_tokens": 94,
+    "cached_input_tokens": 0
+  },
+  "query_id": "t02",
+  "question": "According to section 11.4, what problem may occur if the outdoor unit is operated with the transportation stay attached?",
+  "split": "test",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "b5ae3622f417133f016d0a4541f2ef3633332f95157224dbb1eee0c2ba734bee",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 13,
+      "text": "11.4\nTo remove the transportation stay\n(only for 14+16 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n1\n3\n2\n1\n3 \n3 \n2\n(x2)\n(×2)\n1\n2\n1\n2\na\nb\na\n(12.3 N·m)",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+        "page": 13,
+        "section": [
+          "11",
+          "11.4"
+        ],
+        "topic": [
+          "unpacking_accessories"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3608,
+        "end_char": 4097,
+        "text_sha256": "d1a1ab330f996e1fc43f687d16aeb84ab6ae234f07d260d19340907561cd9f92",
+        "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+        ]
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 1,
+        "bm25": 1
+      },
+      "component_scores": {
+        "dense": 0.48161369781331187,
+        "bm25": 32.39718808912834
+      }
+    },
+    {
+      "id": "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 13,
+      "text": "11.5\nTo remove the transportation stay\n(only for 18+20 HP)\nThe transportation stays for protecting the unit during transport must\nbe removed. Proceed as shown in the figure and procedure below.\nNOTICE\nIf the unit is operated with the transportation stay attached,\nabnormal vibration or noise may be generated.\n1\nSlightly loosen the bolt (a).\n2\nRemove the transportation stay (b) as shown in the figure\nbelow.\n3\nTighten the bolt (a) again.\n4\nSlightly loosen the bolt (c).\n5\nRemove the bolt (d) of the transportation stay (e).\n6\nRemove the transportation stay (e) as shown in the figure\nbelow.\n7\nTighten the bolt (c) again.\n(12.3 N·m)\n(12.3 N·m)\n1\n4\n2\n5\n3\n6\n7\na\nb\nd e\nc",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+        "page": 13,
+        "section": [
+          "11",
+          "11.5"
+        ],
+        "topic": [
+          "unpacking_accessories"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 4098,
+        "end_char": 4765,
+        "text_sha256": "36feef51efe547bae8115c3aaeb7a28c108bfd322d7f21ebf3138d18138f177b",
+        "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+        ]
+      },
+      "score": 0.03200204813108039,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 3,
+        "bm25": 2
+      },
+      "component_scores": {
+        "dense": 0.4387609697126772,
+        "bm25": 31.55521084015916
+      }
+    },
+    {
+      "id": "5aa73d28f753e7c3aa256d42147181b67c58c63171f74bd3de8528a4289f32f5",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 18,
+      "text": "There are restrictions on the refrigerant pipe connection\norder between outdoor units during installation in case of a\nmultiple outdoor unit system. Install according to following\nrestrictions. The capacities of outdoor units A, B and C\nmust fulfill the following restriction conditions: A≥B≥C.\nA\nB\nC\na b\nc\na To indoor units\nb Outdoor unit multi connecting piping kit (first branch)\nc Outdoor unit multi connecting piping kit (second branch)",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+        "page": 18,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 613,
+        "end_char": 1054,
+        "text_sha256": "9024a0281020ffc3aaca8dc506f86cc865f35b1dd30e2679e4abef9d645eac6d",
+        "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.027071520029266508,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 11,
+        "bm25": 17
+      },
+      "component_scores": {
+        "dense": 0.38394705844556865,
+        "bm25": 7.751345229294285
+      }
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:40:41.452746+00:00"
+}

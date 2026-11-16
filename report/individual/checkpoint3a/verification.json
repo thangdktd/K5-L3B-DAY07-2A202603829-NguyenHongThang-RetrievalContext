@@ -1,0 +1,18 @@
+{
+  "unit_tests_passed": 32,
+  "unit_tests_total": 32,
+  "frozen_rebuild_and_hashes": "passed",
+  "trace_summary_consistency": "passed",
+  "dev_trace_count": 120,
+  "test_trace_count": 0,
+  "same_rankings_across_budgets": true,
+  "database_snapshot_unchanged": true,
+  "files": {
+    "baseline-v2-summary.json": "5c4cd821a702506119d9d1347a3b8d4ef1b04ca1bc73d81a366e5c2e331e2250",
+    "baseline-v2-traces.json": "1d43ef89852f7d2a9134f218e88358a132aa20ce9b1da8afe35708a6a9b9e964",
+    "environment.json": "2d8950a963c7b5782a59753ee925cafd9f0977b7ad2349791bdd059603d50c32",
+    "metrics.json": "de6a84de79412686b250708fb103c517695d34b892cbc9c4ba907964da7ce254",
+    "report.md": "e2b54f5c42927ee5d662466dfcb1ca6b572e590869dfc69f20ce8b8106297f9b",
+    "traces.json": "dda9fa77ee4d2a23caa5de9bda2ed6170169be2cb3d023c57e9a2522b4a37b2a"
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "status": "answered",
+  "answer": "NEVER use soap water: Soap water may cause cracking of components, such as flare nuts or stop valve caps. [ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23]\nSoap water may contain salt, which absorbs moisture that will freeze when the piping gets cold. [ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23]\nSoap water contains ammonia which may lead to corrosion of flared joints (between the brass flare nut and the copper flare). [ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23]",
+  "citations": [
+    "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "soap water NEVER be used when testing for refrigerant piping leaks section 14.3.4",
+      "filter": {},
+      "results": [
+        {
+          "id": "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 21,
+          "text": "2\nTest for leaks by applying a bubble test solution to all piping\nconnections.\n3\nDischarge all nitrogen gas.\nNOTICE\nALWAYS use a recommended bubble test solution from\nyour wholesaler.\nNEVER use soap water:\n▪Soap water may cause cracking of components, such\nas flare nuts or stop valve caps.\n▪Soap water may contain salt, which absorbs moisture\nthat will freeze when the piping gets cold.\n▪Soap water contains ammonia which may lead to\ncorrosion of flared joints (between the brass flare nut\nand the copper flare).",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+            "page": 21,
+            "section": [
+              "14",
+              "14.3",
+              "14.3.4"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3352,
+            "end_char": 3865,
+            "text_sha256": "74bdc4f6ca693ef2d08822970d0fb16281ab9c1b6e0e1e9b2df2f63ce2bb29d8",
+            "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.6251202821731612,
+            "bm25": 27.228319577522402
+          }
+        },
+        {
+          "id": "937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 21,
+          "text": "All piping inside the unit has been factory tested for leaks.\nOnly field installed refrigerant piping needs to be checked.\nTherefore, make sure that all the outdoor unit stop valves are firmly\nclosed before performing leak test or vacuum drying.\nNOTICE\nMake sure that all (field supplied) field piping valves are\nOPEN (not outdoor unit stop valves!) before you start leak\ntest and vacuuming.\nFor more information on the state of the valves, refer to\n\"14.3.3 Checking refrigerant piping: Setup\" [4 21].",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+            "page": 21,
+            "section": [
+              "14",
+              "14.3",
+              "14.3.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 648,
+            "end_char": 1149,
+            "text_sha256": "4f64a8a54c27768b8fc87cc42dd4fb2d2f03ceca0a98a59f18225832d8361850",
+            "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 3,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.5371166743566674,
+            "bm25": 14.180854796546535
+          }
+        },
+        {
+          "id": "2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 21,
+          "text": "14 Piping installation\nInstallation and operation manual\n21\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nNOTICE\nWait to apply setting [2‑21] until the outdoor unit has\nfinished the initialisation.\nLeak test and vacuum drying\nChecking the refrigerant piping involves:\n▪Checking for any leakages in the refrigerant piping.\n▪Performing vacuum drying to remove all moisture, air or nitrogen\nin the refrigerant piping.\nIf there is a possibility of moisture being present in the refrigerant\npiping (for example, water may have entered the piping), first carry\nout the vacuum drying procedure below until all moisture has been\nremoved.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+            "page": 21,
+            "section": [
+              "14",
+              "14.3",
+              "14.3.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 647,
+            "text_sha256": "7319fdc1a9c9ce2be864c19468a74aeb6b8ac0ef16dca7c5153fabb2ce59ca26",
+            "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.030330882352941176,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 8
+          },
+          "component_scores": {
+            "dense": 0.48666596333181733,
+            "bm25": 10.233890444284981
+          }
+        }
+      ],
+      "context": "[ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\n2\nTest for leaks by applying a bubble test solution to all piping\nconnections.\n3\nDischarge all nitrogen gas.\nNOTICE\nALWAYS use a recommended bubble test solution from\nyour wholesaler.\nNEVER use soap water:\n▪Soap water may cause cracking of components, such\nas flare nuts or stop valve caps.\n▪Soap water may contain salt, which absorbs moisture\nthat will freeze when the piping gets cold.\n▪Soap water contains ammonia which may lead to\ncorrosion of flared joints (between the brass flare nut\nand the copper flare).\n\n[937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\nAll piping inside the unit has been factory tested for leaks.\nOnly field installed refrigerant piping needs to be checked.\nTherefore, make sure that all the outdoor unit stop valves are firmly\nclosed before performing leak test or vacuum drying.\nNOTICE\nMake sure that all (field supplied) field piping valves are\nOPEN (not outdoor unit stop valves!) before you start leak\ntest and vacuuming.\nFor more information on the state of the valves, refer to\n\"14.3.3 Checking refrigerant piping: Setup\" [4 21].\n\n[2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\n14 Piping installation\nInstallation and operation manual\n21\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nNOTICE\nWait to apply setting [2‑21] until the outdoor unit has\nfinished the initialisation.\nLeak test and vacuum drying\nChecking the refrigerant piping involves:\n▪Checking for any leakages in the refrigerant piping.\n▪Performing vacuum drying to remove all moisture, air or nitrogen\nin the refrigerant piping.\nIf there is a possibility of moisture being present in the refrigerant\npiping (for example, water may have entered the piping), first carry\nout the vacuum drying procedure below until all moisture has been\nremoved.",
+      "context_ids": [
+        "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+        "937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3",
+        "2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5"
+      ],
+      "elapsed_ms": 144.02239999981248
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "NEVER use soap water: Soap water may cause cracking of components, such as flare nuts or stop valve caps.",
+          "chunk_ids": [
+            "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23"
+          ]
+        },
+        {
+          "text": "Soap water may contain salt, which absorbs moisture that will freeze when the piping gets cold.",
+          "chunk_ids": [
+            "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23"
+          ]
+        },
+        {
+          "text": "Soap water contains ammonia which may lead to corrosion of flared joints (between the brass flare nut and the copper flare).",
+          "chunk_ids": [
+            "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "NEVER use soap water: Soap water may cause cracking of components, such as flare nuts or stop valve caps",
+          "chunk_id": "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            2,
+            3
+          ]
+        },
+        {
+          "claim": "Soap water may contain salt, which absorbs moisture that will freeze when the piping gets cold",
+          "chunk_id": "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            3,
+            4
+          ]
+        },
+        {
+          "claim": "Soap water contains ammonia which may lead to corrosion of flared joints (between the brass flare nut and the copper flare)",
+          "chunk_id": "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0d2b6e09dd3fe2c8016afa97593e2887d2a2942e3d98d316ee",
+      "request_id": "req_fed63aa7bca64008848be9d04829162f",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 14.3.4, why must soap water NEVER be used when testing for refrigerant piping leaks?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"soap water NEVER be used when testing for refrigerant piping leaks section 14.3.4\"}",
+          "call_id": "call_hKODHCTRIJBANgi18jdCknRi",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0d2b6e09dd3fe2c8016afa9759889c87d2a0165e8391cda5d2",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 548,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 572
+      },
+      "elapsed_ms": 897.0469999985653
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_02abb2728e2c748c016afa975a346c87d2aeed68e2bf93e0fa",
+      "request_id": "req_af7819bdae3742ca8c3de31c3cb62e12",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "In section 14.3.4, why must soap water NEVER be used when testing for refrigerant piping leaks?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"soap water NEVER be used when testing for refrigerant piping leaks section 14.3.4\"}",
+          "call_id": "call_hKODHCTRIJBANgi18jdCknRi"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_hKODHCTRIJBANgi18jdCknRi",
+          "output": "{\"tool\": \"search\", \"queries\": [\"soap water NEVER be used when testing for refrigerant piping leaks section 14.3.4\"], \"remaining_searches\": 2, \"context\": \"[ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\\n2\\nTest for leaks by applying a bubble test solution to all piping\\nconnections.\\n3\\nDischarge all nitrogen gas.\\nNOTICE\\nALWAYS use a recommended bubble test solution from\\nyour wholesaler.\\nNEVER use soap water:\\n▪Soap water may cause cracking of components, such\\nas flare nuts or stop valve caps.\\n▪Soap water may contain salt, which absorbs moisture\\nthat will freeze when the piping gets cold.\\n▪Soap water contains ammonia which may lead to\\ncorrosion of flared joints (between the brass flare nut\\nand the copper flare).\\n\\n[937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\\nAll piping inside the unit has been factory tested for leaks.\\nOnly field installed refrigerant piping needs to be checked.\\nTherefore, make sure that all the outdoor unit stop valves are firmly\\nclosed before performing leak test or vacuum drying.\\nNOTICE\\nMake sure that all (field supplied) field piping valves are\\nOPEN (not outdoor unit stop valves!) before you start leak\\ntest and vacuuming.\\nFor more information on the state of the valves, refer to\\n\\\"14.3.3 Checking refrigerant piping: Setup\\\" [4 21].\\n\\n[2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\\n14 Piping installation\\nInstallation and operation manual\\n21\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nNOTICE\\nWait to apply setting [2‑21] until the outdoor unit has\\nfinished the initialisation.\\nLeak test and vacuum drying\\nChecking the refrigerant piping involves:\\n▪Checking for any leakages in the refrigerant piping.\\n▪Performing vacuum drying to remove all moisture, air or nitrogen\\nin the refrigerant piping.\\nIf there is a possibility of moisture being present in the refrigerant\\npiping (for example, water may have entered the piping), first carry\\nout the vacuum drying procedure below until all moisture has been\\nremoved.\", \"context_ids\": [\"ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23\", \"937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3\", \"2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"NEVER use soap water: Soap water may cause cracking of components, such as flare nuts or stop valve caps.\",\"chunk_ids\":[\"ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23\"]},{\"text\":\"Soap water may contain salt, which absorbs moisture that will freeze when the piping gets cold.\",\"chunk_ids\":[\"ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23\"]},{\"text\":\"Soap water contains ammonia which may lead to corrosion of flared joints (between the brass flare nut and the copper flare).\",\"chunk_ids\":[\"ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23\"]}]}",
+          "call_id": "call_9NriCavOhR3KU7rZzN3wSPcX",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_02abb2728e2c748c016afa975acaac87d2811074d4941c7bac",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1333,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 216,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1549
+      },
+      "elapsed_ms": 2270.9080999993603
+    }
+  ],
+  "context": "[ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\n2\nTest for leaks by applying a bubble test solution to all piping\nconnections.\n3\nDischarge all nitrogen gas.\nNOTICE\nALWAYS use a recommended bubble test solution from\nyour wholesaler.\nNEVER use soap water:\n▪Soap water may cause cracking of components, such\nas flare nuts or stop valve caps.\n▪Soap water may contain salt, which absorbs moisture\nthat will freeze when the piping gets cold.\n▪Soap water contains ammonia which may lead to\ncorrosion of flared joints (between the brass flare nut\nand the copper flare).\n\n[937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\nAll piping inside the unit has been factory tested for leaks.\nOnly field installed refrigerant piping needs to be checked.\nTherefore, make sure that all the outdoor unit stop valves are firmly\nclosed before performing leak test or vacuum drying.\nNOTICE\nMake sure that all (field supplied) field piping valves are\nOPEN (not outdoor unit stop valves!) before you start leak\ntest and vacuuming.\nFor more information on the state of the valves, refer to\n\"14.3.3 Checking refrigerant piping: Setup\" [4 21].\n\n[2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=21]\n14 Piping installation\nInstallation and operation manual\n21\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nNOTICE\nWait to apply setting [2‑21] until the outdoor unit has\nfinished the initialisation.\nLeak test and vacuum drying\nChecking the refrigerant piping involves:\n▪Checking for any leakages in the refrigerant piping.\n▪Performing vacuum drying to remove all moisture, air or nitrogen\nin the refrigerant piping.\nIf there is a possibility of moisture being present in the refrigerant\npiping (for example, water may have entered the piping), first carry\nout the vacuum drying procedure below until all moisture has been\nremoved.",
+  "context_ids": [
+    "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+    "937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3",
+    "2ef3ea06c1bc963a9215f454785b338fb46ebdbf276828d62b8e82b1d8423ee5"
+  ],
+  "context_chars": 2046,
+  "search_queries": [
+    "soap water NEVER be used when testing for refrigerant piping leaks section 14.3.4"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3364.5802999999432,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1881,
+    "output_tokens": 240,
+    "cached_input_tokens": 0
+  },
+  "query_id": "t03",
+  "question": "In section 14.3.4, why must soap water NEVER be used when testing for refrigerant piping leaks?",
+  "split": "test",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 21,
+      "text": "2\nTest for leaks by applying a bubble test solution to all piping\nconnections.\n3\nDischarge all nitrogen gas.\nNOTICE\nALWAYS use a recommended bubble test solution from\nyour wholesaler.\nNEVER use soap water:\n▪Soap water may cause cracking of components, such\nas flare nuts or stop valve caps.\n▪Soap water may contain salt, which absorbs moisture\nthat will freeze when the piping gets cold.\n▪Soap water contains ammonia which may lead to\ncorrosion of flared joints (between the brass flare nut\nand the copper flare).",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+        "page": 21,
+        "section": [
+          "14",
+          "14.3",
+          "14.3.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3352,
+        "end_char": 3865,
+        "text_sha256": "74bdc4f6ca693ef2d08822970d0fb16281ab9c1b6e0e1e9b2df2f63ce2bb29d8",
+        "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 1,
+        "bm25": 1
+      },
+      "component_scores": {
+        "dense": 0.6198699331438621,
+        "bm25": 27.228319577522402
+      }
+    },
+    {
+      "id": "937e87fcc281721870123364da2665fd33db4382951e46293f210abdc29ca3b3",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 21,
+      "text": "All piping inside the unit has been factory tested for leaks.\nOnly field installed refrigerant piping needs to be checked.\nTherefore, make sure that all the outdoor unit stop valves are firmly\nclosed before performing leak test or vacuum drying.\nNOTICE\nMake sure that all (field supplied) field piping valves are\nOPEN (not outdoor unit stop valves!) before you start leak\ntest and vacuuming.\nFor more information on the state of the valves, refer to\n\"14.3.3 Checking refrigerant piping: Setup\" [4 21].",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0021",
+        "page": 21,
+        "section": [
+          "14",
+          "14.3",
+          "14.3.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 648,
+        "end_char": 1149,
+        "text_sha256": "4f64a8a54c27768b8fc87cc42dd4fb2d2f03ceca0a98a59f18225832d8361850",
+        "page_text_sha256": "11de81e955afefde71f22542255b45949d291faa408d6bde07a39cc4ee763240",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03200204813108039,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 3,
+        "bm25": 2
+      },
+      "component_scores": {
+        "dense": 0.5068234491067927,
+        "bm25": 14.180854796546535
+      }
+    },
+    {
+      "id": "5855021038542684f375046944070bfe9a2f77681aba85a4307d082122187eca",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 22,
+      "text": "14.3.6\nTo insulate the refrigerant piping\nAfter finishing the leak test and vacuum drying, the piping must be\ninsulated. Take into account the following points:\n▪Make sure to insulate the connection piping and refrigerant branch\nkits entirely.\n▪Be sure to insulate the liquid and gas piping (for all units).\n▪Use heat resistant polyethylene foam which can withstand a\ntemperature of 70°C for liquid piping and polyethylene foam which\ncan withstand a temperature of 120°C for gas piping.\n▪Reinforce the insulation on the refrigerant piping according to the\ninstallation environment.\nAmbient temperat-\nure\nHumidity\nMinimum thickness\n≤30°C\n75% to 80% RH\n15 mm\n>30°C\n≥80% RH\n20 mm",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0022",
+        "page": 22,
+        "section": [
+          "14",
+          "14.3",
+          "14.3.6"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 428,
+        "end_char": 1104,
+        "text_sha256": "83a6aea7c0625a53dcb31d9a3218295397043fbccdbca2f156fff6389484bf54",
+        "page_text_sha256": "261fc424b9c93f884a2dcce50f98dabea5eb0a7a2726f8fcb4eca86edae44f23",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03055037313432836,
+      "strategy": "hybrid_rrf",
+      "component_ranks": {
+        "dense": 4,
+        "bm25": 7
+      },
+      "component_scores": {
+        "dense": 0.49509757757187245,
+        "bm25": 11.558069990420885
+      }
+    }
+  ],
+  "original_query_provenance": "original-query independent retrieval; not passed to Agent",
+  "case_finished_at": "2026-11-16T05:40:44.961825+00:00"
+}

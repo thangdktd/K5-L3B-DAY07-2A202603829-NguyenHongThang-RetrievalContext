@@ -1,0 +1,182 @@
+{
+  "baseline": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 4,
+      "1": 0,
+      "2": 1,
+      "N": 5,
+      "mean": 0.4
+    },
+    "citation_validity": {
+      "n": 1,
+      "N": 1
+    },
+    "answer_citation_coverage": {
+      "n": 1,
+      "N": 1
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 4,
+      "N": 5
+    },
+    "split": "test",
+    "configuration": "baseline",
+    "ranking": {
+      "original_query_hit1": {
+        "n": 2,
+        "N": 5,
+        "rate": 0.4
+      },
+      "original_query_hit3": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "agent_first_query_hit1": {
+        "n": 2,
+        "N": 5,
+        "rate": 0.4
+      },
+      "agent_first_query_hit3": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      },
+      "context_evidence_complete": {
+        "n": 3,
+        "N": 5,
+        "rate": 0.6
+      }
+    },
+    "error_breakdown": {},
+    "abstention_reasons": {
+      "model_abstention": 4,
+      "unsupported_cited_claim": 2
+    },
+    "search_distribution": {
+      "3": 5,
+      "1": 2
+    },
+    "manual_context_grades": {
+      "2": 3,
+      "0": 2
+    },
+    "median_agent_ms": 3633.03199999973,
+    "reviewer": "assistant direct source/final-output review; not an independent human or LLM judge",
+    "provider_errors_note": "starter aggregate names all error statuses provider_errors; use error_breakdown for correct classification",
+    "api": {
+      "attempts": 24,
+      "successful_responses": 24,
+      "failed_attempts": 0,
+      "input_tokens_known": 19174,
+      "output_tokens_known": 884,
+      "cached_input_tokens_known": 0,
+      "estimated_known_token_cost_usd": 0.009084,
+      "failed_or_missing_usage_cost_unknown": false,
+      "provider_latency_ms_sum": 26525.049499990928,
+      "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "price_checked": "2026-11-16",
+      "invoice": false
+    }
+  },
+  "selected": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 3,
+      "1": 0,
+      "2": 2,
+      "N": 5,
+      "mean": 0.8
+    },
+    "citation_validity": {
+      "n": 2,
+      "N": 2
+    },
+    "answer_citation_coverage": {
+      "n": 2,
+      "N": 2
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 3,
+      "N": 5
+    },
+    "split": "test",
+    "configuration": "selected",
+    "ranking": {
+      "original_query_hit1": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "original_query_hit3": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "agent_first_query_hit1": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "agent_first_query_hit3": {
+        "n": 4,
+        "N": 5,
+        "rate": 0.8
+      },
+      "context_evidence_complete": {
+        "n": 5,
+        "N": 5,
+        "rate": 1.0
+      }
+    },
+    "error_breakdown": {},
+    "abstention_reasons": {
+      "model_abstention": 2,
+      "unsupported_cited_claim": 2,
+      "invalid_or_missing_citations": 1
+    },
+    "search_distribution": {
+      "1": 4,
+      "3": 3
+    },
+    "manual_context_grades": {
+      "2": 5
+    },
+    "median_agent_ms": 4086.2710000001243,
+    "reviewer": "assistant direct source/final-output review; not an independent human or LLM judge",
+    "provider_errors_note": "starter aggregate names all error statuses provider_errors; use error_breakdown for correct classification",
+    "api": {
+      "attempts": 20,
+      "successful_responses": 20,
+      "failed_attempts": 0,
+      "input_tokens_known": 21846,
+      "output_tokens_known": 1052,
+      "cached_input_tokens_known": 0,
+      "estimated_known_token_cost_usd": 0.0104216,
+      "failed_or_missing_usage_cost_unknown": false,
+      "provider_latency_ms_sum": 26726.180800002112,
+      "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "price_checked": "2026-11-16",
+      "invoice": false
+    }
+  }
+}

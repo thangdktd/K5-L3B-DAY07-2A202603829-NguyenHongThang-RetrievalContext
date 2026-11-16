@@ -1,0 +1,43 @@
+[
+  {
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "abstention": false,
+    "reason": "provider_error",
+    "error": {
+      "type": "AuthenticationError",
+      "status_code": 401,
+      "request_id": "req_5d001d80fcc0444db54de016c1d35df3"
+    },
+    "events": [],
+    "model_calls": [
+      {
+        "event": "provider_error",
+        "model": "gpt-4.1-mini",
+        "elapsed_ms": 7986.57970000022,
+        "type": "AuthenticationError",
+        "status_code": 401,
+        "request_id": "req_5d001d80fcc0444db54de016c1d35df3"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "search_queries": [],
+    "model": "gpt-4.1-mini",
+    "budget_chars": 2400,
+    "max_searches": 3,
+    "top_k": 3,
+    "elapsed_ms": 7986.628999999084,
+    "usage_missing_calls": 0,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cached_input_tokens": 0
+    },
+    "query_id": "q01",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "split": "dev"
+  }
+]

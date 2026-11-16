@@ -1,0 +1,65 @@
+{
+  "status": "completed_pending_review",
+  "requested_model": "gpt-4.1-mini",
+  "split": "dev",
+  "pilot": false,
+  "q01_only": false,
+  "q12_only": true,
+  "selected_case_ids": [
+    "q12"
+  ],
+  "test_queries_run": 0,
+  "config": {
+    "max_searches": 3,
+    "top_k": 3,
+    "budget_chars": 2400,
+    "dedup": "chunk_id",
+    "packing": "newest search first, full chunks; source_id/page/id header",
+    "rrf_k": 60,
+    "candidate_k_per_branch": 20,
+    "temperature": 0,
+    "max_output_tokens": 250,
+    "provider_timeout_seconds": 60.0,
+    "provider_retries": 0
+  },
+  "benchmark_manifest_sha256": "6db1bd0ede4ee75cc54ae62fc9ae2b83b90907ceebd38b01b64b4630b75c1767",
+  "model_fingerprint": "7a729edee62a3c201eda95b4160f1429c1616adfb827e03539a8c035b60266de",
+  "database_read_only": true,
+  "implementation_sha256": {
+    "src/openai_agent.py": "ec131f3cd036df41d1108a73243cb0bb6cab24914fb38088dd1b9a187e1808e9",
+    "src/run_agent_dev.py": "2867455d2a1dc6d683d2b7c3374c2845856e8253707a7803b6a3f6c9be2aabb9"
+  },
+  "review_status": "pending direct review of answers against cited context; ID matching alone is not grounding",
+  "cost_usd": 0.0010616000000000002,
+  "cost_note": "Compute from actual model usage and verified pricing; not an invoice",
+  "database_unchanged": true,
+  "database_before_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "database_after_sha256": "5334629f0a8bed4767eec64aac98ffa635a3f6c45d9076e4f7aedf836660494c",
+  "completed_cases": 1,
+  "not_run_case_ids": [],
+  "elapsed_seconds": 6.224766700001055,
+  "usage": {
+    "input_tokens": 1958,
+    "output_tokens": 174,
+    "cached_input_tokens": 0
+  },
+  "search_count_distribution": {
+    "1": 1
+  },
+  "actual_models": [
+    "gpt-4.1-mini-2025-04-14"
+  ],
+  "api_requests": 2,
+  "successful_api_responses": 2,
+  "usage_missing_calls": 0,
+  "cost_basis": {
+    "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "checked_on": "2026-11-16",
+    "usd_per_million": {
+      "input": 0.4,
+      "cached_input": 0.1,
+      "output": 1.6
+    },
+    "type": "estimate, not billing invoice"
+  }
+}

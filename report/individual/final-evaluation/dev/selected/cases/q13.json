@@ -1,0 +1,442 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "U-series and T-series units refrigerant circuit sharing electrical connection F1 F2",
+      "filter": {},
+      "results": [
+        {
+          "id": "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 31,
+          "text": "15 Electrical installation\nInstallation and operation manual\n31\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nINFORMATION\nU-series units cannot share the same refrigerant circuit\nwith T-series units. However, electrically, U-series units\nand T-series units can be connected via F1/F2.\n▪The interconnecting wiring between the outdoor units in the same\npiping system must be connected to the Q1/Q2 (Out Multi)\nterminals. Connecting the wires to the F1/F2 terminals results in\nsystem malfunction.\n▪The wiring for the other systems must be connected to the F1/F2\n(Out-Out) terminals of the PCB in the outdoor unit to which the\ninterconnecting wiring for the indoor units is connected.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+            "page": 31,
+            "section": [
+              "15",
+              "15.5"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 0,
+            "end_char": 698,
+            "text_sha256": "4ad790fe35da1b03268ddfdd8837134065e725d1dcc378272a4830b237c3db99",
+            "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.6840329374084755,
+            "bm25": 39.18409038474093
+          }
+        },
+        {
+          "id": "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 31,
+          "text": "15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+            "page": 31,
+            "section": [
+              "15",
+              "15.6"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 926,
+            "end_char": 1274,
+            "text_sha256": "7e5b0e6edcfd01cafbb654200ffcba8b0ad27fcd651811dfc34fffc36287216a",
+            "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.030330882352941176,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 8
+          },
+          "component_scores": {
+            "dense": 0.40208988183469097,
+            "bm25": 9.442440787096931
+          }
+        },
+        {
+          "id": "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 30,
+          "text": "a\nUnit A (master outdoor unit)\nb\nUnit B (slave outdoor unit)\nc\nUnit C (slave outdoor unit)\nd\nOutdoor unit PCB (A1P)\ne\nMaster/slave interconnection (Q1/Q2)\nf\nOutdoor/indoor interconnection (F1/F2)\ng\nOutdoor unit/other system interconnection (F1/F2)\nh\nBS unit\ni\nIndoor unit\nj\nCooling-only VRV indoor unit / Heating-only Hydrobox unit",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0030",
+            "page": 30,
+            "section": [
+              "15",
+              "15.5"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1891,
+            "end_char": 2222,
+            "text_sha256": "cb7f28af0113cfb24c171c44113093342bc2738b82d759f876a8a3763cc9124a",
+            "page_text_sha256": "854a1fdb31a7014dfe0d53840c6f2118892bde32d7ded7d36a04e9b053a434b6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.029709507042253523,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 11,
+            "bm25": 4
+          },
+          "component_scores": {
+            "dense": 0.3839322214146802,
+            "bm25": 11.734905367902066
+          }
+        }
+      ],
+      "context": "[5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15 Electrical installation\nInstallation and operation manual\n31\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nINFORMATION\nU-series units cannot share the same refrigerant circuit\nwith T-series units. However, electrically, U-series units\nand T-series units can be connected via F1/F2.\n▪The interconnecting wiring between the outdoor units in the same\npiping system must be connected to the Q1/Q2 (Out Multi)\nterminals. Connecting the wires to the F1/F2 terminals results in\nsystem malfunction.\n▪The wiring for the other systems must be connected to the F1/F2\n(Out-Out) terminals of the PCB in the outdoor unit to which the\ninterconnecting wiring for the indoor units is connected.\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator\n\n[f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\na\nUnit A (master outdoor unit)\nb\nUnit B (slave outdoor unit)\nc\nUnit C (slave outdoor unit)\nd\nOutdoor unit PCB (A1P)\ne\nMaster/slave interconnection (Q1/Q2)\nf\nOutdoor/indoor interconnection (F1/F2)\ng\nOutdoor unit/other system interconnection (F1/F2)\nh\nBS unit\ni\nIndoor unit\nj\nCooling-only VRV indoor unit / Heating-only Hydrobox unit",
+      "context_ids": [
+        "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+        "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+        "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3"
+      ],
+      "elapsed_ms": 101.94629999932658
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "U-series units cannot share the same refrigerant circuit with T-series units.",
+          "chunk_ids": [
+            "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc"
+          ]
+        },
+        {
+          "text": "Electrically, U-series units and T-series units can be connected via F1/F2.",
+          "chunk_ids": [
+            "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "U-series units cannot share the same refrigerant circuit with T-series units",
+          "chunk_id": "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0ad9250b838d8b2a016afa96279efc87d2a2da5634242f65ac",
+      "request_id": "req_c926f9c5518c4e97abca287eec292f14",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"U-series and T-series units refrigerant circuit sharing electrical connection F1 F2\"}",
+          "call_id": "call_KAfXgabKMdnb0PUIu82JXBu9",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0ad9250b838d8b2a016afa9627ea3087d287b1e307f1dec973",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 551,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 572
+      },
+      "elapsed_ms": 840.0372999985848
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0576f8ad709f6d92016afa9628807087d28aa6bef6944fdec4",
+      "request_id": "req_6c308ce153594878acee2c57a660ffae",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"U-series and T-series units refrigerant circuit sharing electrical connection F1 F2\"}",
+          "call_id": "call_KAfXgabKMdnb0PUIu82JXBu9"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_KAfXgabKMdnb0PUIu82JXBu9",
+          "output": "{\"tool\": \"search\", \"queries\": [\"U-series and T-series units refrigerant circuit sharing electrical connection F1 F2\"], \"remaining_searches\": 2, \"context\": \"[5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\\n15 Electrical installation\\nInstallation and operation manual\\n31\\nREYQ8~20+REMQ5U7Y1B\\nVRV IV+ heat recovery\\n4P546222-1E – 2025.11\\nINFORMATION\\nU-series units cannot share the same refrigerant circuit\\nwith T-series units. However, electrically, U-series units\\nand T-series units can be connected via F1/F2.\\n▪The interconnecting wiring between the outdoor units in the same\\npiping system must be connected to the Q1/Q2 (Out Multi)\\nterminals. Connecting the wires to the F1/F2 terminals results in\\nsystem malfunction.\\n▪The wiring for the other systems must be connected to the F1/F2\\n(Out-Out) terminals of the PCB in the outdoor unit to which the\\ninterconnecting wiring for the indoor units is connected.\\n\\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\\n15.6\\nTo finish the interconnection\\nwiring\\nAfter installing the interconnection wiring, wrap it along with the\\nonsite refrigerant pipes using finishing tape, as shown in the\\nillustration below.\\nb\\na\\nf\\nc\\nd\\nf\\ne\\nf\\na\\nLiquid pipe\\nb\\nGas pipe\\nc\\nFinishing tape\\nd\\nHigh pressure/low pressure gas pipe (if applicable)\\ne\\nInterconnection cable (F1/F2)\\nf\\nInsulator\\n\\n[f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\\na\\nUnit A (master outdoor unit)\\nb\\nUnit B (slave outdoor unit)\\nc\\nUnit C (slave outdoor unit)\\nd\\nOutdoor unit PCB (A1P)\\ne\\nMaster/slave interconnection (Q1/Q2)\\nf\\nOutdoor/indoor interconnection (F1/F2)\\ng\\nOutdoor unit/other system interconnection (F1/F2)\\nh\\nBS unit\\ni\\nIndoor unit\\nj\\nCooling-only VRV indoor unit / Heating-only Hydrobox unit\", \"context_ids\": [\"5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc\", \"44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431\", \"f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"U-series units cannot share the same refrigerant circuit with T-series units.\",\"chunk_ids\":[\"5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc\"]},{\"text\":\"Electrically, U-series units and T-series units can be connected via F1/F2.\",\"chunk_ids\":[\"5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc\"]}]}",
+          "call_id": "call_vs5B8JXtUU5WrFw3dUdPdwxT",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0576f8ad709f6d92016afa96292f6487d28f90e961a2de8f38",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1317,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 139,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1456
+      },
+      "elapsed_ms": 2183.071800000107
+    }
+  ],
+  "context": "[5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15 Electrical installation\nInstallation and operation manual\n31\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nINFORMATION\nU-series units cannot share the same refrigerant circuit\nwith T-series units. However, electrically, U-series units\nand T-series units can be connected via F1/F2.\n▪The interconnecting wiring between the outdoor units in the same\npiping system must be connected to the Q1/Q2 (Out Multi)\nterminals. Connecting the wires to the F1/F2 terminals results in\nsystem malfunction.\n▪The wiring for the other systems must be connected to the F1/F2\n(Out-Out) terminals of the PCB in the outdoor unit to which the\ninterconnecting wiring for the indoor units is connected.\n\n[44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=31]\n15.6\nTo finish the interconnection\nwiring\nAfter installing the interconnection wiring, wrap it along with the\nonsite refrigerant pipes using finishing tape, as shown in the\nillustration below.\nb\na\nf\nc\nd\nf\ne\nf\na\nLiquid pipe\nb\nGas pipe\nc\nFinishing tape\nd\nHigh pressure/low pressure gas pipe (if applicable)\ne\nInterconnection cable (F1/F2)\nf\nInsulator\n\n[f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=30]\na\nUnit A (master outdoor unit)\nb\nUnit B (slave outdoor unit)\nc\nUnit C (slave outdoor unit)\nd\nOutdoor unit PCB (A1P)\ne\nMaster/slave interconnection (Q1/Q2)\nf\nOutdoor/indoor interconnection (F1/F2)\ng\nOutdoor unit/other system interconnection (F1/F2)\nh\nBS unit\ni\nIndoor unit\nj\nCooling-only VRV indoor unit / Heating-only Hydrobox unit",
+  "context_ids": [
+    "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+    "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431",
+    "f6fc0cdac282c5619c15ccdec7ccb384650954da472a7fd147ad3c0f189870a3"
+  ],
+  "context_chars": 1762,
+  "search_queries": [
+    "U-series and T-series units refrigerant circuit sharing electrical connection F1 F2"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 3135.1496999996016,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1868,
+    "output_tokens": 160,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q13",
+  "question": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "5fa04d51f84945ca1e1fac4934248c0a03dffb25ee5ca2046bcd57489ff033bc",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 31,
+      "text": "15 Electrical installation\nInstallation and operation manual\n31\nREYQ8~20+REMQ5U7Y1B\nVRV IV+ heat recovery\n4P546222-1E – 2025.11\nINFORMATION\nU-series units cannot share the same refrigerant circuit\nwith T-series units. However, electrically, U-series units\nand T-series units can be connected via F1/F2.\n▪The interconnecting wiring between the outdoor units in the same\npiping system must be connected to the Q1/Q2 (Out Multi)\nterminals. Connecting the wires to the F1/F2 terminals results in\nsystem malfunction.\n▪The wiring for the other systems must be connected to the F1/F2\n(Out-Out) terminals of the PCB in the outdoor unit to which the\ninterconnecting wiring for the indoor units is connected.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0031",
+        "page": 31,
+        "section": [
+          "15",
+          "15.5"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 0,
+        "end_char": 698,
+        "text_sha256": "4ad790fe35da1b03268ddfdd8837134065e725d1dcc378272a4830b237c3db99",
+        "page_text_sha256": "3184369e479eeb72fb6204f0cae3812c504152f763aa257bd8484c55461a8fe4",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "5aa73d28f753e7c3aa256d42147181b67c58c63171f74bd3de8528a4289f32f5",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 18,
+      "text": "There are restrictions on the refrigerant pipe connection\norder between outdoor units during installation in case of a\nmultiple outdoor unit system. Install according to following\nrestrictions. The capacities of outdoor units A, B and C\nmust fulfill the following restriction conditions: A≥B≥C.\nA\nB\nC\na b\nc\na To indoor units\nb Outdoor unit multi connecting piping kit (first branch)\nc Outdoor unit multi connecting piping kit (second branch)",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+        "page": 18,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.4"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 613,
+        "end_char": 1054,
+        "text_sha256": "9024a0281020ffc3aaca8dc506f86cc865f35b1dd30e2679e4abef9d645eac6d",
+        "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.029273504273504274
+    },
+    {
+      "id": "5ab0823a8c7c1e3471e367725d265c282397804054f427564705ffacca9b0b82",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 6,
+      "text": "4\nAbout the system\nThe indoor unit part of VRV IV heat recovery system can be used for\nheating/cooling applications. The type of indoor unit which can be\nused depends on the outdoor units series.\nWARNING\n▪Do NOT modify, disassemble, remove, reinstall or\nrepair the unit yourself as incorrect dismantling or\ninstallation may cause an electrical shock or fire.\nContact your dealer.\n▪In case of accidental refrigerant leaks, make sure there",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0006",
+        "page": 6,
+        "section": [
+          "4"
+        ],
+        "topic": [
+          "system_overview"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 227,
+        "end_char": 664,
+        "text_sha256": "1f639511285a578b3fb764cb1c324094b1a7531862136071f5fde76251ab85c7",
+        "page_text_sha256": "9ac59a3fb44b79a55f77f34f14a8d8c7fbfd8c1c382d2004d8c3111cab04c16e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.029083245521601686
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:39.126383+00:00"
+}

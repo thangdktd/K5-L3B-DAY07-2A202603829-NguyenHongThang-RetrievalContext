@@ -1,0 +1,65 @@
+{
+  "schema_version": "day07-evidence-groups-v2",
+  "frozen_at": "2026-11-16T10:55:58.300180+07:00",
+  "timezone": "Asia/Bangkok",
+  "counts": {
+    "chunks": 292,
+    "questions": 20,
+    "cases": 24,
+    "dev_answerable": 15,
+    "dev_unanswerable": 2,
+    "test_answerable": 5,
+    "test_unanswerable": 2
+  },
+  "scoring": {
+    "groups": "AND across required gold_groups; OR across alternatives within a group; legacy gold is one OR group",
+    "matching": "source_id AND physical page AND contiguous NFC/whitespace-normalized evidence in a single chunk",
+    "hit1": "all required groups covered by rank 1 alone; strict completeness, including multi-chunk questions",
+    "hit3": "all required groups covered by the union of top 3 chunks",
+    "context": "all required groups covered by packed chunks; full chunks only, source headers included in character budget",
+    "denominator": "answerable questions only; report single-group and multi-group subsets separately",
+    "unanswerable": "full-corpus term inventory plus review of related chunks; keyword absence is not proof of semantic absence"
+  },
+  "files": {
+    "data/questions.json": {
+      "sha256": "64cab44748cc49ed8e3c8e64caa5a1e2d7401d9daed956c5542a3978e08e0de3",
+      "records": 20
+    },
+    "data/agent_cases.json": {
+      "sha256": "532622dc2e65cdae330ef8106d5fae482d7ee2689bd62aa79829ac95e826b506",
+      "records": 24
+    },
+    "data/benchmark_validation.json": {
+      "sha256": "fa5676e12dd1ab4b063b73d4ec947650747a460698a21d44330ffde94eeb8f4d"
+    },
+    "data/unanswerable_audit.json": {
+      "sha256": "d300689aca52e046698732dd1aa84598b72778d6d93bed792efb17013fc720c0"
+    },
+    "data/chunks.json": {
+      "sha256": "bd3e24435eadf0e8520abddfca366d96a4fe7b3ca397e8df12dc896f942a2854",
+      "records": 292
+    },
+    "data/questions_day6_raw.json": {
+      "sha256": "fa5af9836ee76bfdf8ba66207bccfa7e60fcf3c0d7c8de865eff9c2748cf89dd",
+      "records": 20
+    },
+    "src/build_final_benchmark.py": {
+      "sha256": "650a95e1b0dfe9f433d3a60ed8ad6a979c559f73e6abc8882dd2819fd915855d"
+    },
+    "src/benchmark_control.py": {
+      "sha256": "73eba56b50be80523eacbec6f7be6885e84198ead7c1da88373a39c4ec1c1ab6"
+    },
+    "starter/baseline.py": {
+      "sha256": "2c29da8c8036cf8e7e08e2e326037a3e70141274c28b80d3e96131e31defd23d"
+    },
+    "data/README.md": {
+      "sha256": "0b50144d98666802116ff50e293ba7eff3d7eb3a9118da530a39cd08de4dd763"
+    }
+  },
+  "official_basis": [
+    "BENCHMARK.md sections 1-2",
+    "data/README.md"
+  ],
+  "test_retrieval_queries_run": 0,
+  "reproduce": ".venv/Scripts/python.exe -X utf8 src/build_final_benchmark.py --check"
+}

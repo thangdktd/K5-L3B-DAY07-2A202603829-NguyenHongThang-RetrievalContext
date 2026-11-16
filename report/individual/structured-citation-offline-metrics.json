@@ -1,0 +1,17 @@
+{
+  "before": {
+    "prompt_chars": 1982,
+    "finish_schema_chars": 947
+  },
+  "after": {
+    "prompt_chars": 1753,
+    "finish_schema_chars": 884
+  },
+  "synthetic_equivalent_valid_output_chars": {
+    "old": 348,
+    "new": 249
+  },
+  "real_api_requests_this_task": 0,
+  "tokens": "not measured; characters are not token counts",
+  "test_count": 64
+}

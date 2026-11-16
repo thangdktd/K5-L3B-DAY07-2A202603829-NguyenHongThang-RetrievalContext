@@ -1,0 +1,453 @@
+{
+  "status": "answered",
+  "answer": "Parameter A: If the total indoor unit capacity connection ratio (CR) >100%, charge an additional 0.5 kg of refrigerant per outdoor unit. [476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a]",
+  "citations": [
+    "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "parameter A section 14.4.3 extra refrigerant per outdoor unit total indoor capacity connection ratio exceeds 100 percent",
+      "filter": {},
+      "results": [
+        {
+          "id": "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 23,
+          "text": "R\nAdditional refrigerant to be charged [in kg and rounded\noff to 1 decimal place]\nX1...6\nTotal length [m] of liquid piping size at Øa\nA~C\nParameters A~C (see below)\nINFORMATION\n▪In case of a multi-outdoor-unit system, add the sum of\nthe individual outdoor unit charge factors.\n▪When using more than one BS unit, add the sum of the\nindividual BS unit charge factors.\n▪Parameter A: If the total indoor unit capacity connection ratio\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\nunit.\n▪Parameter B: Outdoor unit charge factors\nModel\nParameter B\nREMQ5+REYQ8~12\n0 kg\nREYQ14\n1.3 kg\nREYQ16\n1.4 kg\nREYQ18\n4.7 kg\nREYQ20\n4.8 kg\n▪Parameter C: Individual BS unit charge factors",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0023",
+            "page": 23,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [
+              "REYQ14",
+              "REYQ16",
+              "REYQ18",
+              "REYQ20"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 602,
+            "end_char": 1288,
+            "text_sha256": "65fb5f77a577527fc33feb2136187d8bf819ef6078792b313b04e6ede2b8f92b",
+            "page_text_sha256": "2d2cbb706faede3ba7ad1971ffff4c53b422fe72e9843e87cfe24f4ceda597e6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 3,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.5884339458683772,
+            "bm25": 32.246796473976545
+          }
+        },
+        {
+          "id": "b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "14.1.3\nTo select refrigerant branch kits\nRefrigerant refnets\nFor piping example, refer to \"14.1.2 To select the piping size\" [4 16].\n▪When using refnet joints at the first branch counted from the\noutdoor unit side, choose from the following table in accordance\nwith the capacity of the outdoor unit (example: refnet joint a).\nHP class\nRefrigerant branch kit\n8+10\nKHRQ23M29T9\n12~22\nKHRQ23M64T\n24~54\nKHRQ23M75T\n▪For refnet joints other than the first branch (example refnet joint b),\nselect the proper branch kit model based on the total capacity\nindex of all indoor units connected after the refrigerant branch.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M20T\n200≤x<290\nKHRQ23M29T9",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1560,
+            "end_char": 2258,
+            "text_sha256": "0fecd566a31727c892e8dc32b252f3d1fb7be38065c1deeb7f128aa891fbeec2",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.6014370918273968,
+            "bm25": 16.206679013953792
+          }
+        },
+        {
+          "id": "94aa6fc0964ef02a7a71d36cb89508bfe06b2b1cdff5aa05f11674829af5a1c8",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 13,
+          "text": "Total indoor unit\ncapacity connection\nratio (CR)\n10-12HP 14-16HP 18-20HP\n2.0\n1.5\n1.5\n1.2\n1.5\n1\n1\n0.7\n1.0\n0.5\n0.5\n0.3\n0.5\n0\n0\n0\n1.0\n0.5\n0.5\n0.5\n0.5\n0\n0\n0\nTotal indoor unit capacity \nwhen piping length <30m\nTotal indoor unit capacity\nwhen piping length >30m\nkg\n1.3\n1.1\n0.9\nRYYQ18-20\nRYYQ14-16\nRYYQ8~12\nkg\nONLY FOR RYYQ8~20 MODELS\nDATE\nAMOUNT\nCALCULATE THE ADDITIONAL REFRIGERANT CHARGING AMOUNT BASED ON THE FORMULA BELOW BEFORE CHARGING.\nSHIPMENT (INDICATED ON THE MACHINE NAMEPLATE) AND THE ADDITIONAL AMOUNT SHOWN AS FOLLOWS :\nWHEN RE-CHARGING TOTAL AMOUNT OF REFRIGERANT , CHARGE THE TOTAL OF THE AMOUNT CHARGED AT\nRESULT LEAK CHECK\nDATE\nAMOUNT\nRESULT LEAK CHECK\nDATE\nAMOUNT\nRESULT LEAK CHECK\nDATE",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+            "page": 13,
+            "section": [
+              "11",
+              "11.2"
+            ],
+            "topic": [
+              "unpacking_accessories"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2078,
+            "end_char": 2777,
+            "text_sha256": "a365ae2a1c38c2cbf22176d5cdfe671c0e604c3e9e71ed5a0a1b9aa164baf9f9",
+            "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+            ]
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 4,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.5764806523036579,
+            "bm25": 19.49595225911533
+          }
+        }
+      ],
+      "context": "[476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=23]\nR\nAdditional refrigerant to be charged [in kg and rounded\noff to 1 decimal place]\nX1...6\nTotal length [m] of liquid piping size at Øa\nA~C\nParameters A~C (see below)\nINFORMATION\n▪In case of a multi-outdoor-unit system, add the sum of\nthe individual outdoor unit charge factors.\n▪When using more than one BS unit, add the sum of the\nindividual BS unit charge factors.\n▪Parameter A: If the total indoor unit capacity connection ratio\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\nunit.\n▪Parameter B: Outdoor unit charge factors\nModel\nParameter B\nREMQ5+REYQ8~12\n0 kg\nREYQ14\n1.3 kg\nREYQ16\n1.4 kg\nREYQ18\n4.7 kg\nREYQ20\n4.8 kg\n▪Parameter C: Individual BS unit charge factors\n\n[b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\n14.1.3\nTo select refrigerant branch kits\nRefrigerant refnets\nFor piping example, refer to \"14.1.2 To select the piping size\" [4 16].\n▪When using refnet joints at the first branch counted from the\noutdoor unit side, choose from the following table in accordance\nwith the capacity of the outdoor unit (example: refnet joint a).\nHP class\nRefrigerant branch kit\n8+10\nKHRQ23M29T9\n12~22\nKHRQ23M64T\n24~54\nKHRQ23M75T\n▪For refnet joints other than the first branch (example refnet joint b),\nselect the proper branch kit model based on the total capacity\nindex of all indoor units connected after the refrigerant branch.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M20T\n200≤x<290\nKHRQ23M29T9",
+      "context_ids": [
+        "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+        "b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30"
+      ],
+      "elapsed_ms": 276.20589999969525
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "Parameter A: If the total indoor unit capacity connection ratio (CR) >100%, charge an additional 0.5 kg of refrigerant per outdoor unit.",
+          "chunk_ids": [
+            "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Parameter A: If the total indoor unit capacity connection ratio (CR) >100%, charge an additional 0.5 kg of refrigerant per outdoor unit",
+          "chunk_id": "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_037cad95b0910e3f016afa9618bedc87d2b762f9f4d7bbeeb0",
+      "request_id": "req_41a8926e0ab94fa5a372b62ec42b0ad0",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"parameter A section 14.4.3 extra refrigerant per outdoor unit total indoor capacity connection ratio exceeds 100 percent\"}",
+          "call_id": "call_VjD3EyD9MSgVLnWOBnkEWtqQ",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_037cad95b0910e3f016afa961927ec87d2be815e9236283ea5",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 558,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 587
+      },
+      "elapsed_ms": 1319.4139999995969
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0b5ba930885dfb2d016afa961b56f487d29bcd3df625a0d08b",
+      "request_id": "req_a2d85eda1ebb48ea98e2a7e9329ea9e7",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"parameter A section 14.4.3 extra refrigerant per outdoor unit total indoor capacity connection ratio exceeds 100 percent\"}",
+          "call_id": "call_VjD3EyD9MSgVLnWOBnkEWtqQ"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_VjD3EyD9MSgVLnWOBnkEWtqQ",
+          "output": "{\"tool\": \"search\", \"queries\": [\"parameter A section 14.4.3 extra refrigerant per outdoor unit total indoor capacity connection ratio exceeds 100 percent\"], \"remaining_searches\": 2, \"context\": \"[476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=23]\\nR\\nAdditional refrigerant to be charged [in kg and rounded\\noff to 1 decimal place]\\nX1...6\\nTotal length [m] of liquid piping size at Øa\\nA~C\\nParameters A~C (see below)\\nINFORMATION\\n▪In case of a multi-outdoor-unit system, add the sum of\\nthe individual outdoor unit charge factors.\\n▪When using more than one BS unit, add the sum of the\\nindividual BS unit charge factors.\\n▪Parameter A: If the total indoor unit capacity connection ratio\\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\\nunit.\\n▪Parameter B: Outdoor unit charge factors\\nModel\\nParameter B\\nREMQ5+REYQ8~12\\n0 kg\\nREYQ14\\n1.3 kg\\nREYQ16\\n1.4 kg\\nREYQ18\\n4.7 kg\\nREYQ20\\n4.8 kg\\n▪Parameter C: Individual BS unit charge factors\\n\\n[b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\\n14.1.3\\nTo select refrigerant branch kits\\nRefrigerant refnets\\nFor piping example, refer to \\\"14.1.2 To select the piping size\\\" [4 16].\\n▪When using refnet joints at the first branch counted from the\\noutdoor unit side, choose from the following table in accordance\\nwith the capacity of the outdoor unit (example: refnet joint a).\\nHP class\\nRefrigerant branch kit\\n8+10\\nKHRQ23M29T9\\n12~22\\nKHRQ23M64T\\n24~54\\nKHRQ23M75T\\n▪For refnet joints other than the first branch (example refnet joint b),\\nselect the proper branch kit model based on the total capacity\\nindex of all indoor units connected after the refrigerant branch.\\nIndoor unit capacity index\\nRefrigerant branch kit\\n<200\\nKHRQ23M20T\\n200≤x<290\\nKHRQ23M29T9\", \"context_ids\": [\"476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a\", \"b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Parameter A: If the total indoor unit capacity connection ratio (CR) >100%, charge an additional 0.5 kg of refrigerant per outdoor unit.\",\"chunk_ids\":[\"476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a\"]}]}",
+          "call_id": "call_kI1run0Dlv2uD9SJksIoA5Q9",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_0b5ba930885dfb2d016afa961bb31087d29734eecaa1b396ec",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1292,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 98,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1390
+      },
+      "elapsed_ms": 2678.4146999998484
+    }
+  ],
+  "context": "[476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=23]\nR\nAdditional refrigerant to be charged [in kg and rounded\noff to 1 decimal place]\nX1...6\nTotal length [m] of liquid piping size at Øa\nA~C\nParameters A~C (see below)\nINFORMATION\n▪In case of a multi-outdoor-unit system, add the sum of\nthe individual outdoor unit charge factors.\n▪When using more than one BS unit, add the sum of the\nindividual BS unit charge factors.\n▪Parameter A: If the total indoor unit capacity connection ratio\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\nunit.\n▪Parameter B: Outdoor unit charge factors\nModel\nParameter B\nREMQ5+REYQ8~12\n0 kg\nREYQ14\n1.3 kg\nREYQ16\n1.4 kg\nREYQ18\n4.7 kg\nREYQ20\n4.8 kg\n▪Parameter C: Individual BS unit charge factors\n\n[b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\n14.1.3\nTo select refrigerant branch kits\nRefrigerant refnets\nFor piping example, refer to \"14.1.2 To select the piping size\" [4 16].\n▪When using refnet joints at the first branch counted from the\noutdoor unit side, choose from the following table in accordance\nwith the capacity of the outdoor unit (example: refnet joint a).\nHP class\nRefrigerant branch kit\n8+10\nKHRQ23M29T9\n12~22\nKHRQ23M64T\n24~54\nKHRQ23M75T\n▪For refnet joints other than the first branch (example refnet joint b),\nselect the proper branch kit model based on the total capacity\nindex of all indoor units connected after the refrigerant branch.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M20T\n200≤x<290\nKHRQ23M29T9",
+  "context_ids": [
+    "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+    "b78f62f394844afa205aec9f01accc57552fbd8b9d18534f7cecb2a277adea30"
+  ],
+  "context_chars": 1640,
+  "search_queries": [
+    "parameter A section 14.4.3 extra refrigerant per outdoor unit total indoor capacity connection ratio exceeds 100 percent"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 4289.888399998745,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1850,
+    "output_tokens": 127,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q09",
+  "question": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "476a908e8aca6da27a8e4dc095e728bb3ad2692dec45b0d2d6d98c1d8f89da9a",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 23,
+      "text": "R\nAdditional refrigerant to be charged [in kg and rounded\noff to 1 decimal place]\nX1...6\nTotal length [m] of liquid piping size at Øa\nA~C\nParameters A~C (see below)\nINFORMATION\n▪In case of a multi-outdoor-unit system, add the sum of\nthe individual outdoor unit charge factors.\n▪When using more than one BS unit, add the sum of the\nindividual BS unit charge factors.\n▪Parameter A: If the total indoor unit capacity connection ratio\n(CR)>100%, charge an additional 0.5 kg of refrigerant per outdoor\nunit.\n▪Parameter B: Outdoor unit charge factors\nModel\nParameter B\nREMQ5+REYQ8~12\n0 kg\nREYQ14\n1.3 kg\nREYQ16\n1.4 kg\nREYQ18\n4.7 kg\nREYQ20\n4.8 kg\n▪Parameter C: Individual BS unit charge factors",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0023",
+        "page": 23,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.3"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [
+          "REYQ14",
+          "REYQ16",
+          "REYQ18",
+          "REYQ20"
+        ],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 602,
+        "end_char": 1288,
+        "text_sha256": "65fb5f77a577527fc33feb2136187d8bf819ef6078792b313b04e6ede2b8f92b",
+        "page_text_sha256": "2d2cbb706faede3ba7ad1971ffff4c53b422fe72e9843e87cfe24f4ceda597e6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "94aa6fc0964ef02a7a71d36cb89508bfe06b2b1cdff5aa05f11674829af5a1c8",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 13,
+      "text": "Total indoor unit\ncapacity connection\nratio (CR)\n10-12HP 14-16HP 18-20HP\n2.0\n1.5\n1.5\n1.2\n1.5\n1\n1\n0.7\n1.0\n0.5\n0.5\n0.3\n0.5\n0\n0\n0\n1.0\n0.5\n0.5\n0.5\n0.5\n0\n0\n0\nTotal indoor unit capacity \nwhen piping length <30m\nTotal indoor unit capacity\nwhen piping length >30m\nkg\n1.3\n1.1\n0.9\nRYYQ18-20\nRYYQ14-16\nRYYQ8~12\nkg\nONLY FOR RYYQ8~20 MODELS\nDATE\nAMOUNT\nCALCULATE THE ADDITIONAL REFRIGERANT CHARGING AMOUNT BASED ON THE FORMULA BELOW BEFORE CHARGING.\nSHIPMENT (INDICATED ON THE MACHINE NAMEPLATE) AND THE ADDITIONAL AMOUNT SHOWN AS FOLLOWS :\nWHEN RE-CHARGING TOTAL AMOUNT OF REFRIGERANT , CHARGE THE TOTAL OF THE AMOUNT CHARGED AT\nRESULT LEAK CHECK\nDATE\nAMOUNT\nRESULT LEAK CHECK\nDATE\nAMOUNT\nRESULT LEAK CHECK\nDATE",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0013",
+        "page": 13,
+        "section": [
+          "11",
+          "11.2"
+        ],
+        "topic": [
+          "unpacking_accessories"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2078,
+        "end_char": 2777,
+        "text_sha256": "a365ae2a1c38c2cbf22176d5cdfe671c0e604c3e9e71ed5a0a1b9aa164baf9f9",
+        "page_text_sha256": "efc9d757a359762d9340a6d10f762b6ace94ecf08eed390878ea64082a140ea5",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "embedded_accessory_forms_contain_unrelated_model_references_do_not_use_as_applicability"
+        ]
+      },
+      "score": 0.03225806451612903
+    },
+    {
+      "id": "67e38c32d601c2d13c8837659e46ab2af42a75c5908b2e8d84ed348e5ba526db",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 17,
+      "text": "290≤x<640\nKHRQ23M64T\n≥640\nKHRQ23M75T\n▪Concerning refnet headers, choose from the following table in\naccordance with the total capacity of all the indoor units connected\nbelow the refnet header.\nIndoor unit capacity index\nRefrigerant branch kit\n<200\nKHRQ23M29H\n200≤x<290\n290≤x<640\nKHRQ23M64H(a)\n≥640\nKHRQ23M75H\n(a) If the pipe size above the refnet header is Ø34.9 mm or more,\nKHRQ22M75H is required.\nINFORMATION\nMaximum 8 branches can be connected to a header.\n▪How to choose an outdoor multi connection piping kit. Choose\nfrom the following table in accordance with the number of outdoor\nunits.\nNumber of outdoor units\nBranch kit name\n2\nBHFQ23P907\n3\nBHFQ23P1357\nINFORMATION",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+        "page": 17,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.3"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2259,
+        "end_char": 2933,
+        "text_sha256": "d0c3f55231a7b946581911083a19dd3351a03eae5bf61bfaa895ba3cea76d03d",
+        "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.03125763125763126
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:25.422970+00:00"
+}

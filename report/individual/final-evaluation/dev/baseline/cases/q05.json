@@ -1,0 +1,784 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "model_abstention",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "refrigerant piping requirements maximum amount of foreign material including fabrication oils",
+      "filter": {},
+      "results": [
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.37831670000309625,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 20,
+          "text": "14.3\nChecking the refrigerant piping",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+            "page": 20,
+            "section": [
+              "14",
+              "14.3"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1775,
+            "end_char": 1811,
+            "text_sha256": "5e5d941985dba803b5fb8c8cc0f51972ba43ff041d666f8b2e87e3296c30db67",
+            "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.11183462689061048,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 18,
+          "text": "14.2\nConnecting the refrigerant piping",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0018",
+            "page": 18,
+            "section": [
+              "14",
+              "14.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1055,
+            "end_char": 1093,
+            "text_sha256": "0d8de8f2f0186fd49c3de6b8de99d5e5ae79e6b85c4c888c27e8495f1069da41",
+            "page_text_sha256": "6768f4fbef4d375333d33414c4e1f95c6044022857fde4d924c7926bf3a0cafe",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.11133968888066456,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping\n\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14.2\nConnecting the refrigerant piping",
+      "context_ids": [
+        "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+        "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd"
+      ],
+      "elapsed_ms": 3.495999999358901
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "maximum amount of foreign material inside refrigerant pipes including fabrication oils",
+      "filter": {},
+      "results": [
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.34998253742700214,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "pipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1398,
+            "end_char": 1559,
+            "text_sha256": "871a3b0b360a7fc5c2b0be63ab3bf9f2f2cea173779d22301229d4765897d0ed",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.14150276853781843,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1341213b764f3010a82a11039a1365eeb1d181adc4b6dcfd3c04098f93e35931",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 27,
+          "text": "Close valve B, disconnect the\nmanifold from the liquid line,\nand perform steps 5~6.\nINFORMATION\nIf the total additional refrigerant amount was reached in\nstep 4 (by pre-charging only), record the amount of\nrefrigerant that was added on the additional refrigerant\ncharge label provided with the unit and attach it on the\nback side of the front panel.\nAdditionally, input the additional refrigerant amount into the\nsystem via setting [2-14].\nPerform \nthe \ntest \nprocedure \nas \ndescribed \nin\n\"17 Commissioning\" [4 36].\nCharging refrigerant",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0027",
+            "page": 27,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.5"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 670,
+            "end_char": 1206,
+            "text_sha256": "e6d2b6ffc1d1313c9dffa1328f6786662f7d6c7a04d30bf45e1162340e02c04b",
+            "page_text_sha256": "4266fcbfa7a6ce5044bfe93d9a0734fe31a7cce2256056aea0e12a2c67087d3e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.09825341263282383,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\npipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping\n\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14.2\nConnecting the refrigerant piping",
+      "context_ids": [
+        "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+        "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+        "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd"
+      ],
+      "elapsed_ms": 3.465699999651406
+    },
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "foreign material inside refrigerant pipes including fabrication oils maximum amount",
+      "filter": {},
+      "results": [
+        {
+          "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 16,
+          "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+            "page": 16,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.1"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 635,
+            "end_char": 1314,
+            "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+            "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.3465071192832987,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 17,
+          "text": "pipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0017",
+            "page": 17,
+            "section": [
+              "14",
+              "14.1",
+              "14.1.2"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1398,
+            "end_char": 1559,
+            "text_sha256": "871a3b0b360a7fc5c2b0be63ab3bf9f2f2cea173779d22301229d4765897d0ed",
+            "page_text_sha256": "11401cec2876ad63bb5066dd0ec0c42c13232d57edc2937fe69f1611f994e7d6",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+            ]
+          },
+          "score": 0.14219499122403795,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "1341213b764f3010a82a11039a1365eeb1d181adc4b6dcfd3c04098f93e35931",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 27,
+          "text": "Close valve B, disconnect the\nmanifold from the liquid line,\nand perform steps 5~6.\nINFORMATION\nIf the total additional refrigerant amount was reached in\nstep 4 (by pre-charging only), record the amount of\nrefrigerant that was added on the additional refrigerant\ncharge label provided with the unit and attach it on the\nback side of the front panel.\nAdditionally, input the additional refrigerant amount into the\nsystem via setting [2-14].\nPerform \nthe \ntest \nprocedure \nas \ndescribed \nin\n\"17 Commissioning\" [4 36].\nCharging refrigerant",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0027",
+            "page": 27,
+            "section": [
+              "14",
+              "14.4",
+              "14.4.5"
+            ],
+            "topic": [
+              "refrigerant_piping"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 670,
+            "end_char": 1206,
+            "text_sha256": "e6d2b6ffc1d1313c9dffa1328f6786662f7d6c7a04d30bf45e1162340e02c04b",
+            "page_text_sha256": "4266fcbfa7a6ce5044bfe93d9a0734fe31a7cce2256056aea0e12a2c67087d3e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.09067965284604425,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\npipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping\n\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14.2\nConnecting the refrigerant piping",
+      "context_ids": [
+        "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+        "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+        "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd"
+      ],
+      "elapsed_ms": 3.117500000371365
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_07dab1fb80062232016afa9648fb2487d281de1fccf7b61d72",
+      "request_id": "req_0341d948f92044fa9c8a8eca0a4d953a",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"refrigerant piping requirements maximum amount of foreign material including fabrication oils\"}",
+          "call_id": "call_MQh5PIUDrcV8VpJXuzTmmxTr",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_07dab1fb80062232016afa964937e887d281a9e9dc19e97ce6",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 547,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 565
+      },
+      "elapsed_ms": 1175.2090999998472
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_05e8f21ec2adb7ac016afa9649ea0487d299dab3b5d64d682b",
+      "request_id": "req_2b3d349f410442e7b41e25ea688f4a36",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"refrigerant piping requirements maximum amount of foreign material including fabrication oils\"}",
+          "call_id": "call_MQh5PIUDrcV8VpJXuzTmmxTr"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_MQh5PIUDrcV8VpJXuzTmmxTr",
+          "output": "{\"tool\": \"search\", \"queries\": [\"refrigerant piping requirements maximum amount of foreign material including fabrication oils\"], \"remaining_searches\": 2, \"context\": \"[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\\n14.3\\nChecking the refrigerant piping\\n\\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\\n14.2\\nConnecting the refrigerant piping\", \"context_ids\": [\"0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1\", \"9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"maximum amount of foreign material inside refrigerant pipes including fabrication oils\"}",
+          "call_id": "call_Ry6f6soB1DW5bQGzq853N9je",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_05e8f21ec2adb7ac016afa964a879087d299bb85dc66932712",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 844,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 869
+      },
+      "elapsed_ms": 1140.1746999999887
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_0765f264067a92fa016afa964b0d9887d28f347729dc7a8050",
+      "request_id": "req_acf1a913fdf74c16924346dd0d3ba684",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"maximum amount of foreign material inside refrigerant pipes including fabrication oils\"}",
+          "call_id": "call_Ry6f6soB1DW5bQGzq853N9je"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_Ry6f6soB1DW5bQGzq853N9je",
+          "output": "{\"tool\": \"search\", \"queries\": [\"refrigerant piping requirements maximum amount of foreign material including fabrication oils\", \"maximum amount of foreign material inside refrigerant pipes including fabrication oils\"], \"remaining_searches\": 1, \"context\": \"[12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\\npipes (field supply).\\n▪The additional refrigerant calculation has to be adjusted as\\nmentioned in \\\"14.4.3  To determine the additional refrigerant\\namount\\\" [4 22].\\n\\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\\n14.3\\nChecking the refrigerant piping\\n\\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\\n14.2\\nConnecting the refrigerant piping\", \"context_ids\": [\"12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5\", \"0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1\", \"9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"query\":\"foreign material inside refrigerant pipes including fabrication oils maximum amount\"}",
+          "call_id": "call_LxIVXC76lph0ePa3ZPVoxfs7",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_0765f264067a92fa016afa964b7ca887d28dd23bbaed4da29c",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1002,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1026
+      },
+      "elapsed_ms": 918.4586999999738
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_01bc0ec4e8e8ac34016afa964bf80487d2bf6d5e2bf63b4907",
+      "request_id": "req_3ff5228553d34bea9cc26cf7669a8608",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"foreign material inside refrigerant pipes including fabrication oils maximum amount\"}",
+          "call_id": "call_LxIVXC76lph0ePa3ZPVoxfs7"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_LxIVXC76lph0ePa3ZPVoxfs7",
+          "output": "{\"tool\": \"search\", \"queries\": [\"refrigerant piping requirements maximum amount of foreign material including fabrication oils\", \"maximum amount of foreign material inside refrigerant pipes including fabrication oils\", \"foreign material inside refrigerant pipes including fabrication oils maximum amount\"], \"remaining_searches\": 0, \"context\": \"[12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\\npipes (field supply).\\n▪The additional refrigerant calculation has to be adjusted as\\nmentioned in \\\"14.4.3  To determine the additional refrigerant\\namount\\\" [4 22].\\n\\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\\n14.3\\nChecking the refrigerant piping\\n\\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\\n14.2\\nConnecting the refrigerant piping\", \"context_ids\": [\"12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5\", \"0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1\", \"9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd\"]}"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "finish"
+      },
+      "output": [
+        {
+          "arguments": "{\"status\":\"abstain\",\"claims\":[]}",
+          "call_id": "call_YuOLtDmyyLQr4JuihGuutx9D",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_01bc0ec4e8e8ac34016afa964c6a4487d28e69b0a9b2a184ca",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 993,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1004
+      },
+      "elapsed_ms": 845.4880000008416
+    }
+  ],
+  "context": "[12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=17]\npipes (field supply).\n▪The additional refrigerant calculation has to be adjusted as\nmentioned in \"14.4.3  To determine the additional refrigerant\namount\" [4 22].\n\n[0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=20]\n14.3\nChecking the refrigerant piping\n\n[9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=18]\n14.2\nConnecting the refrigerant piping",
+  "context_ids": [
+    "12529bb843ba3cff8acb936944f60722256611d92be4579e5b25d1f1065357f5",
+    "0adab730163be3a359d46f168f0324911b8227c304a9d769c7b776f182092cf1",
+    "9339b9be4e88493e75dbe4b9baea8f795a4ef874a55b84f4beafc3840e0366cd"
+  ],
+  "context_chars": 620,
+  "search_queries": [
+    "refrigerant piping requirements maximum amount of foreign material including fabrication oils",
+    "maximum amount of foreign material inside refrigerant pipes including fabrication oils",
+    "foreign material inside refrigerant pipes including fabrication oils maximum amount"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 4090.0715999996464,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 3386,
+    "output_tokens": 78,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q05",
+  "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "c4111d24acc4ee2f6b05ba07f3733c1eb712e9e7c1ac8207655ba3ff9c5f3858",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 16,
+      "text": "14.1.1\nRefrigerant piping requirements\nNOTICE\nRefrigerant R410A requires strict cautions for keeping the\nsystem clean and dry. Foreign materials (including mineral\noils or moisture) should be prevented from getting mixed\ninto the system.\nNOTICE\nThe piping and other pressure-containing parts shall be\nsuitable for refrigerant. Use phosphoric acid deoxidised\nseamless copper for refrigerant piping.\n▪Only use phosphoric acid deoxidised seamless copper.\n▪Foreign materials inside pipes (including oils for fabrication) must\nbe ≤30 mg/10 m.\n▪Temper grade: use piping with temper grade in function of the\npipe diameter as listed in table below.\nPipe Ø\nTemper grade of piping material",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0016",
+        "page": 16,
+        "section": [
+          "14",
+          "14.1",
+          "14.1.1"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 635,
+        "end_char": 1314,
+        "text_sha256": "2a70b0758e55cba10805dc04a33419d3c167ea4dc60c78d648ac9a0247a47a82",
+        "page_text_sha256": "e6ac975ce09858d5f77e350dd9e53389cb9b8ddf3e97d68d55c727a993633915",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.36812347564633496
+    },
+    {
+      "id": "fe2dd78cf5fb44a8be1a0ce4c1fa56adf15276359335981b8256a3094c8a2212",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 20,
+      "text": "14.2.5\nTo connect the refrigerant piping to the\noutdoor unit\nNOTICE\n▪Be sure to use the supplied accessory pipes when\ncarrying out piping work in the field.\n▪Be sure that the field installed piping does not touch\nother pipes, the bottom panel or side panel. Especially\nfor the bottom and side connection, be sure to protect\nthe piping with suitable insulation, to prevent it from\ncoming into contact with the casing.\nConnect the stop valves to the field piping using the accessory pipes\nsupplied with the unit.\nThe connections to the branch kits are the responsibility of the\ninstaller (field piping).",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0020",
+        "page": 20,
+        "section": [
+          "14",
+          "14.2",
+          "14.2.5"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 124,
+        "end_char": 725,
+        "text_sha256": "556926c57c8acf94159a6c1c1373640f94ec9b5c1479cd11dc4014a8566fcc6d",
+        "page_text_sha256": "59d8e2026b00875dd997a557303c79fb232b42874f09c59125df076ff0a5cffb",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text"
+        ]
+      },
+      "score": 0.20036796144533545
+    },
+    {
+      "id": "ae9582f192d75d3949e19d9024140feac3898e9c772d9f6055040743de3a9958",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 27,
+      "text": "If you need to speed up in case of a multiple outdoor\nsystem, connect the refrigerant tanks to each outdoor unit.\nNOTICE\n▪The refrigerant charging port is connected to the piping\ninside the unit. The unit's internal piping is already\nfactory charged with refrigerant, so be careful when\nconnecting the charge hose.\n▪After adding the refrigerant, do not forget to close the\nlid of the refrigerant charging port. The tightening\ntorque for the lid is 11.5 to 13.9 N•m.\n▪In order to ensure uniform refrigerant distribution, it\nmay take the compressor ±10 minutes to start up after\nthe unit has started operation. This is not a malfunction.\n6\nProceed with one of the following:",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0027",
+        "page": 27,
+        "section": [
+          "14",
+          "14.4",
+          "14.4.5"
+        ],
+        "topic": [
+          "refrigerant_piping"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1814,
+        "end_char": 2486,
+        "text_sha256": "61ed2e5a9143080704fbe84833e82b0768c26bd31ec8f1f4ed2f16a07610d15d",
+        "page_text_sha256": "4266fcbfa7a6ce5044bfe93d9a0734fe31a7cce2256056aea0e12a2c67087d3e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "diagram_icon_geometry_or_flow_not_fully_preserved_in_plain_text",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.15806237427757636
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:13.266006+00:00"
+}

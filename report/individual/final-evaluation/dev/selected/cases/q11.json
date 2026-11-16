@@ -1,0 +1,471 @@
+{
+  "status": "abstain",
+  "answer": "Insufficient evidence in the corpus to answer the question.",
+  "citations": [],
+  "abstention": true,
+  "reason": "unsupported_cited_claim",
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "REYQ10 outdoor unit minimum circuit ampacity and recommended fuse rating section 15.2",
+      "filter": {},
+      "results": [
+        {
+          "id": "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.2"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [
+              "REYQ10",
+              "REYQ12",
+              "REYQ30",
+              "REYQ8"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 3517,
+            "end_char": 3837,
+            "text_sha256": "dba8d627eb158e58f3c32d7ab20638b4f59e0cea03a96998258d113761eb2df2",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 1,
+            "bm25": 1
+          },
+          "component_scores": {
+            "dense": 0.7753043308672831,
+            "bm25": 33.552754894282
+          }
+        },
+        {
+          "id": "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "REYQ10\n22.0 A\n25 A\nREYQ12\n24.0 A\n32 A\nREYQ14\n27.0 A\n32 A\nREYQ16\n31.0 A\n40 A\nREYQ18\n35.0 A\n40 A\nREYQ20\n39.0 A\n50 A\nFor all models:\n▪Phase and frequency: 3N~ 50 Hz\n▪Voltage: 380~415 V\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\n1000 m. If the total interconnection wiring exceeds these limits, it\nmay result in communication error.\nFor non-standard combinations\nCalculate the recommended fuse capacity.\nFormula\nCalculate, by adding the minimum circuit amps of each\nused unit (according to the table above), multiply the\nresult by 1.1 and select the next higher recommended\nfuse capacity.\nExample\nCombining the REYQ30 by using the REYQ8,\nREYQ10, and REYQ12.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.2"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [
+              "REYQ10",
+              "REYQ12",
+              "REYQ14",
+              "REYQ16",
+              "REYQ18",
+              "REYQ20",
+              "REYQ30",
+              "REYQ8"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2844,
+            "end_char": 3516,
+            "text_sha256": "6a873d96d0ce8ec76ee361822aa3058c0061f92919e20163c525d43b6e6ea4f9",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 3,
+            "bm25": 2
+          },
+          "component_scores": {
+            "dense": 0.6607481842564253,
+            "bm25": 22.67688977193226
+          }
+        },
+        {
+          "id": "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 29,
+          "text": "15.2\nSafety device requirements\nThe power supply must be protected with the required safety\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\nearth leakage protector in accordance with the applicable legislation.\nIn the power supply line, ALWAYS install a residual current device\n(RCD) with an instantaneous action. The installed RCD MUST\ncomply with the national wiring regulation.\nFor standard combinations\nSelection and sizing of the wiring should be done in accordance with\nthe applicable legislation based on the information mentioned in the\ntable below.\nSingle outdoor unit\nModel\nMinimum circuit am-\npacity\nRecommended\nfuses\nREMQ5\n16.1 A\n20 A\nREYQ8\n16.1 A\n20 A",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+            "page": 29,
+            "section": [
+              "15",
+              "15.2"
+            ],
+            "topic": [
+              "electrical_installation"
+            ],
+            "equipment_model": [
+              "REMQ5",
+              "REYQ8"
+            ],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 2160,
+            "end_char": 2843,
+            "text_sha256": "4329529d5d6989bb13edd97099f44405aeebcfa22a4fe671471e0d347d74a0ea",
+            "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification"
+            ]
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid_rrf",
+          "component_ranks": {
+            "dense": 2,
+            "bm25": 3
+          },
+          "component_scores": {
+            "dense": 0.7302232271033728,
+            "bm25": 15.304686374297088
+          }
+        }
+      ],
+      "context": "[e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.\n\n[998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\nREYQ10\n22.0 A\n25 A\nREYQ12\n24.0 A\n32 A\nREYQ14\n27.0 A\n32 A\nREYQ16\n31.0 A\n40 A\nREYQ18\n35.0 A\n40 A\nREYQ20\n39.0 A\n50 A\nFor all models:\n▪Phase and frequency: 3N~ 50 Hz\n▪Voltage: 380~415 V\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\n1000 m. If the total interconnection wiring exceeds these limits, it\nmay result in communication error.\nFor non-standard combinations\nCalculate the recommended fuse capacity.\nFormula\nCalculate, by adding the minimum circuit amps of each\nused unit (according to the table above), multiply the\nresult by 1.1 and select the next higher recommended\nfuse capacity.\nExample\nCombining the REYQ30 by using the REYQ8,\nREYQ10, and REYQ12.\n\n[c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.2\nSafety device requirements\nThe power supply must be protected with the required safety\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\nearth leakage protector in accordance with the applicable legislation.\nIn the power supply line, ALWAYS install a residual current device\n(RCD) with an instantaneous action. The installed RCD MUST\ncomply with the national wiring regulation.\nFor standard combinations\nSelection and sizing of the wiring should be done in accordance with\nthe applicable legislation based on the information mentioned in the\ntable below.\nSingle outdoor unit\nModel\nMinimum circuit am-\npacity\nRecommended\nfuses\nREMQ5\n16.1 A\n20 A\nREYQ8\n16.1 A\n20 A",
+      "context_ids": [
+        "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+        "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+        "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770"
+      ],
+      "elapsed_ms": 277.6699000005465
+    },
+    {
+      "event": "unsupported_cited_claim",
+      "proposed_answer": "",
+      "proposed_citations": [],
+      "proposed_claims": [
+        {
+          "text": "Minimum circuit ampacity of the REYQ10=22.0 A",
+          "chunk_ids": [
+            "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550"
+          ]
+        },
+        {
+          "text": "REYQ10 22.0 A 25 A",
+          "chunk_ids": [
+            "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "Minimum circuit ampacity of the REYQ10=22.0 A",
+          "chunk_id": "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+          "passed": false,
+          "reason": "numeric_mismatch",
+          "method": null
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_046ee243a9ef6624016afa9620ccd487d28bb7012fb40da503",
+      "request_id": "req_5ca598d570274941b2d4c1e9244ebff0",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"REYQ10 outdoor unit minimum circuit ampacity and recommended fuse rating section 15.2\"}",
+          "call_id": "call_LWQcsb3cmhpHACq4sNFLR0Z9",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_046ee243a9ef6624016afa962123e087d29ded905dde9e78e6",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 555,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 579
+      },
+      "elapsed_ms": 917.0498000003136
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_042476631ae49979016afa9622006c87d28cea3653a302d464",
+      "request_id": "req_badec7f9be46426887e231ac8b7034c5",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"REYQ10 outdoor unit minimum circuit ampacity and recommended fuse rating section 15.2\"}",
+          "call_id": "call_LWQcsb3cmhpHACq4sNFLR0Z9"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_LWQcsb3cmhpHACq4sNFLR0Z9",
+          "output": "{\"tool\": \"search\", \"queries\": [\"REYQ10 outdoor unit minimum circuit ampacity and recommended fuse rating section 15.2\"], \"remaining_searches\": 2, \"context\": \"[e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n▪Minimum circuit ampacity of the REYQ8=16.1 A\\n▪Minimum circuit ampacity of the REYQ10=22.0 A\\n▪Minimum circuit ampacity of the REYQ12=24.0 A\\nAccordingly, the minimum circuit ampacity of the\\nREYQ30=16.1+22.0+24.0=62.1 A\\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\\nso the recommended fuse capacity would be 80 A.\\n\\n[998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\nREYQ10\\n22.0 A\\n25 A\\nREYQ12\\n24.0 A\\n32 A\\nREYQ14\\n27.0 A\\n32 A\\nREYQ16\\n31.0 A\\n40 A\\nREYQ18\\n35.0 A\\n40 A\\nREYQ20\\n39.0 A\\n50 A\\nFor all models:\\n▪Phase and frequency: 3N~ 50 Hz\\n▪Voltage: 380~415 V\\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\\n1000 m. If the total interconnection wiring exceeds these limits, it\\nmay result in communication error.\\nFor non-standard combinations\\nCalculate the recommended fuse capacity.\\nFormula\\nCalculate, by adding the minimum circuit amps of each\\nused unit (according to the table above), multiply the\\nresult by 1.1 and select the next higher recommended\\nfuse capacity.\\nExample\\nCombining the REYQ30 by using the REYQ8,\\nREYQ10, and REYQ12.\\n\\n[c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\\n15.2\\nSafety device requirements\\nThe power supply must be protected with the required safety\\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\\nearth leakage protector in accordance with the applicable legislation.\\nIn the power supply line, ALWAYS install a residual current device\\n(RCD) with an instantaneous action. The installed RCD MUST\\ncomply with the national wiring regulation.\\nFor standard combinations\\nSelection and sizing of the wiring should be done in accordance with\\nthe applicable legislation based on the information mentioned in the\\ntable below.\\nSingle outdoor unit\\nModel\\nMinimum circuit am-\\npacity\\nRecommended\\nfuses\\nREMQ5\\n16.1 A\\n20 A\\nREYQ8\\n16.1 A\\n20 A\", \"context_ids\": [\"e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550\", \"998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934\", \"c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Minimum circuit ampacity of the REYQ10=22.0 A\",\"chunk_ids\":[\"e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550\"]},{\"text\":\"REYQ10 22.0 A 25 A\",\"chunk_ids\":[\"998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934\"]}]}",
+          "call_id": "call_6f2cAcMMXYOhJY7Qhlel837T",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_042476631ae49979016afa962255c487d29ab64086b41cfeb9",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 1491,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 130,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1621
+      },
+      "elapsed_ms": 1628.1589999998687
+    }
+  ],
+  "context": "[e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.\n\n[998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\nREYQ10\n22.0 A\n25 A\nREYQ12\n24.0 A\n32 A\nREYQ14\n27.0 A\n32 A\nREYQ16\n31.0 A\n40 A\nREYQ18\n35.0 A\n40 A\nREYQ20\n39.0 A\n50 A\nFor all models:\n▪Phase and frequency: 3N~ 50 Hz\n▪Voltage: 380~415 V\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\n1000 m. If the total interconnection wiring exceeds these limits, it\nmay result in communication error.\nFor non-standard combinations\nCalculate the recommended fuse capacity.\nFormula\nCalculate, by adding the minimum circuit amps of each\nused unit (according to the table above), multiply the\nresult by 1.1 and select the next higher recommended\nfuse capacity.\nExample\nCombining the REYQ30 by using the REYQ8,\nREYQ10, and REYQ12.\n\n[c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=29]\n15.2\nSafety device requirements\nThe power supply must be protected with the required safety\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\nearth leakage protector in accordance with the applicable legislation.\nIn the power supply line, ALWAYS install a residual current device\n(RCD) with an instantaneous action. The installed RCD MUST\ncomply with the national wiring regulation.\nFor standard combinations\nSelection and sizing of the wiring should be done in accordance with\nthe applicable legislation based on the information mentioned in the\ntable below.\nSingle outdoor unit\nModel\nMinimum circuit am-\npacity\nRecommended\nfuses\nREMQ5\n16.1 A\n20 A\nREYQ8\n16.1 A\n20 A",
+  "context_ids": [
+    "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+    "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+    "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770"
+  ],
+  "context_chars": 2060,
+  "search_queries": [
+    "REYQ10 outdoor unit minimum circuit ampacity and recommended fuse rating section 15.2"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 2824.7521000012057,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 2046,
+    "output_tokens": 154,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q11",
+  "question": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?",
+  "split": "dev",
+  "configuration": "selected",
+  "original_query_results": [
+    {
+      "id": "e3bc06ab30b4dd477a1578f64a77bf1327a10c555faddd55235712dbf8b00550",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 29,
+      "text": "▪Minimum circuit ampacity of the REYQ8=16.1 A\n▪Minimum circuit ampacity of the REYQ10=22.0 A\n▪Minimum circuit ampacity of the REYQ12=24.0 A\nAccordingly, the minimum circuit ampacity of the\nREYQ30=16.1+22.0+24.0=62.1 A\nMultiply the above result by 1.1: (62.1 A×1.1)=68.3 A,\nso the recommended fuse capacity would be 80 A.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+        "page": 29,
+        "section": [
+          "15",
+          "15.2"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [
+          "REYQ10",
+          "REYQ12",
+          "REYQ30",
+          "REYQ8"
+        ],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 3517,
+        "end_char": 3837,
+        "text_sha256": "dba8d627eb158e58f3c32d7ab20638b4f59e0cea03a96998258d113761eb2df2",
+        "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.03278688524590164
+    },
+    {
+      "id": "998685273e3899fbeb3a138559d03e92a597b569c5163c95f959224b141a1934",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 29,
+      "text": "REYQ10\n22.0 A\n25 A\nREYQ12\n24.0 A\n32 A\nREYQ14\n27.0 A\n32 A\nREYQ16\n31.0 A\n40 A\nREYQ18\n35.0 A\n40 A\nREYQ20\n39.0 A\n50 A\nFor all models:\n▪Phase and frequency: 3N~ 50 Hz\n▪Voltage: 380~415 V\n▪Transmission line section: 0.75~1.25  mm2, maximum length is\n1000 m. If the total interconnection wiring exceeds these limits, it\nmay result in communication error.\nFor non-standard combinations\nCalculate the recommended fuse capacity.\nFormula\nCalculate, by adding the minimum circuit amps of each\nused unit (according to the table above), multiply the\nresult by 1.1 and select the next higher recommended\nfuse capacity.\nExample\nCombining the REYQ30 by using the REYQ8,\nREYQ10, and REYQ12.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+        "page": 29,
+        "section": [
+          "15",
+          "15.2"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [
+          "REYQ10",
+          "REYQ12",
+          "REYQ14",
+          "REYQ16",
+          "REYQ18",
+          "REYQ20",
+          "REYQ30",
+          "REYQ8"
+        ],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2844,
+        "end_char": 3516,
+        "text_sha256": "6a873d96d0ce8ec76ee361822aa3058c0061f92919e20163c525d43b6e6ea4f9",
+        "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.03200204813108039
+    },
+    {
+      "id": "c1fe96a98b8bb713085d1357025b509d4d82c7cc65e67e9ec02f0a12b2fd2770",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 29,
+      "text": "15.2\nSafety device requirements\nThe power supply must be protected with the required safety\ndevices, i.e. a main switch, a slow blow fuse on each phase and an\nearth leakage protector in accordance with the applicable legislation.\nIn the power supply line, ALWAYS install a residual current device\n(RCD) with an instantaneous action. The installed RCD MUST\ncomply with the national wiring regulation.\nFor standard combinations\nSelection and sizing of the wiring should be done in accordance with\nthe applicable legislation based on the information mentioned in the\ntable below.\nSingle outdoor unit\nModel\nMinimum circuit am-\npacity\nRecommended\nfuses\nREMQ5\n16.1 A\n20 A\nREYQ8\n16.1 A\n20 A",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0029",
+        "page": 29,
+        "section": [
+          "15",
+          "15.2"
+        ],
+        "topic": [
+          "electrical_installation"
+        ],
+        "equipment_model": [
+          "REMQ5",
+          "REYQ8"
+        ],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2160,
+        "end_char": 2843,
+        "text_sha256": "4329529d5d6989bb13edd97099f44405aeebcfa22a4fe671471e0d347d74a0ea",
+        "page_text_sha256": "495a0452dcbbc9f38cd2f0de5972872ebf0a8fb776f4ccfd3ad525d6ed14899e",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification"
+        ]
+      },
+      "score": 0.03200204813108039
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:35:32.062571+00:00"
+}

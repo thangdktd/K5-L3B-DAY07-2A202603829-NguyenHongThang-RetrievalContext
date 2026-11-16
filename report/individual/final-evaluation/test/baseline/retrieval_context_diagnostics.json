@@ -1,0 +1,124 @@
+[
+  {
+    "query_id": "t01",
+    "answerable": true,
+    "status": "answered",
+    "reason": null,
+    "searches": 3,
+    "original_query_hit1": false,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Do NOT install a phase advancing capacitor, because this unit is equipped with an inverter. [8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0]\nA phase advancing capacitor will reduce performance and may cause accidents. [8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0]",
+    "context_ids": [
+      "8eb9af4c292a308db89ec9558d7d49df354bd37f325d276b9e30167e80df08f0"
+    ]
+  },
+  {
+    "query_id": "t02",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "d5ea4c839a544ba43d0214022985a9df917f27f05df390d995f8fa742d91cb3e"
+    ]
+  },
+  {
+    "query_id": "t03",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "unsupported_cited_claim",
+    "searches": 1,
+    "original_query_hit1": true,
+    "original_query_hit3": true,
+    "agent_first_query_hit1": true,
+    "agent_first_query_hit3": true,
+    "context_evidence_complete": true,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "ac96f637a2d6b62aa90af29fb88f958efbebd8db73126b11e60b52f6ea537f23",
+      "fccedd6c4e17045dc7e6814ac5e0d58e9209abcfa6b2cfb3f613b810cd15f92b"
+    ]
+  },
+  {
+    "query_id": "t04",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": false,
+    "original_query_hit3": false,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": false,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "ee16a08bb25061075263418cfad8d905cc6fbda6de46e09e3d0d635ce5df0049",
+      "44c14f39eadebfa7980b0abce71feb638ccfa2b7e44e184337a21213b9452431"
+    ]
+  },
+  {
+    "query_id": "t05",
+    "answerable": true,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": false,
+    "original_query_hit3": false,
+    "agent_first_query_hit1": false,
+    "agent_first_query_hit3": false,
+    "context_evidence_complete": false,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "1315fab4dd0b956ea72176eeac93ad9249e1cba110b48d4f4b5632eee3ed35c2",
+      "ecc9151779e70d8f66ba5c21c550065805af72bb23b3b2ace738827e6ab85cfd"
+    ]
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "answerable": false,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "dc75932391f95dccdece33e054b5fa7ed225d78c8846a9c0fe13cef3599b601c"
+    ]
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "answerable": false,
+    "status": "abstain",
+    "reason": "model_abstention",
+    "searches": 3,
+    "original_query_hit1": null,
+    "original_query_hit3": null,
+    "agent_first_query_hit1": null,
+    "agent_first_query_hit3": null,
+    "context_evidence_complete": null,
+    "citation_ids_in_context": true,
+    "final_answer": "Insufficient evidence in the corpus to answer the question.",
+    "context_ids": [
+      "6e710f34488c7f69d1ba0847f00bae445ec485b2216bda8e2c632da2dfe2808b"
+    ]
+  }
+]

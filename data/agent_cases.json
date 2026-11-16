@@ -1,0 +1,214 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "category": "operation_limits",
+    "question": "According to section 6.2.1, how long before operation should the main power switch be turned on to protect the unit?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "6.2.1"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "category": "operation_limits",
+    "question": "After stopping the unit, what minimum delay should be observed before turning off its power?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "category": "operation_limits",
+    "question": "In section 6.3.1, will the dry program start when the room temperature is below 20 degrees Celsius?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "6.3.1"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "category": "installation_piping",
+    "question": "What material does section 14.1.1 require for refrigerant piping?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "category": "installation_piping",
+    "question": "Under the refrigerant piping requirements, what is the maximum amount of foreign material inside the pipes, including fabrication oils?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "category": "installation_piping",
+    "question": "In section 13.3.1, what is the minimum foundation height from the floor, and what adjustment is specified for heavy snowfall areas?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "13.3.1"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "category": "installation_piping",
+    "question": "If the piping length between outdoor units exceeds 2 m, what rise is required in the suction and high-pressure/low-pressure gas lines, and how close must it be to the kit?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "category": "refrigerant",
+    "question": "Which refrigerant type does the product contain, and what GWP value is stated for it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "category": "refrigerant",
+    "question": "For parameter A in section 14.4.3, how much extra refrigerant per outdoor unit is required when the total indoor capacity connection ratio exceeds 100 percent?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "14.4.3"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "category": "refrigerant",
+    "question": "Can automatic refrigerant charging be used when Hydrobox units are connected?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "category": "electrical_control",
+    "question": "For a single REYQ10 outdoor unit under standard combinations in section 15.2, what minimum circuit ampacity and recommended fuse rating are listed?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "15.2",
+      "equipment_model": "REYQ10"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "category": "electrical_control",
+    "question": "How do mode 1 and mode 2 differ in their stated purposes for outdoor-unit field settings?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "category": "electrical_control",
+    "question": "May U-series and T-series units share a refrigerant circuit, and is an electrical connection between them via F1/F2 allowed?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "category": "commissioning_troubleshooting",
+    "question": "After an abnormality has been corrected, which button resets the malfunction code, and what should be done next?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "category": "operation_limits",
+    "question": "According to user safety instructions in section 3, why must a phase advancing capacitor NOT be installed on this unit?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "category": "installation_piping",
+    "question": "According to section 11.4, what problem may occur if the outdoor unit is operated with the transportation stay attached?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "category": "refrigerant",
+    "question": "In section 14.3.4, why must soap water NEVER be used when testing for refrigerant piping leaks?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "category": "electrical_control",
+    "question": "According to section 15.5, what are the cable specification requirements (cable core and wire size) for indoor-outdoor interconnection wiring?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "category": "commissioning_troubleshooting",
+    "question": "Under Mode 2 field settings in section 16.1.8, under what installation condition must setting [2-49] be changed to 1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "category": "refrigerant",
+    "question": "What is the procedure and calculation formula for adding R32 refrigerant when retrofitting the VRV IV+ heat recovery system?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Daikin VRV IV+ (REYQ8~20+REMQ5U7Y1B) manual strictly mandates R410A only (page 4 warns against using any other substance) and does not provide any retrofit procedure or calculation formulas for R32 refrigerant."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "category": "operation_limits",
+    "question": "What is the rated sound pressure level in decibels (dBA) for outdoor unit model REYQ14U7Y1B during standard cooling operation?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The manual describes qualitative acoustic symptoms (such as clicking sounds, gas flowing sounds, and tone changes in Section 8), but does not publish quantitative rated sound pressure levels (dBA) or sound power spectrum curves for any unit model."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "category": "refrigerant",
+    "question": "What is the approved synthetic refrigeration oil type and viscosity grade (such as Daphne Hermetic Oil FVC68D) required when servicing the VRV IV+ compressor?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "While the manual mentions oil recovery operation and warns of oil blowing from stop valves, no approved compressor oil type or viscosity grade was identified in this corpus; this makes no claim about other manuals."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "category": "electrical_control",
+    "question": "What is the manufacturer part number and maximum switching frequency of the main IGBT power module mounted on the inverter compressor PCB (A1P)?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "While the manual references PCB A1P for field settings and external pushbuttons (BS1-BS3) in Section 16, no IGBT part number or switching frequency specification was identified in this corpus; this makes no claim about proprietary documents."
+  }
+]

@@ -1,0 +1,410 @@
+{
+  "status": "answered",
+  "answer": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed. [d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2]",
+  "citations": [
+    "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+  ],
+  "abstention": false,
+  "reason": null,
+  "error": null,
+  "events": [
+    {
+      "event": "search",
+      "tool": "hybrid_rrf",
+      "query": "system test run checks omitted if Hydrobox units present",
+      "filter": {},
+      "results": [
+        {
+          "id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.3"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1120,
+            "end_char": 1765,
+            "text_sha256": "b014c8238621455b183333ffa56d80c3f3e888839febaf1fe400c87d883dd035",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.3851663552948823,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "eef84c3ca08ec38e57e4ce91ff232536fee6930a66e00bca54a54585649ce094",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 40,
+          "text": "Reversed power supply phase\nmalfunction\nCorrect phase order.\nReversed power supply phase\nmalfunction\nCorrect phase order.\nINV1 voltage power shortage\nCheck if power supply is within range.\nINV1 power phase loss\nCheck if power supply is within range.\nINV2 voltage power shortage\nCheck if power supply is within range\nINV2 power phase loss\nCheck if power supply is within range.\nMalfunction code: system test run not\nyet executed (system operation not\npossible)\nExecute system test run.\nAn error occurred during the test run\nRe-execute the test run.\n, \nTest run aborted\nRe-execute the test run.\n, \nTest run aborted due to communication\nissues\nCheck the communication wires and re-\nexecute the test run.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+            "page": 40,
+            "section": [
+              "19",
+              "19.2"
+            ],
+            "topic": [
+              "installer_troubleshooting"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1305,
+            "end_char": 2005,
+            "text_sha256": "cc029a22e6921b662107ebd791442a6a270f36606991da1c267463127fa9a80c",
+            "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.2747357802927436,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "487cc04e12d42eba6cbd33b69f070934b8a5d161179ec5d39c8c7acb77dae5db",
+          "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+          "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+          "page": 37,
+          "text": "▪Abnormalities on indoor units cannot be checked for each unit\nseparately. After the test operation is finished, check the indoor\nunits one by one by performing a normal operation using the user\ninterface. Refer to the indoor unit installation manual for more\ndetails (e.g., Hydrobox) concerning the individual test run.\nINFORMATION\n▪It may take 10 minutes to achieve a uniform refrigerant\nstate before the compressor starts.\n▪During the test operation, the refrigerant running sound\nor the magnetic sound of a solenoid valve may become\nloud and the display indication may change. These are\nnot malfunctions.",
+          "metadata": {
+            "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+            "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+            "page": 37,
+            "section": [
+              "17",
+              "17.3"
+            ],
+            "topic": [
+              "commissioning"
+            ],
+            "equipment_model": [],
+            "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+            "start_char": 1766,
+            "end_char": 2374,
+            "text_sha256": "245753d501f207d245bd4af1eeab0f51c5ced848aca34268a0e232a565a8d2c2",
+            "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+            "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+            "strategy": "B",
+            "chunking": {
+              "max_size": 700,
+              "overlap": 0,
+              "version": 1
+            },
+            "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+            "gold_evidence_manual_review_required": true,
+            "manual_review_reasons": [
+              "table_cells_units_headers_and_model_scope_require_visual_verification",
+              "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+            ]
+          },
+          "score": 0.18368156516871714,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+      "context_ids": [
+        "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+      ],
+      "elapsed_ms": 2.9020000001764856
+    },
+    {
+      "event": "answer",
+      "claims": [
+        {
+          "text": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed.",
+          "chunk_ids": [
+            "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+          ]
+        }
+      ],
+      "grounding_checks": [
+        {
+          "claim": "In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed",
+          "chunk_id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+          "passed": true,
+          "reason": null,
+          "method": "canonical_sentence_equivalence",
+          "source_sentence_range": [
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "model_calls": [
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_04f20e4628a4b585016afa966a149087d2add04631979960d0",
+      "request_id": "req_ae0acdf732b54188887f8dc92e319e36",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "During the system test run, which two checks are omitted if Hydrobox units are present?"
+        }
+      ],
+      "tool_choice": {
+        "type": "function",
+        "name": "search"
+      },
+      "output": [
+        {
+          "arguments": "{\"query\":\"system test run checks omitted if Hydrobox units present\"}",
+          "call_id": "call_STgOMQMB5aI9o54GxW46BjNe",
+          "name": "search",
+          "type": "function_call",
+          "id": "fc_04f20e4628a4b585016afa966a93b487d29885b701efe88da4",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 542,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 557
+      },
+      "elapsed_ms": 1237.949500000468
+    },
+    {
+      "event": "model_call",
+      "requested_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini-2025-04-14",
+      "response_id": "resp_06477dce6288b9ae016afa966b102887d2999e3b7044581be2",
+      "request_id": "req_16b3964a77e44fa5abb87ee0a5647626",
+      "status": "completed",
+      "input": [
+        {
+          "role": "user",
+          "content": "During the system test run, which two checks are omitted if Hydrobox units are present?"
+        },
+        {
+          "type": "function_call",
+          "name": "search",
+          "arguments": "{\"query\":\"system test run checks omitted if Hydrobox units present\"}",
+          "call_id": "call_STgOMQMB5aI9o54GxW46BjNe"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_STgOMQMB5aI9o54GxW46BjNe",
+          "output": "{\"tool\": \"search\", \"queries\": [\"system test run checks omitted if Hydrobox units present\"], \"remaining_searches\": 2, \"context\": \"[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\\n17.3\\nAbout the system test run\\nNOTICE\\nMake sure to carry out the test run after the first\\ninstallation. Otherwise, the malfunction code \\n will be\\ndisplayed on the user interface and normal operation or\\nindividual indoor unit test run cannot be carried out.\\nThe procedure below describes the test operation of the complete\\nsystem. This operation checks and judges following items:\\n▪Check for incorrect wiring (communication check with indoor\\nunit(s)).\\n▪Check of the stop valves opening.\\n▪Judgement of piping length.\\nIn case Hydrobox units are present in the system, the pipe length\\ncheck and the refrigerant situation check will not be performed.\", \"context_ids\": [\"d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2\"]}"
+        }
+      ],
+      "tool_choice": "required",
+      "output": [
+        {
+          "arguments": "{\"status\":\"answered\",\"claims\":[{\"text\":\"In case Hydrobox units are present in the system, the pipe length check and the refrigerant situation check will not be performed.\",\"chunk_ids\":[\"d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2\"]}]}",
+          "call_id": "call_T8uixV7OnI7GueVXoKN1qiHl",
+          "name": "finish",
+          "type": "function_call",
+          "id": "fc_06477dce6288b9ae016afa966b676887d2ac04639aa6a9b2f0",
+          "status": "completed"
+        }
+      ],
+      "usage": {
+        "input_tokens": 849,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 90,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 939
+      },
+      "elapsed_ms": 2816.30210000003
+    }
+  ],
+  "context": "[d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2 | source_id=daikin_vrv_ivplus_4p546222_1e_2025_11 | page=37]\n17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+  "context_ids": [
+    "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2"
+  ],
+  "context_chars": 772,
+  "search_queries": [
+    "system test run checks omitted if Hydrobox units present"
+  ],
+  "model": "gpt-4.1-mini",
+  "budget_chars": 800,
+  "max_searches": 3,
+  "top_k": 3,
+  "elapsed_ms": 4067.7408000010473,
+  "usage_missing_calls": 0,
+  "usage": {
+    "input_tokens": 1391,
+    "output_tokens": 105,
+    "cached_input_tokens": 0
+  },
+  "query_id": "q14",
+  "question": "During the system test run, which two checks are omitted if Hydrobox units are present?",
+  "split": "dev",
+  "configuration": "baseline",
+  "original_query_results": [
+    {
+      "id": "d342b16372122ad72f3630d4a98d8adf6d919c70be88d4ce51017e2b7fe350b2",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 37,
+      "text": "17.3\nAbout the system test run\nNOTICE\nMake sure to carry out the test run after the first\ninstallation. Otherwise, the malfunction code \n will be\ndisplayed on the user interface and normal operation or\nindividual indoor unit test run cannot be carried out.\nThe procedure below describes the test operation of the complete\nsystem. This operation checks and judges following items:\n▪Check for incorrect wiring (communication check with indoor\nunit(s)).\n▪Check of the stop valves opening.\n▪Judgement of piping length.\nIn case Hydrobox units are present in the system, the pipe length\ncheck and the refrigerant situation check will not be performed.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0037",
+        "page": 37,
+        "section": [
+          "17",
+          "17.3"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1120,
+        "end_char": 1765,
+        "text_sha256": "b014c8238621455b183333ffa56d80c3f3e888839febaf1fe400c87d883dd035",
+        "page_text_sha256": "6b2aa71860795e8d30a9cbf8499a6c86997095835ef1b519da2608e06a7d9821",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.33872219050333136
+    },
+    {
+      "id": "eef84c3ca08ec38e57e4ce91ff232536fee6930a66e00bca54a54585649ce094",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 40,
+      "text": "Reversed power supply phase\nmalfunction\nCorrect phase order.\nReversed power supply phase\nmalfunction\nCorrect phase order.\nINV1 voltage power shortage\nCheck if power supply is within range.\nINV1 power phase loss\nCheck if power supply is within range.\nINV2 voltage power shortage\nCheck if power supply is within range\nINV2 power phase loss\nCheck if power supply is within range.\nMalfunction code: system test run not\nyet executed (system operation not\npossible)\nExecute system test run.\nAn error occurred during the test run\nRe-execute the test run.\n, \nTest run aborted\nRe-execute the test run.\n, \nTest run aborted due to communication\nissues\nCheck the communication wires and re-\nexecute the test run.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0040",
+        "page": 40,
+        "section": [
+          "19",
+          "19.2"
+        ],
+        "topic": [
+          "installer_troubleshooting"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 1305,
+        "end_char": 2005,
+        "text_sha256": "cc029a22e6921b662107ebd791442a6a270f36606991da1c267463127fa9a80c",
+        "page_text_sha256": "3322f954f372efdf6a76bf821df708ce144c5051c0fafc9b7ed179db1e47eeb1",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": true,
+        "manual_review_reasons": [
+          "table_cells_units_headers_and_model_scope_require_visual_verification",
+          "display_icons_or_seven_segment_codes_may_be_missing_from_text"
+        ]
+      },
+      "score": 0.22176288806975833
+    },
+    {
+      "id": "0df9652c0632630aeaa8a368d4dac88585fb27db66684b4400755d94098b7232",
+      "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+      "source": "data/raw/REMQ-U.REYQ8-20U7Y1B_Installation.Operation manual_4PEN546222-1E_English.pdf",
+      "page": 36,
+      "text": "During test operation, the outdoor unit and the indoor units will start\nup. Make sure that the preparations of all indoor units are finished\n(field piping, electrical wiring, air purge, ...). See installation manual\nof the indoor units for details.",
+      "metadata": {
+        "source_id": "daikin_vrv_ivplus_4p546222_1e_2025_11",
+        "page_id": "daikin_vrv_ivplus_4p546222_1e_2025_11:p0036",
+        "page": 36,
+        "section": [
+          "17",
+          "17.1"
+        ],
+        "topic": [
+          "commissioning"
+        ],
+        "equipment_model": [],
+        "equipment_model_scope": "literal chunk mentions; not per-row applicability",
+        "start_char": 2956,
+        "end_char": 3204,
+        "text_sha256": "ce573d376b502a1d8348c3cc22e7320ecde64885f2edb3981860a6cc18df32fc",
+        "page_text_sha256": "eb6563ed8bf34859770070a31e2c6bedc4df124f77605e1d60b1c9c3d5a2e43f",
+        "source_sha256": "603c36bab2370f3ed5f8cbba07b848ccfde22856b8550349b34c08fd0cef5c6d",
+        "strategy": "B",
+        "chunking": {
+          "max_size": 700,
+          "overlap": 0,
+          "version": 1
+        },
+        "normalization": "NFC + strip at page/chunk edges; internal characters preserved",
+        "gold_evidence_manual_review_required": false,
+        "manual_review_reasons": []
+      },
+      "score": 0.2128414246786331
+    }
+  ],
+  "original_query_provenance": "reused original-query DEV ranking from checkpoint3a; no labels enter Agent",
+  "case_finished_at": "2026-11-16T05:36:46.334186+00:00"
+}

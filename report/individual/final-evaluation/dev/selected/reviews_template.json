@@ -1,0 +1,140 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      null,
+      null
+    ],
+    "context_grade": null,
+    "reason": "PENDING direct review of final output and supporting context",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "reason": "PENDING direct review of final output and supporting context",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "citation_support": [],
+    "context_grade": "not_applicable",
+    "reason": "PENDING direct review of final output and supporting context",
+    "abstention_correct": null
+  }
+]

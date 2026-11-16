@@ -1,0 +1,43 @@
+[
+  {
+    "query_id": "q12",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Final output is abstain, therefore grounded-answer grade0 and false abstention. Both required groups are in context and both model-selected per-claim source IDs are correct. Direct source comparison supports both paraphrases, but the extractive contiguous-span validator rejects them. No inline citations rendered because validation precedes rendering.",
+    "reviewer": "assistant direct comparison with actual source text, not independent human grading",
+    "failure_category": "validator_too_strict_for_supported_paraphrase",
+    "context_evidence_complete": true,
+    "required_group_chunk_ids": [
+      [
+        "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264"
+      ],
+      [
+        "2bc3b70ebf5ee0d0bcc03c570376f59897e8278e7d67c63ddf4c5c237db58acc"
+      ]
+    ],
+    "proposed_claims": [
+      {
+        "text": "Mode 1 can be used to monitor the current situation of the outdoor unit and some field setting contents can be monitored as well.",
+        "chunk_ids": [
+          "d8a756ee66d912fd97e64414be5cbf01181d57960ed6396b36cf7bc0b37c7264"
+        ]
+      },
+      {
+        "text": "Mode 2 is used to change the field settings of the system, allowing consulting and changing the current field setting value.",
+        "chunk_ids": [
+          "2bc3b70ebf5ee0d0bcc03c570376f59897e8278e7d67c63ddf4c5c237db58acc"
+        ]
+      }
+    ],
+    "proposed_semantic_support": [
+      true,
+      true
+    ],
+    "selected_ids_in_context": true,
+    "correct_source_per_claim": [
+      true,
+      true
+    ],
+    "extractive_validator_pass": false
+  }
+]
